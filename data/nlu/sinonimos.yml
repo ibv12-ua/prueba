@@ -1,0 +1,8925 @@
+version: '3.1'
+nlu:
+- synonym: Wiesbaden
+  examples: |
+    - Wiesbaden
+    - UWE
+    - wiesbaden
+    - Wiessbaden
+    - aeropuerto de Wiesbaden
+    - aeropuerto de wiesbaden
+    - Aeropuerto de Wiesbaden
+    - Wiesbaden Airport
+    - Weisbaden
+    - weisbaden
+
+- synonym: Bonn
+  examples: |
+    - Bonn
+    - Bon
+    - bonn
+    - aeropuerto de Bonn
+    - aeropuerto de bonn
+    - Aeropuerto de Bonn
+    - bon
+    - BNJ
+
+- synonym: Skien
+  examples: |
+    - Skien
+    - Skein
+    - skien
+    - skein
+    - SKE
+    - aeropuerto de Skien
+    - aeropuerto de skein
+    - Aeropuerto de Skien
+
+- synonym: Mora
+  examples: |
+    - Mora
+    - mora
+    - aeropuerto de Mora
+    - Aeropuerto de Mora
+    - aeropuerto de mora
+    - MXX
+
+- synonym: Bielefeld
+  examples: |
+    - Bielefeld
+    - bielefeld
+    - aeropuerto de Bielefeld
+    - Aeropuerto de Bielefeld
+    - aeropuerto de bielefeld
+    - BFE
+
+- synonym: Lorient
+  examples: |
+    - Lorient
+    - lorien
+    - Lorien
+    - lorient
+    - aeropuerto de Lorient
+    - Aeropuerto de Lorient
+    - aeropuerto de lorient
+    - LRT
+
+- synonym: Portimao
+  examples: |
+    - Portimão
+    - portimão
+    - Portimao
+    - portimao
+    - aeropuerto de Portimao
+    - aeropuerto de portimao
+    - Aeropuerto de Portimao
+    - aeropuerto de Portimão
+    - Aeropuerto de Portimão
+    - aeropuerto de portimão
+    - PRM
+
+- synonym: Quimper
+  examples: |
+    - Quimper
+    - quimper
+    - aeropuerto de Quimper
+    - Aeropuerto de Quimper
+    - aeropuerto de quimper
+    - UIP
+
+- synonym: Kajaani
+  examples: |
+    - Kajaani
+    - Kajani
+    - kajaani
+    - kajani
+    - aeropuerto de Kajaani
+    - aeropuerto de kajaani
+    - Aeropuerto de Kajaani
+    - KAJ
+
+- synonym: Namsos
+  examples: |
+    - Namsos
+    - namsos
+    - aeropuerto de Namsos
+    - Aeropuerto de Namsos
+    - aeropuerto de namsos
+    - OSY
+
+- synonym: Cannes
+  examples: |
+    - Cannes
+    - cannes
+    - aeropuerto de Cannes
+    - Aeropuerto de Cannes
+    - aeropuerto de cannes
+    - CEQ
+
+- synonym: Albacete
+  examples: |
+    - Albacete
+    - ABC
+    - albacete
+    - aeropuerto de Albacete
+    - aeropuerto de albacete
+    - Aeropuerto de Albacete
+    - ablacete
+    - Ablacete
+
+- synonym: Waterford
+  examples: |
+    - Waterford
+    - waterford
+    - aeropuerto de Waterford
+    - Aeropuerto de Waterford
+    - aeropuerto de waterford
+    - WAT
+
+- synonym: Agen
+  examples: |
+    - Agen
+    - agen
+    - aeropuerto de Agen
+    - Aeropuerto de Agen
+    - aeropuerto de agen
+    - AGF
+
+- synonym: Chateauroux
+  examples: |
+    - Chateauroux
+    - chateauroux
+    - aeropuerto de Chateauroux
+    - Aeropuerto de Chateauroux
+    - aeropuerto de chateauroux
+    - CHR
+
+- synonym: Toussus-le-Noble
+  examples: |
+    - Toussus le Noble
+    - Toussus-le-Noble
+    - toussus le noble
+    - toussus-le-noble
+    - aeropuerto de Toussus-le-Noble
+    - Aeropuerto de Toussus-le-Noble
+    - aeropuerto de toussus-le-noble
+    - TNF
+
+- synonym: Essen
+  examples: |
+    - Essen
+    - essen
+    - Esen
+    - esen
+    - aeropuerto de Essen
+    - Aeropuerto de Essen
+    - aeropuerto de essen
+    - ESS
+
+- synonym: Gloucester
+  examples: |
+    - Gloucester
+    - gloucester
+    - aeropuerto de Gloucester
+    - Aeropuerto de Gloucester
+    - aeropuerto de gloucester
+    - GLO
+
+- synonym: Huesca
+  examples: |
+    - Huesca
+    - huesca
+    - aeropuerto de Huesca
+    - Aeropuerto de Huesca
+    - aeropuerto de huesca
+    - HSK
+
+- synonym: Aosta
+  examples: |
+    - Aosta
+    - aosta
+    - aeropuerto de Aosta
+    - Aeropuerto de Aosta
+    - aeropuerto de aosta
+    - AOT
+
+- synonym: Calvi
+  examples: |
+    - Calvi
+    - calvi
+    - aeropuerto de Calvi
+    - Aeropuerto de Calvi
+    - aeropuerto de calvi
+    - CLY
+
+- synonym: Kemi
+  examples: |
+    - Kemi
+    - kemi
+    - aeropuerto de Kemi
+    - Aeropuerto de Kemi
+    - aeropuerto de kemi
+    - KEM
+
+- synonym: Zweibrucken
+  examples: |
+    - Zweibrucken
+    - Zweibrücken
+    - zweibrucken
+    - zweibrücken
+    - aeropuerto de Zweibrucken
+    - Aeropuerto de Zweibrucken
+    - aeropuerto de zweibrucken
+    - ZQW
+
+- synonym: Bolzano
+  examples: |
+    - Bolzano
+    - bolzano
+    - aeropuerto de Bolzano
+    - Aeropuerto de Bolzano
+    - aeropuerto de bolzano
+    - BZO
+
+- synonym: Benbecula
+  examples: |
+    - Benbecula
+    - benbecula
+    - aeropuerto de Benbecula
+    - Aeropuerto de Benbecula
+    - aeropuerto de benbecula
+    - BEB
+
+- synonym: Vilhelmina
+  examples: |
+    - Vilhelmina
+    - vilhelmina
+    - aeropuerto de Vilhelmina
+    - Aeropuerto de Vilhelmina
+    - aeropuerto de vilhelmina
+    - VHM
+
+- synonym: Dijon
+  examples: |
+    - Dijon
+    - dijon
+    - aeropuerto de Dijon
+    - Aeropuerto de Dijon
+    - aeropuerto de dijon
+    - DIJ
+
+- synonym: Savonlinna
+  examples: |
+    - Savonlinna
+    - savonlinna
+    - aeropuerto de Savonlinna
+    - Aeropuerto de Savonlinna
+    - aeropuerto de savonlinna
+    - SVL
+
+- synonym: Mariehamn
+  examples: |
+    - Mariehamn
+    - mariehamn
+    - aeropuerto de Mariehamn
+    - Aeropuerto de Mariehamn
+    - aeropuerto de mariehamn
+    - MHQ
+
+- synonym: Santa Maria (Azores)
+  examples: |
+    - Santa María
+    - Santa Maria
+    - santa maría
+    - santa maria
+    - aeropuerto de Santa Maria
+    - Aeropuerto de Santa Maria
+    - aeropuerto de santa maria
+    - SMA
+
+- synonym: Pico Island (Azores)
+  examples: |
+    - isla de Pico
+    - isla de pico
+    - Isla de Pico
+    - isla de Pico
+    - Pico
+    - pico
+    - aeropuerto de Pico
+    - Aeropuerto de Pico
+    - aeropuerto de pico
+    - aeropuerto de la isla de Pico
+    - Aeropuerto de la isla de Pico
+    - PIX
+
+- synonym: Filton
+  examples: |
+    - Filton
+    - filton
+    - aeropuerto de Filton
+    - Aeropuerto de Filton
+    - aeropuerto de filton
+    - FZO
+
+- synonym: The Hague
+  examples: |
+    - La Haya
+    - la haya
+    - la Haya
+    - The Hague
+    - the hague
+    - aeropuerto de la Haya
+    - Aeropuerto de la Haya
+    - aeropuerto de the hague
+    - aeropuerto de la haya
+    - HAG
+
+- synonym: Wick
+  examples: |
+    - Wick
+    - wick
+    - aeropuerto de Wick
+    - Aeropuerto de Wick
+    - aeropuerto de wick
+    - WIC
+
+- synonym: Vieste
+  examples: |
+    - Vieste
+    - vieste
+    - aeropuerto de Vieste
+    - Aeropuerto de Vieste
+    - aeropuerto de vieste
+    - VIF
+
+- synonym: Ourense
+  examples: |
+    - Ourense
+    - ourense
+    - Orense
+    - orense
+    - aeropuerto de Ourense
+    - Aeropuerto de Ourense
+    - aeropuerto de ourense
+    - OUQ
+
+- synonym: Arvidsjaur
+  examples: |
+    - Arvidsjaur
+    - arvidsjaur
+    - aeropuerto de Arvidsjaur
+    - Aeropuerto de Arvidsjaur
+    - aeropuerto de arvidsjaur
+    - AJR
+
+- synonym: Skovde
+  examples: |
+    - Skovde
+    - skovde
+    - aeropuerto de Skovde
+    - Aeropuerto de Skovde
+    - aeropuerto de skovde
+    - KVB
+
+- synonym: Flores Island (Azores)
+  examples: |
+    - isla de Flores
+    - isla de flores
+    - Isla de Flores
+    - isla de Flores
+    - Flores
+    - flores
+    - aeropuerto de Flores
+    - Aeropuerto de Flores
+    - aeropuerto de flores
+    - aeropuerto de la isla de Flores
+    - Aeropuerto de la isla de Flores
+    - FLW
+
+- synonym: Le Puy
+  examples: |
+    - Le Puy
+    - le puy
+    - aeropuerto de Le Puy
+    - Aeropuerto de Le Puy
+    - aeropuerto de le puy
+    - LPY
+
+- synonym: Alderney
+  examples: |
+    - Alderney
+    - alderney
+    - aeropuerto de Alderney
+    - Aeropuerto de Alderney
+    - aeropuerto de alderney
+    - ACI
+
+- synonym: Honningsvag
+  examples: |
+    - Honningsvag
+    - honningsvag
+    - aeropuerto de Honningsvag
+    - Aeropuerto de Honningsvag
+    - aeropuerto de honningsvag
+    - HVG
+
+- synonym: Albenga
+  examples: |
+    - Albenga
+    - albenga
+    - aeropuerto de Albenga
+    - Aeropuerto de Albenga
+    - aeropuerto de albenga
+    - ALL
+
+- synonym: Cochstedt
+  examples: |
+    - Cochstedt
+    - cochstedt
+    - aeropuerto de Cochstedt
+    - Aeropuerto de Cochstedt
+    - aeropuerto de cochstedt
+    - CSO
+
+- synonym: Mehamn
+  examples: |
+    - Mehamn
+    - mehamn
+    - aeropuerto de Mehamn
+    - Aeropuerto de Mehamn
+    - aeropuerto de mehamn
+    - MEH
+
+- synonym: Islay
+  examples: |
+    - Islay
+    - islay
+    - aeropuerto de Islay
+    - Aeropuerto de Islay
+    - aeropuerto de islay
+    - ILY
+
+- synonym: Vadso
+  examples: |
+    - Vadso
+    - vadso
+    - aeropuerto de Vadso
+    - Aeropuerto de Vadso
+    - aeropuerto de vadso
+    - VDS
+
+- synonym: Shetland Islands
+  examples: |
+    - islas Shetland
+    - islas shetland
+    - Islas Shetland
+    - islas Shetland
+    - Shetland
+    - shetland
+    - aeropuerto de Shetland
+    - Aeropuerto de Shetland
+    - aeropuerto de shetland
+    - aeropuerto de las islas Shetland
+    - Aeropuerto de las islas Shetland
+    - SDZ
+
+- synonym: Hilversum
+  examples: |
+    - Hilversum
+    - hilversum
+    - aeropuerto de Hilversum
+    - Aeropuerto de Hilversum
+    - aeropuerto de hilversum
+    - QYI
+
+- synonym: Hof
+  examples: |
+    - Hof
+    - hof
+    - aeropuerto de Hof
+    - Aeropuerto de Hof
+    - aeropuerto de hof
+    - HOQ
+
+- synonym: Stornoway Outer Stat Hebrides
+  examples: |
+    - Stornoway
+    - stornoway
+    - aeropuerto de Stornoway
+    - Aeropuerto de Stornoway
+    - aeropuerto de stornoway
+    - Stornoway outer stat hebrides
+    - stornoway outer stat hebrides
+    - aeropuerto de Stornoway outer stat hebrides
+    - SYY
+
+- synonym: Galway
+  examples: |
+    - Galway
+    - galway
+    - aeropuerto de Galway
+    - Aeropuerto de Galway
+    - aeropuerto de galway
+    - GWY
+
+- synonym: Sandane
+  examples: |
+    - Sandane
+    - sandane
+    - aeropuerto de Sandane
+    - Aeropuerto de Sandane
+    - aeropuerto de sandane
+    - SDN
+
+- synonym: Newport
+  examples: |
+    - Newport
+    - newport
+    - aeropuerto de Newport
+    - Aeropuerto de Newport
+    - aeropuerto de newport
+    - XNE
+
+- synonym: Hemavan
+  examples: |
+    - Hemavan
+    - hemavan
+    - aeropuerto de Hemavan
+    - Aeropuerto de Hemavan
+    - aeropuerto de hemavan
+    - HMV
+
+- synonym: Altenburg
+  examples: |
+    - Altenburg
+    - altenburg
+    - aeropuerto de Altenburg
+    - Aeropuerto de Altenburg
+    - aeropuerto de altenburg
+    - AOC
+
+- synonym: Pantelleria
+  examples: |
+    - Pantelleria
+    - pantelleria
+    - aeropuerto de Pantelleria
+    - Aeropuerto de Pantelleria
+    - aeropuerto de pantelleria
+    - PNL
+
+- synonym: Sorkjosen
+  examples: |
+    - Sorkjosen
+    - sorkjosen
+    - aeropuerto de Sorkjosen
+    - Aeropuerto de Sorkjosen 
+    - aeropuerto de sorkjosen
+    - SOJ
+
+- synonym: Valence
+  examples: |
+    - Valence
+    - valence
+    - aeropuerto de Valence
+    - Aeropuerto de Valence
+    - aeropuerto de valence
+    - VAF
+
+- synonym: Colmar
+  examples: |
+    - Colmar
+    - colmar
+    - aeropuerto de Colmar
+    - Aeropuerto de Colmar
+    - aeropuerto de colmar
+    - CMR
+
+- synonym: Barra
+  examples: |
+    - Barra
+    - barra
+    - aeropuerto de Barra
+    - Aeropuerto de Barra
+    - aeropuerto de barra
+    - BRR
+
+- synonym: Aachen
+  examples: |
+    - Aachen
+    - aachen
+    - Achen
+    - achen
+    - aeropuerto de Aachen
+    - Aeropuerto de Aachen
+    - aeropuerto de aachen
+    - AAH
+
+- synonym: Westray
+  examples: |
+    - Westray
+    - westray
+    - aeropuerto de Westray
+    - Aeropuerto de Westray
+    - aeropuerto de westray
+    - WRY
+
+- synonym: Bremerhaven
+  examples: |
+    - Bremerhaven
+    - bremerhaven
+    - aeropuerto de Bremerhaven
+    - Aeropuerto de Bremerhaven
+    - aeropuerto de bremerhaven
+    - BRV
+
+- synonym: Teruel
+  examples: |
+    - Teruel
+    - teruel
+    - aeropuerto de Teruel
+    - Aeropuerto de Teruel
+    - aeropuerto de teruel
+    - TEV
+
+- synonym: Moron
+  examples: |
+    - Morón
+    - morón
+    - Morón de la Frontera
+    - morón de la frontera
+    - base aérea de Morón
+    - base aérea de Morón de la Frontera
+    - Moron
+    - moron
+    - aeropuerto de Moron
+    - Aeropuerto de Moron
+    - aeropuerto de moron
+    - OZP
+
+- synonym: Bornholm
+  examples: |
+    - Bornholm
+    - bornholm
+    - aeropuerto de Bornholm
+    - Aeropuerto de Bornholm
+    - aeropuerto de bornholm
+    - RNN
+
+- synonym: Cuxhaven
+  examples: |
+    - Cuxhaven
+    - cuxhaven
+    - aeropuerto de Cuxhaven
+    - Aeropuerto de Cuxhaven
+    - aeropuerto de cuxhaven
+    - FCN
+
+- synonym: Mende
+  examples: |
+    - Mende
+    - mende
+    - aeropuerto de Mende
+    - Aeropuerto de Mende
+    - aeropuerto de mende
+    - MEN
+
+- synonym: Namur Rail
+  examples: |
+    - Namur
+    - namur
+    - aeropuerto de Namur
+    - Aeropuerto de Namur
+    - aeropuerto de namur
+    - namur rail
+    - aeropuerto de namur rail
+    - Aeropuerto de Namur Rail
+    - aeropuerto de namur rail
+    - QNM
+
+- synonym: Flensburg
+  examples: |
+    - Flensburgo
+    - flensburgo
+    - flensburg
+    - aeropuerto de Flensburg
+    - Aeropuerto de Flensburg
+    - aeropuerto de flensburg
+    - aeropuerto de flensburgo
+    - aeropuerto de Flensburgo
+    - Aeropuerto de Flensburgo
+    - FLF
+
+- synonym: Le Havre
+  examples: |
+    - Le Havre
+    - le havre
+    - aeropuerto de Le Havre
+    - Aeropuerto de Le Havre
+    - aeropuerto de le havre
+    - LEH
+
+- synonym: Tarragona
+  examples: |
+    - Tarragona
+    - tarragona
+    - aeropuerto de Tarragona
+    - Aeropuerto de Tarragona
+    - aeropuerto de tarragona
+    - QGN
+
+- synonym: Segovia
+  examples: |
+    - Segovia
+    - segovia
+    - aeropuerto de Segovia
+    - Aeropuerto de Segovia
+    - aeropuerto de segovia
+    - XOU
+
+- synonym: Isles Of Scilly
+  examples: |
+    - islas Sorlingas
+    - islas sorlingas
+    - Islas Sorlingas
+    - aeropuerto islas Sorlingas
+    - aeropuerto de las islas Sorlingas
+    - aeropuerto de las islas sorlingas
+    - ISC
+
+- synonym: Frankfurt an der Oder
+  examples: |
+    - Frankfurt an der Oder
+    - frankfurt an der Oder
+    - Frankfurt an der oder
+    - frankfurt an der oder
+    - aeropuerto de Frankfurt an der Oder
+    - Aeropuerto de Frankfurt an der Oder
+    - aeropuerto de frankfurt an der oder
+    - francfort an der oder
+    - Francfort an der Oder
+    - ZFR
+
+- synonym: Pajala
+  examples: |
+    - Pajala
+    - pajala
+    - aeropuerto de Pajala
+    - Aeropuerto de Pajala
+    - aeropuerto de pajala
+    - PJA
+
+- synonym: Reims
+  examples: |
+    - Reims
+    - reims
+    - aeropuerto de Reims
+    - Aeropuerto de Reims
+    - aeropuerto de reims
+    - RHE
+
+- synonym: Graciosa Island (Azores)
+  examples: |
+    - isla de Graciosa
+    - isla de graciosa
+    - Isla de Graciosa
+    - isla graciosa
+    - Graciosa
+    - graciosa
+    - La Graciosa
+    - la graciosa
+    - isla Graciosa
+    - isla graciosa
+    - aeropuerto de Graciosa
+    - Aeropuerto de Graciosa
+    - aeropuerto de graciosa
+    - aeropuerto de la isla de Graciosa
+    - Aeropuerto de la isla de Graciosa
+    - aeropuerto de la graciosa
+    - GRW
+
+- synonym: Vardoe
+  examples: |
+    - Vardoe
+    - vardoe
+    - aeropuerto de Vardoe
+    - Aeropuerto de Vardoe
+    - aeropuerto de vardoe
+    - VAW
+
+- synonym: Braga
+  examples: |
+    - Braga
+    - braga
+    - aeropuerto de Braga
+    - Aeropuerto de Braga
+    - aeropuerto de braga
+    - BGZ
+
+- synonym: Angouleme
+  examples: |
+    - Angulema
+    - angulema
+    - Angouleme
+    - Angoulême
+    - angoulême
+    - Angoulème
+    - angoulème
+    - angouleme
+    - aeropuerto de Angouleme
+    - Aeropuerto de Angouleme
+    - aeropuerto de Angulema
+    - aeropuerto de angulema
+    - aeropuerto de angouleme
+    - ANG
+
+- synonym: Aurillac
+  examples: |
+    - Aurillac
+    - aurillac
+    - aeropuerto de Aurillac
+    - Aeropuerto de Aurillac
+    - aeropuerto de aurillac
+    - AUR
+
+- synonym: Huelva
+  examples: |
+    - Huelva
+    - huelva
+    - aeropuerto de Huelva
+    - Aeropuerto de Huelva
+    - aeropuerto de huelva
+    - HEV
+
+- synonym: Lydd
+  examples: |
+    - Lydd
+    - lydd
+    - aeropuerto de Lydd
+    - Aeropuerto de Lydd
+    - aeropuerto de lydd
+    - LYX
+
+- synonym: Heide-Buesum
+  examples: |
+    - Heide-Büsum
+    - Heide Buesum
+    - Heide-Buesum
+    - Heide Buesum
+    - heide-büsum
+    - heide buesum
+    - aeropuerto de Heide-Buesum
+    - Aeropuerto de Heide-Buesum
+    - aeropuerto de heide-büsum
+    - aeropuerto de heide buesum
+    - HEI
+
+- synonym: Calais
+  examples: |
+    - Calais
+    - calais
+    - aeropuerto de Calais
+    - Aeropuerto de Calais
+    - aeropuerto de calais
+    - CQF
+
+- synonym: San Domino Island
+  examples: |
+    - isla de San Domino
+    - isla de san domino
+    - Isla de San Domino
+    - isla de San Domino
+    - isla San Domino
+    - isla san domino
+    - San Domino
+    - san domino
+    - aeropuerto de San Domino
+    - Aeropuerto de San Domino
+    - aeropuerto de san domino
+    - aeropuerto de la isla de San Domino
+    - TQR
+
+- synonym: Lorca
+  examples: |
+    - Lorca
+    - lorca
+    - aeropuerto de Lorca
+    - Aeropuerto de Lorca
+    - aeropuerto de lorca
+    - XJR
+
+- synonym: Coll Island
+  examples: |
+    - isla de Coll
+    - isla de coll
+    - Isla de Coll
+    - isla de Coll
+    - Coll
+    - coll
+    - aeropuerto de Coll
+    - Aeropuerto de Coll
+    - aeropuerto de coll
+    - aeropuerto de la isla de Coll
+    - aeropuerto de la isla de coll
+    - COL
+
+- synonym: Sheffield
+  examples: |
+    - Sheffield
+    - sheffield
+    - aeropuerto de Sheffield
+    - Aeropuerto de Sheffield
+    - aeropuerto de sheffield
+    - SZD
+
+- synonym: Wangerooge
+  examples: |
+    - Wangerooge
+    - wangerooge
+    - Wangeroge
+    - wangeroge
+    - aeropuerto de Wangerooge
+    - Aeropuerto de Wangerooge
+    - aeropuerto de wangerooge
+    - AGE
+
+- synonym: Helgoland
+  examples: |
+    - Helgoland
+    - helgoland
+    - aeropuerto de Helgoland
+    - Aeropuerto de Helgoland
+    - aeropuerto de helgoland
+    - HGL
+
+- synonym: Taranto
+  examples: |
+    - Taranto
+    - taranto
+    - aeropuerto de Taranto
+    - Aeropuerto de Taranto
+    - aeropuerto de taranto
+    - TAR
+
+- synonym: Corvo Island (Azores)
+  examples: |
+    - isla de Corvo
+    - isla de corvo
+    - Isla de Corvo
+    - isla de Corvo
+    - Corvo
+    - corvo
+    - aeropuerto de Corvo
+    - Aeropuerto de Corvo
+    - aeropuerto de corvo
+    - aeropuerto de la isla de Corvo
+    - aeropuerto de la isla de corvo
+    - CVU
+
+- synonym: Foula
+  examples: |
+    - Foula
+    - foula
+    - aeropuerto de Foula
+    - Aeropuerto de Foula
+    - aeropuerto de foula
+    - FOA
+
+- synonym: Uppsala C
+  examples: |
+    - Uppsala
+    - uppsala
+    - upsala
+    - Upsala
+    - uppsala c
+    - aeropuerto de Uppsala
+    - Aeropuerto de Uppsala
+    - aeropuerto de uppsala
+    - QYX
+
+- synonym: Vaeroy
+  examples: |
+    - Vaeroy
+    - vaeroy
+    - aeropuerto de Vaeroy
+    - Aeropuerto de Vaeroy
+    - aeropuerto de vaeroy
+    - VRY
+
+- synonym: Kortrijk
+  examples: |
+    - Kortrijk
+    - kortrijk
+    - aeropuerto de Kortrijk
+    - Aeropuerto de Kortrijk
+    - aeropuerto de kortrijk
+    - KJK
+
+- synonym: Papa Westray
+  examples: |
+    - Papa Westray
+    - papa westray
+    - aeropuerto de Papa Westray
+    - Aeropuerto de Papa Westray
+    - aeropuerto de papa westray
+    - PPW
+
+- synonym: Emden
+  examples: |
+    - Emden
+    - emden
+    - aeropuerto de Emden
+    - Aeropuerto de Emden
+    - aeropuerto de emden
+    - EME
+
+- synonym: Lidkoping
+  examples: |
+    - Lidkoping
+    - lidkoping
+    - aeropuerto de Lidkoping
+    - Aeropuerto de Lidkoping
+    - aeropuerto de lidkoping
+    - LDK
+
+- synonym: Reading
+  examples: |
+    - Reading
+    - reading
+    - aeropuerto de Reading
+    - Aeropuerto de Reading
+    - aeropuerto de reading
+    - XRE
+
+- synonym: Wilhelmshaven
+  examples: |
+    - Wilhelmshaven
+    - wilhelmshaven
+    - aeropuerto de Wilhelmshaven
+    - Aeropuerto de Wilhelmshaven
+    - aeropuerto de wilhelmshaven
+    - WVN
+
+- synonym: Manston
+  examples: |
+    - Manston
+    - manston
+    - aeropuerto de Manston
+    - Aeropuerto de Manston
+    - aeropuerto de manston
+    - MSE
+
+- synonym: Orleans
+  examples: |
+    - Orleans
+    - orleans
+    - aeropuerto de Orleans
+    - Aeropuerto de Orleans
+    - aeropuerto de orleans
+    - ORE
+
+- synonym: Ashford
+  examples: |
+    - Ashford
+    - ashford
+    - aeropuerto de Ashford
+    - Aeropuerto de Ashford
+    - aeropuerto de ashford
+    - QDH
+
+- synonym: Gavle
+  examples: |
+    - Gavle
+    - gavle
+    - aeropuerto de Gavle
+    - Aeropuerto de Gavle
+    - GVX
+
+- synonym: Regensburg
+  examples: |
+    - Regensburgo
+    - regensburgo
+    - regensburg
+    - aeropuerto de Regensburg
+    - Aeropuerto de Regensburg
+    - aeropuerto de regensburg
+    - aeropuerto de regensburgo
+    - aeropuerto de Regensburgo
+    - ZPM
+
+- synonym: Ravenna
+  examples: |
+    - Ravenna
+    - ravenna
+    - ravena
+    - Ravena
+    - aeropuerto de Ravenna
+    - Aeropuerto de Ravenna
+    - aeropuerto de ravenna
+    - RAN
+
+- synonym: Le Touquet
+  examples: |
+    - Le Touquet
+    - le touquet
+    - le Touquet
+    - le tuquet
+    - Le Tuquet
+    - aeropuerto de Le Touquet
+    - Aeropuerto de Le Touquet
+    - aeropuerto de le touquet
+    - LTQ
+
+- synonym: Enontekio
+  examples: |
+    - Enontekio
+    - enontekio
+    - aeropuerto de Enontekio
+    - Aeropuerto de Enontekio
+    - aeropuerto de enontekio
+    - ENF
+
+- synonym: Spangdahlem
+  examples: |
+    - Spangdahlem
+    - spangdahlem
+    - aeropuerto de Spangdahlem
+    - Aeropuerto de Spangdahlem
+    - aeropuerto de spangdahlem
+    - SPM
+
+- synonym: Beja
+  examples: |
+    - Beja
+    - beja
+    - aeropuerto de Beja
+    - Aeropuerto de Beja
+    - aeropuerto de beja
+    - BYJ
+
+- synonym: Tudela
+  examples: |
+    - Tudela
+    - tudela
+    - aeropuerto de Tudela
+    - Aeropuerto de Tudela
+    - aeropuerto de tudela
+    - EEL
+
+- synonym: Fuerstenfeldbruck
+  examples: |
+    - Fuerstenfeldbruck
+    - fuerstenfeldbruck
+    - aeropuerto de Fuerstenfeldbruck
+    - Aeropuerto de Fuerstenfeldbruck
+    - aeropuerto de fuerstenfeldbruck
+    - FEL
+
+- synonym: Bayreuth
+  examples: |
+    - Bayreuth
+    - bayreuth
+    - aeropuerto de Bayreuth
+    - Aeropuerto de Bayreuth
+    - aeropuerto de bayreuth
+    - BYU
+
+- synonym: Fair Isle
+  examples: |
+    - Fair
+    - fair
+    - isla de Fair
+    - isla de fair
+    - Isla de Fair
+    - isla fair
+    - isla Fair
+    - Fair Isle
+    - fair isle
+    - aeropuerto de Fair Isle
+    - Aeropuerto de Fair Isle
+    - aeropuerto de fair isle
+    - FIE
+
+- synonym: Bamberg
+  examples: |
+    - Bamberg
+    - bamberg
+    - aeropuerto de Bamberg
+    - Aeropuerto de Bamberg
+    - aeropuerto de bamberg
+    - ZCD
+
+- synonym: Eday
+  examples: |
+    - Eday
+    - eday
+    - aeropuerto de Eday
+    - Aeropuerto de Eday
+    - aeropuerto de eday
+    - EOI
+
+- synonym: Berlin
+  examples: |
+    - Berlín
+    - berlín
+    - Berlin
+    - berlin
+    - aeropuerto de Berlín
+    - Aeropuerto de Berlín
+    - aeropuerto de berlín
+    - aeropuerto de Berlin
+    - Aeropuerto de Berlin
+    - aeropuerto de berlin
+    - BER
+
+- synonym: Naples
+  examples: |
+    - Nápoles
+    - nápoles
+    - Napoles
+    - napoles
+    - Napoli
+    - napoli
+    - aeropuerto de Nápoles
+    - Aeropuerto de Nápoles
+    - aeropuerto de napoles
+    - aeropuerto de napoli
+    - aeropuerto de Napoli
+    - NAP
+
+- synonym: Maastricht
+  examples: |
+    - Maastricht
+    - maastricht
+    - masstricht
+    - Masstricht
+    - aeropuerto de Maastricht
+    - Aeropuerto de Maastricht
+    - aeropuerto de maastricht
+    - MST
+
+- synonym: Milan
+  examples: |
+    - Milán
+    - milán
+    - milan
+    - Milan
+    - Milano
+    - milano
+    - aeropuerto de Milán
+    - Aeropuerto de Milán
+    - aeropuerto de milan
+    - aeropuerto de Milan
+    - aeropuerto de milan
+    - aeropuerto de milano
+    - aeropuerto de Milano
+    - MIL
+
+- synonym: Porto
+  examples: |
+    - Oporto
+    - oporto
+    - Porto
+    - porto
+    - aeropuerto de Oporto
+    - Aeropuerto de Oporto
+    - aeropuerto de oporto
+    - aeropuerto de Porto
+    - Aeropuerto de Porto
+    - aeropuerto de porto
+    - OPO
+
+- synonym: London
+  examples: |
+    - Londres
+    - londres
+    - London
+    - london
+    - aeropuerto de Londres
+    - Aeropuerto de Londres
+    - aeropuerto de londres
+    - LON
+
+- synonym: Brussels
+  examples: |
+    - Bruselas
+    - bruselas
+    - aeropuerto de Bruselas
+    - Aeropuerto de Bruselas
+    - aeropuerto de bruselas
+    - BRU
+
+- synonym: Karlsruhe
+  examples: |
+    - Karlsruhe
+    - karlsruhe
+    - aeropuerto de Karlsruhe
+    - Aeropuerto de Karlsruhe
+    - aeropuerto de karlsruhe
+    - FKB
+
+- synonym: Bristol
+  examples: |
+    - Bristol
+    - bristol
+    - aeropuerto de Bristol
+    - Aeropuerto de Bristol
+    - aeropuerto de bristol
+    - BRS
+
+- synonym: Munich
+  examples: |
+    - Múnich
+    - múnich
+    - Munich
+    - munich
+    - aeropuerto de Múnich
+    - Aeropuerto de Múnich
+    - aeropuerto de munich
+    - aeropuerto de Munich
+    - MUC
+
+- synonym: Las Palmas
+  examples: |
+    - Las Palmas
+    - las palmas
+    - Gran Canaria
+    - gran canaria
+    - las palmas de gran canaria
+    - Las Palmas de Gran Canaria
+    - las palmas de Gran Canaria
+    - Las Palmas de gran canaria
+    - aeropuerto de Las Palmas
+    - Aeropuerto de Las Palmas
+    - aeropuerto de las palmas
+    - aeropuerto de las palmas de gran canaria
+    - Aeropuerto de las palmas de gran canaria
+    - aeropuerto de Las Palmas de Gran Canaria
+    - aeropuerto de gran canaria
+    - aeropuerto de Gran Canaria
+    - LPA
+
+- synonym: Copenhagen
+  examples: |
+    - Copenhague
+    - copenhague
+    - Copenhagen
+    - copenhagen
+    - aeropuerto de Copenhague
+    - Aeropuerto de Copenhague
+    - aeropuerto de copenhague
+    - aeropuerto de Copenhagen
+    - CPH
+
+- synonym: Amsterdam
+  examples: |
+    - Ámsterdam
+    - ámsterdam
+    - Amsterdam
+    - amsterdam
+    - aeropuerto de Ámsterdam
+    - Aeropuerto de Ámsterdam
+    - aeropuerto de amsterdam
+    - aeropuerto de Amsterdam
+    - AMS
+
+- synonym: Madrid
+  examples: |
+    - Barajas
+    - madrid
+    - madird
+    - Aeropuerto de Adolfo Suárez Madrid-Barajas
+    - Adolfo Suárez Madrid-Barajas
+    - Aeropuerto de Madrid
+    - Madrid
+    - Madrid Airport
+    - Aeropuerto de Barajas
+    - Madrid-Barajas
+    - Aeropuerto Adolfo Suárez
+    - Adolfo Suárez
+    - Barajas Airport
+    - Madrid-Barajas Airport
+    - Aeropuerto Madrid-Barajas
+    - Madrid-Barajas Adolfo Suárez
+    - Adolfo Suárez Airport
+    - barajas
+    - madriz
+    - madrid barajas
+    - aeropuerto de madrid
+    - aeropuerto de barajas
+    - aeropuerto de adolfo suarez
+    - aeropuerto de adolfo suárez
+    - aeropuerto de madrid-barajas
+    - aeropuerto de madrid barajas
+    - aeropuerto de adolfo suarez madrid-barajas
+    - aeropuerto de adolfo suárez madrid-barajas
+    - aeropuerto de adolfo suarez barajas
+    - aeropuerto de barajas en madrid
+    - MAD
+
+- synonym: Vigo
+  examples: |
+    - Vigo
+    - vigo
+    - Aeropuerto de Vigo
+    - Vigo Airport
+    - Aeropuerto de Peinador
+    - Peinador Airport
+    - Vigo-Peinador
+    - Aeropuerto de Vigo-Peinador
+    - peinador
+    - aeropuerto de peinador
+    - aeropuerto de vigo
+    - vigo-peinador
+    - aeropuerto de vigo-peinador
+    - VGO
+
+- synonym: Frankfurt
+  examples: |
+    - Fráncfort
+    - Frankfurt
+    - frankfurt
+    - fráncfort
+    - francfort
+    - Francfort
+    - Franfur
+    - franfurt
+    - aeropuerto de Fráncfort
+    - Aeropuerto de Fráncfort
+    - aeropuerto de frankfurt
+    - aeropuerto de Francfort
+    - aeropuerto de Franfur
+    - aeropuerto de franfurt
+    - aeropuerto de Frankfurt
+    - FRA
+
+- synonym: Bologna
+  examples: |
+    - Bolonia
+    - bolonia
+    - boloña
+    - Boloña
+    - bologna
+    - aeropuerto de Bolonia
+    - Aeropuerto de Bolonia
+    - aeropuerto de bologna
+    - BLQ
+
+- synonym: Bordeaux
+  examples: |
+    - Burdeos
+    - burdeos
+    - bordeaux
+    - aeropuerto de Burdeos
+    - Aeropuerto de Burdeos
+    - BOD
+
+- synonym: Rome
+  examples: |
+    - Roma
+    - roma
+    - aeropuerto de Roma
+    - Aeropuerto de Roma
+    - aeropuerto de roma
+    - ROM
+    - la capital de italia
+    - la capital de Italia
+    - la capital italiana
+
+- synonym: Bari
+  examples: |
+    - Bari
+    - bari
+    - aeropuerto de Bari
+    - Aeropuerto de Bari
+    - aeropuerto de bari
+    - BRI
+
+- synonym: Stuttgart
+  examples: |
+    - Stuttgart
+    - stuttgart
+    - stutgart
+    - Stutgart
+    - stugard
+    - stugart
+    - aeropuerto de Stuttgart
+    - Aeropuerto de Stuttgart
+    - aeropuerto de stuttgart
+    - STR
+
+- synonym: Billund
+  examples: |
+    - Billund
+    - billund
+    - aeropuerto de Billund
+    - Aeropuerto de Billund
+    - aeropuerto de billund
+    - BLL
+
+- synonym: Eindhoven
+  examples: |
+    - Eindhoven
+    - eindhoven
+    - eindoven
+    - Eindoven
+    - aeropuerto de Eindhoven
+    - Aeropuerto de Eindhoven
+    - aeropuerto de eindhoven
+    - EIN
+
+- synonym: Manchester
+  examples: |
+    - Manchester
+    - manchester
+    - Mánchester
+    - mánchester
+    - machester 
+    - aeropuerto de Manchester
+    - Aeropuerto de Manchester
+    - aeropuerto de manchester
+    - MAN
+
+- synonym: Palma Mallorca
+  examples: |
+    - Palma de Mallorca
+    - Mallorca
+    - palma de mallorca
+    - mallorca
+    - aeropuerto de Palma de Mallorca
+    - Aeropuerto de Palma de Mallorca
+    - aeropuerto de mallorca
+    - aeropuerto de Mallorca
+    - PMI
+    - Aeropuerto de Son Sant Joan
+    - Son Sant Joan Airport
+    - Son Sant Joan
+    - sant joan
+    - son sant joan
+    - aeropuerto de son sant joan
+
+- synonym: Bilbao
+  examples: |
+    - Bilbao
+    - bilbao
+    - bilbo
+    - Bilbo
+    - aeropuerto de Bilbao
+    - Aeropuerto de Bilbao
+    - aeropuerto de bilbao
+    - Aeropuerto de Loiu
+    - Loiu
+    - Aeropuerto Internacional de Bilbao
+    - Bilbao-Loiu
+    - Aeropuerto de Sondika
+    - Sondika
+    - sondika
+    - BIO
+
+- synonym: Faro
+  examples: |
+    - Faro
+    - faro
+    - aeropuerto de Faro
+    - Aeropuerto de Faro
+    - aeropuerto de faro
+    - FAO
+
+- synonym: Cork
+  examples: |
+    - Cork
+    - cork
+    - corck
+    - Corck
+    - aeropuerto de Cork
+    - Aeropuerto de Cork
+    - aeropuerto de corck
+    - crok
+    - ORK
+
+- synonym: Ibiza
+  examples: |
+    - Ibiza
+    - ibiza
+    - Aeropuerto de Ibiza
+    - Aeropuerto de Eivissa
+    - Eivissa
+    - Ibiza Airport
+    - Aeropuerto de Ibiza-Eivissa
+    - Aeropuerto de la Isla de Ibiza
+    - Ibiza-Eivissa
+    - Eivissa Airport
+    - eivissa
+    - aeropuerto de ibiza
+    - aeropuerto de eivissa
+    - IBZ
+
+- synonym: Menorca
+  examples: |
+    - Menorca
+    - menorca
+    - Menorca Airport
+    - Mahón
+    - Mahón-Menorca
+    - Aerpouerto de Mahón
+    - Aerpuerto de Mahón-Menorca
+    - Mahón-Menorca Airport
+    - Mahón Airport
+    - Aeropuerto de Menorca
+    - aeropuerto de menorca
+    - aeropuerto de mahón
+    - mahon
+    - mahón
+    - menorca-mahón
+    - MAH
+
+- synonym: Tenerife
+  examples: |
+    - Tenerife
+    - tenerife
+    - isla de Tenerife
+    - isla de tenerife
+    - Isla de Tenerife
+    - isla tenerife
+    - aeropuerto de Tenerife
+    - Aeropuerto de Tenerife
+    - aeropuerto de tenerife
+    - TCI
+
+- synonym: Lisbon
+  examples: |
+    - Lisboa
+    - lisboa
+    - lisbpa
+    - Lisbon
+    - aeropuerto de Lisboa
+    - Aeropuerto de Lisboa
+    - aeropuerto de lisboa
+    - la capital de Portugal
+    - la capital portuguesa
+    - LIS
+
+- synonym: Helsinki
+  examples: |
+    - Helsinki
+    - helsinki
+    - aeropuerto de Helsinki
+    - Aeropuerto de Helsinki
+    - aeropuerto de helsinki
+    - la capital de Finlandia
+    - la capital finlandesa
+    - la capital de finlandia
+    - HEL
+
+- synonym: Lyon
+  examples: |
+    - Lyon
+    - lyon
+    - aeropuerto de Lyon
+    - Aeropuerto de Lyon
+    - aeropuerto de lyon
+    - LYS
+
+- synonym: Trieste
+  examples: |
+    - Trieste
+    - trieste
+    - aeropuerto de Trieste
+    - Aeropuerto de Trieste
+    - aeropuerto de trieste
+    - TRS
+
+- synonym: Antwerp
+  examples: |
+    - Amberes
+    - amberes
+    - Antwerp
+    - antwerp
+    - aeropuerto de Amberes
+    - Aeropuerto de Amberes
+    - aeropuerto de amberes
+    - ANR
+
+- synonym: Venice
+  examples: |
+    - Venecia
+    - venecia
+    - Venice
+    - venice
+    - aeropuerto de Venecia
+    - Aeropuerto de Venecia
+    - aeropuerto de venecia
+    - VCE
+
+- synonym: Asturias
+  examples: |
+    - Oviedo
+    - oviedo
+    - asturias
+    - aeropuerto de Oviedo
+    - Aeropuerto de Oviedo
+    - aeropuerto de oviedo
+    - aeropuerto de asturias
+    - Principado de Asturias
+    - principado de asturias
+    - capital asturiana
+    - OVD
+
+- synonym: Fuerteventura
+  examples: |
+    - Fuerteventura
+    - fuerteventura
+    - aeropuerto de Fuerteventura
+    - Aeropuerto de Fuerteventura
+    - aeropuerto de fuerteventura
+    - FUE
+
+- synonym: Forli
+  examples: |
+    - Forli
+    - forli
+    - aeropuerto de Forli
+    - Aeropuerto de Forli
+    - aeropuerto de forli
+    - FRL
+
+- synonym: Stavanger
+  examples: |
+    - Stavanger
+    - stavanger
+    - aeropuerto de Stavanger
+    - Aeropuerto de Stavanger
+    - aeropuerto de stavanger
+    - SVG
+
+- synonym: Turin
+  examples: |
+    - Turín
+    - turín
+    - Turin
+    - turin
+    - aeropuerto de Turín
+    - Aeropuerto de Turín
+    - aeropuerto de turín
+    - aeropuerto de Turin
+    - TRN
+
+- synonym: Edinburgh
+  examples: |
+    - Edimburgo
+    - edimburgo
+    - Edinburgh
+    - edinburgh
+    - aeropuerto de Edimburgo
+    - Aeropuerto de Edimburgo
+    - aeropuerto de edimburgo
+    - EDI
+
+- synonym: Nantes
+  examples: |
+    - Nantes
+    - nantes
+    - aeropuerto de Nantes
+    - Aeropuerto de Nantes
+    - aeropuerto de nantes
+    - NTE
+
+- synonym: Santiago De Compostela
+  examples: |
+    - Santiago de Compostela
+    - santiago de compostela
+    - Aeropuerto de Santiago de Compostela
+    - Santiago de Compostela
+    - Santiago de Compostela Airport
+    - Aeropuerto de Santiago de Compostela
+    - Santiago de Compostela Airport
+    - Aeropuerto de Lavacolla
+    - Lavacolla
+    - Compostela
+    - santiago
+    - compostela
+    - lavacolla
+    - aeropuerto de santiago de compostela
+    - aeropuerto de compostela
+    - aeropuerto de lavacolla
+    - aeropuerto de santiago
+    - SCQ
+
+- synonym: Paris
+  examples: |
+    - París
+    - parís
+    - Paris
+    - paris
+    - aeropuerto de París
+    - Aeropuerto de París
+    - aeropuerto de paris
+    - aeropuerto de Paris
+    - PAR
+
+- synonym: Jerez De La Frontera
+  examples: |
+    - jerez
+    - Jerez
+    - Jerez de la Frontera
+    - jerez de la frontera
+    - jerex
+    - Jerex
+    - aeropuerto de Jerez
+    - Aeropuerto de Jerez
+    - aeropuerto de jerez de la frontera
+    - aeropuerto de jerez
+    - XRY
+
+- synonym: Palermo
+  examples: |
+    - Palermo
+    - palermo
+    - aeropuerto de Palermo
+    - Aeropuerto de Palermo
+    - aeropuerto de palermo
+    - PMO
+
+- synonym: Cagliari
+  examples: |
+    - Cagliari
+    - cagliari
+    - aeropuerto de Cagliari
+    - Aeropuerto de Cagliari
+    - aeropuerto de cagliari
+    - CAG
+
+- synonym: Esbjerg
+  examples: |
+    - Esbjerg
+    - esbjerg
+    - aeropuerto de Esbjerg
+    - Aeropuerto de Esbjerg
+    - aeropuerto de esbjerg
+    - EBJ
+
+- synonym: Dusseldorf
+  examples: |
+    - Dusseldorf
+    - dusseldorf
+    - duseldorf
+    - Duseldorf
+    - duseldorff
+    - Duseldorff
+    - dusseldorff
+    - Dusseldorff
+    - Düsseldorf
+    - düsseldorf
+    - aeropuerto de Düsseldorf
+    - Aeropuerto de Düsseldorf
+    - aeropuerto de düsseldorf
+    - aeropuerto de dusseldorf
+    - DUS
+
+- synonym: Dublin
+  examples: |
+    - Dublín
+    - dublín
+    - Dublin
+    - dublin
+    - aeropuerto de Dublín
+    - Aeropuerto de Dublín
+    - aeropuerto de dublín
+    - aeropuerto de Dublin
+    - DUB
+
+- synonym: Toulouse
+  examples: |
+    - Toulouse
+    - toulouse
+    - tulús
+    - Tulús
+    - tuoluse
+    - Tuoluse
+    - tulouse
+    - Tulouse
+    - aeropuerto de Toulouse
+    - Aeropuerto de Toulouse
+    - aeropuerto de toulouse
+    - TLS
+
+- synonym: La Coruna
+  examples: |
+    - La Coruña
+    - la coruña
+    - coruña
+    - Coruña
+    - a coruña
+    - A Coruña
+    - aeropuerto de La Coruña
+    - Aeropuerto de La Coruña
+    - aeropuerto de la coruña
+    - aeropuerto de coruña
+    - aeropuerto de a coruña
+    - aeropuerto de A Coruña
+    - alvedro
+    - Alvedro
+    - LCG
+
+- synonym: Sevilla
+  examples: |
+    - Sevilla
+    - sevilla
+    - Aeropuerto de Sevilla
+    - Sevilla Airport
+    - Aeropuerto de San Pablo
+    - San Pablo Airport
+    - Aeropuerto Internacional de Sevilla
+    - Sevilla International Airport
+    - Aeropuerto de Sevilla-San Pablo
+    - San Pablo
+    - Aeropuerto de San Pablo
+    - aeropuerto de sevilla
+    - san pablo
+    - aeropuerto de san pablo
+    - san pablo-sevilla
+    - sevilla-san pablo
+    - aeropuerto de sevilla-san pablo
+    - sevilla internacional
+    - aeropuerto de sevilla
+    - SVQ
+
+- synonym: Rotterdam
+  examples: |
+    - Rotterdam
+    - rotterdam
+    - roterdam
+    - Roterdam
+    - rótterdam
+    - Rótterdam
+    - róterdam
+    - Róterdam
+    - aeropuerto de Rotterdam
+    - Aeropuerto de Rotterdam
+    - aeropuerto de rotterdam
+    - RTM
+
+- synonym: San Sebastian de la Gomera
+  examples: |
+    - La Gomera
+    - la gomera
+    - San Sebastián de la Gomera
+    - san sebastián de la gomera
+    - san sebastian de la gomera
+    - aeropuerto de La Gomera
+    - aeropuerto de la gomera
+    - aeropuerto de San Sebastián de la Gomera
+    - aeropuerto de san sebastián de la gomera
+    - aeropuerto de san sebastian de la gomera
+    - GMZ
+
+- synonym: Alicante
+  examples: |
+    - Alicante
+    - ALC
+    - Aeropuerto Internacional de Alicante
+    - Aeropuerto de Alicante
+    - Alicante
+    - Aeropuerto de Alicante-Elche
+    - Alicante-Elche
+    - Alicante Airport
+    - Elche Airport
+    - Aeropuerto de Elche
+    - Alicante-Elche Airport
+    - Airport of Alicante
+    - Airport of Elche
+    - alicante
+    - alicante-elche
+    - alacant
+    - aeropuerto de alicante
+    - aeropuerto de elche
+    - aeropuerto de alicante-elche
+
+- synonym: Trondheim
+  examples: |
+    - Trondheim
+    - trondheim
+    - trondeim
+    - Trondeim
+    - aeropuerto de Trondheim
+    - Aeropuerto de Trondheim
+    - aeropuerto de trondheim
+    - TRD
+
+- synonym: Perugia
+  examples: |
+    - Perugia
+    - perugia
+    - perguia
+    - Perguia
+    - aeropuerto de Perugia
+    - Aeropuerto de Perugia
+    - aeropuerto de perugia
+    - PEG
+
+- synonym: Santander
+  examples: |
+    - Santander
+    - santander
+    - Aeropuerto de Santander
+    - Cantabria
+    - aeropuerto de santander
+    - aeropuerto de parayas
+    - parayas
+    - santander-parayas
+    - aeropuerto de santander-parayas
+    - cantabria
+    - Aeropuerto de Cantabria
+    - aeropuerto de Cantabria
+    - SDR
+
+- synonym: Hamburg
+  examples: |
+    - Hamburgo
+    - hamburgo
+    - Hamburg
+    - hamburg
+    - hanburgo
+    - Hanburgo
+    - hambrugo
+    - Hambrugo
+    - aeropuerto de Hamburgo
+    - Aeropuerto de Hamburgo
+    - aeropuerto de hamburgo
+    - aeropuerto internacional de Hamburgo
+    - aeropuerto internacional de hamburgo
+    - HAM
+
+- synonym: Catania
+  examples: |
+    - Catania
+    - catania
+    - aeropuerto de Catania
+    - Aeropuerto de Catania
+    - aeropuerto de catania
+    - CTA
+
+- synonym: Tires
+  examples: |
+    - Tires
+    - tires
+    - aeropuerto de Tires
+    - Aeropuerto de Tires
+    - aeropuerto de tires
+    - CAT
+
+- synonym: Stockholm
+  examples: |
+    - Estocolmo
+    - estocolmo
+    - Stockholm
+    - stockholm
+    - aeropuerto de Estocolmo
+    - Aeropuerto de Estocolmo
+    - aeropuerto de estocolmo
+    - STO
+
+- synonym: Birmingham
+  examples: |
+    - Birmingham
+    - birmingham
+    - birmingam
+    - Birmingam
+    - birmhingam
+    - Birmhingam
+    - aeropuerto de Birmingham
+    - Aeropuerto de Birmingham
+    - aeropuerto de birmingham
+    - BHX
+
+- synonym: Florence
+  examples: |
+    - Florencia
+    - florencia
+    - Florence
+    - florence
+    - aeropuerto de Florencia
+    - Aeropuerto de Florencia
+    - aeropuerto de florencia
+    - FLR
+
+- synonym: Marseille
+  examples: |
+    - Marsella
+    - marsella
+    - Marseille
+    - marseille
+    - aeropuerto de Marsella
+    - Aeropuerto de Marsella
+    - aeropuerto de marsella
+    - MRS
+
+- synonym: Dole
+  examples: |
+    - Dole
+    - dole
+    - aeropuerto de Dole
+    - Aeropuerto de Dole
+    - aeropuerto de dole
+    - DLE
+
+- synonym: Strasbourg
+  examples: |
+    - Estrasburgo
+    - estrasburgo
+    - Strasbourg
+    - strasbourg
+    - strasburg
+    - Strasburg
+    - aeropuerto de Estrasburgo
+    - Aeropuerto de Estrasburgo
+    - aeropuerto de estrasburgo
+    - SXB
+
+- synonym: Nuremberg
+  examples: |
+    - Nuremberg
+    - nuremberg
+    - nurember
+    - Nurember
+    - aeropuerto de Nuremberg
+    - Aeropuerto de Nuremberg
+    - aeropuerto de nuremberg
+    - NUE
+
+- synonym: Lille
+  examples: |
+    - Lille
+    - lille
+    - aeropuerto de Lille
+    - Aeropuerto de Lille
+    - aeropuerto de lille
+    - LIL
+
+- synonym: Pisa
+  examples: |
+    - Pisa
+    - pisa
+    - aeropuerto de Pisa
+    - Aeropuerto de Pisa
+    - aeropuerto de pisa
+    - PSA
+    - Aeropuerto Galileo Galilei
+    - Galileo Galilei
+    - aeropuertoGalileo
+    - Aeropuerto de Pisa-Galileo Galilei
+    - Pisa-Galileo Galilei
+    - aeropuerto de Galileo Galilei
+    - aeropuerto de pisa-galileo galilei
+    - aeropuerto de galileo galilei
+
+- synonym: Granada
+  examples: |
+    - Granada
+    - granada
+    - aeropuerto de Granada
+    - Aeropuerto de Granada
+    - aeropuerto de granada
+    - Aeropuerto de Federico Garcia Lorca
+    - Federico Garcia Lorca
+    - Aeropuerto de Granada
+    - Granada Federico García Lorca
+    - Aeropuerto Lorca de Granada
+    - aeropuerto de granada
+    - aeropuerto de federico garcia lorca
+    - GRX
+
+- synonym: Funchal
+  examples: |
+    - Funchal
+    - funchal
+    - aeropuerto de Funchal
+    - Aeropuerto de Funchal
+    - aeropuerto de funchal
+    - FNC
+
+- synonym: Glasgow
+  examples: |
+    - Glasgow
+    - glasgow
+    - aeropuerto de Glasgow
+    - Aeropuerto de Glasgow
+    - aeropuerto de glasgow
+    - GLA
+
+- synonym: Leeds
+  examples: |
+    - Leeds
+    - leeds
+    - aeropuerto de Leeds
+    - Aeropuerto de Leeds
+    - aeropuerto de leeds
+    - LBA
+
+- synonym: Schkeuditz
+  examples: |
+    - Schkeuditz
+    - schkeuditz
+    - aeropuerto de Schkeuditz
+    - Aeropuerto de Schkeuditz
+    - aeropuerto de schkeuditz
+    - LEJ
+
+- synonym: Malaga
+  examples: |
+    - Málaga
+    - málaga
+    - Aeropuerto de Málaga
+    - Aeropuerto Costa del Sol
+    - Costa del Sol Airport
+    - Costa del Sol
+    - Málaga Costa del Sol
+    - Málaga-Costa del Sol
+    - malaga
+    - costa del sol
+    - aeropuerto de malaga
+    - aeropuerto de málaga
+    - aeropuerto de la costa del sol
+    - AGP
+
+- synonym: Nice
+  examples: |
+    - Niza
+    - niza
+    - Nice
+    - nice
+    - aeropuerto de Niza
+    - Aeropuerto de Niza
+    - aeropuerto de niza
+    - NCE
+
+- synonym: Augsburg
+  examples: |
+    - Augsburgo
+    - augsburgo
+    - ausburgo
+    - Ausburgo
+    - aeropuerto de Augsburgo
+    - Aeropuerto de Augsburgo
+    - aeropuerto de augsburgo
+    - AGB
+
+- synonym: Bremen
+  examples: |
+    - Bremen
+    - bremen
+    - aeropuerto de Bremen
+    - Aeropuerto de Bremen
+    - aeropuerto de bremen
+    - BRE
+
+- synonym: Barcelona
+  examples: |
+    - Barcelona
+    - barcelona
+    - Aeropuerto Internacional de Barcelona
+    - Aeropuerto de El Prat
+    - El Prat
+    - aeropuerto del prat
+    - Barcelona Airport
+    - Barcelona-El Prat
+    - Aeropuerto de Barcelona-El Prat
+    - El Prat Airport
+    - BCN-Prat
+    - el prat
+    - bcn
+    - barcelona prat
+    - barcelona el prat
+    - prat
+    - aeropuerto del prat
+    - bcn-prat
+    - BCN
+
+- synonym: Tampere
+  examples: |
+    - Tampere
+    - tampere
+    - aeropuerto de Tampere
+    - Aeropuerto de Tampere
+    - aeropuerto de tampere
+    - TMP
+
+- synonym: Chambery
+  examples: |
+    - Chambery
+    - chambery
+    - aeropuerto de Chambery
+    - Aeropuerto de Chambery
+    - aeropuerto de chambery
+    - CMF
+
+- synonym: Trapani
+  examples: |
+    - Trapani
+    - trapani
+    - aeropuerto de Trapani
+    - Aeropuerto de Trapani
+    - aeropuerto de trapani
+    - TPS
+
+- synonym: Cologne
+  examples: |
+    - Colonia
+    - colonia
+    - Koln
+    - koln
+    - Cologne
+    - cologne
+    - aeropuerto de Colonia
+    - Aeropuerto de Colonia
+    - aeropuerto de colonia
+    - CGN
+
+- synonym: Aberdeen
+  examples: |
+    - Aberdeen
+    - aberdeen
+    - aeropuerto de Aberdeen
+    - Aeropuerto de Aberdeen
+    - aeropuerto de aberdeen
+    - ABZ
+
+- synonym: Lulea
+  examples: |
+    - Lulea
+    - lulea
+    - aeropuerto de Lulea
+    - Aeropuerto de Lulea
+    - aeropuerto de lulea
+    - LLA
+
+- synonym: Melilla
+  examples: |
+    - Melilla
+    - melilla
+    - aeropuerto de Melilla
+    - Aeropuerto de Melilla
+    - aeropuerto de melilla
+    - MLN
+
+- synonym: Brindisi
+  examples: |
+    - Brindisi
+    - brindisi
+    - aeropuerto de Brindisi
+    - Aeropuerto de Brindisi
+    - aeropuerto de brindisi
+    - BDS
+
+- synonym: Lanzarote
+  examples: |
+    - Lanzarote
+    - lanzarote
+    - aeropuerto de Lanzarote
+    - Aeropuerto de Lanzarote
+    - aeropuerto de lanzarote
+    - ACE
+
+- synonym: Aalborg
+  examples: |
+    - Aalborg
+    - aalborg
+    - alborg
+    - Alborg
+    - aeropuerto de Aalborg
+    - Aeropuerto de Aalborg
+    - aeropuerto de aalborg
+    - AAL
+
+- synonym: Ponta Delgada (Azores)
+  examples: |
+    - Punta Delgada
+    - punta delgada
+    - Ponta Delgada
+    - ponta delgada
+    - isla de punta delgada
+    - isla de Ponta Delgada
+    - isla de Punta Delgada
+    - isla de ponta delgada
+    - aeropuerto de Punta Delgada
+    - Aeropuerto de Punta Delgada
+    - aeropuerto de punta delgada
+    - aeropuerto de ponta delgada
+    - aeropuerto de la isla de punta delgada
+    - aeropuerto de la isla de Ponta Delgada
+    - aeropuerto de la isla de Punta Delgada
+    - PDL
+
+- synonym: Liverpool
+  examples: |
+    - Liverpool
+    - liverpool
+    - aeropuerto de Liverpool
+    - Aeropuerto de Liverpool
+    - aeropuerto de liverpool
+    - LPL
+
+- synonym: Memmingen
+  examples: |
+    - Memmingen
+    - memmingen
+    - meminjen
+    - Meminjen
+    - memingem
+    - Memingem
+    - aeropuerto de Memmingen
+    - Aeropuerto de Memmingen
+    - aeropuerto de memmingen
+    - FMM
+
+- synonym: Rennes
+  examples: |
+    - Rennes
+    - rennes
+    - renes
+    - Renes
+    - aeropuerto de Rennes
+    - Aeropuerto de Rennes
+    - aeropuerto de rennes
+    - RNS
+
+- synonym: Genoa
+  examples: |
+    - Génova
+    - génova
+    - Genoa
+    - genoa
+    - aeropuerto de Génova
+    - Aeropuerto de Génova
+    - aeropuerto de genova
+    - Aeroporto di Genova-Sestri Ponente
+    - Genova-Sestri Ponente
+    - Genova Cristoforo Colombo
+    - GOA
+
+- synonym: Nottingham
+  examples: |
+    - Nottingham
+    - nottingham
+    - notingham
+    - Notingham
+    - nottingam
+    - Nottingam
+    - aeropuerto de Nottingham
+    - Aeropuerto de Nottingham
+    - aeropuerto de nottingham
+    - NQT
+
+- synonym: Oslo
+  examples: |
+    - Oslo
+    - oslo
+    - aeropuerto de Oslo
+    - Aeropuerto de Oslo
+    - aeropuerto de oslo
+    - la capital de Noruega
+    - la capital noruega
+    - OSL
+
+- synonym: Santa Cruz De La Palma
+  examples: |
+    - Santa Cruz de la Palma
+    - santa cruz de la palma
+    - Santa Cruz de La Palma
+    - santa cruz de la palma
+    - Santa Cruz de la Palma
+    - santa cruz de la palma
+    - aeropuerto de Santa Cruz de la Palma
+    - Aeropuerto de Santa Cruz de la Palma
+    - aeropuerto de santa cruz de la palma
+    - SPC
+
+- synonym: Brest
+  examples: |
+    - Brest
+    - brest
+    - aeropuerto de Brest
+    - Aeropuerto de Brest
+    - aeropuerto de brest
+    - BES
+
+- synonym: Gothenburg
+  examples: |
+    - Gotemburgo
+    - gotemburgo
+    - Gothenburg
+    - gothenburg
+    - gotenburgo
+    - Gotenburgo
+    - aeropuerto de Gotemburgo
+    - Aeropuerto de Gotemburgo
+    - aeropuerto de gotemburgo
+    - aeropuerto de gothenburg
+    - GOT
+
+- synonym: Muenster
+  examples: |
+    - Münster
+    - münster
+    - Muenster
+    - muenster
+    - Munsster
+    - munsster
+    - Munster
+    - munster
+    - aeropuerto de Münster
+    - Aeropuerto de Münster
+    - aeropuerto de münster
+    - aeropuerto de muenster
+    - FMO
+
+- synonym: Tromso
+  examples: |
+    - Tromso
+    - tromso
+    - aeropuerto de Tromso
+    - Aeropuerto de Tromso
+    - aeropuerto de tromso
+    - TOS
+
+- synonym: Hanover
+  examples: |
+    - Hanover
+    - hanover
+    - hannover
+    - Hannover
+    - aeropuerto de Hanover
+    - Aeropuerto de Hanover
+    - aeropuerto de hanover
+    - HAJ
+
+- synonym: Ostend
+  examples: |
+    - Ostende
+    - Brujas
+    - brujas
+    - ostende
+    - Ostend
+    - ostend
+    - aeropuerto de Ostende
+    - Aeropuerto de Ostende
+    - aeropuerto de ostende
+    - aeropuerto de ostend
+    - aeropuerto de ostend-bruges
+    - aeropuerto de brujas
+    - aeropuerto de ostende-brujas
+    - ostende-brujas
+    - Ostende-Brujas
+    - OST
+
+- synonym: Corvera
+  examples: |
+    - Corvera
+    - corvera
+    - aeropuerto de Corvera
+    - Aeropuerto de Corvera
+    - aeropuerto de corvera
+    - RMU
+
+- synonym: Vitoria
+  examples: |
+    - Vitoria
+    - vitoria
+    - Aeropuerto de Vitoria-Foronda
+    - Vitoria-Foronda
+    - Vitoria-Foronda Airport
+    - Aeropuerto de Vitoria
+    - Vitoria Airport
+    - Aeropuerto de Foronda
+    - Foronda
+    - Vitoria Foronda
+    - Aeropuerto de Vitoria-Gasteiz
+    - Vitoria-Gasteiz
+    - Gasteiz
+    - Aeropuerto de Gasteiz
+    - foronda
+    - aeropuerto de vitoria
+    - aeropuerto de foronda
+    - vitoria-foronda
+    - vitoria foronda
+    - aeropuerto de vitoria-foronda
+    - vitoria-gasteiz
+    - gasteiz
+    - aeropuerto de gasteiz
+    - VIT
+
+- synonym: Bergen
+  examples: |
+    - Bergen
+    - bergen
+    - aeropuerto de Bergen
+    - Aeropuerto de Bergen
+    - aeropuerto de bergen
+    - BGO
+
+- synonym: Caen
+  examples: |
+    - Caen
+    - caen
+    - aeropuerto de Caen
+    - Aeropuerto de Caen
+    - aeropuerto de caen
+    - CFR
+
+- synonym: Ancona
+  examples: |
+    - Ancona
+    - ancona
+    - aeropuerto de Ancona
+    - Aeropuerto de Ancona
+    - aeropuerto de ancona
+    - AOI
+
+- synonym: Verona
+  examples: |
+    - Verona
+    - verona
+    - aeropuerto de Verona
+    - Aeropuerto de Verona
+    - aeropuerto de verona
+    - VRN
+
+- synonym: Bournemouth
+  examples: |
+    - Bournemouth
+    - bournemouth
+    - burnemouth
+    - Burnemouth
+    - aeropuerto de Bournemouth
+    - Aeropuerto de Bournemouth
+    - aeropuerto de bournemouth
+    - BOH
+
+- synonym: Zaragoza
+  examples: |
+    - Zaragoza
+    - zaragoza
+    - aeropuerto de Zaragoza
+    - Aeropuerto de Zaragoza
+    - aeropuerto de zaragoza
+    - ZAZ
+
+- synonym: Linkoping
+  examples: |
+    - Linkoping
+    - linkoping
+    - Linköping
+    - linköping
+    - aeropuerto de Linköping
+    - Aeropuerto de Linköping
+    - aeropuerto de linköping
+    - aeropuerto de linkoping
+    - aeropuerto de Linkoping
+    - LPI
+
+- synonym: Viseu
+  examples: |
+    - Viseu
+    - viseu
+    - aeropuerto de Viseu
+    - Aeropuerto de Viseu
+    - aeropuerto de viseu
+    - VSE
+
+- synonym: Goin
+  examples: |
+    - Goin
+    - goin
+    - aeropuerto de Goin
+    - Aeropuerto de Goin
+    - ETZ
+
+- synonym: Pamplona
+  examples: |
+    - Pamplona
+    - pamplona
+    - aeropuerto de noain
+    - noain
+    - pamplona-noain
+    - aeropuerto de Noáin
+    - Navarra
+    - aeropuerto de Pamplona
+    - navarra
+    - aeropuerto de pamplona
+    - PNA
+
+- synonym: Nimes
+  examples: |
+    - Nimes
+    - nimes
+    - Nîmes
+    - nîmes
+    - aeropuerto de Nîmes
+    - Aeropuerto de Nîmes
+    - aeropuerto de nîmes
+    - aeropuerto de nimes
+    - aeropuerto de Nimes
+    - FNI
+
+- synonym: Deauville
+  examples: |
+    - Deauville
+    - deauville
+    - aeropuerto de Deauville
+    - Aeropuerto de Deauville
+    - aeropuerto de deauville
+    - DOL
+
+- synonym: Aarhus
+  examples: |
+    - Aarhus
+    - aarhus
+    - arhus
+    - Arhus
+    - aeropuerto de Aarhus
+    - Aeropuerto de Aarhus
+    - aeropuerto de aarhus
+    - AAR
+
+- synonym: Liege
+  examples: |
+    - Lieja
+    - lieja
+    - aeropuerto de Lieja
+    - Aeropuerto de Lieja
+    - aeropuerto de lieja
+    - Liege Airport
+    - Liège Airport
+    - Liège
+    - Liege
+    - Aeropuerto de Bierset
+    - Lieja-Bierset
+    - Bierset
+    - LGG
+
+- synonym: Norwich
+  examples: |
+    - Norwich
+    - norwich
+    - aeropuerto de Norwich
+    - Aeropuerto de Norwich
+    - aeropuerto de norwich
+    - NWI
+
+- synonym: Lamezia-Terme
+  examples: |
+    - Lamezia-Terme
+    - lamezia-terme
+    - Lametia
+    - lametia
+    - Lamezia
+    - lamezia
+    - Terme
+    - terme
+    - aeropuerto de Lamezia-Terme
+    - Aeropuerto de Lamezia-Terme
+    - aeropuerto de lamezia-terme
+    - aeropuerto de lamezia
+    - aeropuerto de Lamezia
+    - SUF
+
+- synonym: Sundsvall
+  examples: |
+    - Sundsvall
+    - sundsvall
+    - aeropuerto de Sundsvall
+    - Aeropuerto de Sundsvall
+    - aeropuerto de sundsvall
+    - SDL
+
+- synonym: San Sebastian
+  examples: |
+    - San Sebastián
+    - san sebastián
+    - San Sebastian
+    - san sebastian
+    - San Sebastián-Hondarribia
+    - San Sebastian-Hondarribia
+    - Aeropuerto de Fuenterrabía
+    - Fuenterrabía
+    - Fuenterrabia 
+    - Hondarribia
+    - Aeropuerto de Hondarribia
+    - Hondarribia 
+    - sanse
+    - san sebastian
+    - san sebastián
+    - san sebastian-hondarribia
+    - san sebastián-hondarribia
+    - fuenterrabia
+    - hondarribia
+    - aeropuerto de san sebastian
+    - aeropuerto de san sebastián
+    - aeropuerto de fuenterrabia
+    - aeropuerto de hondarribia
+    - aeropuerto de san sebastian-hondarribia
+    - aeropuerto de san sebastián-hondarribia
+    - aeropuerto de fuenterrabía
+    - aeropuerto de hondarribia
+    - EAS
+
+- synonym: Grenoble
+  examples: |
+    - Grenoble
+    - grenoble
+    - aeropuerto de Grenoble
+    - Aeropuerto de Grenoble
+    - aeropuerto de grenoble
+    - GNB
+
+- synonym: Shannon
+  examples: |
+    - Shannon
+    - shannon
+    - shanon
+    - Shanon
+    - aeropuerto de Shannon
+    - Aeropuerto de Shannon
+    - aeropuerto de shannon
+    - SNN
+
+- synonym: Newcastle
+  examples: |
+    - Newcastle
+    - newcastle
+    - new castle
+    - New Castle
+    - aeropuerto de Newcastle
+    - Aeropuerto de Newcastle
+    - aeropuerto de newcastle
+    - NCL
+
+- synonym: Cardiff
+  examples: |
+    - Cardiff
+    - cardiff
+    - cardif
+    - Cardif
+    - aeropuerto de Cardiff
+    - Aeropuerto de Cardiff
+    - aeropuerto de cardiff
+    - CWL
+
+- synonym: Kerry County
+  examples: |
+    - Kerry County
+    - kerry county
+    - aeropuerto de Kerry County
+    - Aeropuerto de Kerry County
+    - aeropuerto de kerry county
+    - KIR
+
+- synonym: Poitiers
+  examples: |
+    - Poitiers
+    - poitiers
+    - aeropuerto de Poitiers
+    - Aeropuerto de Poitiers
+    - aeropuerto de poitiers
+    - PIS
+
+- synonym: Dundee
+  examples: |
+    - Dundee
+    - dundee
+    - aeropuerto de Dundee
+    - Aeropuerto de Dundee
+    - aeropuerto de dundee
+    - DND
+
+- synonym: Clermont-Ferrand
+  examples: |
+    - Clermont-Ferrand
+    - clermont-ferrand
+    - Clermont Ferrand
+    - clermont ferrand
+    - Clermont
+    - clermont
+    - Ferrand
+    - ferrand
+    - aeropuerto de Clermont-Ferrand
+    - Aeropuerto de Clermont-Ferrand
+    - aeropuerto de clermont-ferrand
+    - aeropuerto de clermont
+    - aeropuerto de ferrand
+    - CFE
+
+- synonym: Saint Etienne
+  examples: |
+    - Saint Etienne
+    - saint etienne
+    - Saint-Étienne
+    - saint-étienne
+    - Saint Etien
+    - saint etien
+    - Saint étienne
+    - saint étienne
+    - aeropuerto de Saint Etienne
+    - Aeropuerto de Saint Etienne
+    - aeropuerto de saint etienne
+    - aeropuerto de saint-étienne
+    - aeropuerto de saint étienne
+    - EBU
+
+- synonym: Montpellier
+  examples: |
+    - Montpellier
+    - montpellier
+    - monpelier
+    - Monpelier
+    - montpelier
+    - Montpelier
+    - aeropuerto de Montpellier
+    - Aeropuerto de Montpellier
+    - aeropuerto de montpellier
+    - aeropuerto de monpelier
+    - MPL
+
+- synonym: Biarritz
+  examples: |
+    - Biarritz
+    - biarritz
+    - aeropuerto de Biarritz
+    - Aeropuerto de Biarritz
+    - aeropuerto de biarritz
+    - BIQ
+
+- synonym: Siena
+  examples: |
+    - Siena
+    - siena
+    - aeropuerto de Siena
+    - Aeropuerto de Siena
+    - aeropuerto de siena
+    - SAY
+
+- synonym: Humberside
+  examples: |
+    - Humberside
+    - humberside
+    - aeropuerto de Humberside
+    - Aeropuerto de Humberside
+    - aeropuerto de humberside
+    - HUY
+
+- synonym: Haugesund
+  examples: |
+    - Haugesund
+    - haugesund
+    - aeropuerto de Haugesund
+    - Aeropuerto de Haugesund
+    - aeropuerto de haugesund
+    - HAU
+
+- synonym: Groningen
+  examples: |
+    - Groningen
+    - groningen
+    - aeropuerto de Groningen
+    - Aeropuerto de Groningen
+    - aeropuerto de groningen
+    - GRQ
+
+- synonym: Skelleftea
+  examples: |
+    - Skelleftea
+    - skelleftea
+    - skeleftea
+    - Skeleftea
+    - aeropuerto de Skelleftea
+    - Aeropuerto de Skelleftea
+    - aeropuerto de skelleftea
+    - SFT
+
+- synonym: Olbia
+  examples: |
+    - Olbia
+    - olbia
+    - aeropuerto de Olbia
+    - Aeropuerto de Olbia
+    - aeropuerto de olbia
+    - OLB
+
+- synonym: Exeter
+  examples: |
+    - Exeter
+    - exeter
+    - aeropuerto de Exeter
+    - Aeropuerto de Exeter
+    - aeropuerto de exeter
+    - EXT
+
+- synonym: Belfast
+  examples: |
+    - Belfast
+    - belfast
+    - aeropuerto de Belfast
+    - Aeropuerto de Belfast
+    - aeropuerto de belfast
+    - BFS
+
+- synonym: Mannheim
+  examples: |
+    - Mannheim
+    - mannheim
+    - manheim
+    - Manheim
+    - aeropuerto de Mannheim
+    - Aeropuerto de Mannheim
+    - aeropuerto de mannheim
+    - MHG
+
+- synonym: Alghero
+  examples: |
+    - Alghero
+    - alghero
+    - aeropuerto de Alghero
+    - Aeropuerto de Alghero
+    - aeropuerto de alghero
+    - AHO
+
+- synonym: Seo De Urgel
+  examples: |
+    - Seo de Urgel
+    - seo de urgel
+    - Seo de Urgell
+    - seo de urgell
+    - Seo de urgel
+    - seo de urgel
+    - aeropuerto de Seo de Urgel
+    - Aeropuerto de Seo de Urgel
+    - aeropuerto de seo de urgel
+    - LEU
+
+- synonym: Dresden
+  examples: |
+    - Dresden
+    - dresden
+    - aeropuerto de Dresden
+    - Aeropuerto de Dresden
+    - aeropuerto de dresden
+    - DRS
+
+- synonym: Salamanca
+  examples: |
+    - Salamanca
+    - salamanca
+    - Aeropuerto de Matacán
+    - Salamanca-Matacán
+    - Aeropuerto de Salamanca-Matacán
+    - Salamanca-Matacan Airport
+    - Matacán
+    - Matacan
+    - Salamanca-Matacan
+    - salamanca
+    - matacan
+    - matacán
+    - salamanca-matacán
+    - aeropuerto de salamanca
+    - aeropuerto de matacan
+    - aeropuerto de salamanca-matacan
+    - aeropuerto de matacán
+    - aeropuerto de salamanca-matacán
+    - SLM
+
+- synonym: Saarbruecken
+  examples: |
+    - Saarbrücken
+    - saarbrücken
+    - Saarbruecken
+    - saarbruecken
+    - sarbrücken
+    - Sarbrücken
+    - sarbruken
+    - Sarbruken
+    - aeropuerto de Saarbrücken
+    - Aeropuerto de Saarbrücken
+    - aeropuerto de saarbrücken
+    - SCN
+
+- synonym: Dortmund
+  examples: |
+    - Dortmund
+    - dortmund
+    - dormund
+    - Dormund
+    - aeropuerto de Dortmund
+    - Aeropuerto de Dortmund
+    - aeropuerto de dortmund
+    - dormunt
+    - Dormunt
+    - DTM
+
+- synonym: Longyearbyen
+  examples: |
+    - Longyearbyen
+    - longyearbyen
+    - aeropuerto de Longyearbyen
+    - Aeropuerto de Longyearbyen
+    - aeropuerto de longyearbyen
+    - LYR
+
+- synonym: Valladolid
+  examples: |
+    - Valladolid
+    - valladolid  
+    - Aeropuerto de Valladolid
+    - aeropuerto de Valladolid
+    - Aeropuerto de Villanubla
+    - Villanubla
+    - villanubla
+    - aeropuerto de villanubla
+    - aeropuerto de valladolid
+    - aeropuerto de valladolid-villanubla
+    - aeropuerto de villanubla-valladolid
+    - VLL
+
+- synonym: Braunschweig
+  examples: |
+    - Braunschweig
+    - braunschweig
+    - brunswick
+    - Brunswick
+    - aeropuerto de Braunschweig
+    - Aeropuerto de Braunschweig
+    - aeropuerto de braunschweig
+    - BWE
+
+- synonym: Tours
+  examples: |
+    - Tours
+    - tours
+    - aeropuerto de Tours
+    - Aeropuerto de Tours
+    - aeropuerto de tours
+    - TUF
+
+- synonym: Almeria
+  examples: |
+    - Almería
+    - almería
+    - Almeria
+    - almeria
+    - aeropuerto de Almería
+    - Aeropuerto de Almería
+    - aeropuerto de almeria
+    - LEI
+
+- synonym: Badajoz
+  examples: |
+    - Badajoz
+    - badajoz
+    - aeropuerto de Badajoz
+    - Aeropuerto de Badajoz
+    - Aeropuerto de Talavera la Real
+    - Talavera la Real
+    - talavera la real
+    - aeropuerto de badajoz
+    - BJZ
+
+- synonym: Turku
+  examples: |
+    - Turku
+    - turku
+    - aeropuerto de Turku
+    - Aeropuerto de Turku
+    - aeropuerto de turku
+    - TKU
+
+- synonym: Kassel
+  examples: |
+    - Kassel
+    - kassel
+    - kasel
+    - Kasel
+    - aeropuerto de Kassel
+    - Aeropuerto de Kassel
+    - aeropuerto de kassel
+    - KSF
+
+- synonym: Mulhouse
+  examples: |
+    - Mulhouse
+    - mulhouse
+    - aeropuerto de Mulhouse
+    - Aeropuerto de Mulhouse
+    - aeropuerto de mulhouse
+    - MLH
+
+- synonym: Pescara
+  examples: |
+    - Pescara
+    - pescara
+    - aeropuerto de Pescara
+    - Aeropuerto de Pescara
+    - aeropuerto de pescara
+    - PSR
+
+- synonym: Carcassonne
+  examples: |
+    - Carcassonne
+    - carcassonne
+    - carcasone
+    - Carcasone
+    - carcassone
+    - Carcassone
+    - carcasonne
+    - Carcasonne
+    - aeropuerto de Carcassonne
+    - Aeropuerto de Carcassonne
+    - aeropuerto de carcassonne
+    - CCF
+
+- synonym: Algeciras
+  examples: |
+    - Algeciras
+    - algeciras
+    - aeropuerto de Algeciras
+    - Aeropuerto de Algeciras
+    - aeropuerto de algeciras
+    - AEI
+
+- synonym: Avignon
+  examples: |
+    - Aviñón
+    - aviñón
+    - Aviñon
+    - aviñon
+    - Avignon
+    - avignon
+    - aeropuerto de Aviñón
+    - Aeropuerto de Aviñón
+    - aeropuerto de aviñón
+    - aeropuerto de avignon
+    - AVN
+
+- synonym: Terceira
+  examples: |
+    - Terceira
+    - terceira
+    - aeropuerto de Terceira
+    - Aeropuerto de Terceira
+    - aeropuerto de terceira
+    - TER
+
+- synonym: Southampton
+  examples: |
+    - Southampton
+    - southampton
+    - south hampton
+    - South Hampton
+    - aeropuerto de Southampton
+    - Aeropuerto de Southampton
+    - aeropuerto de southampton
+    - SOU
+
+- synonym: Inverness
+  examples: |
+    - Inverness
+    - inverness
+    - invernes
+    - Invernes
+    - aeropuerto de Inverness
+    - Aeropuerto de Inverness
+    - aeropuerto de inverness
+    - INV
+
+- synonym: Doncaster
+  examples: |
+    - Doncaster
+    - doncaster
+    - aeropuerto de Doncaster
+    - Aeropuerto de Doncaster
+    - aeropuerto de doncaster
+    - DSA
+
+- synonym: Beziers
+  examples: |
+    - Beziers
+    - beziers
+    - bessiers
+    - Bessiers
+    - aeropuerto de Beziers
+    - Aeropuerto de Beziers
+    - aeropuerto de beziers
+    - BZR
+
+- synonym: Comiso
+  examples: |
+    - Comiso
+    - comiso
+    - aeropuerto de Comiso
+    - Aeropuerto de Comiso
+    - aeropuerto de comiso
+    - CIY
+
+- synonym: Cuneo
+  examples: |
+    - Cuneo
+    - cuneo
+    - aeropuerto de Cuneo
+    - Aeropuerto de Cuneo
+    - aeropuerto de cuneo
+    - CUF
+
+- synonym: Lourdes
+  examples: |
+    - Lourdes
+    - lourdes
+    - lurdes
+    - Lurdes
+    - aeropuerto de Lourdes
+    - Aeropuerto de Lourdes
+    - aeropuerto de lourdes
+    - LDE
+
+- synonym: Isle Of Man
+  examples: |
+    - isla de Man
+    - isla de man
+    - Isla de Man
+    - Isla de man
+    - isla deman
+    - islade man
+    - Mann
+    - mann
+    - aeropuerto de la isla de Man
+    - Aeropuerto de la isla de Man
+    - aeropuerto de la isla de man
+    - aeropuuerto de man
+    - aeropuerto de Man
+    - IOM
+
+- synonym: Bergerac
+  examples: |
+    - Bergerac
+    - bergerac
+    - aeropuerto de Bergerac
+    - Aeropuerto de Bergerac
+    - aeropuerto de bergerac
+    - EGC
+
+- synonym: Kristiansand
+  examples: |
+    - Kristiansand
+    - kristiansand
+    - kristansand
+    - Krisiansand
+    - aeropuerto de Kristiansand
+    - Aeropuerto de Kristiansand
+    - aeropuerto de kristiansand
+    - KRS
+
+- synonym: Oulu
+  examples: |
+    - Oulu
+    - oulu
+    - aeropuerto de Oulu
+    - Aeropuerto de Oulu
+    - aeropuerto de oulu
+    - OUL
+
+- synonym: Valverde
+  examples: |
+    - Valverde
+    - valverde
+    - aeropuerto de Valverde
+    - Aeropuerto de Valverde
+    - aeropuerto de valverde
+    - VDE
+
+- synonym: Toulon
+  examples: |
+    - Toulon
+    - toulon
+    - tulon
+    - Tulon
+    - aeropuerto de Toulon
+    - Aeropuerto de Toulon
+    - aeropuerto de toulon
+    - TLN
+
+- synonym: Leon
+  examples: |
+    - León
+    - león
+    - Aeropuerto Guanajuato
+    - Leon Guanajuato Airport
+    - Aeropuerto León-Guanajuato
+    - Leon
+    - leon
+    - aeropuerto de león
+    - aeropuerto de leon
+    - guanajuato
+    - Aeropuerto de Guanajuato
+    - LEN
+
+- synonym: Castellon De La Plana
+  examples: |
+    - Castellón
+    - Castellón de la Plana
+    - Castellon
+    - Castellon de la Plana
+    - Castelló
+    - Castelló de la Plana
+    - Castelló de la plana
+    - castelló de la plana  
+    - CDT
+    - Aeropuerto de Castellón-Costa Azahar
+    - Castellón-Costa Azahar
+    - Castellón
+    - Castellon Airport
+    - Costa Azahar
+    - Aeropuerto de Costa Azahar
+    - Costa Azahar Airport
+    - castellon
+    - castellón
+    - costa azahar
+    - costa azahar castellón
+    - castellon costa azahar
+    - aeropuerto de castellón
+    - aeropuerto de costa azahar
+
+- synonym: Erfurt
+  examples: |
+    - Erfurt
+    - erfurt
+    - aeropuerto de Erfurt
+    - Aeropuerto de Erfurt
+    - aeropuerto de erfurt
+    - ERF
+
+- synonym: Friedrichshafen
+  examples: |
+    - Friedrichshafen
+    - friedrichshafen
+    - aeropuerto de Friedrichshafen
+    - Aeropuerto de Friedrichshafen
+    - aeropuerto de friedrichshafen
+    - FDH
+
+- synonym: Ajaccio
+  examples: |
+    - Ajaccio
+    - ajaccio
+    - ajacio
+    - Ajacio
+    - aeropuerto de Ajaccio
+    - Aeropuerto de Ajaccio
+    - aeropuerto de ajaccio
+    - AJA
+
+- synonym: Sonderborg
+  examples: |
+    - Sonderborg
+    - sonderborg
+    - aeropuerto de Sonderborg
+    - Aeropuerto de Sonderborg
+    - aeropuerto de sonderborg 
+    - SGD
+
+- synonym: Westerland
+  examples: |
+    - Westerland
+    - westerland
+    - aeropuerto de Westerland
+    - Aeropuerto de Westerland
+    - aeropuerto de westerland
+    - GWT
+
+- synonym: Kiel
+  examples: |
+    - Kiel
+    - kiel
+    - aeropuerto de Kiel
+    - Aeropuerto de Kiel
+    - aeropuerto de kiel
+    - KEL
+
+- synonym: Murcia
+  examples: |
+    - Murcia
+    - murcia
+    - aeropuerto de Murcia
+    - Aeropuerto de Murcia
+    - aeropuerto de murcia
+    - MJV
+
+- synonym: Castres
+  examples: |
+    - Castres
+    - castres
+    - aeropuerto de Castres
+    - Aeropuerto de Castres
+    - aeropuerto de castres
+    - DCM
+
+- synonym: Aalesund
+  examples: |
+    - Aalesund
+    - aalesund
+    - alesund
+    - Alesund
+    - aeropuerto de Aalesund
+    - Aeropuerto de Aalesund
+    - aeropuerto de aalesund
+    - AES
+
+- synonym: Perpignan
+  examples: |
+    - Perpiñán
+    - perpiñán
+    - Perpignan
+    - perpignan
+    - aeropuerto de Perpignan
+    - Aeropuerto de Perpignan
+    - aeropuerto de perpignan
+    - PGF
+
+- synonym: Odense
+  examples: |
+    - Odense
+    - odense
+    - aeropuerto de Odense
+    - Aeropuerto de Odense
+    - aeropuerto de odense
+    - ODE
+
+- synonym: Lleida
+  examples: |
+    - Lleida
+    - lleida
+    - Lleida-Alguaire
+    - Lérida
+    - Lerida
+    - Aeropuerto de Lérida
+    - Alguaire
+    - Aeropuerto de Alguaire
+    - Alguaire Airport
+    - Lérida-Alguaire
+    - lleida
+    - lérida
+    - lerida
+    - alguaire
+    - aeropuerto de lleida
+    - aeropuerto de alguaire
+    - aeropuerto de lleida-alguaire
+    - aeropuerto de lérida
+    - ILD
+
+- synonym: Chalons-en-Champagne
+  examples: |
+    - Chalons
+    - chalons
+    - Châlons
+    - châlons
+    - Chalons-en-Champagne
+    - chalons-en-champagne
+    - Châlons-en-Champagne
+    - châlons-en-champagne
+    - Chalons en Champagne
+    - chalons en champagne
+    - Châlons en Champagne
+    - châlons en champagne
+    - aeropuerto de Chalons
+    - Aeropuerto de Chalons
+    - aeropuerto de chalons
+    - aeropuerto de châlons
+    - aeropuerto de chalons-en-champagne
+    - aeropuerto de châlons-en-champagne
+    - XCR
+
+- synonym: Malmo
+  examples: |
+    - Malmo
+    - malmo
+    - malmö
+    - Malmö
+    - aeropuerto de Malmo
+    - Aeropuerto de Malmo
+    - aeropuerto de malmo
+    - MMA
+
+- synonym: Bodo
+  examples: |
+    - Bodo
+    - bodo
+    - aeropuerto de Bodo
+    - Aeropuerto de Bodo
+    - aeropuerto de bodo
+    - BOO
+
+- synonym: Rimini
+  examples: |
+    - Rimini
+    - rimini
+    - aeropuerto de Rimini
+    - Aeropuerto de Rimini
+    - aeropuerto de rimini
+    - RMI
+
+- synonym: Logrono
+  examples: |
+    - Logroño
+    - logroño
+    - Logrono
+    - Logrono Airport
+    - Logrono-Agoncillo
+    - Agoncillo
+    - Aeropuerto de Agoncillo
+    - Agoncillo Airport
+    - logroño
+    - aeropuerto de logroño
+    - aeropuerto de logroño-agoncillo
+    - logroño-agoncillo
+    - aeropuerto de agoncillo
+    - agoncillo
+    - La Rioja
+    - aeropuerto de la rioja
+    - aeropuerto de Logroño
+    - RJL
+
+- synonym: Bastia
+  examples: |
+    - Bastia
+    - bastia
+    - aeropuerto de Bastia
+    - Aeropuerto de Bastia
+    - aeropuerto de bastia
+    - BIA
+
+- synonym: Knock
+  examples: |
+    - Knock
+    - knock
+    - knok
+    - Knok
+    - aeropuerto de Knock
+    - Aeropuerto de Knock
+    - aeropuerto de knock
+    - NOC
+
+- synonym: Rovaniemi
+  examples: |
+    - Rovaniemi
+    - rovaniemi
+    - aeropuerto de Rovaniemi
+    - Aeropuerto de Rovaniemi
+    - aeropuerto de rovaniemi
+    - RVN
+
+- synonym: Karup
+  examples: |
+    - Karup
+    - karup
+    - aeropuerto de Karup
+    - Aeropuerto de Karup
+    - aeropuerto de karup
+    - KRP
+
+- synonym: Burgos
+  examples: |
+    - Burgos
+    - burgos
+    - aeropuerto de Burgos
+    - Aeropuerto de Burgos
+    - aeropuerto de burgos
+    - RGS
+
+- synonym: La Rochelle
+  examples: |
+    - La Rochelle
+    - la rochelle
+    - La Rochelle-Ile de Re
+    - La Rochelle-Ile de Ré
+    - La Rochelle-Ile de Re 
+    - aeropuerto de La Rochelle
+    - Aeropuerto de La Rochelle
+    - aeropuerto de la rochelle
+    - la Rochelle
+    - LRH
+
+- synonym: Durham Tees Valley
+  examples: |
+    - Durham
+    - durham
+    - Tees Valley
+    - tees valley
+    - durham tees valley
+    - aeropuerto de Durham Tees Valley
+    - Aeropuerto de Durham Tees Valley
+    - aeropuerto de durham tees valley
+    - aeropuerto de durham
+    - aeropuerto de tees valley
+    - aeropuerto de Durham
+    - MME
+
+- synonym: Salerno
+  examples: |
+    - Salerno
+    - salerno
+    - aeropuerto de Salerno
+    - Aeropuerto de Salerno
+    - aeropuerto de salerno
+    - QSR
+
+- synonym: Coventry
+  examples: |
+    - Coventry
+    - coventry
+    - aeropuerto de Coventry
+    - Aeropuerto de Coventry
+    - CVT
+
+- synonym: Reus
+  examples: |
+    - Reus
+    - reus
+    - aeropuerto de Reus
+    - Aeropuerto de Reus
+    - aeropuerto de reus
+    - REU
+
+- synonym: Leknes
+  examples: |
+    - Leknes
+    - leknes
+    - aeropuerto de Leknes
+    - Aeropuerto de Leknes
+    - aeropuerto de leknes
+    - LKN
+
+- synonym: Norrkoping
+  examples: |
+    - Norrkoping
+    - norrkoping
+    - norkoping
+    - Norkoping 
+    - aeropuerto de Norrkoping
+    - Aeropuerto de Norrkoping
+    - aeropuerto de norrkoping
+    - NRK
+
+- synonym: Dinard
+  examples: |
+    - Dinard
+    - dinard
+    - aeropuerto de Dinard
+    - Aeropuerto de Dinard
+    - aeropuerto de dinard
+    - DNR
+
+- synonym: Jersey
+  examples: |
+    - Jersey
+    - jersey
+    - aeropuerto de Jersey
+    - Aeropuerto de Jersey
+    - aeropuerto de jersey
+    - JER
+
+- synonym: Porto Santo (Madeira)
+  examples: |
+    - Puerto Santo
+    - puerto santo
+    - Porto Santo
+    - porto santo
+    - aeropuerto de Porto Santo
+    - Aeropuerto de Porto Santo
+    - aeropuerto de puerto santo
+    - Aeropuerto de Puerto Santo
+    - PXO
+
+- synonym: Reggio Calabria
+  examples: |
+    - Reggio Calabria
+    - reggio calabria
+    - Reggio di Calabria
+    - reggio di calabria
+    - Calabria
+    - calabria
+    - Reggio
+    - reggio
+    - aeropuerto de Reggio Calabria
+    - Aeropuerto de Reggio Calabria
+    - aeropuerto de reggio calabria
+    - aeropuerto de reggio
+    - aeropuerto de calabria
+    - REG
+
+- synonym: Annecy
+  examples: |
+    - Annecy
+    - annecy
+    - anecy
+    - Anecy
+    - aeropuerto de Annecy
+    - Aeropuerto de Annecy
+    - aeropuerto de annecy
+    - NCY
+
+- synonym: Girona
+  examples: |
+    - Girona
+    - girona  
+    - GRO
+    - Aeropuerto de Gerona
+    - Gerona
+    - Girona-Costa Brava
+    - Aeropuerto de Girona-Costa Brava
+    - Costa Brava
+    - Gerona-Costa Brava
+    - gerona
+    - aeropuerto de gerona
+    - aeropuerto de girona
+    - girona
+    - costa brava
+    - aeropuerto de costa brava
+
+- synonym: Svolvaer
+  examples: |
+    - Svolvaer
+    - svolvaer
+    - solvaer
+    - Solvaer
+    - aeropuerto de Svolvaer
+    - Aeropuerto de Svolvaer
+    - aeropuerto de svolvaer
+    - SVJ
+
+- synonym: Blackpool
+  examples: |
+    - Blackpool
+    - blackpool
+    - aeropuerto de Blackpool
+    - Aeropuerto de Blackpool
+    - aeropuerto de blackpool
+    - BLK
+
+- synonym: Angelholm
+  examples: |
+    - Angelholm
+    - angelholm
+    - aeropuerto de Angelholm
+    - Aeropuerto de Angelholm
+    - aeropuerto de angelholm
+    - AGH
+
+- synonym: Ivalo
+  examples: |
+    - Ivalo
+    - ivalo
+    - aeropuerto de Ivalo
+    - Aeropuerto de Ivalo
+    - aeropuerto de ivalo
+    - IVL
+
+- synonym: Southend
+  examples: |
+    - Southend
+    - southend
+    - aeropuerto de Southend
+    - Aeropuerto de Southend
+    - aeropuerto de southend
+    - SEN
+
+- synonym: Lappeenranta
+  examples: |
+    - Lappeenranta
+    - lappeenranta
+    - laperanta
+    - Laperanta
+    - aeropuerto de Lappeenranta
+    - Aeropuerto de Lappeenranta
+    - aeropuerto de lappeenranta
+    - LPP
+
+- synonym: Vaasa
+  examples: |
+    - Vaasa
+    - vaasa
+    - vasa
+    - Vasa
+    - aeropuerto de Vaasa
+    - Aeropuerto de Vaasa
+    - aeropuerto de vaasa
+    - VAA
+
+- synonym: Rodez
+  examples: |
+    - Rodez
+    - rodez
+    - aeropuerto de Rodez
+    - Aeropuerto de Rodez
+    - aeropuerto de rodez
+    - RDZ
+
+- synonym: Sao Jorge Island
+  examples: |
+    - San Jorge
+    - san jorge
+    - Sao Jorge
+    - sao jorge
+    - São Jorge
+    - são jorge
+    - isla de San Jorge
+    - isla de sao jorge
+    - isla de São Jorge
+    - isla de são jorge
+    - aeropuerto de Sao Jorge
+    - Aeropuerto de Sao Jorge
+    - aeropuerto de sao jorge
+    - aeropuerto de san jorge
+    - aeropuerto de San Jorge
+    - aeropuerto de la isla de Sao Jorge
+    - aeropuerto de la isla de sao jorge
+    - aeropuerto de la isla de São Jorge
+    - aeropuerto de la isla de são jorge
+    - aeropuerto de la isla de san jorge
+    - aeropuerto de la isla de San Jorge
+    - SJZ
+
+- synonym: Valencia
+  examples: |
+    - Valencia
+    - valencia
+    - valéncia
+    - Aeropuerto de Valencia
+    - VLC
+    - Valencua
+    - Valencia Airport
+    - Aeropuerto Internacional de Valencia
+    - Valencia
+    - Aeropuerto de Manises
+    - Manises Airport
+    - València
+    - Aeroport de València
+    - valencia
+    - vlc
+    - aeropuerto de manises
+    - aeropuerto de valencia
+    - valència
+    - valenca
+    - aeropuerto de valència
+    - aeropuerto de valencia-manises
+    - valencia-manises
+    - aeropuerto manises
+
+- synonym: Cordoba
+  examples: |
+    - Córdoba
+    - córdoba
+    - Cordoba
+    - cordoba
+    - aeropuerto de Córdoba
+    - Aeropuerto de Córdoba
+    - aeropuerto de cordoba
+    - aeropuerto de córdoba
+    - ODB
+
+- synonym: Borlange
+  examples: |
+    - Borlange
+    - borlange
+    - aeropuerto de Borlange
+    - Aeropuerto de Borlange
+    - aeropuerto de borlange
+    - BLE
+
+- synonym: Laeso Island
+  examples: |
+    - Laeso
+    - laeso
+    - isla de Laeso
+    - isla de laeso
+    - aeropuerto de Laeso
+    - Aeropuerto de Laeso
+    - aeropuerto de laeso
+    - aeropuerto de la isla de laeso
+    - aeropuerto de la isla de Laeso
+    - BYR
+
+- synonym: Paderborn
+  examples: |
+    - Paderborn
+    - paderborn
+    - aeropuerto de Paderborn
+    - Aeropuerto de Paderborn
+    - aeropuerto de paderborn
+    - PAD
+
+- synonym: Kristiansund
+  examples: |
+    - Kristiansund
+    - kristiansund
+    - aeropuerto de Kristiansund
+    - Aeropuerto de Kristiansund
+    - KSU
+
+- synonym: Lampedusa
+  examples: |
+    - Lampedusa
+    - lampedusa
+    - aeropuerto de Lampedusa
+    - Aeropuerto de Lampedusa
+    - aeropuerto de lampedusa
+    - LMP
+
+- synonym: Saint Nazaire
+  examples: |
+    - Saint Nazaire
+    - saint nazaire
+    - San Nazario
+    - san nazario
+    - aeropuerto de Saint Nazaire
+    - Aeropuerto de Saint Nazaire
+    - aeropuerto de saint nazaire
+    - SNR
+
+- synonym: Umea
+  examples: |
+    - Umea
+    - umea
+    - aeropuerto de Umea
+    - Aeropuerto de Umea
+    - aeropuerto de umea
+    - UME
+
+- synonym: Pau
+  examples: |
+    - Pau
+    - pau
+    - aeropuerto de Pau
+    - Aeropuerto de Pau
+    - aeropuerto de pau
+    - PUF
+
+- synonym: Molde
+  examples: |
+    - Molde
+    - molde
+    - aeropuerto de Molde
+    - Aeropuerto de Molde
+    - aeropuerto de molde
+    - MOL
+
+- synonym: Ceuta
+  examples: |
+    - Ceuta
+    - ceuta
+    - aeropuerto de Ceuta
+    - Aeropuerto de Ceuta
+    - aeropuerto de ceuta
+    - JCU
+
+- synonym: Donegal
+  examples: |
+    - Donegal
+    - donegal
+    - aeropuerto de Donegal
+    - Aeropuerto de Donegal
+    - aeropuerto de donegal
+    - CFN
+
+- synonym: Elba Island
+  examples: |
+    - Elba
+    - elba
+    - isla de Elba
+    - isla de elba
+    - aeropuerto de Elba
+    - Aeropuerto de Elba
+    - aeropuerto de elba
+    - aeropuerto de la isla de elba
+    - aeropuerto de la isla de Elba
+    - EBA
+
+- synonym: Orland
+  examples: |
+    - Orland
+    - orland
+    - aeropuerto de Orland
+    - Aeropuerto de Orland
+    - aeropuerto de orland
+    - OLA
+
+- synonym: Newquay
+  examples: |
+    - Newquay
+    - newquay
+    - aeropuerto de Newquay
+    - Aeropuerto de Newquay
+    - aeropuerto de newquay
+    - NQY
+
+- synonym: Limoges
+  examples: |
+    - Limoges
+    - limoges
+    - limòges
+    - Limòges
+    - aeropuerto de Limoges
+    - Aeropuerto de Limoges
+    - aeropuerto de limoges
+    - LIG
+
+- synonym: Plymouth
+  examples: |
+    - Plymouth
+    - plymouth
+    - aeropuerto de Plymouth
+    - Aeropuerto de Plymouth
+    - aeropuerto de plymouth
+    - PLH
+
+- synonym: Cambridge
+  examples: |
+    - Cambridge
+    - cambridge
+    - aeropuerto de Cambridge
+    - Aeropuerto de Cambridge
+    - aeropuerto de cambridge
+    - CBG
+
+- synonym: Jonkoping
+  examples: |
+    - Jonkoping
+    - jonkoping
+    - jonckoping
+    - aeropuerto de Jonkoping
+    - Aeropuerto de Jonkoping
+    - aeropuerto de jonkoping
+    - JKG
+
+- synonym: Swansea
+  examples: |
+    - Swansea
+    - swansea
+    - suansea
+    - Suansea
+    - aeropuerto de Swansea
+    - Aeropuerto de Swansea
+    - aeropuerto de swansea
+    - SWS
+
+- synonym: Figari
+  examples: |
+    - Figari
+    - figari
+    - aeropuerto de Figari
+    - Aeropuerto de Figari
+    - aeropuerto de figari
+    - FSC
+
+- synonym: Kuusamo
+  examples: |
+    - Kuusamo
+    - kuusamo
+    - kusamo
+    - Kusamo
+    - aeropuerto de Kuusamo
+    - Aeropuerto de Kuusamo
+    - aeropuerto de kuusamo
+    - KAO
+
+- synonym: Ronneby
+  examples: |
+    - Ronneby
+    - ronneby
+    - roneby
+    - Roneby
+    - aeropuerto de Ronneby
+    - Aeropuerto de Ronneby
+    - aeropuerto de ronneby
+    - RNB
+
+- synonym: Rostock-Laage
+  examples: |
+    - Rostock
+    - rostock
+    - Rostock-Laage
+    - rostock-laage
+    - aeropuerto de Rostock
+    - Aeropuerto de Rostock
+    - aeropuerto de rostock
+    - aeropuerto de rostock-laage
+    - aeropuerto de Rostock-Laage
+    - RLG
+
+- synonym: Brive-La-Gaillarde
+  examples: |
+    - Brive
+    - brive
+    - Brive-La-Gaillarde
+    - brive-la-gaillarde
+    - breive la gaillarde
+    - brive la gaillarde
+    - Brive la Gaillarde
+    - aeropuerto de Brive
+    - Aeropuerto de Brive
+    - aeropuerto de brive
+    - aeropuerto de brive-la-gaillarde
+    - aeropuerto de Brive-La-Gaillarde
+    - aeropuerto de breive la gaillarde
+    - BVE
+
+- synonym: Kittila
+  examples: |
+    - Kittila
+    - kittila
+    - kitiila
+    - Kitiila
+    - kitila
+    - Kitila
+    - aeropuerto de Kittila
+    - Aeropuerto de Kittila
+    - aeropuerto de kittila
+    - KTT
+
+- synonym: Angers
+  examples: |
+    - Angers
+    - angers
+    - aeropuerto de Angers
+    - Aeropuerto de Angers
+    - aeropuerto de angers
+    - ANE
+
+- synonym: Kalmar
+  examples: |
+    - Kalmar
+    - kalmar
+    - aeropuerto de Kalmar
+    - Aeropuerto de Kalmar
+    - aeropuerto de kalmar
+    - KLR
+
+- synonym: Spiddal
+  examples: |
+    - Spiddal
+    - spiddal
+    - spidal
+    - Spidal
+    - aeropuerto de Spiddal
+    - Aeropuerto de Spiddal
+    - aeropuerto de spiddal
+    - NNR
+
+- synonym: Harstad-Narvik
+  examples: |
+    - Harstad
+    - harstad
+    - Harstad-Narvik
+    - harstad-narvik
+    - aeropuerto de Harstad
+    - Aeropuerto de Harstad
+    - aeropuerto de harstad
+    - aeropuerto de harstad-narvik
+    - aeropuerto de Harstad-Narvik
+    - EVE
+
+- synonym: Derry
+  examples: |
+    - Derry
+    - derry
+    - aeropuerto de Derry
+    - Aeropuerto de Derry
+    - aeropuerto de derry
+    - LDY
+
+- synonym: Bardufoss
+  examples: |
+    - Bardufoss
+    - bardufoss
+    - bardufos
+    - Bardufos
+    - aeropuerto de Bardufoss
+    - Aeropuerto de Bardufoss
+    - aeropuerto de bardufoss
+    - BDU
+
+- synonym: Horta (Azores)
+  examples: |
+    - Horta
+    - horta
+    - aeropuerto de Horta
+    - Aeropuerto de Horta
+    - aeropuerto de horta
+    - HOR
+
+- synonym: Kristianstad
+  examples: |
+    - Kristianstad
+    - kristianstad
+    - aeropuerto de Kristianstad
+    - Aeropuerto de Kristianstad
+    - aeropuerto de kristianstad
+    - KID
+
+- synonym: Braganca
+  examples: |
+    - Bragança
+    - bragança
+    - Braganca
+    - braganca
+    - braganza
+    - Braganza
+    - aeropuerto de Bragança
+    - Aeropuerto de Bragança
+    - aeropuerto de bragança
+    - aeropuerto de braganca
+    - BGC
+    
+- synonym: Rouen
+  examples: |
+    - Rouen
+    - rouen
+    - aeropuerto de Rouen
+    - Aeropuerto de Rouen
+    - aeropuerto de rouen
+    - URO
+
+- synonym: Le Mans
+  examples: |
+    - Le Mans
+    - le mans
+    - aeropuerto de Le Mans
+    - Aeropuerto de Le Mans
+    - aeropuerto de le mans
+    - LME
+
+- synonym: Roervik
+  examples: |
+    - Roervik
+    - roervik
+    - roervick
+    - Roervick
+    - aeropuerto de Roervik
+    - Aeropuerto de Roervik
+    - aeropuerto de roervik
+    - RVK
+
+- synonym: Kiruna
+  examples: |
+    - Kiruna
+    - kiruna
+    - aeropuerto de Kiruna
+    - Aeropuerto de Kiruna
+    - aeropuerto de kiruna
+    - KRN
+
+- synonym: Tiree Inner Hebrides
+  examples: |
+    - Tiree
+    - tiree
+    - aeropuerto de Tiree
+    - Aeropuerto de Tiree
+    - aeropuerto de tiree
+    - tiree inner hebrides
+    - inner hebrides
+    - TRE
+
+- synonym: Carlisle
+  examples: |
+    - Carlisle
+    - carlisle
+    - aeropuerto de Carlisle
+    - Aeropuerto de Carlisle
+    - aeropuerto de carlisle
+    - CAX
+
+- synonym: Alta
+  examples: |
+    - Alta
+    - alta
+    - aeropuerto de Alta
+    - Aeropuerto de Alta
+    - aeropuerto de alta
+    - ALF
+
+- synonym: Kirkenes
+  examples: |
+    - Kirkenes
+    - kirkenes
+    - kirckenes
+    - Kirckenes
+    - aeropuerto de Kirkenes
+    - Aeropuerto de Kirkenes
+    - aeropuerto de kirkenes
+    - KKN
+
+- synonym: Crotone
+  examples: |
+    - Crotone
+    - crotone
+    - aeropuerto de Crotone
+    - Aeropuerto de Crotone
+    - aeropuerto de crotone
+    - crotonne
+    - Crotonne
+    - CRV
+
+- synonym: Vaxjo
+  examples: |
+    - Vaxjo
+    - vaxjo
+    - vaxio
+    - Vaxio
+    - aeropuerto de Vaxjo
+    - Aeropuerto de Vaxjo
+    - aeropuerto de vaxjo
+    - VXO
+
+- synonym: Forde
+  examples: |
+    - Forde
+    - forde
+    - aeropuerto de Forde
+    - Aeropuerto de Forde
+    - aeropuerto de forde
+    - FDE
+
+- synonym: Enschede
+  examples: |
+    - Enschede
+    - enschede
+    - aeropuerto de Enschede
+    - Aeropuerto de Enschede
+    - aeropuerto de enschede
+    - ENS
+
+- synonym: Pori
+  examples: |
+    - Pori
+    - pori
+    - aeropuerto de Pori
+    - Aeropuerto de Pori
+    - aeropuerto de pori
+    - POR
+
+- synonym: Utrecht
+  examples: |
+    - Utrecht
+    - utrecht
+    - utrech
+    - Utrech
+    - aeropuerto de Utrecht
+    - Aeropuerto de Utrecht
+    - aeropuerto de utrecht
+    - UTC
+
+- synonym: Karlstad
+  examples: |
+    - Karlstad
+    - karlstad
+    - aeropuerto de Karlstad
+    - Aeropuerto de Karlstad
+    - aeropuerto de karlstad
+    - KSD
+
+- synonym: Halmstad
+  examples: |
+    - Halmstad
+    - halmstad
+    - aeropuerto de Halmstad
+    - Aeropuerto de Halmstad
+    - aeropuerto de halmstad
+    - HAD
+
+- synonym: Orebro
+  examples: |
+    - Orebro
+    - orebro
+    - aeropuerto de Orebro
+    - Aeropuerto de Orebro
+    - aeropuerto de orebro
+    - ORB
+
+- synonym: Valley
+  examples: |
+    - Valley
+    - valley
+    - aeropuerto de Valley
+    - Aeropuerto de Valley
+    - aeropuerto de valley
+    - VLY
+
+- synonym: Ornskoldsvik
+  examples: |
+    - Ornskoldsvik
+    - ornskoldsvik
+    - ornskoldsvick
+    - Ornskoldsvick
+    - aeropuerto de Ornskoldsvik
+    - Aeropuerto de Ornskoldsvik
+    - aeropuerto de ornskoldsvik
+    - OER
+
+- synonym: Jyvaskyla
+  examples: |
+    - Jyvaskyla
+    - jyvaskyla
+    - jyvaskila
+    - Jyvaskila
+    - aeropuerto de Jyvaskyla
+    - Aeropuerto de Jyvaskyla
+    - aeropuerto de jyvaskyla
+    - JYV
+
+- synonym: Heringsdorf
+  examples: |
+    - Heringsdorf
+    - heringsdorf
+    - aeropuerto de Heringsdorf
+    - Aeropuerto de Heringsdorf
+    - aeropuerto de heringsdorf
+    - HDF
+
+- synonym: Gallivare
+  examples: |
+    - Gallivare
+    - gallivare
+    - aeropuerto de Gallivare
+    - Aeropuerto de Gallivare
+    - aeropuerto de gallivare
+    - GEV
+
+- synonym: Stord
+  examples: |
+    - Stord
+    - stord
+    - aeropuerto de Stord
+    - Aeropuerto de Stord
+    - aeropuerto de stord
+    - SRP
+
+- synonym: Stronsay
+  examples: |
+    - Stronsay
+    - stronsay
+    - aeropuerto de Stronsay
+    - Aeropuerto de Stronsay
+    - aeropuerto de stronsay
+    - SOY
+
+- synonym: Kronoby
+  examples: |
+    - Kronoby
+    - kronoby
+    - aeropuerto de Kronoby
+    - Aeropuerto de Kronoby
+    - aeropuerto de kronoby
+    - KOK
+
+- synonym: Batsfjord
+  examples: |
+    - Batsfjord
+    - batsfjord
+    - batsford
+    - Batsford
+    - aeropuerto de Batsfjord
+    - Aeropuerto de Batsfjord
+    - aeropuerto de batsfjord
+    - BJF
+
+- synonym: Ostersund
+  examples: |
+    - Ostersund
+    - ostersund
+    - osersund
+    - Otersund
+    - aeropuerto de Ostersund
+    - Aeropuerto de Ostersund
+    - aeropuerto de ostersund
+    - OSD
+
+- synonym: Sanday
+  examples: |
+    - Sanday
+    - sanday
+    - aeropuerto de Sanday
+    - Aeropuerto de Sanday
+    - aeropuerto de sanday
+    - NDY
+
+- synonym: Kuopio
+  examples: |
+    - Kuopio
+    - kuopio
+    - aeropuerto de Kuopio
+    - Aeropuerto de Kuopio
+    - aeropuerto de kuopio
+    - KUO
+
+- synonym: Trollhattan
+  examples: |
+    - Trollhattan
+    - trollhattan
+    - trolhattan
+    - Trolhattan
+    - trollhatan
+    - Trollhatan
+    - trolhatan
+    - Trolhatan
+    - aeropuerto de Trollhattan
+    - Aeropuerto de Trollhattan
+    - aeropuerto de trollhattan
+    - THN
+
+- synonym: North Ronaldsay
+  examples: |
+    - North Ronaldsay
+    - north ronaldsay
+    - aeropuerto de North Ronaldsay
+    - Aeropuerto de North Ronaldsay
+    - aeropuerto de north ronaldsay
+    - ronaldsay
+    - Ronaldsay
+    - NRL
+
+- synonym: Andenes
+  examples: |
+    - Andenes
+    - andenes
+    - aeropuerto de Andenes
+    - Aeropuerto de Andenes
+    - aeropuerto de andenes
+    - ANX
+
+- synonym: Kirkwall
+  examples: |
+    - Kirkwall
+    - kirkwall
+    - aeropuerto de Kirkwall
+    - Aeropuerto de Kirkwall
+    - aeropuerto de kirkwall
+    - KOI
+
+- synonym: Guernsey
+  examples: |
+    - Guernsey
+    - guernsey
+    - aeropuerto de Guernsey
+    - Aeropuerto de Guernsey
+    - aeropuerto de guernsey
+    - GCI
+
+- synonym: Oxford
+  examples: |
+    - Oxford
+    - oxford
+    - aeropuerto de Oxford
+    - Aeropuerto de Oxford
+    - aeropuerto de oxford
+    - OXF
+
+- synonym: Foggia
+  examples: |
+    - Foggia
+    - foggia
+    - Fogia
+    - fogia
+    - aeropuerto de Foggia
+    - Aeropuerto de Foggia
+    - aeropuerto de foggia
+    - FOG
+
+- synonym: Perigueux
+  examples: |
+    - Perigueux
+    - perigueux
+    - periguo
+    - Periguo
+    - aeropuerto de Perigueux
+    - Aeropuerto de Perigueux
+    - aeropuerto de perigueux
+    - PGX
+
+- synonym: Lands End
+  examples: |
+    - Lands End
+    - lands end
+    - aeropuerto de Lands End
+    - Aeropuerto de Lands End
+    - aeropuerto de lands end
+    - LEQ
+
+- synonym: Floro
+  examples: |
+    - Floro
+    - floro
+    - aeropuerto de Floro
+    - Aeropuerto de Floro
+    - aeropuerto de floro
+    - FRO
+
+- synonym: Sogndal
+  examples: |
+    - Sogndal
+    - sogndal
+    - sogndahl
+    - Sogndahl
+    - aeropuerto de Sogndal
+    - Aeropuerto de Sogndal
+    - aeropuerto de sogndal
+    - SOG
+
+- synonym: Orsta-Volda
+  examples: |
+    - Orsta
+    - orsta
+    - Volda
+    - volda
+    - Orsta-Volda
+    - orsta-volda
+    - aeropuerto de Orsta
+    - Aeropuerto de Orsta
+    - aeropuerto de orsta
+    - aeropuerto de volda
+    - aeropuerto de Orsta-Volda
+    - aeropuerto de orsta-volda
+    - HOV
+
+- synonym: Sandnessjoen
+  examples: |
+    - Sandnessjoen
+    - sandnessjoen
+    - sandnesjoen
+    - Sandnesjoen
+    - aeropuerto de Sandnessjoen
+    - Aeropuerto de Sandnessjoen
+    - aeropuerto de sandnessjoen
+    - SSJ
+
+- synonym: Visby
+  examples: |
+    - Visby
+    - visby
+    - aeropuerto de Visby
+    - Aeropuerto de Visby
+    - aeropuerto de visby
+    - VBY
+
+- synonym: Mo i Rana
+  examples: |
+    - Mo i Rana
+    - mo i rana
+    - Mo i rana
+    - mo i Rana
+    - aeropuerto de Mo i Rana
+    - Aeropuerto de Mo i Rana
+    - aeropuerto de mo i rana
+    - MQN
+
+- synonym: Roros
+  examples: |
+    - Roros
+    - roros
+    - aeropuerto de Roros
+    - Aeropuerto de Roros
+    - aeropuerto de roros
+    - RRS
+
+- synonym: Bronnoysund
+  examples: |
+    - Bronnoysund
+    - bronnoysund
+    - bronoysund
+    - Bronoysund
+    - aeropuerto de Bronnoysund
+    - Aeropuerto de Bronnoysund
+    - aeropuerto de bronnoysund
+    - BNN
+
+- synonym: Stokmarknes
+  examples: |
+    - Stokmarknes
+    - stokmarknes
+    - stokmarknes
+    - Stokmarknes
+    - aeropuerto de Stokmarknes
+    - Aeropuerto de Stokmarknes
+    - aeropuerto de stokmarknes
+    - SKN
+
+- synonym: Mosjoen
+  examples: |
+    - Mosjoen
+    - mosjoen
+    - aeropuerto de Mosjoen
+    - Aeropuerto de Mosjoen
+    - aeropuerto de mosjoen
+    - MJF
+
+- synonym: Hasvik
+  examples: |
+    - Hasvik
+    - hasvik
+    - aeropuerto de Hasvik
+    - Aeropuerto de Hasvik
+    - aeropuerto de hasvik
+    - HAA
+
+- synonym: Berlevag
+  examples: |
+    - Berlevag
+    - berlevag
+    - aeropuerto de Berlevag
+    - Aeropuerto de Berlevag
+    - aeropuerto de berlevag
+    - BVG
+
+- synonym: Hammerfest
+  examples: |
+    - Hammerfest
+    - hammerfest
+    - hamerfest
+    - Hamerfest
+    - aeropuerto de Hammerfest
+    - Aeropuerto de Hammerfest
+    - aeropuerto de hammerfest
+    - HFT
+
+- synonym: Campbeltown
+  examples: |
+    - Campbeltown
+    - campbeltown
+    - aeropuerto de Campbeltown
+    - Aeropuerto de Campbeltown
+    - aeropuerto de campbeltown
+    - CAL
+
+- synonym: Joensuu
+  examples: |
+    - Joensuu
+    - joensuu
+    - joensu
+    - Joensu
+    - aeropuerto de Joensuu
+    - Aeropuerto de Joensuu
+    - aeropuerto de joensuu
+    - JOE
+
+- synonym: Rost
+  examples: |
+    - Rost
+    - rost
+    - aeropuerto de Rost
+    - Aeropuerto de Rost
+    - aeropuerto de rost
+    - RET
+
+- synonym: Lakselv
+  examples: |
+    - Lakselv
+    - lakselv
+    - aeropuerto de Lakselv
+    - Aeropuerto de Lakselv
+    - aeropuerto de lakselv
+    - LKL
+
+- synonym: Rygge
+  examples: |
+    - Rygge
+    - rygge
+    - ryge
+    - Ryge
+    - aeropuerto de Rygge
+    - Aeropuerto de Rygge
+    - aeropuerto de rygge
+    - ZXU
+
+- synonym: Kramfors
+  examples: |
+    - Kramfors
+    - kramfors
+    - aeropuerto de Kramfors
+    - Aeropuerto de Kramfors
+    - aeropuerto de kramfors
+    - KRF
+
+- synonym: Epinal
+  examples: |
+    - Epinal
+    - epinal
+    - aeropuerto de Epinal
+    - Aeropuerto de Epinal
+    - aeropuerto de epinal
+    - EPL
+
+- synonym: Sveg
+  examples: |
+    - Sveg
+    - sveg
+    - aeropuerto de Sveg
+    - Aeropuerto de Sveg
+    - aeropuerto de sveg
+    - EVG
+
+- synonym: Brescia
+  examples: |
+    - Brescia
+    - brescia
+    - aeropuerto de Brescia
+    - Aeropuerto de Brescia
+    - aeropuerto de brescia
+    - BRZ
+
+- synonym: Hagfors
+  examples: |
+    - Hagfors
+    - hagfors
+    - aeropuerto de Hagfors
+    - Aeropuerto de Hagfors
+    - aeropuerto de hagfors
+    - HFS
+
+- synonym: Lecce
+  examples: |
+    - Lecce
+    - lecce
+    - lece
+    - Lece
+    - aeropuerto de Lecce
+    - Aeropuerto de Lecce
+    - aeropuerto de lecce
+    - LCC
+
+- synonym: Freiburg
+  examples: |
+    - Freiburgo
+    - freiburgo
+    - Freiburg
+    - freiburg
+    - aeropuerto de Freiburgo
+    - Aeropuerto de Freiburgo
+    - aeropuerto de freiburgo
+    - aeropuerto de Freiburg
+    - Aeropuerto de Freiburg
+    - aeropuerto de freiburg
+    - QFB
+
+- synonym: Vicenza
+  examples: |
+    - Vicenza
+    - vicenza
+    - aeropuerto de Vicenza
+    - Aeropuerto de Vicenza
+    - aeropuerto de vicenza
+    - VIC
+
+- synonym: Toledo
+  examples: |
+    - Toledo
+    - toledo
+    - aeropuerto de Toledo
+    - Aeropuerto de Toledo
+    - aeropuerto de toledo
+    - XTJ
+
+- synonym: Soderhamn
+  examples: |
+    - Soderhamn
+    - soderhamn
+    - soderham
+    - Soderham
+    - aeropuerto de Soderhamn
+    - Aeropuerto de Soderhamn
+    - aeropuerto de soderhamn
+    - SOO
+
+- synonym: Lannion
+  examples: |
+    - Lannion
+    - lannion
+    - lanion
+    - Lanion
+    - aeropuerto de Lannion
+    - Aeropuerto de Lannion
+    - aeropuerto de lannion
+    - LAI
+
+- synonym: Breda
+  examples: |
+    - Breda
+    - breda
+    - aeropuerto de Breda
+    - Aeropuerto de Breda
+    - aeropuerto de breda
+    - GLZ
+
+- synonym: Oban
+  examples: |
+    - Oban
+    - oban
+    - aeropuerto de Oban
+    - Aeropuerto de Oban
+    - aeropuerto de oban
+    - OBN
+
+- synonym: Chester
+  examples: |
+    - Chester
+    - chester
+    - aeropuerto de Chester
+    - Aeropuerto de Chester
+    - aeropuerto de chester
+    - CEG
+
+- synonym: Ingolstadt
+  examples: |
+    - Ingolstadt
+    - ingolstadt
+    - ingolstald
+    - Ingolstald
+    - aeropuerto de Ingolstadt
+    - Aeropuerto de Ingolstadt
+    - aeropuerto de ingolstadt
+    - IGS
+
+- synonym: Grosseto
+  examples: |
+    - Grosseto
+    - grosseto
+    - groseto
+    - Groseto
+    - aeropuerto de Grosseto
+    - Aeropuerto de Grosseto
+    - aeropuerto de grosseto
+    - GRS
+
+- synonym: Hamburg/Finkenwerder
+  examples: |
+    - Finkenwerder
+    - finkenwerder
+    - aeropuerto de Hamburgo/Finkenwerder
+    - Aeropuerto de Hamburgo/Finkenwerder
+    - aeropuerto de hamburgo/finkenwerder
+    - hamburg finkenwerder
+    - hamburgo finkenwerder
+    - hamburg/finkenwerder
+    - hamburgo/finkenwerder
+    - XFW
+
+- synonym: Duisburg
+  examples: |
+    - Duisburg
+    - duisburg
+    - aeropuerto de Duisburg
+    - Aeropuerto de Duisburg
+    - aeropuerto de duisburg
+    - duisburgo
+    - Duisburgo
+    - DUI
+
+- synonym: Bath
+  examples: |
+    - Bath
+    - bath
+    - aeropuerto de Bath
+    - Aeropuerto de Bath
+    - aeropuerto de bath
+    - QQX
+
+- synonym: Lycksele
+  examples: |
+    - Lycksele
+    - lycksele
+    - lyksele
+    - Lyksele
+    - liksele
+    - Liksele
+    - aeropuerto de Lycksele
+    - Aeropuerto de Lycksele
+    - aeropuerto de lycksele
+    - LYC
+
+- synonym: Salen
+  examples: |
+    - Salen
+    - salen
+    - aeropuerto de Salen
+    - Aeropuerto de Salen
+    - aeropuerto de salen
+    - SCR
+
+- synonym: Udine
+  examples: |
+    - Udine
+    - udine
+    - aeropuerto de Udine
+    - Aeropuerto de Udine
+    - aeropuerto de udine
+    - UDN
+
+- synonym: Straubing
+  examples: |
+    - Straubing
+    - straubing
+    - aeropuerto de Straubing
+    - Aeropuerto de Straubing
+    - aeropuerto de straubing
+    - RBM
+
+- synonym: Aix en Provence
+  examples: |
+    - Aix en Provence
+    - aix
+    - Aix
+    - aix en provence
+    - aeropuerto de Aix en Provence
+    - Aeropuerto de Aix en Provence
+    - aeropuerto de aix en provence
+    - aeropuerto de aix
+    - aeropuerto de Aix
+    - AIX
+
+- synonym: Passau
+  examples: |
+    - Passau
+    - passau
+    - pasau
+    - Pasau
+    - aeropuerto de Passau
+    - Aeropuerto de Passau
+    - aeropuerto de passau
+    - ZPF
+
+- synonym: Wuerzburg
+  examples: |
+    - Wuerzburg
+    - wuerzburg
+    - wuerzburgo
+    - würzburg
+    - Würzburg
+    - aeropuerto de Wuerzburg
+    - Aeropuerto de Wuerzburg
+    - aeropuerto de wuerzburg
+    - QWU
+
+- synonym: Jena
+  examples: |
+    - Jena
+    - jena
+    - aeropuerto de Jena
+    - Aeropuerto de Jena
+    - aeropuerto de jena
+    - ZJS
+
+- synonym: Goettingen
+  examples: |
+    - Goettingen
+    - goettingen
+    - gottingen
+    - Gottingen
+    - gottinguen
+    - Gottinguen
+    - goetingen
+    - Goetingen
+    - aeropuerto de Goettingen
+    - Aeropuerto de Goettingen
+    - aeropuerto de goettingen
+    - ZEU
+
+- synonym: Juist
+  examples: |
+    - Juist
+    - juist
+    - aeropuerto de Juist
+    - Aeropuerto de Juist
+    - aeropuerto de juist
+    - JUI
+
+- synonym: Borkum
+  examples: |
+    - Borkum
+    - borkum
+    - aeropuerto de Borkum
+    - Aeropuerto de Borkum
+    - aeropuerto de borkum
+    - BMK
+
+- synonym: Bantry
+  examples: |
+    - Bantry
+    - bantry
+    - aeropuerto de Bantry
+    - Aeropuerto de Bantry
+    - aeropuerto de bantry
+    - BYT
+
+- synonym: Meribel
+  examples: |
+    - Meribel
+    - meribel
+    - aeropuerto de Meribel
+    - Aeropuerto de Meribel
+    - aeropuerto de meribel
+    - MFX
+
+- synonym: Meran
+  examples: |
+    - Meran
+    - meran
+    - aeropuerto de Meran
+    - Aeropuerto de Meran
+    - aeropuerto de meran
+    - ZMR
+
+- synonym: Mons
+  examples: |
+    - Mons
+    - mons
+    - aeropuerto de Mons
+    - Aeropuerto de Mons
+    - aeropuerto de mons
+    - QMO
+
+- synonym: Torsby
+  examples: |
+    - Torsby
+    - torsby
+    - aeropuerto de Torsby
+    - Aeropuerto de Torsby
+    - aeropuerto de torsby
+    - TYF
+    
+- synonym: Wuppertal
+  examples: |
+    - Wuppertal
+    - wuppertal
+    - wupertal
+    - Wupertal
+    - aeropuerto de Wuppertal
+    - Aeropuerto de Wuppertal
+    - aeropuerto de wuppertal
+    - UWP
+
+- synonym: Offenburg
+  examples: |
+    - Offenburg
+    - offenburg
+    - ofenburg
+    - Ofenburg
+    - offenburgo
+    - Offenburgo
+    - ofenburgo
+    - Ofenburgo
+    - aeropuerto de Offenburg
+    - Aeropuerto de Offenburg
+    - aeropuerto de offenburg
+    - ZPA
+
+- synonym: Sligo
+  examples: |
+    - Sligo
+    - sligo
+    - aeropuerto de Sligo
+    - Aeropuerto de Sligo
+    - aeropuerto de sligo
+    - SXL
+
+- synonym: Oldenburg
+  examples: |
+    - Oldenburg
+    - oldenburg
+    - oldenburgo
+    - Oldenburgo
+    - aeropuerto de Oldenburg
+    - Aeropuerto de Oldenburg
+    - aeropuerto de oldenburg
+    - ZPD
+    
+- synonym: Koblenz
+  examples: |
+    - Koblenz
+    - koblenz
+    - coblenz
+    - Coblenz
+    - aeropuerto de Koblenz
+    - Aeropuerto de Koblenz
+    - aeropuerto de koblenz
+    - ZNV
+
+- synonym: Le Creusot
+  examples: |
+    - Le Creusot
+    - le creusot
+    - le Creusot
+    - Le creusot
+    - aeropuerto de Le Creusot
+    - Aeropuerto de Le Creusot
+    - aeropuerto de le creusot
+    - XCC
+
+- synonym: Belluno
+  examples: |
+    - Belluno
+    - belluno
+    - beluno
+    - Beluno
+    - aeropuerto de Belluno
+    - Aeropuerto de Belluno
+    - aeropuerto de belluno
+    - BLX
+
+- synonym: Chaves
+  examples: |
+    - Chaves
+    - chaves
+    - aeropuerto de Chaves
+    - Aeropuerto de Chaves
+    - aeropuerto de chaves
+    - CHV
+
+- synonym: Inishmaan
+  examples: |
+    - Inishmaan
+    - inishmaan
+    - inihsman
+    - Inishman
+    - aeropuerto de Inishmaan
+    - Aeropuerto de Inishmaan
+    - aeropuerto de inishmaan
+    - IIA
+
+- synonym: Soria
+  examples: |
+    - Soria
+    - soria
+    - aeropuerto de Soria
+    - Aeropuerto de Soria
+    - aeropuerto de soria
+    - XJO
+    
+- synonym: Tortoli
+  examples: |
+    - Tortoli
+    - tortoli
+    - aeropuerto de Tortoli
+    - Aeropuerto de Tortoli
+    - aeropuerto de tortoli
+    - TTB
+
+- synonym: Zoersel
+  examples: |
+    - Zoersel
+    - zoersel
+    - zorsel
+    - Zorsel
+    - aeropuerto de Zoersel
+    - Aeropuerto de Zoersel
+    - aeropuerto de zoersel
+    - OBL
+
+- synonym: Schwerin
+  examples: |
+    - Schwerin
+    - schwerin
+    - aeropuerto de Schwerin
+    - Aeropuerto de Schwerin
+    - aeropuerto de schwerin
+    - SZW
+
+- synonym: Warnemuende
+  examples: |
+    - Warnemuende
+    - warnemuende
+    - warnemunde
+    - Warnemunde
+    - aeropuerto de Warnemuende
+    - Aeropuerto de Warnemuende
+    - aeropuerto de warnemuende
+    - ZWD
+
+- synonym: Frosinone
+  examples: |
+    - Frosinone
+    - frosinone
+    - frosinon
+    - Frosinon
+    - aeropuerto de Frosinone
+    - Aeropuerto de Frosinone
+    - aeropuerto de frosinone
+    - QFR
+
+- synonym: Stralsund
+  examples: |
+    - Stralsund
+    - stralsund
+    - aeropuerto de Stralsund
+    - Aeropuerto de Stralsund
+    - aeropuerto de stralsund
+    - BBH
+
+- synonym: Lindau
+  examples: |
+    - Lindau
+    - lindau
+    - aeropuerto de Lindau
+    - Aeropuerto de Lindau
+    - aeropuerto de lindau
+    - QII
+
+- synonym: Mikkeli
+  examples: |
+    - Mikkeli
+    - mikkeli
+    - mikeli
+    - Mikeli
+    - mikelli
+    - Mikelli
+    - aeropuerto de Mikkeli
+    - Aeropuerto de Mikkeli
+    - aeropuerto de mikkeli
+    - MIK
+
+- synonym: Inisheer
+  examples: |
+    - Inisheer
+    - inisheer
+    - inihsher
+    - Inishir
+    - aeropuerto de Inisheer
+    - Aeropuerto de Inisheer
+    - aeropuerto de inisheer
+    - INQ
+
+- synonym: Milton Keynes
+  examples: |
+    - Milton Keynes
+    - milton keynes
+    - aeropuerto de Milton Keynes
+    - Aeropuerto de Milton Keynes
+    - aeropuerto de milton keynes
+    - KYN
+
+- synonym: Hamm
+  examples: |
+    - Hamm
+    - hamm
+    - aeropuerto de Hamm
+    - Aeropuerto de Hamm
+    - aeropuerto de hamm
+    - ZNB
+
+- synonym: Seinajoki
+  examples: |
+    - Seinajoki
+    - seinajoki
+    - seinjoki
+    - aeropuerto de Seinajoki
+    - Aeropuerto de Seinajoki
+    - aeropuerto de seinajoki
+    - SJY
+
+- synonym: Chemnitz
+  examples: |
+    - Chemnitz
+    - chemnitz
+    - kemnitz
+    - Kemnitz
+    - aeropuerto de Chemnitz
+    - Aeropuerto de Chemnitz
+    - aeropuerto de chemnitz
+    - ZTZ
+
+- synonym: Bochum
+  examples: |
+    - Bochum
+    - bochum
+    - bochun
+    - Bochun
+    - aeropuerto de Bochum
+    - Aeropuerto de Bochum
+    - aeropuerto de bochum
+    - QBO
+
+- synonym: Solingen
+  examples: |
+    - Solingen
+    - solingen
+    - aeropuerto de Solingen
+    - Aeropuerto de Solingen
+    - aeropuerto de solingen
+    - ZIO
+
+- synonym: Varkaus
+  examples: |
+    - Varkaus
+    - varkaus
+    - aeropuerto de Varkaus
+    - Aeropuerto de Varkaus
+    - aeropuerto de varkaus
+    - VRK
+
+- synonym: Notodden
+  examples: |
+    - Notodden
+    - notodden
+    - notoden
+    - Notoden
+    - aeropuerto de Notodden
+    - Aeropuerto de Notodden
+    - aeropuerto de notodden
+    - NTB
+
+- synonym: Lund
+  examples: |
+    - Lund
+    - lund
+    - aeropuerto de Lund
+    - Aeropuerto de Lund
+    - aeropuerto de lund
+    - XGC
+
+- synonym: Ulm
+  examples: |
+    - Ulm
+    - ulm
+    - aeropuerto de Ulm
+    - Aeropuerto de Ulm
+    - aeropuerto de ulm
+    - QUL
+
+- synonym: Norden
+  examples: |
+    - Norden
+    - norden
+    - aeropuerto de Norden
+    - Aeropuerto de Norden
+    - aeropuerto de norden
+    - NOD
+
+- synonym: Piacenza
+  examples: |
+    - Piacenza
+    - piacenza
+    - aeropuerto de Piacenza
+    - Aeropuerto de Piacenza
+    - aeropuerto de piacenza
+    - QPZ
+
+- synonym: Ramstein
+  examples: |
+    - Ramstein
+    - ramstein
+    - aeropuerto de Ramstein
+    - Aeropuerto de Ramstein
+    - aeropuerto de ramstein
+    - RMS
+
+- synonym: Neumuenster
+  examples: |
+    - Neumuenster
+    - neumuenster
+    - neumunster
+    - Neumunster
+    - aeropuerto de Neumuenster
+    - Aeropuerto de Neumuenster
+    - aeropuerto de neumuenster
+    - EUM
+
+- synonym: Eisenach
+  examples: |
+    - Eisenach
+    - eisenach
+    - eisenac
+    - Eisenac
+    - aeropuerto de Eisenach
+    - Aeropuerto de Eisenach
+    - aeropuerto de eisenach
+    - EIB
+
+- synonym: Gelsenkirchen
+  examples: |
+    - Gelsenkirchen
+    - gelsenkirchen
+    - gelsenckirchen
+    - Gelsenckirchen
+    - aeropuerto de Gelsenkirchen
+    - Aeropuerto de Gelsenkirchen
+    - aeropuerto de gelsenkirchen
+    - ZEJ
+
+- synonym: Oberhausen
+  examples: |
+    - Oberhausen
+    - oberhausen
+    - oberhause
+    - Oberhause
+    - aeropuerto de Oberhausen
+    - Aeropuerto de Oberhausen
+    - aeropuerto de oberhausen
+    - ZOY
+
+- synonym: Lahr
+  examples: |
+    - Lahr
+    - lahr
+    - aeropuerto de Lahr
+    - Aeropuerto de Lahr
+    - aeropuerto de lahr
+    - LHA
+
+- synonym: Arnhem
+  examples: |
+    - Arnhem
+    - arnhem
+    - aeropuerto de Arnhem
+    - Aeropuerto de Arnhem
+    - aeropuerto de arnhem
+    - ZYM
+
+- synonym: Varrelbusch
+  examples: |
+    - Varrelbusch
+    - varrelbusch
+    - aeropuerto de Varrelbusch
+    - Aeropuerto de Varrelbusch
+    - aeropuerto de varrelbusch
+    - VAC
+
+- synonym: Gap
+  examples: |
+    - Gap
+    - gap
+    - aeropuerto de Gap
+    - Aeropuerto de Gap
+    - aeropuerto de gap
+    - GAT
+
+- synonym: Lilleh
+  examples: |
+    - Lilleh
+    - lilleh
+    - aeropuerto de Lilleh
+    - Aeropuerto de Lilleh
+    - aeropuerto de lilleh
+    - XXL
+
+- synonym: Northolt
+  examples: |
+    - Northolt
+    - northolt
+    - aeropuerto de Northolt
+    - Aeropuerto de Northolt
+    - aeropuerto de northolt
+    - NHT
+
+- synonym: Gera
+  examples: |
+    - Gera
+    - gera
+    - aeropuerto de Gera
+    - Aeropuerto de Gera
+    - aeropuerto de gera
+    - ZGA
+
+- synonym: Lucca
+  examples: |
+    - Lucca
+    - lucca
+    - luca
+    - Luca
+    - aeropuerto de Lucca
+    - Aeropuerto de Lucca
+    - aeropuerto de lucca
+    - LCV
+
+- synonym: Modena
+  examples: |
+    - Modena
+    - modena
+    - aeropuerto de Modena
+    - Aeropuerto de Modena
+    - aeropuerto de modena
+    - ZMO
+
+- synonym: Reggio Nell Emilia
+  examples: |
+    - Reggio Nell Emilia
+    - reggio nell emilia
+    - Nell Emilia
+    - nell emilia
+    - aeropuerto de Reggio Nell Emilia
+    - Aeropuerto de Reggio Nell Emilia
+    - aeropuerto de reggio nell emilia
+    - ZRO
+
+- synonym: Suhl
+  examples: |
+    - Suhl
+    - suhl
+    - aeropuerto de Suhl
+    - Aeropuerto de Suhl
+    - aeropuerto de suhl
+    - ZSO
+
+- synonym: Narvik
+  examples: |
+    - Narvik
+    - narvik
+    - aeropuerto de Narvik
+    - Aeropuerto de Narvik
+    - aeropuerto de narvik
+    - NVK
+
+- synonym: Varese
+  examples: |
+    - Varese
+    - varese
+    - aeropuerto de Varese
+    - Aeropuerto de Varese
+    - aeropuerto de varese
+    - QVA
+
+- synonym: Arezzo
+  examples: |
+    - Arezzo
+    - arezzo
+    - arezo
+    - Arezo
+    - aeropuerto de Arezzo
+    - Aeropuerto de Arezzo
+    - aeropuerto de arezzo
+    - QZO
+
+- synonym: San Pedro Alcantara
+  examples: |
+    - San Pedro Alcántara
+    - san pedro alcántara
+    - San Pedro Alcantara
+    - san pedro alcantara
+    - aeropuerto de San Pedro Alcántara
+    - Aeropuerto de San Pedro Alcántara
+    - aeropuerto de san pedro alcántara
+    - aeropuerto de San Pedro Alcantara
+    - ZRC
+
+- synonym: Arles
+  examples: |
+    - Arles
+    - arles
+    - aeropuerto de Arles
+    - Aeropuerto de Arles
+    - aeropuerto de arles
+    - ZAF
+
+- synonym: Egelsbach
+  examples: |
+    - Egelsbach
+    - egelsbach
+    - aeropuerto de Egelsbach
+    - Aeropuerto de Egelsbach
+    - aeropuerto de egelsbach
+    - QEF
+
+- synonym: Apeldoorn
+  examples: |
+    - Apeldoorn
+    - apeldoorn
+    - apeldorn
+    - Apeldorn
+    - aeropuerto de Apeldoorn
+    - Aeropuerto de Apeldoorn
+    - aeropuerto de apeldoorn
+    - QYP
+
+- synonym: Sodankyla
+  examples: |
+    - Sodankyla
+    - sodankyla
+    - sodankila
+    - Sodankila
+    - aeropuerto de Sodankyla
+    - Aeropuerto de Sodankyla
+    - aeropuerto de sodankyla
+    - SOT
+
+- synonym: Karlskoga
+  examples: |
+    - Karlskoga
+    - karlskoga
+    - aeropuerto de Karlskoga
+    - Aeropuerto de Karlskoga
+    - aeropuerto de karlskoga
+    - KSK
+
+- synonym: Maribo
+  examples: |
+    - Maribo
+    - maribo
+    - aeropuerto de Maribo
+    - Aeropuerto de Maribo
+    - aeropuerto de maribo
+    - MRW
+
+- synonym: Andalsnes
+  examples: |
+    - Andalsnes
+    - andalsnes
+    - andalnes
+    - Andalnes
+    - aeropuerto de Andalsnes
+    - Aeropuerto de Andalsnes
+    - aeropuerto de andalsnes
+    - XGI
+
+- synonym: Wismar
+  examples: |
+    - Wismar
+    - wismar
+    - aeropuerto de Wismar
+    - Aeropuerto de Wismar
+    - aeropuerto de wismar
+    - ZWM
+
+- synonym: Lueneburg
+  examples: |
+    - Lueneburg
+    - lueneburg
+    - luneburgo
+    - Luneburgo
+    - aeropuerto de Lueneburg
+    - Aeropuerto de Lueneburg
+    - aeropuerto de lueneburg
+    - ZOG
+
+- synonym: Schoena
+  examples: |
+    - Schoena
+    - schoena
+    - schoen
+    - Schoen
+    - aeropuerto de Schoena
+    - Aeropuerto de Schoena
+    - aeropuerto de schoena
+    - ZSC
+
+- synonym: Fredrikstad
+  examples: |
+    - Fredrikstad
+    - fredrikstad
+    - aeropuerto de Fredrikstad
+    - Aeropuerto de Fredrikstad
+    - aeropuerto de fredrikstad
+    - XKF
+
+- synonym: Cottbus
+  examples: |
+    - Cottbus
+    - cottbus
+    - cotbus
+    - Cotbus
+    - aeropuerto de Cottbus
+    - Aeropuerto de Cottbus
+    - aeropuerto de cottbus
+    - CBU
+
+- synonym: Letterkenny
+  examples: |
+    - Letterkenny
+    - letterkenny
+    - laterkenny
+    - Laterkenny
+    - laterkeny
+    - Laterkeny
+    - latterkeny
+    - Latterkeny
+    - aeropuerto de Letterkenny
+    - Aeropuerto de Letterkenny
+    - aeropuerto de letterkenny
+    - LTR
+
+- synonym: Baltasound
+  examples: |
+    - Baltasound
+    - baltasound
+    - balta
+    - Balta
+    - aeropuerto de Baltasound
+    - Aeropuerto de Baltasound
+    - aeropuerto de baltasound
+    - UNT
+
+- synonym: Market Harborough
+  examples: |
+    - Market Harborough
+    - market harborough
+    - aeropuerto de Market Harborough
+    - Aeropuerto de Market Harborough
+    - aeropuerto de market harborough
+    - XQM
+
+- synonym: Kilkenny
+  examples: |
+    - Kilkenny
+    - kilkenny
+    - kilkeny
+    - Kilkeny
+    - aeropuerto de Kilkenny
+    - Aeropuerto de Kilkenny
+    - aeropuerto de kilkenny
+    - KKY
+
+- synonym: York
+  examples: |
+    - York
+    - york
+    - aeropuerto de York
+    - Aeropuerto de York
+    - aeropuerto de york
+    - QQY
+
+- synonym: Crewe
+  examples: |
+    - Crewe
+    - crewe
+    - aeropuerto de Crewe
+    - Aeropuerto de Crewe
+    - aeropuerto de crewe
+    - XVC
+
+- synonym: Siegburg
+  examples: |
+    - Siegburg
+    - siegburg
+    - seigburgo
+    - Seigburgo
+    - aeropuerto de Siegburg
+    - Aeropuerto de Siegburg
+    - aeropuerto de siegburg
+    - ZPY
+
+- synonym: Stoke On Trent
+  examples: |
+    - Stoke On Trent
+    - stoke on trent
+    - Stocke On Trent
+    - stocke on trent
+    - aeropuerto de Stoke On Trent
+    - Aeropuerto de Stoke On Trent
+    - aeropuerto de stoke on trent
+    - XWH
+
+- synonym: Thisted
+  examples: |
+    - Thisted
+    - thisted
+    - thistead
+    - Thistead
+    - aeropuerto de Thisted
+    - Aeropuerto de Thisted
+    - aeropuerto de thisted
+    - TED
+
+- synonym: Tottenham Hale Station
+  examples: |
+    - Tottenham
+    - tottenham
+    - tottenham hale station
+    - Tottenham Hale Station
+    - totenham
+    - Totenham
+    - aeropuerto de Tottenham
+    - Aeropuerto de Tottenham
+    - aeropuerto de tottenham
+    - aeropuerto de Tottenham Hale Station
+    - Aeropuerto de Tottenham Hale Station
+    - aeropuerto de tottenham hale station
+    - TTK
+
+- synonym: Sodertalje
+  examples: |
+    - Sodertalje
+    - sodertalje
+    - sodertalie
+    - Sodertale
+    - aeropuerto de Sodertalje
+    - Aeropuerto de Sodertalje
+    - aeropuerto de sodertalje
+    - JSO
+
+- synonym: Lubeck
+  examples: |
+    - Lubeck
+    - lubeck
+    - lubek
+    - Lubek
+    - lübeck
+    - Lübeck
+    - aeropuerto de Lubeck
+    - Aeropuerto de Lubeck
+    - aeropuerto de lubeck
+    - LBC
+
+- synonym: Fulda
+  examples: |
+    - Fulda
+    - fulda
+    - aeropuerto de Fulda
+    - Aeropuerto de Fulda
+    - aeropuerto de fulda
+    - ZEE
+
+- synonym: Peterborough
+  examples: |
+    - Peterburgo
+    - peterburgo
+    - Peterborough
+    - peterborough
+    - peteborough
+    - Peteborough
+    - petterbourgh
+    - Petterbourgh
+    - aeropuerto de Peterburgo
+    - Aeropuerto de Peterburgo
+    - aeropuerto de peterburgo
+    - aeropuerto de Peterborough
+    - Aeropuerto de Peterborough
+    - aeropuerto de peterborough
+    - XVH
+
+- synonym: Hagen
+  examples: |
+    - Hagen
+    - hagen
+    - aeropuerto de Hagen
+    - Aeropuerto de Hagen
+    - aeropuerto de hagen
+    - ZEY
+
+- synonym: Ansbach
+  examples: |
+    - Ansbach
+    - ansbach
+    - aeropuerto de Ansbach
+    - Aeropuerto de Ansbach
+    - aeropuerto de ansbach
+    - QOB
+
+- synonym: Mainz
+  examples: |
+    - Mainz
+    - mainz
+    - aeropuerto de Mainz
+    - Aeropuerto de Mainz
+    - aeropuerto de mainz
+    - QMZ
+
+- synonym: Norderney
+  examples: |
+    - Norderney
+    - norderney
+    - aeropuerto de Norderney
+    - Aeropuerto de Norderney
+    - aeropuerto de norderney
+    - NRD
+
+- synonym: Marina Di Massa
+  examples: |
+    - Marina Di Massa
+    - marina di massa
+    - Marina
+    - marina
+    - aeropuerto de Marina Di Massa
+    - Aeropuerto de Marina Di Massa
+    - aeropuerto de marina di massa
+    - QMM
+
+- synonym: Vojens
+  examples: |
+    - Vojens
+    - vojens
+    - aeropuerto de Vojens
+    - Aeropuerto de Vojens
+    - aeropuerto de vojens
+    - SKS
+
+- synonym: Hengelo
+  examples: |
+    - Hengelo
+    - hengelo
+    - aeropuerto de Hengelo
+    - Aeropuerto de Hengelo
+    - aeropuerto de hengelo
+    - QYH
+- synonym: Fritzlar
+  examples: |
+    - Fritzlar
+    - fritzlar
+    - aeropuerto de Fritzlar
+    - Aeropuerto de Fritzlar
+    - aeropuerto de fritzlar
+    - FRZ
+- synonym: Aschaffenburg
+  examples: |
+    - Aschaffenburg
+    - aschaffenburg
+    - aschaffenburgo
+    - Aschaffenburgo
+    - aschafenburg
+    - Aschafenburg
+    - aeropuerto de Aschaffenburg
+    - Aeropuerto de Aschaffenburg
+    - aeropuerto de aschaffenburg
+    - ZCB
+
+- synonym: Greifswald
+  examples: |
+    - Greifswald
+    - greifswald
+    - greifwald
+    - Greifwald
+    - aeropuerto de Greifswald
+    - Aeropuerto de Greifswald
+    - aeropuerto de greifswald
+    - ZGW
+
+- synonym: Riesa
+  examples: |
+    - Riesa
+    - riesa
+    - aeropuerto de Riesa
+    - Aeropuerto de Riesa
+    - aeropuerto de riesa
+    - IES
+
+- synonym: Kauhava
+  examples: |
+    - Kauhava
+    - kauhava
+    - kauava
+    - Kauava
+    - aeropuerto de Kauhava
+    - Aeropuerto de Kauhava
+    - aeropuerto de kauhava
+    - KAU
+    
+- synonym: Wyk
+  examples: |
+    - Wyk
+    - wyk
+    - aeropuerto de Wyk
+    - Aeropuerto de Wyk
+    - aeropuerto de wyk
+    - OHR
+
+- synonym: Ikast
+  examples: |
+    - Ikast
+    - ikast
+    - aeropuerto de Ikast
+    - Aeropuerto de Ikast
+    - aeropuerto de ikast
+    - QLZ
+
+- synonym: Guetersloh
+  examples: |
+    - Guetersloh
+    - guetersloh
+    - gueterslo
+    - Gueterslo
+    - aeropuerto de Guetersloh
+    - Aeropuerto de Guetersloh
+    - aeropuerto de guetersloh
+    - GUT
+
+- synonym: Decimomannu
+  examples: |
+    - Decimomannu
+    - decimomannu
+    - decimomanu
+    - Decimomanu
+    - aeropuerto de Decimomannu
+    - Aeropuerto de Decimomannu
+    - aeropuerto de decimomannu
+    - DCI
+
+- synonym: Peenemuende
+  examples: |
+    - Peenemuende
+    - peenemuende
+    - penemunde
+    - Penemunde
+    - aeropuerto de Peenemuende
+    - Aeropuerto de Peenemuende
+    - aeropuerto de peenemuende
+    - PEF
+
+- synonym: Kil
+  examples: |
+    - Kil
+    - kil
+    - aeropuerto de Kil
+    - Aeropuerto de Kil
+    - aeropuerto de kil
+    - XXN
+
+- synonym: Aviano
+  examples: |
+    - Aviano
+    - aviano
+    - aeropuerto de Aviano
+    - Aeropuerto de Aviano
+    - aeropuerto de aviano
+    - AVB
+
+- synonym: Vastervik
+  examples: |
+    - Vastervik
+    - vastervik
+    - vastervick
+    - Vastervick
+    - aeropuerto de Vastervik
+    - Aeropuerto de Vastervik
+    - aeropuerto de vastervik
+    - VVK
+
+- synonym: Varberg
+  examples: |
+    - Varberg
+    - varberg
+    - aeropuerto de Varberg
+    - Aeropuerto de Varberg
+    - aeropuerto de varberg
+    - XWV
+
+- synonym: Minden
+  examples: |
+    - Minden
+    - minden
+    - aeropuerto de Minden
+    - Aeropuerto de Minden
+    - aeropuerto de minden
+    - ZOM
+
+- synonym: Worms
+  examples: |
+    - Worms
+    - worms
+    - aeropuerto de Worms
+    - Aeropuerto de Worms
+    - aeropuerto de worms
+    - ZQV
+
+- synonym: Stockport
+  examples: |
+    - Stockport
+    - stockport
+    - aeropuerto de Stockport
+    - Aeropuerto de Stockport
+    - aeropuerto de stockport
+    - XVA
+
+- synonym: Illesheim
+  examples: |
+    - Illesheim
+    - illesheim
+    - ilesheim
+    - Ilesheim
+    - aeropuerto de Illesheim
+    - Aeropuerto de Illesheim
+    - aeropuerto de illesheim
+    - ILH
+
+- synonym: Rechlin
+  examples: |
+    - Rechlin
+    - rechlin
+    - aeropuerto de Rechlin
+    - Aeropuerto de Rechlin
+    - aeropuerto de rechlin
+    - REB
+    
+- synonym: Eskilstuna
+  examples: |
+    - Eskilstuna
+    - eskilstuna
+    - aeropuerto de Eskilstuna
+    - Aeropuerto de Eskilstuna
+    - aeropuerto de eskilstuna
+    - EKT
+
+
+- synonym: enero
+  examples: |
+    - 1 (enero)
+    - Enero
+    - enreo
+    - el primer mes del año
+    - el primer mes
+    - el mes primero
+    - mes uno
+ 
+- synonym: febrero
+  examples: |
+    - febrero
+    - Febrero
+    - el segundo mes del año
+    - el segundo mes
+    - el mes segundo
+
+- synonym: marzo
+  examples: |
+    - 3 (marzo)
+    - Marzo
+    - el tercer mes del año
+    - el tercer mes
+    - el mes tercero
+    - mes tres
+    - marco
+    - mazor
+
+- synonym: abril
+  examples: |
+    - 4 (abril)
+    - april
+    - avril
+    - Avril
+    - Abril
+    - el cuarto mes del año
+    - el cuarto mes
+    - el mes cuatro
+
+- synonym: mayo
+  examples: |
+    - 5 (mayo)
+    - Mayo
+    - el quinto mes del año
+    - el quinto mes
+    - mes cinco
+    - mallo
+    - maio
+    - Msyo
+
+- synonym: junio
+  examples: |
+    - 6 (junio)
+    - Junio
+    - el sexto mes del año
+    - el sexto mes
+    - mes seis
+    - jnuio
+    - Jnuio
+
+- synonym: julio
+  examples: |
+    - 7 (julio)
+    - Julio
+    - el séptimo mes del año
+    - el séptimo mes
+    - jluio
+    - mes siete
+
+- synonym: agosto
+  examples: |
+    - Agosto
+    - 8 (agosto)
+    - el octavo mes
+    - el octavo mes del año
+    - mes ocho
+    - Agosot
+    - agsoto
+
+- synonym: septiembre
+  examples: |
+    - 9 (septiembre)
+    - Septiembre
+    - el noveno mes del año
+    - el noveno mes
+    - mes nueve
+    - sptiembre
+    - setiembre
+    - Septiebre
+    - septiebmre
+
+- synonym: octubre
+  examples: |
+    - 10 (octubre)
+    - Octubre
+    - el décimo mes
+    - el décimo mes del año
+    - mes diez
+    - otubre
+    - octurbe
+    - octuvre
+    - odtubre
+
+- synonym: noviembre
+  examples: |
+    - 11 (noviembre)
+    - Noviembre
+    - noviebmre
+    - nobiembre
+    - novienvre
+    - noviebre
+    - Noviebre
+    - el mes once
+
+- synonym: diciembre
+  examples: |
+    - Diciembre
+    - diciebmre
+    - diciemre
+    - dicimvre
+    - dicienvre
+    - el mes doce
+    - 12 (diciembre)
+
+
+- synonym: en qué mes
+  examples: |
+    - cuándo
+    - en qué momento
+    - Cuándo
+    - cuando
+    - cnd
+    - cuadno
+    - (momento|época|periodo|epoca|período|temporada) en que
+    - (momento|época|periodo|epoca|período|temporada) cuando
+    - Cuando
+    - en qué (momento|época|periodo|epoca|período|temporada)
+    - En qué (momento|época|periodo|epoca|período|temporada)
+    - en que (momento|época|periodo|epoca|período|temporada)
+    - En que (momento|época|periodo|epoca|período|temporada)
+    - en q (momento|época|periodo|epoca|período|temporada)
+    - En q (momento|época|periodo|epoca|período|temporada)
+    - en qué (momento|época|periodo|epoca|período|temporada) del año
+    - En qué (momento|época|periodo|epoca|período|temporada) del año
+    - en que (momento|época|periodo|epoca|período|temporada) del año
+    - En que (momento|época|periodo|epoca|período|temporada) del año
+    - en q (momento|época|periodo|epoca|período|temporada) del año
+    - En q (momento|época|periodo|epoca|período|temporada) del año
+    - para cuándo
+    - para cuando
+    - para qué mes
+    - para que mes
+    - para qué momento
+    - para que momento
+    - para qué época
+    - para que época
+    - para qué periodo
+    - para que periodo
+    - para qué temporada
+    - para que temporada
+    - para cuál mes
+    - para cual mes
+    - para cuál momento
+    - para cual momento
+    - para cuál época
+    - para cual época
+    - para cuál periodo
+    - para cual periodo
+    - para qué mes del año
+    - para que mes del año
+    - para cuál mes del año
+    - para cual mes del año
+    - para qué momento del año
+    - para que momento del año
+    - para cuál momento del año
+    - para cual momento del año
+    - para qué época del año
+    - para que época del año
+    - para cuál época del año
+    - para cual época del año
+    - para qué periodo del año
+    - para que periodo del año
+    - para cuál periodo del año
+    - para cual periodo del año
+    - para qué temporada del año
+    - para que temporada del año
+
+
+- synonym: dia_gen
+  examples: |
+    - día de la semana
+    - dia
+    - dia de la semana
+    - día en la semana
+    - dia en la semana
+
+- synonym: lunes
+  examples: |
+    - Lunes
+    - el primer día de la semana
+    - lnues
+
+- synonym: martes
+  examples: |
+    - Martes
+    - el segundo día de la semana
+    - mrates
+    - marts
+
+- synonym: miércoles
+  examples: |
+    - Miércoles
+    - el tercer día de la semana
+    - miercoles
+    - miecroles
+    - miercoels
+
+- synonym: jueves
+  examples: |
+    - Jueves
+    - el cuarto día de la semana
+    - juebes
+    - juaves
+    - juevres
+
+- synonym: viernes
+  examples: |
+    - Viernes
+    - el quinto día de la semana  
+    - biernes
+    - bierne
+    - vienres
+
+- synonym: sábado 
+  examples: |
+    - Sábado
+    - el sexto día de la semana
+    - sabado
+    - savado
+    - sádado
+    - sabados
+    - sábados
+    - Sábados
+    - Sabados
+
+- synonym: domingo
+  examples: |
+    - Domingo
+    - el séptimo día de la semana
+    - domgio
+    - domigo
+    - doming
+    - domigos
+    - Domingos
+    - domingos
+
+- synonym: Bélgica
+  examples: |
+    - bélgica
+    - Belgica
+    - belgica
+    - béljica
+    - belgium
+    - Belgium
+    - belga
+    - Belga
+    - belgas
+    - Belgas
+
+- synonym: Alemania
+  examples: |
+    - alemania
+    - alamenia
+    - Germany
+    - germany
+    - Deutschland
+    - deutschland
+    - alemán
+    - Alemán
+    - aleman
+    - Aleman
+    - alemanes
+    - Alemanes
+    - alemana
+    - alemanas
+    - Alemanas
+    - Alemana
+
+- synonym: Dinamarca
+  examples: |
+    - dinamarca
+    - Denmark
+    - denmark
+    - dinamraca
+    - danés
+    - Danés
+    - danes
+    - Danes
+    - danesa
+    - Danesa
+    - dinmarco 
+    - Dinmarco
+    - dinamarqués
+    - Dinamarqués
+    - danimarquesa
+    - Danimarquesa
+    - danish
+    - Danish
+    - daneses
+    - Daneses
+    - dinamarqueses
+    - Dinamarqueses
+    - dinamarcos
+    - Dinamarcos
+    - danesas
+    - Danesas
+
+- synonym: España
+  examples: |
+    - españa
+    - Spain
+    - spain
+    - espana
+    - Espana
+    - español
+    - Español
+    - espanol
+    - Español
+    - spanish
+    - Spanish
+    - española
+    - Española
+    - espanola
+    - Espanola
+    - spagnola
+    - spagnolo
+    - españoles
+    - Españoles
+    - espanoles
+    - Espanoles
+    - españolas
+    - Españolas
+    - espanolas
+    - Espanolas
+  
+
+- synonym: Francia
+  examples: |
+    - francia
+    - France
+    - france
+    - fancia 
+    - francés
+    - Francés
+    - frances
+    - Frances
+    - french
+    - French
+    - francesa
+    - Francesa
+    - franceses
+    - Franceses
+    - francesas
+    - Francesas
+
+- synonym: Italia
+  examples: |
+    - italia
+    - Italy
+    - italy
+    - itlia
+    - italina
+    - italino
+    - italiano
+    - italiana
+    - Italiana
+    - Italiano
+    - italian
+    - Italian
+    - italians
+    - italianos
+    - Italianos
+    - italianas
+    - Italianas
+
+- synonym: Países Bajos
+  examples: |
+    - países bajos
+    - Países bajos
+    - Paises Bajos
+    - países Bajos
+    - paises Bajos
+    - Paises bajos
+    - Paises vajos
+    - Paises Vajos
+    - paises bajos
+    - paises vajos
+    - países vajos
+    - Netherlands
+    - netherlands
+    - holanda
+    - Holanda
+    - holandés
+    - Holandés
+    - holandes
+    - Holandes
+    - dutch
+    - Dutch
+    - neerlandés
+    - Neerlandés
+    - neerlandesa
+    - Neerlandesa
+    - neerlandes
+    - Neerlandes
+    - holandesa
+    - Holandesa
+    - olanda
+    - Olanda
+    - olandés
+    - olandesa
+    - olandes
+    - holandesas
+    - Holandesas
+    - neerlandesas
+    - Neerlandesas
+    
+- synonym: Finlandia
+  examples: |
+    - finlandia
+    - Finland
+    - finland
+    - finlandesa
+    - Finlandesa
+    - finlandés
+    - Finlandés
+    - finlandes
+    - Finlandes
+    - finés
+    - Finés
+    - finesa
+    - Finesa
+    - finlandiesa
+    - finlandiés
+    - finlandies
+    - fines
+    - Fines
+    - finish
+    - Finish
+    - finlandeses
+    - Finlandeses
+    - finlandesas
+    - Finlandesas
+  
+- synonym: Irlanda
+  examples: |
+    - irlandés
+    - Irlandés
+    - Ilranda
+    - irlandesa
+    - Irlandesa
+    - irlanda
+    - Ireland
+    - ireland
+    - irland
+    - Irland
+    - irlandes
+    - Irlandes
+    - irlandeses
+    - Irlandeses
+    - irlandesas
+    - Irlandesas
+
+- synonym: Noruega
+  examples: |
+    - Noreuga
+    - noruega
+    - Norway
+    - norway
+    - noruego
+    - Noruego
+    - norweigan
+    - Norweigan
+    - noruegos
+    - Noruegos
+    - noruegas
+    - Noruegas
+
+
+- synonym: Suecia
+  examples: |
+    - suecia
+    - Sweden
+    - sweden
+    - sueco
+    - Sueco
+    - sueca
+    - Sueca
+    - swedish
+    - Swedish
+    - suecos
+    - Suecos
+    - suecas
+    - Suecas
+
+- synonym: Reino Unido
+  examples: |
+    - reino unido
+    - Reino unido
+    - reino Unido
+    - uk
+    - UK
+    - United Kingdom
+    - united kingdom
+    - británico
+    - Británico
+    - britanico
+    - Britanico
+    - británica
+    - Británica
+    - britanica
+    - Britanica
+    - británicos
+    - Británicos
+    - britanicos
+    - Britanicos
+    - británicas
+    - Británicas
+    - britanicas
+    - Britanicas
+
+- synonym: Kenia
+  examples: |
+    - kenia
+    - Kenya
+    - kenyan
+    - Kenyan
+    - keniano
+    - kenya
+    - Keniano
+    - keniata
+    - Keniata
+    - kenianos
+    - Kenianos
+    - kenianas
+    - Kenianas
+
+
+- synonym: Portugal
+  examples: |
+    - portugal
+    - portugual
+    - Portugual
+    - portugués
+    - Portugués
+    - portuguesa
+    - Portuguesa
+    - portuguese
+    - Portuguese
+    - portugues
+    - Portugues
+    - portugés
+    - Portugés
+    - portugesa
+    - Portugesa
+    - portugueses
+    - Portugueses
+    - portuguesas
+    - Portuguesas
+    - portugeses
+    - Portugeses
+    - portugesas
+    - Portugesas
+
+- synonym: Argentina
+  examples: |
+    - argentina
+    - argentino
+    - mercado argentino
+    - argentinos
+    - Argentinos
+  
+- synonym: Brasil
+  examples: |
+    - brasil
+    - brasileño
+    - brasileña
+    - brasileños
+    - Brasileños
+    - brasileñas
+    - brasileiras
+    - brasileiros
+    - brasileras
+    - brasileros
+    - Brazil
+    - brazil
+    - Brasileño
+
+- synonym: Chile
+  examples: |
+    - chile
+    - chileno
+    - chilena
+    - chilenos
+    - Chilenos
+    - Chileno
+
+- synonym: Colombia
+  examples: |
+    - colombia
+    - colombiano
+    - colombiana
+    - colombianos
+    - Colombianos
+    - Colombianas
+    - Colombiano
+
+- synonym: Ecuador
+  examples: |
+    - ecuador
+    - ecuatoriano 
+    - ecuatoriana
+    - ecuatorianos
+    - Ecuatorianos
+    - Ecuatoriano
+    - ecuadoriano
+    - Ecuadoriano
+    - ecuadorianos
+
+- synonym: Paraguay
+  examples: |
+    - paraguay
+    - paraguayo
+    - paraguaya
+    - paraguayos
+    - Paraguayos
+    - Paraguayo
+
+- synonym: Perú 
+  examples: |
+    - perú
+    - peruano
+    - peruana
+    - peruanos
+    - Peruanos
+    - Peruano
+
+- synonym: Uruguay  
+  examples: |
+    - uruguay
+    - uruguayo
+    - uruguaya
+    - uruguayos
+    - Uruguayos
+    - Uruguayo
+
+- synonym: Venezuela
+  examples: |
+    - venezuela
+    - venezolano
+    - venezolana
+    - venezolanos
+    - Venezolanos
+    - Venezolano
+
+- synonym: México
+  examples: |
+    - méxico
+    - mexico
+    - mexicano
+    - mexicana
+    - mexicanos
+    - Mexicanos
+    - Méjico
+    - mejico
+    - mejicano
+    - mejicana
+    - mejicanos
+    - méjico
+    - Mejico
+    - Mexico
+
+- synonym: Cuba 
+  examples: |
+    - cuba
+    - cubano
+    - cubana
+    - cubanos
+    - Cubanos
+    - Cubano
+
+- synonym: Bolivia
+  examples: |
+    - bolivia
+    - boliviano
+    - boliviana
+    - bolivianos
+    - Bolivianos
+    - Boliviano
+    - volibianos
+    - voliviano
+    - Volibia
+
+- synonym: Costa Rica
+  examples: |
+    - costa rica
+    - costarricense
+    - costarricenses
+    - Costarricenses
+    - Costarricense
+
+- synonym: El Salvador  
+  examples: |
+    - el salvador
+    - salvadoreño
+    - salvadoreña
+    - salvadoreños
+    - Salvadoreños
+    - Salvadoreño
+
+- synonym: Guatemala
+  examples: |
+    - guatemala
+    - guatemalteco
+    - guatemalteca
+    - guatemaltecos
+    - Guatemaltecos
+    - Guatemalteco
+
+- synonym: Honduras
+  examples: |
+    - honduras
+    - hondureño
+    - hondureña
+    - hondureños
+    - Hondureños
+    - Hondureño
+
+- synonym: Nicaragua
+  examples: |
+    - nicaragua
+    - nicaragüense
+    - nicaragüenses
+    - Nicaragüenses
+    - Nicaragüense
+    - nicaraguense
+    - Nicaraguense
+
+- synonym: Panamá
+  examples: |
+    - panamá
+    - panameño
+    - panameña
+    - panameños
+    - Panameños
+    - Panameño
+    - panama
+    - Panama
+
+- synonym: República Dominicana
+  examples: |
+    - república dominicana
+    - dominicano
+    - dominicana
+    - dominicanos
+    - Dominicanos
+    - Dominicano
+    - republica dominicana
+    - Republica Dominicana
+    - republica Dominicana
+    - república Dominicana
+
+- synonym: Puerto Rico
+  examples: |
+    - puerto rico
+    - puertorriqueño
+    - puertorriqueña
+    - puertorriqueños
+    - Puertorriqueños
+    - Puertorriqueño
+
+- synonym: Canadá
+  examples: |
+    - canadá
+    - canada
+    - canadiense
+    - canadienses
+    - Canadienses
+    - Canadiense
+    - Canada
+
+- synonym: Rusia
+  examples: |
+    - rusia
+    - ruso
+    - rusa
+    - rusos
+    - Rusos
+    - Ruso
+
+- synonym: India
+  examples: |
+    - india
+    - indio
+    - indios
+    - Indios
+    - Indio
+
+- synonym: Japón
+  examples: |
+    - japón
+    - japon
+    - Japon
+    - japonés
+    - japones
+    - japonesa
+    - japoneses
+    - Japoneses
+    - Japones
+    - Japonés
+    - nipón
+    - nipon
+    - Nipón
+    - Nipon
+    - mercado nipón
+    - mercado japonés
+  
+- synonym: Tailandia
+  examples: |
+    - tailandia
+    - tailandés
+    - tailandesa
+    - tailandeses
+    - Tailandeses
+    - Tailandés
+    - tailandes
+    - Tailandes
+
+- synonym: Malasia
+  examples: |
+    - malasia
+    - malayo
+    - malaya
+    - malayos
+    - Malayos
+    - Malayo
+    - malasio
+    - Malasio
+
+- synonym: Turquía
+  examples: |
+    - turquía
+    - turquia
+    - turco
+    - turca
+    - turcos
+    - Turcos
+    - Turco
+    - Turquia
+
+- synonym: Marruecos
+  examples: |
+    - marruecos
+    - marroquí
+    - marroquíes
+    - Marroquíes
+    - Marroquí
+    - marroqui
+    - Marroqui
+    - marroquís
+
+- synonym: Túnez
+  examples: |
+    - túnez
+    - tunez
+    - tunecino
+    - tunecina
+    - tunecinos
+    - Tunecinos
+    - Tunecino
+    - Tunez
+
+- synonym: Egipto
+  examples: |
+    - egipto
+    - egipcio
+    - egipcia
+    - egipcios
+    - Egipcios
+    - Egipcio
+
+- synonym: Sudáfrica
+  examples: |
+    - sudáfrica
+    - sudafrica
+    - sudafricano
+    - sudafricana
+    - sudafricanos
+    - Sudafricanos
+    - Sudafricano
+    - Sudafrica
+
+- synonym: Australia
+  examples: |
+    - australia
+    - australiano
+    - australiana
+    - australianos
+    - Australianos
+    - Australiano
+
+- synonym: Nueva Zelanda
+  examples: |
+    - nueva zelanda
+    - nueva zelandia
+    - new zealand
+    - nueva Zelanda
+    - neozelandés
+    - neozelandesa
+    - neozelandeses
+    - Neozelandeses
+    - Neozelandés
+    - neozelandes
+    - Neozelandes
+    - neocelandés
+    - neocelandesa
+    - neocelandeses
+    - Neocelandeses
+    - Neocelandés
+    - neocelandes
+    - Neocelandes
+
+- synonym: Austria
+  examples: |
+    - austria
+    - austriaco 
+    - austriaca
+    - austriacos
+    - Austriacos
+    - Austriaco
+
+- synonym: Bulgaria
+  examples: |
+    - bulgaria
+    - búlgaro
+    - búlgara
+    - búlgaros
+    - Búlgaros
+    - Búlgaro
+    - bulgaro
+    - Bulgaro
+    - bulgaros
+    - Bulgaros
+
+- synonym: Rumanía
+  examples: |
+    - rumanía
+    - rumania
+    - rumano
+    - rumana
+    - rumanos
+    - Rumanos
+    - Rumano
+    - Rumania
+    - Romania
+
+- synonym: Letonia
+  examples: |
+    - letonia
+    - letón
+    - letonio
+    - letona
+    - letonos
+    - Letonos
+    - Letón
+    - Leton
+    - leton
+
+- synonym: Lituania
+  examples: |
+    - lituania
+    - lituano
+    - lituana
+    - lituanos
+    - Lituano
+    - Lituanos
+
+- synonym: Estonia
+  examples: |
+    - estonia
+    - estonio
+    - estonios
+    - Estonios
+    - Estonio
+  
+- synonym: CoV
+  examples: |
+    - Comunidad Valenciana
+    - comunidad valenciana
+    - Comunitat Valenciana
+    - comunitat valenciana
+    - Comunidad valenciana
+    - comunidad Valenciana
+    - Comunitat valenciana
+    - comunitat Valenciana
+    - COMUNIDAD VALENCIANA
+    - COMUNITAT VALENCIANA
+    - conmunidad valenciana
+    - Comundad Valenciana
+    - Comnidad Valenicana
+    - Comuniad Valencina
+    - Coomunidad Valenicana
+    - Comnidad Vaalenciana
+    - Comunidat Valencina
+    - Comuinidad Valenciasna
+    - Comunidada Valeinciana
+    - Comunidad Valennciana
+    - Comundiad Valeencina
+    - comundad valenciana
+    - comnidad valenicana
+    - comuniad valencina
+    - coomunidad valenicana
+    - comnidad vaalenciana
+    - comunidat valencina
+    - comuinidad valenciasna
+    - comunidada valeinciana
+    - comunidad valennciana
+    - comundiad valeencina
+    - Comunitat Valenicana
+    - Comuitat Valenicna
+    - Comunittat Valenicana
+    - Comunitaat Valnenciana
+    - Comnitat Valennciana
+    - Comunitat Valenncina
+    - Comunidat Valeincina
+    - Coomunitat Valencinaa
+    - Comuitat Valenciasna
+    - Comunittat Valencina
+    - comunitat valenicana
+    - comuitat valenicna
+    - comunittat valenicana
+    - comunitaat valnenciana
+    - comnitat valennciana
+    - comunitat valenncina
+    - comunidat valeincina
+    - coomunitat valencinaa
+    - comuitat valenciasna
+    - comunittat valencina
+    - comunidad Valenciana
+    - Comunidad valenciana
+    - conmunidad Valenciana
+    - Comunidad valenicana
+    - comunidad Valennciana
+    - Comunidad valencina
+    - Comunidad Valenicana
+    - comunidad valencina
+    - Comunidad Valeincina
+    - comunidad Valenciasna
+    - Comunidad valennciana
+    - comunidad Valenicana
+    - Comunidad valencina
+    - comunidad Valenncina
+    - Comunidad valenicana
+    - comunidad Valeinciana
+    - Comunidad valenicana
+    - comunidad Valenciana
+    - Comunidad valencina
+    - comunidad Valenicana
+    - cualquier destino
+    - cualquier aeropuerto
+    - cualquier lugar
+    - cualquier ciudad
+    - cualquier parte
+    - cualquier sitio
+    - cualquier ciudad de destino
+    - todos los aeropuertos de destino
+    - todos los destinos
+    - los tres destinos
+    - los tres aeropuertos
+    - las tres provincias
+    - cualquier provincia
+    - todas las provincias
+    - todas las ciudades
+    - cualquiera de las tres provincias
+    - todos los aeropuertos valencianos
+    - cualquier aeropuerto valenciano
+    - Alicante, Castellón y Valencia
+    - Alicante, Castellón y València
+    - alicante, castellón y valencia
+    - alicante, castellón y valència
+    - Alacant, Castelló i València
+    - alacant, castelló i valència
+    - Valencia, Alicante y Castellón
+    - Valencia, Alicante y Castelló
+    - valencia, alicante y castellón
+    - valencia, alicante y castelló
+    - València, Alacant i Castelló
+    - valència, alacant i castelló
+    - Valencia, Castellón y Alicante
+    - Valencia, Castelló y Alicante
+    - valencia, castellón y alicante
+    - valencia, castelló y alicante
+    - València, Castelló i Alacant
+    - valència, castelló i alacant
+    - Castellón, Valencia y Alicante
+    - Castellón, Valencia y Alacant
+    - castellón, valencia y alicante
+    - castellón, valencia y alacant
+    - Castelló, València i Alacant
+    - castelló, valència i alacant
+    - Castellón, Alicante y Valencia
+    - Castellón, Alicante y València
+    - castellón, alicante y valencia
+
+- synonym: ST
+  examples: |
+    - IA turt´stica
+    - ia turística
+    - ia turistica
+    - smarta tourism
+    - turismo smart
+
+- synonym: SIT
+  examples: |
+    - Sistema de inteligencia turística
+    - sistema de inetelianecia tuerística
+    - portal de inteligencia turística
+    - plataforma
+    - portal
+    - plataforma de inteligencia turística
+    - patlforma
+    - platafprma
+    - pataforma
+    - platapfmra
+    - portal web
+    - portal sit
+    - sit
+    - SIT
+    - s.i.t
+    - plataforma de ia turística
+    - web sit
+
+- synonym: informes
+  examples: |
+    - informe
+    - reportes
+    - estudios
+    - estudio
+    - boletín
+    - boletines
+    - informer
+    - reposter
+
+- synonym: SA
+  examples: |
+    - guia
+    - guías
+    - guias
+    - videotutorial
+    - videotutoriales
+    - manual
+    - manuales
+    - instrucciones
+    - manual de instrucciones
+    - manuales de instrucciones
+    - guía de uso
+    - guía de usuario
+    - guias de uso
+    - guias de usuario
+
+- synonym: NM
+  examples: |
+    - notas metodológicas
+    - notas
+    - metodología
+    - procesamiento de la información
+    - notas técnicas
+
+- synonym: VD 
+  examples: |
+    - graficos
+    - graficos dinamicos
+    - graficas
+    - graficas dinamicas
+    - visualización de datos
+    - visualización gráfica de la información
+    - visualizaciones gráficas
+    - visualizaciones de datos
+    - visualizaciones graficas
+    - visualizaciones interavtivas
+    - visualizaciones interactivas
+    - graficos interactivos
+    - gráficos interactivos
+    - graficas interactivas
+    - representaciones gráficas
+    - representaciones gráficas de datos
+    - representación gráfica
+    - garficos
+    - garficas
+    - gárficos
+    - gárficas
+    - grráficos
+    - visualaixaciones
+    - vislualizaciones
+    - visulizaciones
+    - visualicaciones dinámicas
+
+- synonym: VD 
+  examples: |
+    - visualizaciones genéricas
+    - visualizaciones genericas
+    - visualizaciones generales
+    - gráficos genéricos
+    - gráficos generales
+    - graficos genericos
+    - graficos generales
+    - gráficos genericos
+    - graficas genericas
+    - graficas generales
+    - gráficas genericas
+    - gráficas generales
+    - visualizaciones de datos genéricos
+    - visualizaciones de datos generales
+    - visuleixaocioens genericas
+    - bisualizaciones genericas
+    - visualizaciones gnerales
+    - vidualizaciones genericas
+    - gráficas genéticas
+    - graficas geneticas
+
+- synonym: datos 
+  examples: |
+    - datos
+    - data
+    - estadísticas
+    - estadisticas
+
+- synonym: turismo_internacional
+  examples: |
+    - turismo internacionall
+    - turismo intrenacional
+    - turismo internacoinal
+    - turismo intenracional
+    - turimso internacional
+    - turistas internaciinales
+    - turistas intenacioanlaes
+    - turistas estranjeros
+    - turistas extrangeros
+    - turistas extrtanjeros
+    - turismo de extranjeros
+    - turismo de estranjeros
+    - turismo de extrangeros
+    - viajantes extranjeros
+    - viajantes internacionales
+    - turistas alemanes
+    - turistas portugueses
+    - turistas franceses
+    - turistas italianos
+    - turistas belgas
+    - turistas daneses
+    - turistas finlandeses
+    - turistas suecos
+    - turistas británicos
+    - turistas irlandeses
+    - turistas noruegos
+    - turistas holandeses
+
+- synonym: turismo_nacional
+  examples: |
+    - turismo nacional
+    - turistas nacionales
+    - turistas nacionales españoles
+    - turistas españoles
+    - turistas espanoles
+    - turistas espanoles nacionales
+    - turismo de españoles
+    - turismo de espanoles
+    - turismo de nacionales
+    - viajeros nacionales
+    - viajeros españoles
+    - turismo de resiodentes
+    - turismo de residentes
+    - turismo deresidentes
+    - truismo de presidentes
+    - turismp de residentes
+    - turismp nacional
+    - turismo nacuonal
+
+- synonym: turismo_interno
+  examples: |
+    - turismo interno
+    - turistas internos
+    - turistas internos 
+    - turistas internos espanoles
+    - viajeros internos
+    - viajes internos
+    - viajeros de interior
+    - viajes de interior
+    - turismo de interior
+    - turismo de interio
+    - turismo interior
+    - turismpo interno
+    - turism interno
+    - turismo intreno
+    - rurismo interno
+    - turismo inyerno 
+  
+- synonym: caracteristicas
+  examples: |
+    - características
+    - caracteristicas
+    - particularidades
+    - praticularidades
+    - caractrisoticas
+    - caracterisitcas
+    - caracteristcias
+    - caracteriticas
+    - carateristicas
+    - carcteristicas
+    - caracteristcas
+    - caractristicas
+    - caracterísitcas
+    - caracteristiaas
+    - tipo de viaje
+    - tiop de viaje
+    - tipo de biaje
+    - tipo deviaje
+    - tipode viaje
+    - tipo devijaje
+    - tipo dev iaje
+    - tippo de viaje
+    - tpo de viaje
+    - tipo d viaje
+    - tipod e viaje
+    - tipo de vijaje
+    - tipo de vajie
+    - tipodeviaje
+    - tipp de viaje
+    - tip de viaje
+    - tipoo de viaje
+    - tipo de viage
+    - tipo de viahe
+    - tip de viaje
+    - tipo e viaje
+
+- synonym: densidad
+  examples: |
+    - densidad 
+    - densidad de turistas
+    - densidad turística
+    - dnsidad
+    - Densidad
+    - dnsiadad
+    - densiadad
+    - densidat
+    - sensidad
+    - densixdad
+
+- synonym: poblacion_flotante
+  examples: |
+    - población flotante
+    - poblacion flotante
+    - poblacion fltante
+    - poblaicon flotante
+    - viajeros flotantes
+    - visitantes flotantes
+    - turismo flotante
+    - povlacion flotante
+    - plabicon flotante
+    - poblaicón floatne
+    - poblacion faltante
+    - turismo foltante
+
+- synonym: presencia
+  examples: |
+    - persencia 
+    - presencia 
+    - preencia 
+    - pereencia 
+    - oresencia
+    - presensia
+    - precensia
+    - predencia
+    - presencioa
+    - presenxia
+
+- synonym: movilidad
+  examples: |
+    - movilidad
+    - mobilidad 
+    - movliidad 
+    - movilidaad
+    - movildiad
+    - movilidas
+    - omivilidad
+    - movibilodad
+    - movbilidad
+    - mpvilidad
+
+- synonym: perfil_turista
+  examples: |
+    - tipo de visitante
+    - tipo de viajero
+    - perfil del turista
+    - tipo de turista
+    - clase de turista
+    - perfil del visitante
+    - perfil del viajero
+    - perfil del turismo
+    - clase de viajeros
+    - clase de visitantes
+    - clase de viajero
+    - perfil de los turistas
+    - perfiles de turista
+    - modelo de turista
+    - modelo de visitante
+    - modelo de viajero
+    - arquetipo de turista
+    - arquetipo de visitante
+    - arquetipo de viajero
+    - arquetipos de turista
+    - patrón de turista
+    - perfil demográfico
+    - perfil sociodemográfico
+    - tipología de turista
+    - tipología de visitante
+    - tipología de viajero
+    - tipologías de turista
+    - tipología del turista
+    - prefil de turista
+    - perfill de turista
+    - perfil deturista
+    - perfilde turista
+
+- synonym: gasto_turistico
+  examples: |
+    - inversion economica
+    - inversión economica
+    - inversion económica
+    - inversión monetaria
+    - inversion monetaria
+    - inversión financiera
+    - inversion financiera
+    - desembolso economico
+    - desembolso monetario
+    - desembolso financiero
+    - gastos
+    - gsato turiístico
+    - gasto turisticp
+    - gastp turistico
+    - gasto turísticp
+    - gastp turístico
+    - gastoturistico
+    - gasto turisiico
+
+- synonym: alojamientos
+  examples: |
+    - alojamientos turísticos
+    - aljoamientos
+    - alojamementos
+    - alojameintos
+    - alojamentos
+    - alojaminetos
+    - alojamiento turístico
+    - hospedaje
+    - hospedajes
+    - ospedajes
+    - hospedages
+    - alojan
+    - halojamientos
+    - alojar
+    - aloja
+    - alojaron
+    - hospeda
+    - hospedan
+    - hospedar
+    - albergues
+    - albergue
+    - alberge
+    - alberges
+    - albregues
+    - albregeus
+    - moteles
+    - motel
+    - hostal
+    - hostales
+    
+- synonym: hoteles
+  examples: |
+    - hotel
+    - hoteles
+    - hotelero
+    - hotelera
+    - hoteleros
+    - hoteleras
+    - oteles
+    - otel
+    - otelero
+    - otelera
+    - oteleros
+    - oteleras
+    - htoles
+    - holtels
+    - hotlees
+    - hotle
+
+- synonym: apartamento
+  examples: |
+    - apartamentos
+    - apartamento 
+    - apartament
+    - aprtamento
+    - apartametno
+    - apartametnos
+    - apartametnos
+    - paratamentos
+    - pisos turísticos
+    - piso turístico
+    - pisos turisticos
+    - piso turistico
+
+- synonym: campings
+  examples: |
+    - camping
+    - campings
+    - campin
+    - campins
+    - campinng
+    - campinngs
+    - cámpin
+    - cámping
+    - cánpins
+    - cánpin
+    - canpin
+    - canpings
+    - campines
+    - campamentos
+    - campamento
+    - campanemtnos
+    - campanemtno
+    - campametno
+    - campametnos
+    
+- synonym: demanda
+  examples: |
+    - demadna
+    - deemanda
+    - dmanda
+    - demanada
+    - peticiones
+    - petición
+    - necesidad
+    - necesidades
+    - solicitud
+    - solicitudes
+
+- synonym: oferta
+  examples: |
+    - hoferta
+    - ofreta
+    - ofrta
+    - oferat
+    - ofertaa
+    - ofertadas
+    - ofertados
+    - ofertan
+    - ofertar
+    - ofertaron
+    - ofertada
+    - ofertado
+
+- synonym: alojamientos_rurales
+  examples: |
+    - halojamientos rurales
+    - turimo rural
+    - urismo rural
+    - casas de campo
+    - casa de campo
+    - viviendas campestres
+    - hoteles campestres
+    - apartamentos campestres
+    - estancias rurales
+    - alojamientos en el campo
+    - fincas rurales
+    - espacios rurales
+    - haciendas rurales
+    - residencias rurales
+    - refugios rurales
+    - alojamientos en la naturaleza
+    - alojamientos en el campo
+    - otel rural
+    - apramtento rural
+    - apatramento campestre
+    - hotel de campo
+    - hotel campestre
+    - hotel de pueblo
+    - turismo campestre
+  
+- synonym: vuelos
+  examples: |
+    - vuelo
+    - vlueos
+    - vuelso
+    - vuelps
+    - vuels
+    - veulos
+    - buelos
+    - trafico aero
+    - tráfico aéreo
+    - tráfico aereo
+    - trafico aereo
+    - trafico aéreo
+    - trafico aerep
+    - traficp aereos
+    - trafico aereos
+    - vurelos
+
+- synonym: conectividad
+  examples: |
+    - Conectividad
+    - conectibidad
+    - Conectibidad
+    - conectividaa
+    - conexiones
+    - conetcadas
+    - conectadas
+    - conectados
+    - conectivosad
+    - conecitivad
+    - conecitvidad
+    - conexionesz
+    - cpnexiones
+    - conesiones
+    - conecciones
+
+- synonym: estancia_nocturna
+  examples: |
+    - estancias nocturnas
+    - estancias nocturnas
+    - estancias nocturnas
+    - estancias no nocturnas
+    - estancias no nocturnas
+    - noches de estancia
+    - noches de estancias
+    - noches de estancia
+    - viajes nocturnos
+    - viajes de noche
+    - estancias de noche
+    - estamncias por la noche
+    - estancias por las noches
+    - estancia por la noche
+    - estancia de noche
+    - estadía nocturna
+    - estadia nocturna
+    - estadía de noche
+    - turismo nocturno
+    - viajeros de noche
+    - turistas de noche
+
+- synonym: estancia_diurna
+  examples: |
+    - estancias diurnas
+    - estancias de día
+    - estancias durante el día
+    - estancias por el día
+    - estancia por el día
+    - estancia de día
+    - viajes diurnos
+    - viajes de día
+    - turismo diurno
+    - estadía diurna
+    - estadia diurna
+    - estadía de día
+    - turistas de día
+    - viajeros de día
+    - visitas de día
+    - visitas diurnas
+
+- synonym: capacidad
+  examples: |
+    - capacidaa
+    - capcidad
+    - Capacidad
+    - capacidd
+    - capacidades
+    - capaidad
+    - cpacidadd
+    - cspacidad
+    - caoacidad
+    - capavidad
+    - capadidad
+    - vapacidad
+    - capscidad
+
+- synonym: busquedas
+  examples: |
+    - busqueda
+    - búsqueda
+    - busquedas
+    - búsquedas
+    - busquedaa
+    - búsquedaa
+    - bsuqueda
+    - bsuquedas
+    - bsúqueda
+    - buskeda
+    - buskedas
+    - busqedas
+    - busqeda
+    - Búsquedas
+    - Busquedas
+    - Búsqueda
+    - Busqueda
+    - vusqueda
+    - vúsqueda
+    - vusquedas
+    - vúsquedaas
+    - budquedas
+    - buswedas
+    - busqurdas
+    - busqiwedas
+    - busquedsas
+    - busquedad
+    - consultas
+    - Consultas
+    - consuklta
+    - consukltas
+    - consutla
+    - consutlas
+    - Consulta
+    - comsulta
+    - comsultas
+    - consuktas
+
+
+- synonym: reservas
+  examples: |
+    - reserva
+    - reservas
+    - reservaciones
+    - reservación
+    - reservasiones
+    - reservasión
+    - reservasiones
+    - reservasión
+    - reserba
+    - reserbaciones
+    - reserbación
+    - reserbaciones
+    - reserbacion
+    - reservacion
+    - reservasion
+    - Reserva
+    - Reservas
+    - Reservaciones
+    - Reservación
+    - rederva
+    - redervaciones
+    - redervación
+    - reaerva
+    - reaervaciones
+    - reservacciones
+    - reservaccioens
+    - reservacinoes
+    - anticipaciones
+    - anticipación
+    - Anticipaciones
+    - Anticipación
+    - anticipacion
+    - Anticipacion
+    - anricipacion
+    - anricipaciones
+    - anricipación
+    - antixipacion
+    - antixipaciones
+    - antixipación
+    - anticioacion
+    - anticioaciones
+    - anticioación
+
+- synonym: tarifas
+  examples: |
+    - tarifa
+    - tarifas
+    - tarifaa
+    - tarifass
+    - tarifasas
+    - tasas
+    - tasa
+    - precios
+    - precio
+    - yarifa
+    - tsrifa
+    - tarifaa
+    - tsrifas
+    - percios
+    - preciios
+    - costes
+
+- synonym: clima
+  examples: |
+    - clima
+    - Clima
+    - cilma
+    - clims
+    - ckima
+    - vlima
+    - clina
+    - climaa
+    - climático
+    - climática
+    - climáticos
+    - climáticas
+    - climatico
+    - climatica
+    - climaticos
+    - climaticas
+    - clinatico
+    - climatca
+    - clumatico
+    - climaticp
+    - climatco
+    - meteorológico
+    - meteorológica
+    - meteorológicos
+    - meteorológicas
+    - meteorologico
+    - meteorologica
+    - meteorologicos
+    - meteorologicas
+    - metorlogico
+    - metologico
+    - metorlorgico
+    - metorologico
+    - climatológico
+    - climatológica
+    - climatológicos
+    - climatológicas
+    - climatologico
+    - climatologica
+    - climatologicos
+    - climatologicas
+    - climatología
+    - Meteorología
+    - Climatología
+    - metereolojía
+    - metereolojia
+    - climatolojia
+    - climatolojía
+    - meteorología
+    - climatologia
+    - metereologia
+    - tiempo atmosférico
+    - tiempo atmosferico
+    - temperatura
+    - tmperatuera
+    - tempratiura
+    - tenperatura
+    - temperatrua
+    - temperaturas
+    - cálido
+    - calido
+    - cálidos
+    - calidos
+    - cálida
+    - calida
+    - cálidas
+    - calidas
+    - calurosa
+    - caluroso
+    - calurosos
+    - calurosas
+    - frío
+    - frio
+    - fríos
+    - frios
+    - frescos
+    - frescas
+    - fresco
+    - fresca
+    - templado
+    - templada
+    - templados
+    - templadas
+
+- synonym: ventana_op
+  examples: |
+    - ventana de oportunidad
+    - ventana de oporunidad
+    - ventana de opotunidad
+    - ventana de oporutnidad
+    - ventana de oporutnidades
+    - ventana de oporutunidades
+    - Ventana de oportunidad
+    - ventana de oportunidades
+    - bentana de oportunidad
+    - bentana de oportunidades
+    - ventanas de oportunidad
+    - ventanas de oportunidades
+    - ventanas de oporunidad
+    - ventanas de opotunidad
+    - ventanas de oporutnidad
+    - ventanas de oporutnidades
+    - venetana de oprutnidad
+    - venetana de oprutnidades
+    - venetana de oporutunidad
+    - venetana de oportunidad
+    - ventana de oportunidas
+    - ventana de pportunidad
+    - ventana de opritunidad
+    - vnenta de oportunidad
+    - ventaa de oportunidad
+    - ventana d oportunidad
+    - ventana deoprtunidad
+    - ventana de oprotunidsd
+    - oportunidad
+    - oportunidades
+    - oporunidad
+    - oporutnidad
+    - oporutnidades
+    - oporutnidades
+    - oporutnidad
+    - oportunidad en marketing
+    - oportunidad en el marketing
+    - oportunidad en el mercadeo
+    - oportunidades de marketing
+    - oportunidades de mercadeo
+    - oportunidad de negocio
+    - opotunidad de marquetin
+    - oportiunidad de márketin
+    - oportunidad de márquetin
+    - oportunidades para marketing
+    - oportunidad de marketign
+    - oportunidad de mercadotecnia
+    - oportunidades marketinianas
+    - tiempo de anticipación
+    - tiempo de antcipación
+    - tiempo de antcipacion
+
+
+
+- synonym: marketing
+  examples: |
+    - marketing
+    - mercadotecnia
+    - márquetin
+    - marquetin
+    - marqueting
+    - marquetign
+    - márqueting
+    - márketin
+    - márketing
+    - marketin
+    - marketign
+    - marklting
+    - markleting
+    - mraketing
+    - MKT
+    - mkt
+    - camapañas
+    - campañas
+    - campaña
+    - campañas publicitarias
+    - campaña publicitaria
+    - campañas de publicidad
+    - campana publicitaria
+    - publicidad
+    - publicidades
+    - publicitaroa
+    - publicitaria
+    - publicitario
+    - publicitarios
+    - puvlicidad
+    - publocidad
+    - publicidas
+    - canpañas
+    
+- synonym: casos_uso
+  examples: |
+    - caso de uso
+    - casos de uso
+    - casos de usoo
+    - casso de uso
+    - casps de uso
+    - casos de iso
+    - caso de usp
+    - casp de uso
+    - casode uso
+    - caso deuso
+    - cado de uso
+    - caso e uso
+    - uso de caso
+    - usos de caso
+    - usos de casos
+    - uso de casos
+    - casp práctico
+    - caso practicp
+    - casos practicos
+    - casos prácticos
+    - caso practico
+    - caso práctico
+    - caso aplicado
+    - casos aplicados
+    - caso aplicable
+    - casos aplicables
+    - caso para usar
+    - casos para usar
+    - use case
+    - use cases
+    - user case
+    - user cases
+
+- synonym: modelos_IA
+  examples: |
+    - modelos de IA
+    - modelos de inteligencia artificial
+    - modelos de ia
+    - modelos ia
+    - mdoelos de ia
+    - mpdelos IA
+    - modelos AI
+    - modelos de AI
+    - modelos ai
+    - modrlods ia
+    - modelos Ia
+    - modelps de IA
+    - modelos predictivos
+    - modelos predictivos de IA
+    - modelos de predicción
+    - modelos de prediccion
+    - modelso predictivos
+    - modleso de ia
+    - modelos de machine learning
+    - predicción
+    - peridiccion
+    - perdiccion
+    - perdiccipn
+    - orediccion
+    - oredicciones
+    - predicciones
+    - prediccion
+    - predicion
+    - predición
+    - prediccióm
+    - predicrtivos
+    - predicrtivo
+    - predictivos
+    - predictivo
+    - predictiva
+    - predictivas
+    - predicotpvo
+    - predicativo
+    - soluciones ia
+    - spluciones ia
+    - solución ia
+    - soluciones IA
+    - solución IA
+    - soluciones de IA
+    - solución de IA
+    - soluciones de ia
+    - solución de ia
+    - solcuones con ia
+    - soluciones con IA
+    - solucciones ia
+    - solucione IA
+    - analaitica avanzada
+    - analitica avanzada
+    - analítica avanzada
+    - analitica avnzada
+    - analitica abanzada
+    - analisis avanzados
+    - análisis avanzados
+    - analisis avanzado
+
+- synonym: municipios_cov
+  examples: |
+    - benidorm
+    - BENIDORM
+    - Benidorm
+    - Elche
+    - elche
+    - ELCHE
+    - calp
+    - CALP
+    - Calp
+    - calpe
+    - CALPE
+    - Calpe
+    - gandía
+    - GANDÍA
+    - Gandía
+    - gandia
+    - GANDIA
+    - Gandia
+    - torrevieja
+    - TORREVIEJA
+    - Torrevieja
+    - torrent
+    - TORRENT
+    - Torrent
+    - orihuela
+    - ORIHUELA
+    - Orihuela
+    - paterna
+    - PATERNA
+    - Paterna
+    - sagunto
+    - SAGUNTO
+    - Sagunto
+    - alcoy
+    - ALCOY
+    - Alcoy
+    - alcoi
+    - ALCOI
+    - Alcoi
+    - san vicente del raspeig
+    - SAN VICENTE DEL RASPEIG
+    - San Vicente del Raspeig
+    - san vicente de taspeig
+    - elda
+    - ELDA
+    - Elda
+    - villarreal
+    - VILLARREAL
+    - Villarreal
+    - vila-real
+    - vila real
+    - Vila real
+    - VILA-REAL
+    - Vila-real
+    - vega alta
+    - vega baja
+    - vega alta del segura
+    - Vega Alta del Segura
+    - Vega Baja del Segura
+    - vega baja del segura
+    - Vega Alta
+    - Vega Baja
+    - Vega alta
+    - Vega baja
+    - marina alta
+    - Marina alta
+    - Marina Alta
+    - marina baja
+    - Marina baja
+    - Marina Baja
+    - hoya de alcoy
+    - Hoya de Alcoy
+    - hoya de Alcoy
+    - Hoya de alcoy
+    - Hoya de Alcoi
+    - hoya de alcoi
+    - hoya de Alcoi
+    - Alto Vinalopó
+    - alto vinalopó
+    - Alto vinalopó
+    - Baix Vinalopó
+    - baix vinalopó
+    - baix Vinalopó
+    - vinalopó bajo
+    - Vinalopó Bajo
+    - Vinalopó bajo
+    - denia
+    - DENIA
+    - Denia
+    - dénia
+    - DÉNIA
+    - Dénia
+    - novelda
+    - NOVELDA
+    - Novelda
+    - villajoyosa
+    - VILLAJOYOSA
+    - Villajoyosa
+    - villena
+    - VILLENA
+    - Villena
+    - l'alfàs del pi
+    - L'ALFÀS DEL PI
+    - L'Alfàs del Pi
+    - alfàs del pi
+    - ALFÀS DEL PI
+    - Alfàs del Pi
+    - alfas del pi
+    - alfás del pi
+    - Alfás del Pi
+    - alfas del pí
+    - ALFAS DEL PI
+    - Alfas del Pi
+    - cullera
+    - CULLERA
+    - Cullera
+    - oliva
+    - OLIVA
+    - la Oliva
+    - La Oliva
+    - la oliva
+    - Oliva
+    - teulada
+    - TEULADA
+    - Teulada
+    - xàbia
+    - XÀBIA
+    - Xàbia
+    - jávea
+    - JÁVEA
+    - Jávea
+    - javea
+    - JAVEA
+    - Javea
+    - alcira
+    - ALCIRA
+    - Alcira
+    - alzira
+    - ALZIRA
+    - Alzira
+    - mislata
+    - MISLATA
+    - Mislata
+    - burjasot
+    - BURJASOT
+    - Burjasot
+    - burjassot
+    - BURJASSOT
+    - Burjassot
+    - onteniente
+    - ONTENIENTE
+    - Onteniente
+    - ontinyent
+    - ONTINYENT
+    - Ontinyent
+    - aldaya
+    - ALDAYA
+    - Aldaya
+    - aldaia
+    - ALDAIA
+    - Aldaia
+    - manises
+    - MANISES
+    - Manises
+    - chirivella
+    - CHIRIVELLA
+    - Chirivella
+    - xirivella
+    - XIRIVELLA
+    - Xirivella
+    - játiva
+    - JÁTIVA
+    - Játiva
+    - xàtiva
+    - XÀTIVA
+    - Xàtiva
+    - alacuás
+    - ALACUÁS
+    - Alacuás
+    - alaquàs
+    - ALAQUÀS
+    - Alaquàs
+    - catarroja
+    - CATARROJA
+    - Catarroja
+    - algemesí
+    - ALGEMESÍ
+    - Algemesí
+    - paiporta
+    - PAIPORTA
+    - Paiporta
+    - bétera
+    - BÉTERA
+    - Bétera
+    - betera
+    - BETERA
+    - Betera
+    - puebla de vallbona
+    - PUEBLA DE VALLBONA
+    - Puebla de Vallbona
+    - pobla de vallbona, la
+    - POBLA DE VALLBONA, LA
+    - La Pobla de Vallbona
+    - cuart de poblet
+    - CUART DE POBLET
+    - Cuart de Poblet
+    - quart de poblet
+    - QUART DE POBLET
+    - Quart de Poblet
+    - alboraya
+    - ALBORAYA
+    - Alboraya
+    - alboraia
+    - ALBORAIA
+    - Alboraia
+    - liria
+    - LIRIA
+    - Liria
+    - llíria
+    - LLÍRIA
+    - Llíria
+    - ribarroja del turia
+    - RIBARROJA DEL TURIA
+    - Ribarroja del Turia
+    - riba-roja de túria
+    - RIBA-ROJA DE TÚRIA
+    - Riba-roja de Túria
+    - moncada
+    - MONCADA
+    - Moncada
+    - montcada
+    - MONTCADA
+    - Montcada
+    - picasent
+    - PICASENT
+    - Picasent
+    - picassent
+    - PICASSENT
+    - Picassent
+    - alfafar
+    - ALFAFAR
+    - Alfafar
+    - carcagente
+    - CARCAGENTE
+    - Carcagente
+    - carcaixent
+    - CARCAIXENT
+    - Carcaixent
+    - puzol
+    - PUZOL
+    - Puzol
+    - puçol
+    - PUÇOL
+    - Puçol
+    - requena
+    - REQUENA
+    - Requena
+    - la eliana
+    - LA ELIANA
+    - La Eliana
+    - L'Eliana
+    - l'eliana
+    - l'Eliana
+    - tabernes de valldigna
+    - TABERNES DE VALLDIGNA
+    - Tabernes de Valldigna
+    - tavernes de la valldigna
+    - TAVERNES DE LA VALLDIGNA
+    - Tavernes de la Valldigna
+    - albal
+    - ALBAL
+    - Albal
+    - chiva
+    - CHIVA
+    - Chiva
+    - xiva
+    - XIVA
+    - Xiva
+    - masamagrell
+    - MASAMAGRELL
+    - Masamagrell
+    - massamagrell
+    - MASSAMAGRELL
+    - Massamagrell
+    - carlet
+    - CARLET
+    - Carlet
+    - benetúser
+    - BENETÚSER
+    - Benetúser
+    - benetússer
+    - BENETÚSSER
+    - Benetússer
+    - alginet
+    - ALGINET
+    - Alginet
+    - canals
+    - CANALS
+    - Canals
+    - godella
+    - GODELLA
+    - Godella
+    - la alcudia
+    - LA ALCUDIA
+    - La Alcudia
+    - L'Alcúdia
+    - l'alcudia
+    - l'Alcudia
+    - l'alcúdia
+    - l'Alcúdia
+    - benifayó
+    - BENIFAYÓ
+    - Benifayó
+    - benifaió
+    - BENIFAÓ
+    - Benifaió
+    - picaña
+    - PICAÑA
+    - Picaña
+    - picanya
+    - PICANYA
+    - Picanya
+    - benaguacil
+    - BENAGUACIL
+    - Benaguacil
+    - benaguasil
+    - BENAGUASIL
+    - Benaguasil
+    - utiel
+    - UTIEL
+    - Utiel
+    - meliana
+    - MELIANA
+    - Meliana
+    - alberique
+    - ALBERIQUE
+    - Alberique
+    - alberic
+    - ALBERIC
+    - Alberic
+    - alcácer
+    - ALCÁCER
+    - Alcácer
+    - alcàsser
+    - ALCÀSSER
+    - Alcàsser
+    - alcaser
+    - Alcaser
+    - alcásser
+    - Alcásser
+    - Alcasser
+    - alcasser
+    - sedaví
+    - SEDAVÍ
+    - Sedaví
+    - villamarchante
+    - VILLAMARCHANTE
+    - Villamarchante
+    - vilamarxant
+    - VILAMARXANT
+    - Vilamarxant
+    - villamarchant
+    - Villamarchant
+    - burriana
+    - BURRIANA
+    - Burriana
+    - borriana
+    - BORRIANA
+    - Borriana
+    - vall de uxó
+    - VALL DE UXÓ
+    - Vall de Uxó
+    - vall d'uixó, la
+    - VALL D'UIXÓ, LA
+    - La Vall d'Uixó
+    - valle de uxó
+    - Valle de Uxó
+    - val d'uxo
+    - val d'uixo
+    - valle d'uixó
+    - vinaroz
+    - VINAROZ
+    - Vinaroz
+    - vinaròs
+    - VINARÒS
+    - Vinaròs
+    - vinarós
+    - Vinarós
+    - benicarló
+    - BENICARLÓ
+    - Benicarló
+    - benicarlo
+    - almazora
+    - ALMAZORA
+    - Almazora
+    - almassora
+    - ALMASSORA
+    - Almassora
+    - onda
+    - ONDA
+    - Onda
+    - benicasim
+    - BENICASIM
+    - Benicasim
+    - benicàssim
+    - BENICÀSSIM
+    - Benicàssim
+    - benicássim
+    - Benicássim
+    - benicásim
+    - nules
+    - NULES
+    - Nules
+    - oropesa del mar
+    - OROPESA DEL MAR
+    - Oropesa del Mar
+    - orpesa
+    - ORPESA
+    - Orpesa
+    - alcora
+    - ALCORA
+    - Alcora
+    - L'Alcora
+    - l'alcora
+    - l'Alcora
+    - santa pola
+    - SANTA POLA
+    - Santa Pola
+    - vilajoiosa
+    - petrer
+    - PETRER
+    - Petrer
+    - villena
+    - VILLENA
+    - Villena
+    - crevillente
+    - CREVILLENTE
+    - Crevillente
+    - crevillent
+    - CREVILLENT
+    - Crevillent
+    - campello
+    - CAMPELLO
+    - Campello
+    - El Campello
+    - el campello
+    - El campello
+    - muchamiel
+    - MUCHAMIEL
+    - Muchamiel
+    - mutxamel
+    - MUTXAMEL
+    - Mutxamel
+    - muxamel
+    - novelda
+    - NOVELDA
+    - Novelda
+    - san juan de alicante
+    - SAN JUAN DE ALICANTE
+    - San Juan de Alicante
+    - San Juan de alicante
+    - san juan d'alacant
+    - sant joan d'alacant
+    - Sant Joan d'Alacant
+    - Sant Joan d'Alacant
+    - calpe
+    - CALPE
+    - Calpe
+    - calp
+    - CALP
+    - Calp
+    - ibi
+    - IBI
+    - Ibi
+    - altea
+    - ALTEA
+    - Altea
+    - pilar de la horadada
+    - PILAR DE LA HORADADA
+    - Pilar de la Horadada
+    - pilar de la foradada
+    - PILAR DE LA FORADADA
+    - Pilar de la Foradada
+    - almoradí
+    - ALMORADÍ
+    - Almoradí
+    - aspe
+    - ASPE
+    - Aspe
+    - asp
+    - ASP
+    - Asp
+    - alfaz del pi
+    - Alfaz del Pi
+    - callosa de segura
+    - CALLOSA DE SEGURA
+    - Callosa de Segura
+    - la nucía
+    - LA NUCÍA
+    - La Nucía
+    - La Nucia
+    - la nucia
+    - la Nucia
+    - rojales
+    - ROJALES
+    - Rojales
+    - guardamar del segura
+    - GUARDAMAR DEL SEGURA
+    - Guardamar del Segura
+    - albatera
+    - ALBATERA
+    - Albatera
+    - monóvar
+    - MONÓVAR
+    - Monóvar
+    - monòver
+    - MONÒVER
+    - Monòver
+    - monóver
+    - Monóver
+    - monover
+    - Monover
+    - teulada
+    - TEULADA
+    - Teulada
+    - benisa
+    - BENISA
+    - Benisa
+    - benissa
+    - BENISSA
+    - Benissa
+    - cocentaina
+    - COCENTAINA
+    - Cocentaina
+    - castalla
+    - CASTALLA
+    - Castalla
+    - pego
+    - PEGO
+    - Pego

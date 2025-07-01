@@ -1,0 +1,492 @@
+version: "3.1"
+rules:
+
+#----------------------------------------------
+# INTERACCIONES BÁSICAS
+#---------------------------------------------- 
+
+  - rule: Welcome
+    steps:
+    - intent: bienvenida
+    - action: utter_bienvenida
+  
+  - rule: handle_fallback
+    steps:
+    - intent: nlu_fallback
+    - action: action_handle_fallback
+
+  - rule: handle_out_of_scope
+    steps:
+    - intent: out_of_scope
+    - action: action_handle_out_of_scope
+  
+  - rule: collect_user_name
+    steps:
+    - intent: gva_chitchat_general_nombre_usuario
+    - action: action_set_user_name
+  
+  - rule: talk2numbers
+    steps:
+    - intent: talk2numbers
+    - action: action_carousel_analisis_datos
+
+# ............ F O R M U L A R I O - E R R O R .............
+  
+  - rule: Activate Form
+    steps:
+    - intent: error
+    - action: utter_describe_error
+    - action: error_form
+    - active_loop: error_form
+
+  - rule: Submit Form
+    condition:
+    - active_loop: error_form
+    - slot_was_set:
+      - error: true
+    steps:
+    - action: error_form 
+    - active_loop: null
+    - action: utter_error_gracias
+    - action: action_delete_slot_error
+
+
+#............. F O R M U L A R I O - C A S O - D E - U S O - LT.............
+
+  - rule: Activate Form Caso de Uso LT
+    steps:
+    - intent: caso_de_uso_LT
+    - action: action_delete_slot_caso_de_uso_LT
+    - action: caso_de_uso_LT_form
+    - active_loop: caso_de_uso_LT_form
+
+
+  - rule: Submit Form Caso de Uso LT
+    condition:
+    - active_loop: caso_de_uso_LT_form
+    - slot_was_set:
+      - LT_boton_fin: true
+    steps:
+    - action: caso_de_uso_LT_form
+    - active_loop: null
+    - action: utter_fin_caso_de_uso_LT
+    - action: action_delete_slot_caso_de_uso_LT
+
+# ............ F O R M U L A R I O - T A L K 2 N U M B E R S - B U S Q U E D A S .............
+  
+  - rule: Activate Form Busquedas
+    steps:
+    - intent: talk2numbers_busquedas
+    - action: busquedas_form
+    - active_loop: busquedas_form
+
+  - rule: Submit Form Busquedas
+    condition:
+    - active_loop: busquedas_form
+    - slot_was_set:
+      - tipo_consulta: true
+      - destino_b: true
+      - origen_pais_b: true
+      - origen_ciudad_b: true
+      - anno_b: true
+      - date_filter: true
+      - consulta: true
+    steps:
+    - action: busquedas_form
+    - active_loop: null
+    - action: action_delete_slot_forms
+
+  - rule: Process search when user confirms
+    steps:
+      - intent: confirmar_envio
+      - action: action_handle_confirmacion
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+  
+  - rule: Process search when user denies
+    steps:
+      - intent: corregir_envio
+      - action: action_handle_denial
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+  
+  - rule: talk2numbers_busquedas
+    steps:
+    - action: action_ask_user_query_b
+    - action: action_listen
+    - action: action_t2n_innohub
+
+# ............ F O R M U L A R I O - T A L K 2 N U M B E R S - V E N T A N A  D E  O P O R T U N I D A D .............
+  
+  - rule: Activate Form Ventana
+    steps:
+    - intent: talk2numbers_ventana_test
+    - action: ventana_form
+    - active_loop: ventana_form
+
+  - rule: Submit Form Ventana
+    condition:
+    - active_loop: ventana_form
+    - slot_was_set:
+      - tipo_consulta_v: true
+      - destino_v: true
+      - origen_pais_v: true
+      - origen_ciudad_v: true
+      - date_filter_v: true
+      - consulta_v: true
+    steps:
+    - action: ventana_form
+    - active_loop: null
+    - action: action_delete_slot_forms
+
+  - rule: Process search when user confirms
+    steps:
+      - intent: confirmar_envio
+      - action: action_handle_confirmacion
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+  
+  - rule: Process search when user denies
+    steps:
+      - intent: corregir_envio
+      - action: action_handle_denial
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+  
+  - rule: talk2numbers_ventana
+    steps:
+    - action: action_ask_user_query_v
+    - action: action_listen
+    - action: action_t2n_innohub
+
+#------------------------------------------------------
+#            CONSULTAS ESTÁTICAS
+#------------------------------------------------------
+# ---------- SECCIONES GENERALES ----------------------
+
+  - rule: invattur
+    steps:
+    - intent: gva_invattur
+    - action: utter_gva_invattur
+  
+  - rule: introduction
+    steps:
+    - intent: gva_intro
+    - action: action_gva_intro
+
+  - rule: smart_tourism
+    steps:
+    - intent: gva_smart_tourism
+    - action: action_gva_smart_tourism
+  
+  - rule: municipios
+    steps:
+    - intent: gva_municipios
+    - action: utter_gva_municipios
+
+  - rule: informes
+    steps:
+    - intent: gva_informes
+    - action: utter_gva_informes
+  
+  - rule: smart_academy
+    steps:
+    - intent: gva_smart_academy
+    - action: utter_gva_smart_academy
+  
+  - rule: notas_metodologicas
+    steps:
+    - intent: gva_notas_metodologicas
+    - action: utter_gva_notas_metodologicas
+  
+
+  - rule: visualizaciones dinámicas
+    steps:
+    - intent: gva_visualizaciones_dinamicas
+    - action: action_gva_visualizaciones_dinamicas
+    #- action: utter_gva_visualizaciones_dinamicas
+  
+  - rule: visualizaciones_genericas
+    steps:
+    - intent: gva_visualizaciones_genericas
+    - action: action_gva_visualizaciones_genericas
+    #- action: utter_gva_visualizaciones_genericas
+  
+  - rule: casos_uso section
+    steps:
+    - intent: gva_casos_uso
+    - action: action_gva_casos_uso
+    #- action: utter_gva_casos_uso
+
+  - rule: modelos_IA
+    steps:
+    - intent: gva_modelos_IA
+    - action: action_gva_modelos_IA
+
+# ---------- VISUALIZACIONES GENÉRICAS ------------------------
+
+# ......... Comportamiento del turismo ........................
+
+  - rule: comportamiento_turismo division
+    steps:
+    - intent: gva_comportamiento_turismo
+    - action: action_gva_comportamiento_turismo
+
+  - rule: VG_comportamiento_turismo
+    steps:
+    - intent: gva_VG_comportamiento_turismo
+    - action: action_gva_VG_comportamiento_turismo
+
+  - rule: MIA_comportamiento_turismo
+    steps:
+    - intent: gva_MIA_comportamiento_turismo
+    - action: utter_gva_MIA_predict_viajes_nacionales
+  
+  - rule: VG_CT_turismo_internacional
+    steps:
+    - intent: gva_VG_CT_turismo_internacional
+    - action: utter_gva_VG_CT_turismo_internacional
+  
+  - rule: VG_CT_turismo_nacional
+    steps:
+    - intent: gva_VG_CT_turismo_nacional
+    - action: utter_gva_VG_CT_turismo_nacional
+  
+  - rule: VG_CT_caracteristicas
+    steps:
+    - intent: gva_VG_CT_caracteristicas
+    - action: utter_gva_VG_CT_caracteristicas
+
+  - rule: VG_CT_perfil_turista
+    steps:
+    - intent: gva_VG_CT_perfil_turista
+    - action: utter_gva_VG_CT_perfil_turista
+  
+  - rule: VG_CT_gasto
+    steps:
+    - intent: gva_VG_CT_gasto
+    - action: utter_gva_VG_CT_gasto
+  
+  - rule: VG_CT turismo interno
+    steps:
+    - intent: gva_VG_CT_turismo_interno
+    - action: utter_gva_VG_CT_turismo_interno
+  
+
+
+# ......... Alojamientos ................................
+
+  - rule: VG_alojamientos
+    steps:
+    - intent: gva_VG_alojamientos
+    - action: action_gva_VG_alojamientos
+    #- action: utter_gva_VG_alojamientos
+  
+  - rule: VG_ALOJ_todos
+    steps:
+    - intent: gva_VG_ALOJ_todos
+    - action: utter_gva_VG_ALOJ_todos
+  
+  - rule: VG_ALOJ_especificos
+    steps:
+    - intent: gva_VG_ALOJ_especificos
+    - action: utter_gva_VG_ALOJ_especificos
+
+  - rule: VG_ALOJ_rurales
+    steps:
+    - intent: gva_VG_ALOJ_rurales
+    - action: utter_gva_VG_ALOJ_rurales
+  
+# .......... Vuelos ..................................
+  - rule: vuelos division
+    steps:
+    - intent: gva_vuelos
+    - action: action_gva_vuelos
+  
+  - rule: VG_vuelos
+    steps:
+    - intent: gva_VG_vuelos
+    - action: utter_gva_VG_vuelos
+  
+  - rule: MIA_vuelos
+    steps:
+    - intent: gva_MIA_vuelos
+    - action: action_gva_MIA_vuelos
+  
+  - rule: VG_VUEL_demanda_conectividad
+    steps:
+    - intent: gva_VG_VUEL_demanda_conectividad
+    - action: utter_gva_VG_VUEL_demanda_conectividad
+  
+  - rule: VG_VUEL_capacidad
+    steps:
+    - intent: gva_VG_VUEL_capacidad
+    - action: utter_gva_VG_VUEL_capacidad
+  
+  - rule: VG_VUEL_busquedas
+    steps:
+    - intent: gva_VG_VUEL_busquedas
+    - action: utter_gva_VG_VUEL_busquedas
+  
+  - rule: VG_VUEL_reservas
+    steps:
+    - intent: gva_VG_VUEL_reservas
+    - action: utter_gva_VG_VUEL_reservas
+
+  # - rule: VG_VUEL_reservas_futuro
+  #   steps:
+  #   - intent: gva_VG_VUEL_reservas_futuro
+  #   - action: utter_gva_VG_VUEL_reservas_futuro
+  
+  # - rule: VG_VUEL_reservas_historico
+  #   steps:
+  #   - intent: gva_VG_VUEL_reservas_historico
+  #   - action: utter_gva_VG_VUEL_reservas_historico
+  
+  - rule: VG_VUEL_tarifas
+    steps:
+    - intent: gva_VG_VUEL_tarifas
+    - action: utter_gva_VG_VUEL_tarifas
+  
+# ......... Presencia y movilidad ...........................
+
+  - rule: presencia_movilidad division
+    steps:
+    - intent: gva_presencia_movilidad
+    - action: action_gva_presencia_movilidad
+
+  - rule: VG_presencia_movilidad
+    steps:
+    - intent: gva_VG_presencia_movilidad
+    - action: action_gva_VG_presencia_movilidad
+
+  - rule: MIA presencia movilidad
+    steps:
+    - intent: gva_MIA_presencia_movilidad
+    - action: action_gva_MIA_presencia_movilidad
+  
+  - rule: VG_PM_estancia_diurna
+    steps:
+    - intent: gva_VG_PM_estancia_diurna
+    - action: utter_gva_VG_PM_estancia_diurna
+  
+  - rule: VG_PM_estancia_nocturna
+    steps:
+    - intent: gva_VG_PM_estancia_nocturna
+    - action: utter_gva_VG_PM_estancia_nocturna
+  
+  - rule: VG_PM_movilidad
+    steps:
+    - intent: gva_VG_PM_movilidad
+    - action: utter_gva_VG_PM_movilidad
+  
+  - rule: VG_PM_presencia
+    steps:
+    - intent: gva_VG_PM_presencia
+    - action: utter_gva_VG_PM_presencia
+  
+  - rule: VG_PM_llegadas_salidas
+    steps:
+    - intent: gva_VG_PM_llegadas_salidas
+    - action: utter_gva_VG_PM_llegadas_salidas
+  
+# ---------- SECCIÓN CASOS DE USO -------------------------------
+
+  - rule: CUS_poblacion_flotante
+    steps:
+    - intent: gva_CUS_poblacion_flotante
+    - action: utter_gva_CUS_poblacion_flotante
+  
+  - rule: CUS_programacion_aerolineas
+    steps:
+    - intent: gva_CUS_programacion_aerolineas
+    - action: utter_gva_CUS_programacion_aerolineas
+  
+  - rule: CUS_marketing_aereo
+    steps:
+    - intent: gva_CUS_marketing_aereo
+    - action: utter_gva_CUS_marketing_aereo
+
+# ---------- SECCIÓN MODELOS IA --------------------------
+
+# ......... Ventana de oportunidad .......................
+
+  - rule: MIA_ventana_oportunidad
+    steps:
+    - intent: gva_MIA_ventana_oportunidad
+    - action: utter_gva_MIA_ventana_oportunidad
+  
+  - rule: definition ventana de oportunidad
+    steps:
+    - intent: gva_ventana_oportunidad
+    - action: utter_gva_ventana_oportunidad
+  
+  - rule: definition cluster
+    steps:
+    - intent: gva_cluster
+    - action: utter_gva_cluster
+
+# ......... Predicción estancia diurna ...................
+
+  - rule: MIA_predict_estancia_diurna
+    steps:
+    - intent: gva_MIA_predict_estancia_diurna
+    - action: utter_gva_MIA_predict_estancia_diurna
+
+# ......... Factor climático y búsquedas .................
+
+  - rule: MIA_factor_climatico
+    steps:
+    - intent: gva_MIA_factor_climatico
+    - action: utter_gva_MIA_factor_climatico
+
+# ......... Predicción viajes nacionales .................
+
+  - rule: MIA_predict_viajes_nacionales
+    steps:
+    - intent: gva_MIA_predict_viajes_nacionales
+    - action: utter_gva_MIA_predict_viajes_nacionales
+
+# ......... Patrones de comportamiento ...................
+
+  - rule: patrones comportamiento
+    steps:
+    - intent: gva_MIA_patrones_comportamiento
+    - action: utter_gva_MIA_patrones_comportamiento
+
+# ......... Relación de factores clave ...................
+
+  # - rule: MIA_relacion factores clave
+  #   steps:
+  #   - intent: gva_MIA_factores_clave
+  #   - action: utter_gva_MIA_factores_clave
+
+
+  # - rule: MIA_impacto_busquedas_capacidad
+  #   steps: 
+  #   - intent: gva_MIA_impacto_busquedas_capacidad
+  #   - action: utter_gva_MIA_impacto_busquedas_capacidad
+  
+  # - rule: MIA_impacto_capacidad
+  #   steps:
+  #   - intent: gva_MIA_impacto_capacidad
+  #   - action: utter_gva_MIA_impacto_capacidad
+  
+  # - rule: MIA_impacto_busquedas
+  #   steps:
+  #   - intent: gva_MIA_impacto_busquedas
+  #   - action: utter_gva_MIA_impacto_busquedas
+  
+
+
+#--------------------------------------------------------------
+# CONSULTAS DE VENTANA DE OPORTUNIDAD (ANÁLISIS DE DATOS)
+#--------------------------------------------------------------
+  - rule: query_ventana_general
+    steps:
+    - intent: query_ventana_general
+    - action: utter_query_ventana_general

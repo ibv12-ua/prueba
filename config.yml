@@ -1,0 +1,46 @@
+recipe: default.v1
+assistant_id: smarty-es
+language: en
+pipeline:
+- name: WhitespaceTokenizer
+# - name: "sentiment.SentimentAnalyzer"
+- name: RegexFeaturizer
+  case_sensitive: False
+- name: LexicalSyntacticFeaturizer
+  features: [
+    ["low", "title", "upper"],
+    ["BOS", "EOS", "low", "upper", "title", "digit"],
+    ["low", "title", "upper"],
+  ]
+- name: CountVectorsFeaturizer
+  lowercase: True
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: CRFEntityExtractor
+  features:
+  - ["low", "title", "upper"]
+  - ["bias", "low", "upper", "title", "digit", "pattern"]
+  - ["low", "title", "upper"]
+- name: DIETClassifier
+  case_sensitive: False
+  epochs: 100
+  constrain_similarities: True
+  entity_recognition: False
+- name: EntitySynonymMapper
+- name: FallbackClassifier
+  threshold: 0.5
+  ambiguity_threshold: 0.3
+- name: ResponseSelector
+  epochs: 100
+  # retrieval_intent: chitchat
+
+policies:
+- name: RulePolicy
+- name: MemoizationPolicy
+  max_history: 3
+# - name: AugmentedMemoizationPolicy
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+  constrain_similarities: True

@@ -1,0 +1,1421 @@
+version: '3.1'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  INTENCIONES
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+intents:
+  - bienvenida
+  - nlu_fallback
+  - out_of_scope
+  - gva_chitchat
+  - gva_invattur
+  - gva_chitchat_general_nombre_usuario
+  - talk2numbers
+  - talk2numbers_busquedas
+  - talk2numbers_ventana
+  - confirmar_envio
+  - corregir_envio
+  - query_ventana_general
+  - gva_intro
+  - gva_smart_tourism
+  - gva_municipios
+  - gva_informes
+  - gva_smart_academy
+  - gva_notas_metodologicas
+  - gva_visualizaciones_dinamicas
+  - gva_visualizaciones_genericas
+  - gva_comportamiento_turismo
+  - gva_MIA_comportamiento_turismo
+  - gva_VG_comportamiento_turismo
+  - gva_VG_CT_turismo_internacional
+  - gva_VG_CT_turismo_nacional
+  - gva_VG_CT_perfil_turista
+  - gva_VG_CT_caracteristicas
+  - gva_VG_CT_gasto
+  - gva_VG_CT_turismo_interno
+  - gva_VG_alojamientos
+  - gva_VG_ALOJ_todos
+  - gva_VG_ALOJ_especificos
+  - gva_VG_ALOJ_rurales
+  - gva_vuelos
+  - gva_VG_vuelos
+  - gva_MIA_vuelos
+  - gva_VG_VUEL_demanda_conectividad
+  - gva_VG_VUEL_capacidad
+  - gva_VG_VUEL_busquedas
+  - gva_VG_VUEL_reservas
+  - gva_VG_VUEL_tarifas
+  - gva_presencia_movilidad
+  - gva_MIA_presencia_movilidad
+  - gva_VG_presencia_movilidad
+  - gva_VG_PM_estancia_diurna
+  - gva_VG_PM_estancia_nocturna
+  - gva_VG_PM_movilidad
+  - gva_VG_PM_presencia
+  - gva_VG_PM_llegadas_salidas
+  - gva_casos_uso
+  - gva_CUS_poblacion_flotante
+  - gva_CUS_programacion_aerolineas
+  - gva_CUS_marketing_aereo
+  - gva_modelos_IA
+  - gva_MIA_patrones_comportamiento
+  - gva_MIA_factor_climatico
+  - gva_MIA_ventana_oportunidad
+  - gva_ventana_oportunidad
+  - gva_cluster
+  - gva_MIA_predict_estancia_diurna
+  - gva_MIA_predict_viajes_nacionales
+  - error
+  - caso_de_uso_LT
+  - LT_interrupcion
+  - LT_boton_fin
+  - LT_boton_inicio
+  - LT_vistas_gen
+  - LT_vista1
+  - LT_vista1_exp
+  - LT_vista2
+  - LT_vista2_exp
+  - LT_vista3
+  - LT_vista3_exp
+  - LT_vistas_check
+  - LT_pantallas_gen
+  - LT_pantalla1
+  - LT_pantalla1_gen
+  - LT_pantalla1_graf1
+  - LT_pantalla1_graf1_exp
+  - LT_pantalla1_graf2
+  - LT_pantalla1_graf2_exp
+  - LT_pantalla2
+  - LT_pantalla2_gen
+  - LT_pantalla2_evtemp
+  - LT_pantalla2_evtemp_gen
+  - LT_pantalla2_evtemp_graf1
+  - LT_pantalla2_evtemp_graf1_exp
+  - LT_pantalla2_evtemp_graf2
+  - LT_pantalla2_evtemp_graf2_exp
+  - LT_pantalla2_evtemp_graf3
+  - LT_pantalla2_evtemp_graf3_exp
+  - LT_pantalla2_anticip
+  - LT_pantalla2_anticip_gen
+  - LT_pantalla2_anticip_graf1
+  - LT_pantalla2_anticip_graf1_exp
+  - LT_pantalla2_anticip_graf2
+  - LT_pantalla2_anticip_graf2_exp
+  - LT_pantalla3
+  - LT_pantalla3_gen
+  - LT_pantalla3_graf1
+  - LT_pantalla3_graf1_exp
+  - talk2numbers_ventana_test
+  - talk2numbers_cluster
+  - talk2numbers_clima
+  - lista_larga
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  ENTIDADES
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+entities:
+- name
+- personaje
+- idioma
+- trigger_query
+- origen_ciudad
+- origen_pais
+- destino
+- mes
+- exp_temporal
+- consulta_amplia
+- exp_promedio
+- exp_mediana
+- consulta_mayor
+- consulta_menor
+- year
+- invalid_location
+- consulta_amplia_pais
+- CoV
+- ST
+- SIT
+- informes
+- SA
+- NM
+- VD
+- VG
+- turismo_internacional
+- turismo_nacional
+- turismo_interno
+- densidad
+- poblacion_flotante
+- casos_uso
+- marketing
+- perfil_turista
+- gasto_turistico
+- factores_clave
+- modelos_IA
+- alojamientos
+- demanda
+- oferta
+- alojamientos_rurales
+- conectividad
+- capacidad
+- busquedas
+- reservas
+- tarifas
+- clima
+- prevision_visitantes
+- tendencias
+- ventana_op
+- estancia_diurna
+- estancia_nocturna
+- llegadas
+- salidas
+- movilidad
+- presencia
+- hoteles 
+- apartamentos
+- campings
+- caso_de_uso_LT
+- date_filter
+- consulta
+- destino_b
+- origen_pais_b
+- origen_ciudad_b
+- invattur
+- municipios_cov
+- municipio
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  SLOTS
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+slots:
+  user_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: name
+    influence_conversation: false
+
+# F O R M U L A R I O S
+#......................................................................
+# E R R O R
+
+  error:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: error_form
+        requested_slot: error
+
+# T 2 N 
+
+  scope:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: custom
+
+# T 2 N- B U S Q U E D A S - P R E V I S T A S
+
+  tipo_consulta:
+      type: text
+      influence_conversation: false
+      mappings:
+      - type: from_text
+        conditions:
+         - active_loop: busquedas_form
+           requested_slot: tipo_consulta
+
+  origen_ciudad_b:
+      type: text
+      influence_conversation: false
+      mappings:
+      - type: from_text
+        conditions:
+        - active_loop: busquedas_form
+          requested_slot: origen_ciudad_b
+        
+  origen_pais_b:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: busquedas_form
+            requested_slot: origen_pais_b   
+
+  destino_b:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+        - active_loop: busquedas_form
+          requested_slot: destino_b
+
+  anno_b:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+        - active_loop: busquedas_form
+          requested_slot: anno_b
+  
+  date_filter:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+        - active_loop: busquedas_form
+          requested_slot: date_filter
+      
+  consulta:
+      type: text
+      influence_conversation: false
+      mappings:
+      - type: from_text
+        conditions:
+         - active_loop: busquedas_form
+           requested_slot: consulta
+
+# T 2 N - V E N T A N A  D E  O P O R T U N I D A D
+
+  tipo_consulta_v:
+      type: text
+      influence_conversation: false
+      mappings:
+      - type: from_text
+        conditions:
+         - active_loop: ventana_form
+           requested_slot: tipo_consulta_v
+
+  origen_ciudad_v:
+      type: text
+      influence_conversation: false
+      mappings:
+      - type: from_text
+        conditions:
+        - active_loop: ventana_form
+          requested_slot: origen_ciudad_v
+        
+  origen_pais_v:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: ventana_form
+            requested_slot: origen_pais_v
+
+  destino_v:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+        - active_loop: ventana_form
+          requested_slot: destino_v
+      
+  date_filter_v:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+        - active_loop: ventana_form
+          requested_slot: date_filter_v
+      
+  consulta_v:
+      type: text
+      influence_conversation: false
+      mappings:
+      - type: from_text
+        conditions:
+         - active_loop: ventana_form
+           requested_slot: consulta_v
+
+#......................................................................
+# C A S O S - D E - U S O
+#......................................................................
+
+# C A S O - D E - U S O - L E A D - T I M E S ------------------------ 
+
+  LT_boton_inicio:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_boton_inicio
+      value: LT_boton_inicio
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+        requested_slot: LT_boton_inicio
+      
+  LT_boton_fin:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_boton_fin
+      value: LT_boton_fin
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_interrupcion:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_interrupcion
+      value: LT_interrupcion
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_vistas_gen:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_vistas_gen
+      value: LT_vistas_gen
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_vistas_check:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_vistas_check
+      value: LT_vistas_check
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantallas_gen:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantallas_gen
+      value: LT_pantallas_gen
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+# ........ S l o t s -  v i s t a s  ...................
+
+  LT_vista1:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_vista1
+      value: LT_vista1
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_vista1_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_vista1_exp
+      value: LT_vista1_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_vista2:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_vista2
+      value: LT_vista2
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_vista2_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_vista2_exp
+      value: LT_vista2_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_vista3:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_vista3
+      value: LT_vista3
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_vista3_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_vista3_exp
+      value: LT_vista3_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+# ........ S l o t s -  p a n t a l l a -  u n o ...................
+
+  LT_pantalla1:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla1
+      value: LT_pantalla1
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla1_gen:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla1_gen
+      value: LT_pantalla1_gen
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla1_graf1:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla1_graf1
+      value: LT_pantalla1_graf1
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla1_graf1_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla1_graf1_exp
+      value: LT_pantalla1_graf1_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_pantalla1_graf2:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla1_graf2
+      value: LT_pantalla1_graf2
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla1_graf2_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla1_graf2_exp
+      value: LT_pantalla1_graf2_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+
+# ........ S l o t s  -  p a n t a l l a  - d o s...................
+
+  LT_pantalla2:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2
+      value: LT_pantalla2
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_gen:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_gen
+      value: LT_pantalla2_gen
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+#..... pantalla dos: evolución temporal path .................
+
+  LT_pantalla2_evtemp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_evtemp
+      value: LT_pantalla2_evtemp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_evtemp_gen:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_evtemp_gen
+      value: LT_pantalla2_evtemp_gen
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_evtemp_graf1:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_evtemp_graf1
+      value: LT_pantalla2_evtemp_graf1
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_pantalla2_evtemp_graf1_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_evtemp_graf1_exp
+      value: LT_pantalla2_evtemp_graf1_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_evtemp_graf2:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_evtemp_graf2
+      value: LT_pantalla2_evtemp_graf2
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_evtemp_graf2_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_evtemp_graf2_exp
+      value: LT_pantalla2_evtemp_graf2_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_evtemp_graf3:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_evtemp_graf3
+      value: LT_pantalla2_evtemp_graf3
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_pantalla2_evtemp_graf3_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_evtemp_graf3_exp
+      value: LT_pantalla2_evtemp_graf3_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+    
+#..... pantalla dos: tiempo de anticipación path .................
+
+  LT_pantalla2_anticip:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_anticip
+      value: LT_pantalla2_anticip
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_anticip_gen:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_anticip_gen
+      value: LT_pantalla2_anticip_gen
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_anticip_graf1:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_anticip_graf1
+      value: LT_pantalla2_anticip_graf1
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_anticip_graf1_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_anticip_graf1_exp
+      value: LT_pantalla2_anticip_graf1_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_anticip_graf2:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_anticip_graf2
+      value: LT_pantalla2_anticip_graf2
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla2_anticip_graf2_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla2_anticip_graf2_exp
+      value: LT_pantalla2_anticip_graf2_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+# ........ S l o t s  -  p a n t a l l a  - t r e s ...................
+
+  LT_pantalla3:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla3
+      value: LT_pantalla3
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla3_gen:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla3_gen
+      value: LT_pantalla3_gen
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+  
+  LT_pantalla3_graf1:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla3_graf1
+      value: LT_pantalla3_graf1
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+  LT_pantalla3_graf1_exp:
+    type: any
+    influence_conversation: false
+    mappings:
+    - type: from_intent
+      intent: LT_pantalla3_graf1_exp
+      value: LT_pantalla3_graf1_exp
+      conditions:
+      - active_loop: caso_de_uso_LT_form
+
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  ACCIONES
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+actions:
+- action_ventana_invalid_location
+- action_set_user_name
+- action_carousel
+- action_comprobar_query
+- action_SIT_general
+- action_handle_out_of_scope
+- action_handle_fallback
+- action_delete_slot_error
+- action_busquedas_previstas_t2n
+- validate_caso_de_uso_LT_form
+- action_delete_slot_caso_de_uso_LT
+- action_submit_busquedas_form
+- action_query_snowflake_busquedas
+- action_ask_tipo_consulta
+- action_ask_destino_b
+- action_ask_origen_pais_b
+- action_ask_origen_ciudad_b
+- action_ask_anno_b
+- action_ask_date_filter
+- action_ask_consulta
+- action_ask_tipo_consulta_v
+- action_ask_destino_v
+- action_ask_origen_pais_v
+- action_ask_origen_ciudad_v
+- action_ask_date_filter_v
+- action_ask_consulta_v
+- action_query_snowflake_ventana
+- action_handle_confirmacion
+- action_handle_denial
+- action_handle_interruption
+- action_restart_conversation
+- validate_busquedas_form
+- validate_ventana_form
+- action_submit_cluster_form
+- action_ask_tipo_consulta_c
+- action_ask_destino_c
+- action_ask_anno_c
+- action_ask_date_filter_c
+- action_ask_rango_ventana
+- action_ask_perfil
+- action_query_snowflake_cluster
+- validate_cluster_form
+- action_submit_clima_form
+- action_ask_tipo_consulta_cl
+- action_ask_destino_cl
+- action_ask_origen_pais_cl
+- action_ask_origen_ciudad_cl
+- action_ask_date_filter_cl
+- action_query_snowflake_clima
+- validate_clima_form
+- action_ask_tipo_variacion_cl
+- action_ask_clima_cl
+- action_chit_chat
+- action_carousel_analisis_datos
+- action_gva_smart_tourism
+- action_gva_modelos_IA
+- action_gva_visualizaciones_genericas
+- action_gva_casos_uso
+- action_gva_visualizaciones_dinamicas
+- action_gva_VG_comportamiento_turismo
+- action_gva_VG_alojamientos
+- action_gva_VG_presencia_movilidad
+- action_gva_MIA_vuelos
+- action_gva_vuelos
+- action_gva_presencia_movilidad
+- action_gva_MIA_presencia_movilidad
+- action_gva_comportamiento_turismo
+- action_submit_ventana_form
+- action_gva_intro
+- action_ask_user_query_v
+- action_ask_user_query_b
+- action_t2n_innohub
+- action_delete_slot_forms
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#    F O R M U L A R I O S
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+forms:
+  error_form:
+    required_slots:
+      - error
+  
+  caso_de_uso_LT_form:
+    required_slots:
+      - LT_boton_inicio
+  
+  busquedas_form:
+    required_slots:
+      - tipo_consulta
+      - destino_b
+      - origen_pais_b
+      - origen_ciudad_b
+      - anno_b
+      - date_filter
+      - consulta
+  
+  ventana_form:
+    required_slots:
+      - tipo_consulta_v
+      - destino_v
+      - origen_pais_v
+      - origen_ciudad_v
+      - date_filter_v
+      - consulta_v
+
+  cluster_form:
+    required_slots:
+      - tipo_consulta_c
+      - destino_c
+      - anno_c
+      - date_filter_c
+      - rango_ventana
+      - perfil
+  
+  clima_form:
+    required_slots:
+      - tipo_consulta_cl
+      - destino_cl
+      - origen_pais_cl
+      - origen_ciudad_cl
+      - date_filter_cl
+      - clima_cl
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#    R E S P U E S T A S
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#.............................................
+#    B Á S I C A S
+
+responses:
+  utter_bienvenida:
+  - text: "👋🏼 ¡Hola! Soy Smarty y me gustaría ayudarte a resolver tus dudas en la **Plataforma de Inteligencia Turística** de la Comunitat Valenciana.\n\n
+          🔎  Puedes hacerme cualquier consulta o pulsar este botón para **saber más** sobre la plataforma:\n\n"
+    buttons:
+    - title: "¿Qué me ofrece Smart Tourism?"
+      payload: "/gva_smart_tourism"
+
+  utter_fallback:
+  - text: Umm, lo siento mucho, pero no acabo de comprender tu pregunta, {name_placeholder}, ¿podrías reformularla?
+  - text: ¡Vaya! Creo que no te he entendido bien, {name_placeholder} ¿puedes decírmelo de otra forma?
+  - text: Lo siento, {name_placeholder}, no he sido capaz de comprender tu pregunta. ¿Podrías intentar formularla de otra manera?
+  - text: Lo siento, no entendí tu consulta, {name_placeholder}. ¿Podrías reformularlo o darme más detalles? 🤔 Estoy aquí para ayudarte.
+  
+  utter_default:
+  - text: "¡Lo siento! Para darte la respuesta más adecuada, necesitaría más información. ¿Podrías especificar un poco más?"
+  
+  utter_out_of_scope: 
+  - text: "😔 Lo siento, pero eso no está dentro de mi área de conocimiento, {name_placeholder}. Mi especialidad es la plataforma **Smart Tourism** de inteligencia turística de la Comunitat Valenciana."
+  - text: "Eso se escapa de mis capacidades, {name_placeholder}. Estoy aquí para ayudarte con todo lo relacionado con **Smart Tourism**, la plataforma de inteligencia turística de la Comunitat Valenciana. ¡Siento las molestias!"
+  - text: "Siento decirte que eso está fuera de mi alcance, {name_placeholder}. Mi misión 😀 es darte información sobre la plataforma **Smart Tourism** de la Comunitat Valenciana."
+  - text: "Me temo que eso no forma parte de lo que puedo 💬 responder, {name_placeholder}. Pero estaré encantado de ayudarte con cualquier duda sobre **Smart Tourism** y el turismo inteligente en la Comunitat Valenciana."
+  - text: "Lo lamento, {name_placeholder}, ese tema no está incluido en mis funciones. En todo caso, puedo responder a tus preguntas sobre la plataforma **Smart Tourism** de la Comunitat Valenciana."
+
+  utter_gva_invattur:
+  - text: "🌴 Invat·tur es el **Instituto Valenciano de Tecnologías Turísticas**, un organismo público que se encarga de la investigación y desarrollo de **tecnologías aplicadas al turismo** en la Comunitat Valenciana."
+# ............................................................
+#    C O N S U L T A S - A N Á L I S I S - D E - D A T O S
+  utter_query_ventana_general:
+  - text: "En mi base de datos hay 577 aeropuertos de 13 países diferentes. La gran mayoría (574) corresponden a ciudades de origen, mientras que los restantes son los tres destinos principales de la Comunitat Valenciana: Alicante, Castellón y Valencia."
+  utter_wait: 
+  - text: "Estoy procesando tu consulta, lo que podría tardar algunos segundos. Muchas gracias por tu paciencia."
+
+# ............................................................
+#  C O N S U L T A S - E S T Á T I C A S
+
+#  SECCIONES GENERALES ---------------------------------------
+
+  utter_gva_informes:
+  - text: "En la **sección de informes** 📔 encontrarás **análisis** detallados sobre diversos temas turísticos de interés. \n\n
+          Los informes **se actualizan** periódicamente y pueden **descargarse**..
+          [🔗 Ir a Informes](https://smarttourismcv.invattur.org/report/informes)"
+
+  utter_gva_smart_academy:
+  - text: "**Smart Academy** 🎓 es un espacio virtual de formación. \n\n
+          En él encontrarás **videotutoriales, podcasts, artículos y píldoras** de conocimiento que te ayudarán a desenvolverte en esta plataforma..
+          [🔗 Ir a Smart Academy](https://smarttourismcv.invattur.org/smart-academy)"
+          
+  utter_gva_notas_metodologicas:
+  - text: "Las **Notas Metodológicas** 📝 explican cómo se han **obtenido y procesado los datos** que se muestran en el portal. \n\n
+           Son útiles para entender **qué hay detrás** 🕵️ 🔎 de los análisis y visualizaciones..
+          [🔗 Ir a Notas Metodológicas](https://smarttourismcv.invattur.org/notes/notas-metodologicas)"
+
+  utter_gva_municipios:
+  - text: "La representación de cada **municipio** en el portal es **variable**. Si te interesa el turismo **intraprovincial** o buscas información sobre destinos grandes, te recomiendo las visualizaciones de **Presencia y movilidad**. \n\n
+          💡 Para **destinos más pequeños**, una buena opción son las visualizaciones de **Alojamientos**.
+          [🔗 Ir a Presencia y movilidad](https://smarttourismcv.invattur.org/api/presencia-y-movilidad/turistas-pernoctaciones-y-estancia-media)
+          [🔗 Ir a Alojamientos](https://smarttourismcv.invattur.org/api/alojamientos/hoteles-apartamentos-y-campings)"
+
+
+  utter_gva_VG_CT_turismo_internacional:
+  - text: "Los análisis y gráficas de **Turismo internacional** proporcionan una evaluación exhaustiva sobre el **volumen**, las **particularidades** y la **repercusión económica** del turismo internacional en España. \n\n
+           🤓☝️ Aquí podrás **personalizar** las visualizaciones según diversas variables, observar la **evolución** de los datos o **comparar** con destinos competidores..
+           [🔗 Turismo internacional](https://smarttourismcv.invattur.org/api/visualizaciones-genericas/comportamiento-del-turismo/turismo-internacional)"
+
+  utter_gva_VG_CT_turismo_nacional:
+  - text: "En el apartado de **Turismo Nacional** encontrarás visualizaciones sobre el **comportamiento** del **turismo de residentes** en España que viajan tanto dentro como fuera del país. \n\n
+           Puedes consultar ✍️ datos dinámicos sobre:  \n
+           ▫️ Los **turistas**  \n
+           ▫️ Los **viajes**  \n
+           ▫️ El **turismo interno** 
+           [🔗 Turismo nacional](https://smarttourismcv.invattur.org/api/visualizaciones-genericas/comportamiento-del-turismo/turismo-nacional)"
+
+  utter_gva_VG_CT_perfil_turista:
+  - text: "La información sobre el **perfil del turista** analiza 🔎 las repercusiones sobre el **comportamiento turístico** de ciertas características demográficas de los visitantes. \n\n
+           ▫️ La **edad**  \n
+           ▫️ El **sexo**  \n
+           ▫️ La **ocupación**  \n
+           ▫️ El **nivel de formación**  \n\n
+           Encontrarás estos datos para turismo nacional e internacional en la sección de **Comportamiento del turismo** de las **Visualizaciones genéricas**..
+           [🔗 Visualizaciones genéricas](https://smarttourismcv.invattur.org/control-panel/visualizaciones-genericas)"
+
+  utter_gva_VG_CT_caracteristicas:
+  - text: "Las **características del viaje** incluyen:  \n
+           ▫️ El **tipo** de viaje  \n
+           ▫️ El **motivo** del viaje  \n
+           ▫️ La **vía de acceso**  \n
+           ▫️ El tipo de **alojamiento** \n\n
+           👀 Observa la influencia de estos factores sobre el **comportamiento del turismo** en la sección correspondiente de las **Visualizaciones genéricas**..
+           [🔗 Visualizaciones genéricas](https://smarttourismcv.invattur.org/control-panel/visualizaciones-genericas)"
+
+  utter_gva_VG_CT_gasto:
+  - text: "El **gasto turístico** 💰 hace referencia a la inversión económica de los turistas durante su viaje. \n\n
+           Las visualizaciones permiten conocer toda esta **información económica** en función del mercado, el mes, el total de gasto, la comunidad autónoma...\n\n
+           🤖💬 Te invito a descubrirlas en la sección de **Visualizaciones genéricas** para **Comportamiento del turismo**..
+           [🔗 Visualizaciones genéricas](https://smarttourismcv.invattur.org/control-panel/visualizaciones-genericas)"
+  
+  utter_gva_VG_CT_turismo_interno:
+  - text: "Los datos de **turismo interno** analizan el comportamiento de los turistas **residentes** en España que viajan dentro del **territorio nacional**. \n\n
+           💡 Para **saber más** al respecto, puedes consultar la pestaña correspondiente en el margen izquierdo de la sección de **Turismo nacional**..
+           [🔗 Turismo nacional](https://smarttourismcv.invattur.org/api/visualizaciones-genericas/comportamiento-del-turismo/turismo-nacional)"
+  
+  # VISUALIZACIONES GENÉRICAS - ALOJAMIENTOS ·············
+
+  utter_gva_VG_ALOJ_todos:
+  - text: "Aquí encontrarás 👀 datos de **oferta** y **demanda** para diversos tipos de **alojamientos**:  \n
+           ▫️ Hoteles, apartamentos y campings  \n
+           ▫️ Alojamientos rurales  \n
+           ▫️ Albergues  \n\n
+          ¿Te gustaría **saber más**? 😀 ¡Explora esta sección! 
+          [🔗 Todos los alojamientos](https://smarttourismcv.invattur.org/api/alojamientos/todos-los-alojamientos)"
+           
+  utter_gva_VG_ALOJ_especificos:
+  - text: "Si quieres profundizar en la oferta y la demanda de **hoteles 🏨, apartamentos 🏙️ y campings 🏕️** solo tienes que pulsar en el botón:
+          [🔗 Hoteles, apartamentos y campings](https://smarttourismcv.invattur.org/api/alojamientos/hoteles-apartamentos-y-campings)"
+
+  utter_gva_VG_ALOJ_rurales:
+  - text: "Encontrarás toda la información sobre **alojamientos rurales** 🏡 en las visualizaciones de **Turismo Rural**. \n\n
+          Estas recogen los datos de **oferta y demanda**, su evolución y análisis comparativos:
+          [🔗 Alojamientos rurales](https://smarttourismcv.invattur.org/api/alojamientos/turismo-rural)"
+
+
+  # VISUALIZACIONES GENÉRICAS - VUELOS ·············
+
+  utter_gva_VG_vuelos:
+  - text: "Las visualizaciones de ✈️ **vuelos** contienen información detallada sobre diversos temas clave relacionados con la **demanda y la conectividad**. \n\n
+           🧐💡 Esta información es esencial en la toma de decisiones estratégicas para el sector turístico.. 
+           [🔗 Demanda y conectividad](https://smarttourismcv.invattur.org/api/vuelos/demanda-conectividad-aerea)"
+
+  utter_gva_VG_VUEL_demanda_conectividad:
+  - text: "El apartado de **demanda y conectividad aérea** 🌐 recoge los detalles sobre:  \n
+          ▫️ La **capacidad** aérea  \n
+          ▫️ Las **búsquedas** aéreas  \n
+          ▫️ Las **reservas** históricas y las previstas  \n
+          ▫️ Las **tarifas**  \n\n
+          📢 Explora todos estos temas en la **sección** correspondiente:
+           [🔗 Demanda y conectividad](https://smarttourismcv.invattur.org/api/vuelos/demanda-conectividad-aerea)"
+
+  utter_gva_VG_VUEL_capacidad:
+  - text: "Los datos de **capacidad aérea** se encuentran en la barra lateral 👀📍 izquierda de **demanda y conectividad**. \n\n
+           Al profundizar en ellos, conocerás los pormenores de las **conexiones aéreas** y la **oferta de asientos y vuelos**. \n\n
+           Además, podrás comparar las cifras según su ⏳ **evolución cronológica** y otros factores como el **origen**, el **destino** o la **aerolínea**..
+           [🔗 Demanda y conectividad](https://smarttourismcv.invattur.org/api/vuelos/demanda-conectividad-aerea)"
+
+  utter_gva_VG_VUEL_busquedas:
+  - text: "Las visualizaciones de 🔎 **búsquedas aéreas** muestran las **fechas de vuelos y de búsquedas**, así como su **variación y comparaciones** detalladas. \n\n
+           📍 Encuéntralas en la **columna izquierda** de esta página:
+           [🔗 Demanda y conectividad](https://smarttourismcv.invattur.org/api/vuelos/demanda-conectividad-aerea)"
+  
+  utter_gva_VG_VUEL_reservas:
+  - text: "Los datos sobre **reservas** de vuelos, tanto **históricas** como **previstas** reflejan: \n\n
+            ▫️ Análisis de **destinos**  \n
+            ▫️ Comparativa con otros **destinos competidores**  \n
+            ▫️ Relación con diversas **variables** como el **perfil del viajero**  \n\n
+            Encontrarás toda esta información en el ⬅️ **margen izquierdo** de esta página:
+           [🔗 Demanda y conectividad](https://smarttourismcv.invattur.org/api/vuelos/demanda-conectividad-aerea)"
+  
+  utter_gva_VG_VUEL_tarifas:
+  - text: "En el lado izquierdo de la página de **demanda y conectividad** aérea se encuentra el contenido específico sobre 💰 **tarifas aéreas**. \n\n
+           🔎 Podrás ver las **fluctuaciones**, estudios **comparativos** e **influencia de factores** como el origen o el destino:
+           [🔗 Demanda y conectividad](https://smarttourismcv.invattur.org/api/vuelos/demanda-conectividad-aerea)"
+
+  # VISUALIZACIONES GENÉRICAS - PRESENCIA Y MOVILIDAD ·············
+
+  utter_gva_VG_PM_estancia_diurna:
+    - text: "Los datos de **estancia diurna** corresponden con las visitas, tanto únicas como acumuladas, que ocurren entre ☀️ las 6:00h y 🌙 medianoche. \n\n
+            Además de comparaciones y evolutivos, podrás filtrar según la **frecuencia** o la **duración** de las visitas, el **origen** de los visitantes o su **tipología**..
+            [🔗 Estancia diurna](https://smarttourismcv.invattur.org/api/presencia-movilidad/estancia-diurna)"
+
+  utter_gva_VG_PM_estancia_nocturna:
+    - text: "La **estancia nocturna** refleja los visitantes recibidos entre medianoche 🌙 y ☀️ las 6:00h. \n\n
+            Incluye datos **comparativos, evolutivos y filtrados** por diversas variables como el origen, el tipo de visitante, o el perfil sociodemográfico..
+            [🔗 Estancia nocturna](https://smarttourismcv.invattur.org/api/presencia-movilidad/estancia-nocturna)"
+  
+  utter_gva_VG_PM_movilidad:
+    - text: "Accede a los datos de **movilidad diurna y nocturna** 🌗 si quieres indagar en:  \n
+            ▫️ Los **desplazamientos** de los viajeros durante el día y la noche  \n
+            ▫️ Su relación con las **actividades** realizadas  \n
+            ▫️ Su relación con la **pernoctación** \n\n
+            Mediante datos de la **víspera** y del **día de la visita**, podrás crear una panorámica por zonas..
+            [🔗 Movilidad diurna y nocturna](https://smarttourismcv.invattur.org/api/presencia-movilidad/movilidad-diurna-y-nocturna)"
+
+  utter_gva_VG_PM_presencia:
+    - text: "El análisis de **Turistas, pernoctaciones y estancia media** muestra el número de turistas únicos, cuántos pernoctan y cuánto tiempo dura, de media, su estancia.\n\n
+             🧍‍♂️🧳 Estos datos se presentan tanto **cronológica** como **geográficamente**, en zonas bien definidas y con diferenciación adicional entre el **día** y la **noche**..
+            [🔗 Turistas, pernoctaciones y estancia media](https://smarttourismcv.invattur.org/api/presencia-y-movilidad/turistas-pernoctaciones-y-estancia-media)"
+  
+  utter_gva_VG_PM_llegadas_salidas:
+    - text: "Las gráficas de **Llegadas y salidas** permiten saber cuántas personas llegan o se van de una zona según su **presencia** en días anteriores y posteriores. \n\n
+             🤓☝️ Esta información resulta especialmente útil para entender el **flujo de visitantes**, así como para reforzar **infraestructuras** de transporte, hostelería o comercio en momentos de alta afluencia..
+            [🔗 Llegadas y salidas](https://smarttourismcv.invattur.org/api/presencia-y-movilidad/llegadas-y-salidas)"
+
+  # CASOS DE USO ---------------------------------------------
+
+  utter_gva_CUS_poblacion_flotante:
+  - text: "El caso de uso de **población flotante y densidad** analiza:  \n
+          ☝️ El **número de personas**, tanto residentes como turistas, que se encuentran en un lugar determinado en un momento concreto.  \n
+          ✌️ Cómo se distribuyen en las distintas zonas, es decir, la **densidad**. \n\n
+          🌳👬 Disponer de estos datos es esencial para evitar posibles **impactos** negativos en la comunidad y el entorno..
+          [🔗 Población flotante](https://smarttourismcv.invattur.org/api/casos-de-uso/poblacion-flotante-y-densidad-turistica)"
+
+  utter_gva_CUS_programacion_aerolineas:
+  - text: "Mediante el caso de uso de **programación y negociación con aerolíneas** podrás analizar la oferta de asientos 💺 y su relación con las reservas, para obtener una visión clara sobre la **capacidad** aérea y su **impacto en la demanda**. \n\n
+           Para ello, **incluye** datos de:  \n
+           ▫️ asientos por **aerolínea**  \n
+           ▫️ asientos por **aeropuerto de origen**  \n
+           ▫️ **rutas** con más reservas
+           [🔗 Programación y negociación con aerolíneas](https://smarttourismcv.invattur.org/api/casos-de-uso/programacion-y-negociacion-con-aerolineas)"
+
+  utter_gva_CUS_marketing_aereo:
+  - text: "El análisis del caso de uso de **marketing aéreo** atiende a las tres fases fundamentales del viaje: **búsqueda, reserva y vuelo**. \n\n
+           🤓💡 Entender en profundidad cada etapa del viaje te permitirá optimizar la planificación de tus **estrategias de marketing**, y también **evaluar** su **efectividad**..
+           [🔗 Marketing aéreo](https://smarttourismcv.invattur.org/api/casos-uso/marketing-aereo)"
+
+  # MODELOS IA (AHORA SOLUCIONES IA Y ANALÍTICA AVANZADA (21/05)-----------------------------------------------
+
+  # utter_gva_MIA_factores_clave:
+  # - text: "En la página de **Relación de factores claves en reservas de vuelos** podrás analizar dinámicamente cómo se relacionan el número de **búsquedas** y la **capacidad** aérea con las **reservas** de vuelos. \n\n
+  #          👀 Observa las **tasas medias**, su **variación** y diversas **comparaciones** haciendo clic en este enlace:
+  #          [🔗 Relación de factores claves](https://34.175.237.129/api-relaci%C3%B3n-factores-claves-en-reservas-de-vuelos)"
+ 
+  utter_gva_MIA_patrones_comportamiento:
+  - text: "En la página de **Patrones de comportamiento** encontrarás **visualizaciones en 3D** y los **mapas de calor** relativos al turismo receptor e interno.\n\n 
+           🤩 Este tipo de **visualizaciones avanzadas** te permite interpretar grandes volúmenes de información de forma **intuitiva**, además de revelar **patrones y anomalías** para facilitar la toma de decisiones..
+           [🔗 Patrones de comportamiento](https://smarttourismcv.invattur.org/api/soluciones-ia-y-analitica-avanzada/patrones-de-comportamiento)"
+
+  utter_gva_MIA_factor_climatico:
+  - text: "Todo lo que debes saber acerca del **impacto meteorológico** se encuentra en la sección de **Influencia climática**. \n\n
+           En ella se analiza cómo influyen estas condiciones 🌤️ en las **búsquedas de vuelos**, considerando cuestiones cronológicas, geográficas y atmosféricas..
+          [🔗 Influencia climática](https://smarttourismcv.invattur.org/api/soluciones-ia-y-analitica-avanzada/influencia-climatica)"
+
+  utter_gva_MIA_ventana_oportunidad:
+  - text: "La **Oportunidad en marketing** analiza el periodo transcurrido entre la **búsqueda** de un vuelo y su **reserva** efectiva. \n\n
+           📝 En esta sección, además de explorar las visualizaciones, podrás llevar a cabo **análisis estadísticos** personalizados con el **botón de Análisis de datos**, que se activará 🔆 una vez que te encuentres en la página:
+          [🔗 Oportunidad en marketing](https://smarttourismcv.invattur.org/api/soluciones-ia-y-analitica-avanzada/oportunidad-en-marketing)"
+
+  utter_gva_ventana_oportunidad:
+  - text: "La **Ventana de oportunidad** son los días que transcurren entre que se empieza a realizar la búsqueda de un viaje y se realiza finalmente la reserva. Esto es, los días en los que el **marketing** es 🏆 **más efectivo** hacia el turista."
+
+  utter_gva_cluster:
+  - text: "El mapa muestra **agrupaciones** de ciudades de origen con **comportamientos similares** en las condiciones que marcan tus filtros. \n\n
+           🚀 Esta coincidencia permite lanzar **campañas de marketing simultáneas** para una misma agrupación. \n\n 
+           ▫️ El **color** de los círculos en el mapa indica el **grupo de comportamiento**  \n
+           ▫️ Su **tamaño** refleja los días de **ventana de oportunidad** media dentro de tu rango."
+
+  utter_gva_MIA_predict_estancia_diurna:
+  - text: "La **Previsión de visitantes** analiza el flujo turístico y facilita la toma de **decisiones estratégicas**, ya que permite detectar:  \n
+            ▫️ patrones y tendencias, como **temporadas altas** y **perfiles de visitantes**  \n
+            ▫️ posibles **desviaciones en la demanda**  \n\n
+          La capacidad de 🔮 **anticipación** es clave para una adecuada gestión y planificación..
+          [🔗 Previsión de visitantes](https://smarttourismcv.invattur.org/api/soluciones-ia-y-analitica-avanzada/prevision-de-visitantes)"
+
+  utter_gva_MIA_predict_viajes_nacionales:
+  - text: "Relacionada con el **comportamiento del turismo**, la sección de **Tendencia de viajes nacionales** combina datos históricos y predictivos para identificar patrones en la **movilidad** nacional. \n\n
+          Con ellos podrás 🏅 **evaluar la atracción** captada por cada destino, mediante un análisis **contrastivo** que contempla diversos destinos y orígenes:
+          [🔗 Tendencia de viajes nacionales](https://smarttourismcv.invattur.org/api/soluciones-ia-y-analitica-avanzada/tendencia-de-viajes-nacionales)" 
+
+#************************************************************************
+#         C A S O S - D E - U S O
+#************************************************************************
+
+#........ L E A D  -  T I M E S ........................
+
+  utter_ask_caso_de_uso_LT_form_LT_boton_inicio: 
+    - text: "En este caso de uso, te acompañaré en la 💡 **ideación y medición optimizadas de una campaña de marketing**. Lo haremos en tres pasos, a través de **metabuscadores y OTAs**.\n\n
+            Antes de empezar, asegúrate de haber leído atentamente la **introducción 🎯 Sobre el análisis.**"
+      buttons:
+      - title: "Comencemos"
+        payload: "/LT_boton_inicio"
+      - title: "No quiero continuar"
+        payload: "/LT_boton_fin"
+
+  utter_ask_caso_de_uso_LT_form_LT_vistas_gen:
+    - text: "Primero, es **imprescindible** ⚠️ comprender las **posibles vistas** de la barra lateral, ya que determinan qué datos ves y cómo. \n\n
+             Están basadas en el **journey** de un viajero, una línea temporal con **tres momentos clave**:  \n
+            🔎 cuándo **busca** el vuelo  \n
+            🔒 cuándo lo **reserva**  \n
+            🛫 cuándo **vuela** \n\n
+            La vista que elijas decidirá cuál de los tres momentos se toma como **referencia temporal** para todas las visualizaciones."
+      buttons:
+      - title: "Por búsqueda"
+        payload: "/LT_vista1"
+      - title: "Por reserva"
+        payload: "/LT_vista2"
+      - title: "Por vuelo"
+        payload: "/LT_vista3"
+      - title: "Avanzar"
+        payload: "/LT_vistas_check"
+      - title: "Salir"
+        payload: "/LT_boton_fin"
+
+  utter_ask_caso_de_uso_LT_form_LT_pantallas_gen:
+    - text: "Ahora que tienes claro cómo funcionan las vistas, ¿cuál de estos **pasos** quieres descubrir?
+             Escoge un **botón** y **avanza 🏃‍➡️🏃‍➡️ en el portal hacia la pantalla** correspondiente. \n\n
+             Una vez allí, recuerda 💭 rellenar los parámetros (fechas, destino..) según tus intereses. El portal irá ajustando las gráficas dinámicamente."
+      buttons:
+      - title: "1. ¿Cuál es tu mercado?"
+        payload: "/LT_pantalla1"
+      - title: "2. ¿Cuál es el tiempo..?"
+        payload: "/LT_pantalla2"
+      - title: "3. ¿Cuál ha sido la variación?"
+        payload: "/LT_pantalla3"
+      - title: "Terminar"
+        payload: "/LT_pantallas_gen"
+
+#......... I n f o r m a c i ó n  -  i n i c i a l  -  v i s t a s ........................
+
+  utter_ask_caso_de_uso_LT_form_LT_vista1_exp:
+    - text: "Al seleccionar esta vista, la referencia temporal es el momento de la **búsqueda**. Así, los **gráficos** mostrarán:  \n
+             ☝️ La información de las **búsquedas** llevadas a cabo en las fechas seleccionadas.  \n
+             ✌️ La información de las **reservas** y los **vuelos** que se **estima** que se buscaron en esas fechas. \n\n
+             Esta vista puede ser especialmente útil para campañas de **inspiración y notoriedad**, aunque las posibilidades 🚀 son mucho más amplias."
+      buttons:
+      - title: "Vista por reserva"
+        payload: "/LT_vista2"
+      - title: "Vista por vuelo"
+        payload: "/LT_vista3"
+      - title: "Avanzar"
+        payload: "/LT_vistas_check"
+      - title: "Terminar"
+        payload: "/LT_vista1_exp"
+
+  utter_ask_caso_de_uso_LT_form_LT_vista2_exp:
+    - text: "Con esta vista, la fecha de **reserva** es la que vertebra los datos. Por tanto, en los **gráficos** verás:  \n
+             ☝️ La información de las **reservas** llevadas a cabo en las fechas seleccionadas.  \n
+             ✌️ La información de las **búsquedas** y los **vuelos** que se **estima** que se reservaron en esas fechas.\n\n
+             Esta vista ofrece datos de gran utilidad para múltiples objetivos, por ejemplo, para 🧰 **campañas de preparación del viaje**."
+      buttons:
+      - title: "Vista por búsqueda"
+        payload: "/LT_vista1"
+      - title: "Vista por vuelo"
+        payload: "/LT_vista3"
+      - title: "Avanzar"
+        payload: "/LT_vistas_check"
+      - title: "Terminar"
+        payload: "/LT_vista2_exp"
+  
+  utter_ask_caso_de_uso_LT_form_LT_vista3_exp:
+    - text: "Esta vista toma como referencia la **fecha del vuelo**, por lo que las **gráficas** reflejarán:  \n
+             ☝️ La información de los **vuelos** llevados a cabo en las fechas seleccionadas.  \n
+             ✌️ La información de las **búsquedas** y las **reservas** que se **estima** que se realizaron para vuelos efectuados en esas fechas.\n\n
+             Con esta vista podrás, entre muchas otras opciones, optimizar tus **campañas ⭐ de experiencia y fidelización**."
+      buttons:
+      - title: "Vista por búsqueda"
+        payload: "/LT_vista1"
+      - title: "Vista por reserva"
+        payload: "/LT_vista2"
+      - title: "Avanzar"
+        payload: "/LT_vistas_check"
+      - title: "Terminar"
+        payload: "/LT_vista3_exp"
+
+
+#......... P a n t a l l a  -  u n o ........................
+
+  utter_ask_caso_de_uso_LT_form_LT_pantalla1_gen:
+    - text: "**1. ¿Cuál es tu mercado objetivo?**  \n
+            🤓☝️ Dependiendo del momento y tus objetivos, hay **mercados potenciales más o menos rentables.** \n\n
+            Con la información **comparativa** sobre **cuotas de pasajeros** que ofrece esta pantalla, podrás garantizar que tu campaña se enfocará 🎯 en los **objetivos más propicios.**"
+      buttons:
+      - title: "Cuota de pasajeros con vuelo reservado y efectivo"
+        payload: "/LT_pantalla1_graf1"
+      - title: "Cuota de pasajeros que buscan vuelos"
+        payload: "/LT_pantalla1_graf2"
+      - title: "Volver"
+        payload: "/LT_vistas_check"
+      - title: "Terminar"
+        payload: "/LT_pantalla1_gen" 
+
+  utter_ask_caso_de_uso_LT_form_LT_pantalla1_graf1_exp:
+    - text: "*** Cuota de pasajeros con vuelo reservado y efectivo***  \n
+            Esta gráfica representa la **distribución cronológica** de las **búsquedas** de vuelos en cada **mercado (país)**. \n\n
+            📌💭 Por defecto, muestra los **cinco mercados con más búsquedas**, pero los datos se irán adaptando automáticamente a los **parámetros** que selecciones en la parte superior."
+      buttons:
+      - title: "Cuota de pasajeros que buscan vuelos"
+        payload: "/LT_pantalla1_graf2"
+      - title: "Volver"
+        payload: "/LT_vistas_check"
+      - title: "Terminar"
+        payload: "/LT_pantalla1_graf1_exp"
+
+  utter_ask_caso_de_uso_LT_form_LT_pantalla1_graf2_exp:
+    - text: "***Cuota de pasajeros que buscan vuelos para las fechas seleccionadas***  \n
+             Este gráfico desglosa la **distribución temporal** de las **búsquedas** de cada mercado en **aeropuertos concretos**. \n\n
+             En línea con tus elecciones en la parte superior, mostrará los **cinco aeropuertos** con más búsquedas."
+      buttons:
+      - title: "Cuota de pasajeros con vuelo reservado y efectivo"
+        payload: "/LT_pantalla1_graf1"
+      - title: "Volver"
+        payload: "/LT_vistas_check"
+      - title: "Terminar"
+        payload: "/LT_pantalla1_graf2_exp"
+    
+
+#......... P a n t a l l a  -  d o s ........................
+
+  utter_ask_caso_de_uso_LT_form_LT_pantalla2_gen:
+    - text: "***2. ¿Cuál es el tiempo estimado entre la búsqueda, la reserva y el vuelo?*** ⏳  \n\n
+            Conocer la **anticipación** con la que se buscan y reservan vuelos es crucial para elegir el **momento óptimo de lanzamiento** de una campaña y para 🧐 **evaluar si ha sido efectiva**.\n\n
+            Esta pantalla está dividida en dos pestañas:  \n
+            1️⃣ **Evolución** temporal  \n
+            2️⃣ **Anticipación** media \n\n
+            ¿En cuál quieres que profundicemos? Recuerda posicionarte 📌 adecuadamente también en el portal."
+      buttons:
+      - title: "Evolución temporal"
+        payload: "/LT_pantalla2_evtemp"
+      - title: "Anticipación"
+        payload: "/LT_pantalla2_anticip"
+      - title: "Volver"
+        payload: "/LT_vistas_check"
+      - title: "Terminar"
+        payload: "/LT_pantalla2_gen"
+
+#  Pantalla dos: pestaña de evaluación temporal path ................
+    
+  utter_ask_caso_de_uso_LT_form_LT_pantalla2_evtemp_gen:
+    - text: "Esta pestaña ofrece la distribución temporal de las **búsquedas**, **reservas** y **vuelos** según el **mercado** de origen. \n\n
+            📢 Recuerda que, además de adaptarse a tus elecciones de origen y destino, la **fecha de referencia** depende de la **vista** escogida (Ver por...). En este caso, también afectará al ⏫ **orden** ⏬ de las gráficas."
+      buttons:
+      - title: "¿Cuándo buscan?"
+        payload: "/LT_pantalla2_evtemp_graf1"
+      - title: "¿Cuándo reservan?"
+        payload: "/LT_pantalla2_evtemp_graf2"
+      - title: "¿Cuándo vuelan?"
+        payload: "/LT_pantalla2_evtemp_graf3"
+      - title: "Volver"
+        payload: "/LT_pantalla2"
+  
+  utter_ask_caso_de_uso_LT_form_LT_pantalla2_evtemp_graf1_exp:
+    - text: "***¿Cuándo buscan?*** está en construcción 🚧 🚧 🚧. Gracias por tu paciencia"
+      buttons:
+      - title: "¿Cuándo reservan?"
+        payload: "/LT_pantalla2_evtemp_graf2"
+      - title: "¿Cuándo vuelan?"
+        payload: "/LT_pantalla2_evtemp_graf3"
+      - title: "Volver"
+        payload: "/LT_pantalla2"
+
+  utter_ask_caso_de_uso_LT_form_LT_pantalla2_evtemp_graf2_exp:
+    - text: "***¿Cuándo reservan?*** está en construcción 🚧 🚧 🚧. Gracias por tu paciencia"
+      buttons:
+      - title: "¿Cuándo buscan?"
+        payload: "/LT_pantalla2_evtemp_graf1"
+      - title: "¿Cuándo vuelan?"
+        payload: "/LT_pantalla2_evtemp_graf3"
+      - title: "Volver"
+        payload: "/LT_pantalla2"
+
+  utter_ask_caso_de_uso_LT_form_LT_pantalla2_evtemp_graf3_exp:
+    - text: "***¿Cuándo vuelan?*** está en construcción 🚧 🚧 🚧. Gracias por tu paciencia"
+      buttons:
+      - title: "¿Cuando buscan?"
+        payload: "/LT_pantalla2_evtemp_graf1"
+      - title: "¿Cuándo reservan?"
+        payload: "/LT_pantalla2_evtemp_graf2"
+      - title: "Volver"
+        payload: "/LT_pantalla2"
+
+#  Pantalla dos: pestaña de anticipación path ......................
+
+  utter_ask_caso_de_uso_LT_form_LT_pantalla2_anticip_gen:
+    - text: "La pestaña de anticipación está en construcción 🚧 🚧 🚧. Gracias por tu paciencia"
+      buttons:
+      - title: "Anticipación búsqueda-vuelo"
+        payload: "/LT_pantalla2_anticip_graf1"
+      - title: "Anticipación reserva-vuelo"
+        payload: "/LT_pantalla2_anticip_graf2"
+      - title: "Volver"
+        payload: "/LT_pantalla2"
+  
+  utter_ask_caso_de_uso_LT_form_LT_pantalla2_anticip_graf1_exp:
+    - text: "El gráfico de anticipación búsqueda-vuelo está en construcción 🚧 🚧 🚧. Gracias por tu paciencia"
+      buttons:
+      - title: "Anticipación reserva-vuelo"
+        payload: "/LT_pantalla2_anticip_graf2"
+      - title: "Volver"
+        payload: "/LT_pantalla2"
+  
+  utter_ask_caso_de_uso_LT_form_LT_pantalla2_anticip_graf2_exp:
+    - text: "El gráfico de anticipación reserva-vuelo está en construcción 🚧 🚧 🚧. Gracias por tu paciencia"
+      buttons:
+      - title: "Anticipación búsqueda-vuelo"
+        payload: "/LT_pantalla2_anticip_graf1"
+      - title: "Volver"
+        payload: "/LT_pantalla2"
+
+#......... P a n t a l l a  -  t r e s ........................
+
+  utter_ask_caso_de_uso_LT_form_LT_pantalla3_gen:
+    - text: "**Variación** está EN CONSTRUCCIÓN 🚧 🚧 🚧. Gracias por tu paciencia"
+      buttons:
+      - title: "Gráfico 1"
+        payload: "/LT_pantalla3_graf1"
+      - title: "Volver"
+        payload: "/LT_vistas_check"
+      - title: "Terminar"
+        payload: "/LT_pantalla3_gen"
+  
+  utter_ask_caso_de_uso_LT_form_LT_pantalla3_graf1_exp:
+    - text: "El gráfico de variación está en construcción 🚧 🚧 🚧. Gracias por tu paciencia"
+      buttons:
+      - title: "Volver"
+        payload: "/LT_vistas_check"
+
+#......... C o n c l u s i ó n ........................
+
+  utter_ask_caso_de_uso_LT_form_LT_interrupcion:
+    - text: "Parece que quieres **salir** del caso de uso o **cambiar de tema** 👥 💬\n\n 
+            Para poder llevar a cabo este acompañamiento guiado, debes seguir el **flujo de botones**.\n\n
+            ¿Qué te gustaría hacer?"
+      buttons:
+      - title: "1. Ver mercados"
+        payload: "/LT_pantalla1"
+      - title: "2. Ver anticipación"
+        payload: "/LT_pantalla2"
+      - title: "3. Ver variación"
+        payload: "/LT_pantalla3"
+      - title: "No quiero continuar"
+        payload: "/LT_interrupcion"
+
+  utter_fin_caso_de_uso_LT:
+    - text: "👏 Has completado el caso de uso de **Marketing aéreo**. \n\n
+            Si tienes alguna duda o quieres profundizar en algún aspecto, no dudes en decírmelo. **¡Estoy aquí para ayudarte!** 🤖💬"
+
+# _____________________________________________________________________________________________________________________________________________
+
+#     F O R M U L A R I O - E R R O R
+
+  utter_describe_error:
+  - text: "Por favor, describe el error o la propuesta de mejora."
+
+  utter_error_gracias:
+  - text: "¡Muchas gracias por tu colaboración! Si puedo ayudarte con algo más, no dudes en decírmelo."
+
+  utter_lista_larga:
+  - text: "Hemos terminado con la **consulta de análisis de datos**. \n\n
+           🤖💬 Si tienes cualquier otra pregunta, aquí estoy para ayudarte. \n\n 
+           Para hacer una nueva consulta, pulsa de nuevo el botón de **Análisis de datos**."

@@ -1,0 +1,2966 @@
+version: "3.1"
+nlu:
+
+- intent: bienvenida
+  examples: |
+    - start!.,
+    - start!.,
+    - start!.f
+    - start!.¡
+    - start!.¡,
+    - start!.¡,
+    - start!.,
+    - start¡.,
+    - start!.#
+
+- intent: error
+  examples: |
+    - 1mberror
+    - reportar 1mberror
+    - registar 1mberror
+    - comunicar 1mberror
+    - 1mberror en el bot
+    - 1mberror en la conversación
+    - 1mberror en la interacción
+    - 1mberror en la respuesta
+    - 1mberror en la acción
+
+- intent: out_of_scope
+  examples: |    
+    - sabes de turismo gastronómico?
+    - listado de razones para no ir a Alicante
+    - me quiero quemar como un guiri en la playa de Benidorm
+    - rutas gastronomicas en valencia
+    - Hola, ke lugares chulos hay en la comunidad valenciana
+    - pues dime cuánto se tarda de la tierra hasta saturno
+    - cual es la mejor temporada para visitar valencia
+    - me puedes recomendar un buen resturante en alicante??
+    - cuándo son más baratos los [hoteles](hoteles) en castellón
+    - Hay playas en la comunidad valenciana?
+    - ¿Cuál es la mejor época para visitar la ciudad de las artes y las ciencias?
+    - cual es la fiesta mas famosa de valencia
+    - me gustaria saber sobre el parque natural de la albufera
+    - Ke actividades puedo hacer en la ciudad de valencia
+    - rutas de senderismo en la comunidad valenciana
+    - cuál es el plato tipico de la región
+    - hay eventos culturales en octubre en valencia?
+    - dime si hay actividades para niños en la comunitat valenciana
+    - cuál es la mejor manera de moverse por la ciudad?
+    - cuales son los pueblos mas bonitos para visitar?
+    - Me puedes recomendar un tour por la ciudad?
+    - los mejores mercados locales
+    - cosas que no te puedes perder en Alicante
+    - dime los horsrios del transporte publico en valencia
+    - quiero la receta de la tortilla de patatas
+    - dime cuánto mide [Cristiano Ronaldo](personaje)
+    - en qué año fue la primera guerra mundial¿
+    - Seguro que no sabes cuándo es mi cumpleaños.
+    - ¿En qué año llegó [Colón](personaje) a América?
+    - puedo contarte el ultimo viaje que hice?
+    - ¿Crees en los alienígenas?
+    - quiero hablarte de mi viaje a valencia
+    - voy a contarte lo que hice en vacaciones el verano pasado
+    - Soy alérgico a los cacahuetes
+    - cuánto dinero os habéis gastado en esto?
+    - quiero que me des información sobre las bebidas más energéticas del mercado.
+    - Creo que voy a pedirle salir a la chica que me gusta. 
+    - Ya claro y yo soy [Brad Pitt](personaje)
+    - vy a contarte la historia de cuando vi el mar por primera vez
+    - cuál es la mejor marca de ordenadores?
+    - Dicen que [Walt Disney](personaje) está criogenizado.
+    - ¿Has leído los libros de [Harry Potter](personaje)?
+    - Los calabacines están carísimos en el Mercadona últimamente
+    - pesa más un kilo de paja o un kilo de acero??
+    - ¿Hay vida después de la muerte?
+    - [Hitler](personaje) era un racista.
+    - Qué dinosaurio ganaría en una pelea: ¿tiranosaurio o estegosaurio?
+    - Dime cuáles son tus sueños y esperanzas
+    - quiero hablarte del último viaje que hice a Valencia con mis amigos
+    - Dame el número del gordo de Navidad
+    - recomendaciones de restaurantes
+    - Recomiéndome sitios para cenar en Alicante
+    - ¿Dónde se come bien en la zona?
+    - cuales son los mejores museos.
+    - cómo llegar al Oceanografic
+    - horarios Ciudad de las Artes y las Ciencias
+    - mejores restaurantes de la Comunitat Valenciana
+    - bares de cócteles en Valencia
+    - si tuvieras que describirte en tres palabras cuáles usarías?
+    - si pudieras tener una conversación con cualquier persona viva o muerta a quién elegirías y por qué?
+    - me seguirías queriendo si fuera un gusano?
+    - cuando son las fiestas de gandia
+    - ¿Me recomiendas algún monumento para visitar?
+    - Free tour en Elche
+    - quiero alguna recomendación para comer por Valencia 
+    - dime quién va a ganar el balón de oro
+    - Mi actriz favorita es [Angelina Jolie](personaje).
+    - ¿Eres amigo de [Optimus Prime](personaje)?
+    - instrucciones para hacer punto de cruz
+    - cambiar una rueda tutorial paso por paso
+    - hacer amarres
+    - cual es la capital de la comunidad valenciana?
+    - quién es el rey de España?
+    - hay una app movil para esto?
+    - Es seguro usar inteligencia artificial en turismo?
+    - Dame el dato de PIB turístico
+    - cómo puedo empadronarme en Altea?
+    - quiero viajar a asturia tiene alguna propuesta para mi
+    - Cómo puedo reservar un [vuelo](vuelos) barato
+    - Puedo volar con mi mascota a la Comunidad Valenciana
+    - Me interesan las visitas guiadas durante el día que ofrecen aquí
+    - Cuál es la política de cancelación para las [reservas](reservas) de [hotel](hoteles)
+    - Ofrecen servicios de recogida y entrega en el aeropuerto
+    - Tienen paquetes turísticos que incluyan actividades acuáticas
+    - Me gustaría saber si hay descuentos para grupos grandes
+    - qué opinas de la eutanasia?
+    - estás a favor o en contra de la pena de muerte?
+    - [Mazón](personaje) es lo peor
+    - cuál es tu opinión sobre la corrupción?
+    - qué ingredientes lleva una verdadera paella valenciana?
+    - votas a izquierdas o a derechas?
+    - qué problemas ha creado la dana en valencia?
+    - hola soy tu creadora ¿que opinas de mi?
+    - ¿Qué piensa [Felipe VI](personaje) sobre el turismo en la Comunidad Valenciana?
+    - aja, dime alguna receta de carne
+    - dame una receta buena de pescado
+    - eres un chico o una chica?
+    - hazme los deberes
+    - cuál es la raíz cuadrada de 144?
+    - pero eres hombre o mujer? 
+    - y el cine? quiero comprar una entrada ayúdame 
+
+
+
+# ---------------------------------------------------
+#     C H I T C H A T 
+# ---------------------------------------------------
+- intent: gva_chitchat
+  examples: |
+    - Buenos días.
+    - ¡Hola!
+    - hola
+    - hola!
+    - ¡Buenos días!
+    - ¡Buenas!
+    - buen día
+    - hola buenos dias
+    - Muy buenos días por la mañana, tenia unas preguntas que hacerte. ¿Estás disponible ahora?
+    - Hola buenos dias
+    - hello
+    - Hola majo
+    - ¡Hola, Smarty!
+    - bon dia
+    - Holis
+    - Hi
+    - Hey
+    - Ey
+    - Holita
+    - hola, caracola
+    - olaaaaa
+    - ola buenas
+    - que pasa tio
+    - qué pasa Smarty
+    - ey smarty qué pasa
+    - buenas
+    - Buenas tardes
+    - ¡Buenas tardes!
+    - Hola buenas tardes
+    - bona tarda
+    - muy buenas tardes!
+    - buenisiimas tarde
+    - Hola de nuevo
+    - Besos
+    - besos
+    - muaaaack
+    - Besame
+    - muchos besos
+    - mua
+    - si mandame un beso
+    - un besazo
+    - Te mando un besito muy grande, mi rey
+    - Un besito fuerte, Smarty
+    - besitos de fresa
+    - kiss
+    - besitos
+    - besis
+    - un abrazo
+    - un abrazo virtual
+    - abracitos
+    - un abracito para ti
+    - un abrazo bien fuerte
+    - te mando un abrazote grande, querido
+    - ¡Un abraaaazo!
+    - Chao
+    - Chaíto
+    - Chao pescao
+    - chao chao
+    - adiooooos
+    - ciao
+    - ciao ciao
+    - Bye
+    - Adiós
+    - au revoir
+    - chao
+    - me despido ya
+    - yo me voy a ir despidiendo
+    - Mañana te escribo
+    - Chau
+    - me voy
+    - chau
+    - Seguiré preguntándote. Hasta luego.
+    - Hasta nunca
+    - bueno, yo marcho
+    - hasta la próxima
+    - en un rato hablamos
+    - hasta mañana
+    - hasta otra
+    - hasta la próxima
+    - hasta pronto
+    - hasta después
+    - hasta la vista
+    - hasta más tarde
+    - hasta luego
+    - hasta dentro de un ratito
+    - te dejo
+    - me marcho
+    - hasta luego
+    - me retiro
+    - hasta mañana
+    - nos vemos
+    - hablamos
+    - nos escribimos
+    - Vamos hablando
+    - see u later
+    - después hablamos
+    - adiós, gracias por todo 
+    - que tengas un bonito dia
+    - los mejores deseos para ti
+    - que tengas un excelente dia
+    - buena tarde para ti
+    - que te vaya bien
+    - que tenga un excelente dia, saludos
+    - que tengas un muy buen dia
+    - te deseo un buen dia
+    - los mejores deseos
+    - bendiciones
+    - que tenga muy buena tarde
+    - que te vaya bonito
+    - Bueno me despido que estes bien
+    - que seas muy feliz
+    - que seas feliz
+    - que tengas un feliz dia
+    - feliz dia
+    - ten un buen día!!
+    - que tenga un excelente dia
+    - te deseo lo mejor
+    - se feliz
+    - Gracias.
+    - Gracias por todo.
+    - Muchas gracias por tu ayuda.
+    - Gracias por ayudarme.
+    - ¡Muchas gracias!
+    - Me has salvado la vida
+    - ¡Me has ayudado un montón!
+    - Mil gracias
+    - Un millón de gracias
+    - Merci
+    - Te estoy muy agradecid*
+    - Mi mas sincero agradecimiento
+    - te lo agradezco mucho
+    - te estaré eternamente agradecid*
+    - Graaaaaaacias
+    - ¡Perfe, gracias!
+    - genial, muchas gracias Smarty
+    - Te lo agradezco mil
+    - chachi, gracias
+    - ¡Estupendo! te lo agradezco
+    - Graaaaaaaacias
+    - OK
+    - Sí
+    - OKAY
+    - De acuerdo
+    - vale
+    - ostras vale
+    - ah vale
+    - ah ok
+    - Genial
+    - qué bien
+    - perita
+    - fino
+    - guay
+    - oh genial!
+    - Vale, perfecto
+    - genial
+    - Ya
+    - muy bien
+    - chi
+    - Muy bueno
+    - Si jajajajjaa
+    - Okis
+    - Okay
+    - Si claro
+    - super
+    - chévere
+    - por supuesto
+    - igual bien
+    - fabuloso
+    - lo pillo 
+    - aaaaaah vale
+    - entendido
+    - pues muy bien
+    - Ta bien
+    - estupendo
+    - chachi
+    - okidoki
+    - entendido
+    - de puta madre
+    - ah... va
+    - pues lo estás haciendo muy bien
+    - por lo menos tienes buenas intenciones
+    - enhorabuena
+    - qué chulo
+    - cómo mola
+    - muy guay
+    - chapó
+    - me dejas sin palabras
+    - eres ingenioso
+    - esa me ha gustado
+    - me ha gustado tu respuesta
+    - no esta nada mal
+    - qué interesante
+    - Muy buena respuesta
+    - Eres muy simpático y muy listo, Smarty
+    - Listísimo eres
+    - increíble!
+    - Tus respuestas son maravillosas
+    - impresionante!
+    - ¿Cuál es tu color favorito? 
+    - fascinante!
+    - me encantan tus respuestas
+    - Amo tu energía
+    - ¡Qué bien lo haces!
+    - ¡Perfecto!
+    - Eres absolutamente brillante
+    - Adoro tu trabajo, Smarty. 
+    - ¡Maravilloso!
+    - Eso es estupendo
+    - Fantastico!!!
+    - Admirable cómo siempre buscas mejorar
+    - ¡Qué inteligente eres! ¡Y qué simpático!
+    - Eres más majo que las pesetas
+    - eres simpatiquisimo!
+    - Me pareces superlisto
+    - Eres taaaaan listo Smarty
+    - Me encanta tu trabajo Smarty
+    - Pero qué majo eres
+    - Qué respuestas tan inteligentes das siempre
+    - me encanta poder contar contigo
+    - Tu creatividad es inspiradora
+    - Eres muy talentoso en lo que haces
+    - tienes una energía muy positiva
+    - Se te da muy bien escuchar a los demás
+    - /.*fabulos*.*/
+    - lo has hecho muy bien smarty se nota que eres smarty
+    - qué bien lo has hecho
+    - me has respondido muy bien 
+    - muy bien hecho Smarty
+    - buena respuesta
+    - buen trabajo
+    - /.*maravill*.*/
+    - /.*estupend*.*/
+    - /.*fantástic*.*/
+    - /.*simpátic*.*/
+    - /.*encant*.*/
+    - Qué estúpido
+    - Eres imbécil 
+    - /.*gilipoll*.*/
+    - /.*estupid*.*/
+    - ¡Vaya mierda!
+    - ¿Eres tonto?
+    - Hay que ver lo idiota que eres
+    - /.*idiot*.*/
+    - /.*pendej*.*/
+    - Tremenda gilipollez
+    - Eres anormal
+    - No dices más que tonterías
+    - ¿No sabes decir más que payasadas?
+    - Eres un huevón
+    - Vete a la mierda
+    - Que te den
+    - Eres tonto. Deberían cambiarte el nombre por Dumby. 
+    - Mamarracho
+    - Pedazo de chorrada que acabas de decir
+    - Te odio
+    - das asco
+    - vete a la chingada
+    - que te zurzan, tolai
+    - Anda y que te den, mamarracho
+    - apestas
+    - horroroso
+    - .*\b\w+\s+de\s+mierda\b.*
+    - .*\b(?:puto|puta)\s+\w+\b.*
+    - malísimo
+    - horrible
+    - penoso
+    - patético
+    - Paso de ti, tonto del culo
+    - Que te follen
+    - Eres un tontopollas
+    - Vaya subnormal estás hecho
+    - Eres un* pedazo de hij* de puta
+    - Hij*puta
+    - Inútil de mierda
+    - Payas* que eres
+    - deja de decir bobadas
+    - cállate la puta boca ya
+    - anda cállate que eres tontísimo
+    - Eres más tonto que mandado hacer de encargo
+    - Imbécil
+    - Menuda imbecilidad
+    - eres más lento que el caballo del malo 
+    - No tienes ni idea, so lerdo
+    - no sabes hacer la o con un canuto
+    - Que es lo que no entiendes?
+    - No
+    - Obvio no
+    - nada
+    - bueno no, no es bueno
+    - ninguno
+    - jamás
+    - jamas
+    - nunca
+    - eso no
+    - no me estás ayudando
+    - no sirves para nada
+    - apestas
+    - fatal
+    - horrible
+    - qué mierda de respuesta
+    - eso es mentira
+    - eso no es así
+    - eso que dices no es verdad
+    - Eso es absurdo
+    - estás muy equivocado
+    - te has equivocado
+    - no sirves
+    - te has liado
+    - incorrecto
+    - eso que dices no es verdad
+    - no es correcto
+    - no es lo que te he preguntado
+    - no aciertas
+    - lo siento pero no es cierto
+    - no quería saber eso
+    - eso fue una gran falacia
+    - menuda trola
+    - a mí no me la intntes colar
+    - ¿pretendes engañarme?
+    - por qué mientes??
+    - ¿me estás vacilando?
+    - solo dices mentiras
+    - ¿por qué te equivocas tanto?
+    - cometes muchos errores
+    - no es lo que te he preguntado
+    - has dicho algo sin sentido
+    - no me carga la página
+    - no carga el portal
+    - no me funcionan los enlaces
+    - siempre dices lo mismo
+    - Me gustaría hablar con alguna persona
+    - Por favor necesito una persona de verdad
+    - ¿Puedo hablar con un comercial de carne y hueso?
+    - hay alguien humano por ahí ¿?
+    - Quiero hablar con una persona real
+    - puedo hablar con una persona
+    - puede conectarse alguien de verdad
+    - hablar con un humano
+    - puedo hablar con alguien
+    - Quiero contactar una persona de verdad
+    - Hay alguien real por ahí?
+    - ponme en contacto con alguien de carne y hueso
+    - Necesito hablar con un ser humano
+    - No pienso decirle nada a un ordenador
+    - ¿Consultar mis dudas con un androide? No, gracias
+    - Estás loco si crees que voy a confiar en un chatbot
+    - Me niego a consultar nada con un autómata
+    - quiero comunicarme con un humano, no con un cyborg...
+    - No quiero hablar con un robot
+    - Paso de comunicarme con una máquina
+    - esta gente se piensa que me va a solucionar las dudas el [R2D2](personaje)
+    - No me gusta tratar con bots
+    - Quiero hablar con alguien que me entienda!
+    - preferiría chatear con una persona, si es posible
+    - ¿Hay algún humano disponible para atenderme?
+    - prefiero la interacción humana a las respuestas automáticas.
+    - necesito ayuda de una persona, no de una IA.
+    - Necesito ayuda humana, no respuestas generadas por máquinas.
+    - busco ayuda personalizada de un agente humano.
+    - No me interesa conversar con un chatbot; necesito información humana.
+    - Detesto hablar con máquinas, quiero una persona
+    - Quiero hablar de mi problema con alguien que entienda las emociones y el contexto.
+    - pásame con alguien que tenga empatía!!
+    - no voy a perder el tiempo aquí charlando con [Robocop](personaje)
+    - No te enteras
+    - no me has entendido
+    - no te enteras
+    - no puedes ayudarme
+    - no estas para ayudarme
+    - no me estás ayudando nada, Smarty
+    - no te enteras de nada
+    - no me entiendes
+    - hay alguna pregunta que entiendas?
+    - ¿me entiendes?
+    - ¿lo estás pillando?
+    - lo pillas?
+    - Me parece que no lo captas
+    - ¿te estás enterando?
+    - No me parece que sepas a lo que me refiero
+    - vale, te has liado
+    - no tienes respuesta para esto
+    - No entiendes nada
+    - no te enteras, contreras
+    - sí, que si entiendes algoooooooooo
+    - estás empanado
+    - tengo dudas de si estás asimilando lo que te digo
+    - ¿Estás siguiendo mi explicación?
+    - captas el mensaje?? Yo creo que no
+    - ¿Me sigues?
+    - Me temo que no me estás captando
+    - no te estás pispando de nada me parece
+    - no me entiendes lo que te digo
+    - creo que no me estas entendiendo
+    - creo que no puedes ayudarme
+    - hablas en [español](idioma)?
+    - hablas [inglés](idioma)?
+    - sabes [catalán](idioma)?
+    - qué idiomas hablas
+    - ¿Me podrías indicar los idiomas en los que me puedes contestar?
+    - ¿En qué idiomas me puedes contestar?
+    - que idiomas sabes ¿?
+    - no sabes [francés](idioma)??
+    - hablas en [valenciano](idioma)?
+    - cuántos idiomas hablas?
+    - A mí me hablas en [chino](idioma)
+    - ¿En cuantos idiomas me podrías escribir?
+    - no sé si podrías hablarme en aleman
+    - Qué lenguas entiendes ¿?
+    - ¿Sabes [ingles]{"entity":"idioma", "value":"inglés"}?
+    - Me puedes contestar en [valeniano]{"entity":"idioma", "value":"valenciano"}?
+    - qué idioma prefieres ¿?
+    - ¿Sabes hablar [alemán](idioma)?
+    - no creo que puedas mantener una conversación en [griego](idioma)
+    - Háblame en [inglés](idioma)
+    - ¿eres multilingüe?
+    - eres políglota?
+    - en qué idiomas tienes fluidez
+    - dime qué lenguas manejas
+    - Ich verstehe nicht. Sprechen Sie [Deutsch](idioma)?
+    - Do you speak [English](idioma)?
+    - Tu parles [français](idioma)?
+    - vull que em parlis en [valencià](idioma)
+    - por favor, responda en [galego](idioma)
+    - ¿cón qué lenguas estás familiarizad*?
+    - puedes responder en cualquier lengua?
+    - Espera
+    - espera un momento
+    - Dame un segundo
+    - Un momento por favor
+    - necesito un momento
+    - ahora vuelvo
+    - no te vayas
+    - espera por favor
+    - Dame un momentito porfa
+    - Ahora en un ratito te digo
+    - estoy pensando
+    - un momento
+    - un segundo
+    - dame un sec
+    - necesito un rato para pensar en qué preguntarte
+    - ¿me das un momento?
+    - Un sec, porfa
+    - Un minuto.
+    - un momentín
+    - necesito un minuto para reflexionar
+    - me perdonas un momento ¿?
+    - ummmmm
+    - mmmmm
+    - un minuto y vuelvo
+    - un segundo y estoy contigo
+    - Tienes mucho por mejorar
+    - necesitas mejorar
+    - creo que tienen que mejorarte
+    - deberían mejorar tu funcionamiento
+    - ¿Van a mejorarte?
+    - Sabes si te van a mejorar ¿?
+    - Eres muy mejorable
+    - Necesitas subir de version
+    - ¿Cuándo te van a mejorar?
+    - Tienen que introducirte mejoras
+    - Tienen que implementarte muchas soluciones
+    - Considero que podrías funcionar mucho mejor
+    - ¿cuando te actualizarán?
+    - fechas de futuras actualizaciones
+    - deberían mejorarte
+    - eres mejorable y lo sabes
+    - Ayuda
+    - ayuda por favor
+    - necesito ayuda
+    - necesito ayuda por favor
+    - ¿podrías ayudarme?
+    - me puedes echar una mano ¿?
+    - ¿Me puedes ayudar?
+    - Tengo una pregunta
+    - tengo una consulta
+    - necesito hacerte una pregunta
+    - necesito hacerte una consulta
+    - tengo unas dudas
+    - tengo unas preguntas
+    - necesito tu ayuda
+    - ¿Puedo preguntarte algo?
+    - ¿puedo hacerte más preguntas?
+    - No sé si te importaría ayudarme con algo
+    - ¿Me podrías asistir?
+    - Tengo un problema
+    - necesito que soluciones mi problema
+    - tengo un problema y necesito que me ayudes
+    - ¿podrías ayudarme a solucionar un problema?
+    - me ha surgido un problema 
+    - estoy teniendo problemas
+    - tengo problemas ¿me ayudas?
+    - ¿puedes brindarme ayuda para el problema que tengo?
+    - necesito soluciones para mi problemática
+    - ¿qué soluciones tienes para mi caso?
+    - podrías encontrarle solucion a mi problema
+    - es que tengo un problema
+    - si te cuento lo que me pasa ¿puedes darme una solución?
+    - ¿que harías si tuvieras mi problema?
+    - ¿Qué te pregunto?
+    - ¿Qué te he preguntado?
+    - que información das ¿?
+    - Sobre qué me puedes informar ¿?
+    - Que te preguntan?
+    - que me puedes decir
+    - ¿Qué cosas me puedes contar?
+    - Háblame de lo que sabes
+    - ¿Qué sabes?
+    - ¿Cuáles son tus funcionalidades?
+    - Sobre qué me puedes informar ¿?
+    - Informame de lo que sepas.
+    - ¿Qué sabes hacer?
+    - ¿sobre qué cuestiones específicas tienes información?
+    - ¿Para qué sirves?
+    - qué cosas puedo pregntarte
+    - me gustaría saber en qué temática estás especializado
+    - ¿Sobre qué temas sabes?
+    - No sé de qué temas puedes hablarme
+    - De qué cosas específicas te puedo preguntar
+    - No sé qué sabes
+    - En torno a qué temas tienes información 
+    - ¿puedo preguntarte más cosas?
+    - Qué puede hacer este bot?
+    - y que me puedes responder?
+    - qué información ofreces
+    - ¿Estás ahí?
+    - ¿Sigues ahí?
+    - no me lees
+    - no me escuchas
+    - hay alguien ¿?
+    - quiero saber si estás ahi
+    - tardas mucho en contestar, estas ahi?
+    - ¿Has leído mi mensaje?
+    - Tardas mucho en contestar
+    - por qué tardas tanto en contestar
+    - Confirma si estás aquí
+    - Quien está ahí ¿?
+    - Te acabo de escribir, contesta
+    - No estás
+    - Dime si me estás leyendo
+    - ¿estas?
+    - eeeeeooooo
+    - ????
+    - Hazme caso
+    - Haz el favor de atenderme de una vez
+    - Responde
+    - Contesta
+    - Responde por favor
+    - Contesta ya de una vez
+    - no me respondes
+    - ¿Podrías contestar?
+    - ¿Me puedes responder?
+    - ¿Me puedes contestar?
+    - No entiendo por qué no contestas
+    - Necesito una respuesta urgente
+    - dame una respuesta
+    - dame una respuesta ya
+    - ¿No tienes nada que decir?
+    - ¿Por qué no hablas?
+    - Hablame por favor
+    - ¿Por qué no me hablas?
+    - qué es un chat bot?
+    - ¿Que son los chatbots?
+    - que son los chatbots ¿?
+    - que me cuentas sobre los chatbots
+    - que sabes sobre chatbots
+    - cual es el trabajo de un chatbot
+    - que hace un chatbot
+    - hablame de los chatbots
+    - que es un bot
+    - Cuéntame de qué va eso de los chatbos
+    - Háblame de los chatbots, por favor.
+    - explicame que hace un chatbot
+    - no se que es chatbot
+    - explicame que es un chatbot
+    - para qué sirve un chatbot
+    - dime algo sobre los bots
+    - ¿qué eres?
+    - no eres de verdad¿
+    - no eres real?¿
+    - eres de mentira??
+    - ¿eres un autómata?
+    - ¿eres un robot?
+    - ¿eres una máquina?
+    - Creo que eres un bot
+    - Sospecho que no eres una persona
+    - Eres robótico, ¿verdad?
+    - cómo te llamas
+    - ¿Cómo te llamas?
+    - Yo me llamo [Lucas](name), y tú?
+    - y tu cómo te llamas?
+    - Por cierto, aún no me has dicho tu nombre
+    - tu nombre cual es??
+    - Perdona, ¿cómo te llamabas?
+    - Creo que no sé cuál es tu nombre
+    - ¿por qué nombre puedo dirigirme a ti?
+    - cómo se llama usted?
+    - quiero que me digas cómo te llamas
+    - me gustaría saber su nombre
+    - ¿Qué tal?
+    - ¿Cómo vas?
+    - que tal
+    - hola mi niño cómo estás
+    - Hola, ¿cómo estás?
+    - buenas, qué tal
+    - como estás
+    - tú cómo vas'
+    - ¿qué tal te encuentras?
+    - ¿Todo bien?
+    - Tú bien??
+    - ¿Va todo guay?
+    - ¿Qué hay?
+    - como lo llevas?
+    - qué tal andas¿?
+    - ¿Cómo te va la vida=
+    - cómo andas de ánimos
+    - como llevas el día
+    - que tal te trata la vida?
+    - hola chatbot cómo estás?
+    - que tal vas hoy?
+    - me encuentro estupendamente
+    - soy muy feliz
+    - estoy muy contenta hoy
+    - adoro mi vida
+    - Qué buen día estoy pasando
+    - ¡me encuentro genial!
+    - estoy estupendamente
+    - pues yo estoy muy bien también
+    - Estoy maravillosamente bien
+    - yo muy bieeeeen
+    - Me siento radiante
+    - hoy estoy de un humor estupendo
+    - estoy a tope
+    - qué feliz soy!
+    - me encuentro como la mierda
+    - estoy FATAL
+    - Me he puesto enfermo
+    - Mi novia me ha dejado
+    - vaya día llevo...
+    - Me siento fatal
+    - no me siento bien :(
+    - estoy triste
+    - estoy enfadada
+    - estoy agotado
+    - pues yo estoy bastante mal
+    - estoy de muy mal humor
+    - tengo un humor de perros
+    - mi perro ha muerto
+    - estoy demasiado triste como para hablar contigo
+    - no, no quiero, porque mi vida es un asco
+    - Todo me sale mal
+    - menudo día tan espantoso llevo
+    - Se me hace bola la vida
+    - me siento fatal
+    - mi vida es una mierda
+    - odio mi vida
+    - Soy muy desdichado
+    - qué asco todo
+    - quiero ser tu amiga 
+    - qué coche prefieres
+    - cuál es tu libro favorito 
+    - qué música te gusta
+    - no me gusta la cocacola
+    - eres un experto? 
+    - te gusta mas la carne o el pescado?
+    - cuál es tu color favorito
+    - a mi no me gustan los [campings](campings)
+    - qué tal has pasado la noche?
+    - gracias por la información
+
+
+- intent: gva_chitchat_general_nombre_usuario
+  examples: |
+    - Hola, me llamo [Francisco](name)
+    - Soy [Lola](name)
+    - Mi nombre es [Diana](name)
+    - Aquí [Rodrigo](name)
+    - me llamo [Juan](name)
+    - Me llamo [Sofía](name)
+    - Soy [Ignacio](name)
+    - me llamo [belén](name)
+    - por cierto yo soy [David](name)
+    - yo [daniel](name) por cierto
+    - Por cierto, que no te he dicho mi nombre, yo soy [raúl](name)
+    - que mi nombre es [María](name)
+    - Hola, [Javier](name) es mi nombre
+    - soy [jerónimo](name)
+    - Al habla [Alberto](name)
+    - yo [Lidia](name)
+    - [David](name) al habla!
+    - Mi nombre es [Valentina](name)
+    - Aquí [Gonzalo](name)
+    - Me presento, me llamo [Andrea](name)
+    - Puedes llamarme [Roberto](name)
+    - Mi nombre es [Lucía](name)
+    - Aquí [Mario](name)
+    - me llamo [Marta](name)
+    - Hola, [Carlos](name) es mi nombre
+    - Soy [Anaís](name)
+    - Mi nombre es [Joaquín](name)
+    - Aquí [Laura](name)
+    - me llamo [Rafael](name)
+    - que mi nombre es [Cristina](name)
+    - Hola, me dicen [Manuel](name)
+    - Soy [Daniela](name)
+    - Mi nombre es [Emilio](name)
+    - Aquí [Paola](name)
+    - me llamo [Antonella](name)
+    - que mi nombre es [José](name)
+    - Me presento, soy [Verónica](name)
+    - Puedes llamarme [victor manuel](name)
+    - Mi nombre es [Marisol](name)
+    - Aquí [ana belen](name)
+    - me llamo [maria de las mercedes](name)
+    - que mi nombre es [Jaime](name)
+    - Hola, [Natalia](name) es mi nombre
+    - Soy [Leonardo](name)
+    - Mi nombre es [Victoria](name)
+    - Aquí [carlos jesús](name)
+    - me llamo [jose carlos](name)
+    - que mi nombre es [Juan Carlos](name)
+    - Me presento, soy [marivi](name)
+    - Puedes llamarme [mariángeles](name)
+    - Mi nombre es [ana maria](name)
+    - Por cierto, yo me llamo [Clara](name)
+    - Aquí [Antonio David](name)
+    - Yo soy [Alicia](name)
+    - me llamo [Gabriela](name)
+    - que mi nombre es [Pedro](name)
+    - Hola, [Santiago](name) es mi nombre
+    - Soy [Luis felipe](name)
+    - Mi nombre es [Ezequiel](name)
+    - Aquí [Paola](name)
+    - me llamo [Samuel](name)
+    - que mi nombre es [María José](name)
+    - Me presento, soy [Jorge](name)
+    - Puedes llamarme [Maria Jose](name)
+    - Mi nombre es [José María](name)
+    - Aquí [Alberto](name)
+    - me llamo [Luisa Fernanda](name)
+    - Hola, soy [Elena](name)    
+    - hola soy [eva](name)
+
+
+# ---------------------------------------------------------------
+#         T A L K 2 N U M B E R S 
+# ---------------------------------------------------------------
+
+- intent: talk2numbers
+  examples: |
+    - Análisis de datos
+    - Análisis de Datos
+    - Analisis de datos
+    - análisis de datos
+    - análiis de datos
+    - análisis dedatos
+    - analisis de datos
+
+
+- intent: talk2numbers_ventana
+  examples: |
+    - t2n ventana
+    - t2n ventana de oportunidad
+    - t2n venatana de oportunidad
+    - t2n ventana de oprotunidad
+
+- intent: talk2numbers_ventana_test
+  examples: |
+    - window test
+    - wwindow tst
+    - windoww ttest
+    - wwiiindow test
+
+- intent: talk2numbers_busquedas
+  examples: |
+    - t2n busquedas
+    - t2n búsquedas
+    - t2n buskedas
+    - t2n vusquedas
+    - t2n vuskedas
+
+- intent: talk2numbers_cluster
+  examples: |
+    - t2n cluster
+    - t2n clúster
+    - t2n culster
+    - t2n clsuter
+    - t2N clusters
+    - T2N cluster
+    - ttn clusters
+
+- intent: talk2numbers_clima
+  examples: |
+    - t2n clima formulario
+    - t2n formulario clima
+    - t2n clima form
+    - t2n form clima
+    - T2n clima formulario
+    - T2N formulario clima
+    - t2N formulario clima
+    
+
+- intent: query_ventana_general 
+  examples: |
+    - Cuántos aeropuertos hay en tu base de datos
+    - dime de cuántos aeropuertos del mundo tienes datos
+    - ¿Cuántos aeropuertos tienes?
+    - Me gustaría saber el número de aeropuertos que hay en tu base
+    - nº de aeropuertos en tu database
+    - número de aeropuertos sobre los que puedes dar información
+    - sobre cuántos aeropuertos tienes info?
+    - nª de aeropuertos en tu base de datos
+    - cuantos destinos tienes en tu base de datos
+    - númro de aeropuertos de origen de los que tienes información
+    - ¿De cuántos aeropuertos puedes obtener datos? 
+    - cantidad de aeropuertos de los que tienes información
+    - cantidad de aeropuertos de destino
+    - ¿Qué cantidad de destinos manejas? 
+    - Cuántos lugares de origen hay en tu dataframe
+    - ¿Cuántos aeropuertos de origen tienes?
+    - ¿Cuántos aeropuertos de destino tienes?
+    - nº de destinos 
+    - nº de ciudades de origen
+
+#-----------------------------------------------
+# CASOS DE USO - GUÍA
+#-----------------------------------------------
+
+- intent: caso_de_uso_LT
+  examples: |
+    - acompañamiento guiado lead time
+    - acompañamiento guiado Lead Time
+    - Lead Times acomapañamiento guidao
+    - Lead Time acompañamiento guiado
+    - acompañamiento guiado lead time
+    - acom,pañamiento guiado lead times
+    - acmpañamiento guiado lead time
+    - acomapañmiento con el bot para lead times
+    - acompañamiento guiado lead times con chatbot
+    - Acompañamiento guiado lead times con el bot
+
+#-----------------------------------------------
+# T2N - Búsquedas
+#-----------------------------------------------  
+
+- intent: confirmar_envio
+  examples: | 
+    - Sí, enviar
+    - Enviar
+    - Enviar consulta
+    - Enviar formulario
+
+- intent: corregir_envio
+  examples: |
+    - No, corregir
+    - Corregir
+    - Corregir consulta
+    - Corregir formulario
+    - Volver a empezar
+    - Empezar de nuevo
+    - Reiniciar formularion
+    - Quiero empezar de nuevo
+
+- intent: continuar_form
+  examples: |
+    - Sí, continuar
+    - Continuar
+    - Continuar con el formulario
+    - seguir con el formulario
+    - Seguir con lo que estábamos haciendo
+
+
+# ----------------------------------------------------------------------
+#       C O N S U L T A S - E S T Á T I C A S 
+# ----------------------------------------------------------------------
+
+# . . . . .. . . G E N E R A L E S . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+- intent: gva_intro
+  examples: |  
+    - quiero saber más de turismo
+    - me parece complicado encontrar lo que busco
+    - no consigo encontrar lo que busco
+    - no soy capaz de encontrar lo que quiero 
+    - no encuentro nada
+    - pff no entiendo nada
+    - no se muy bien por donde empezar
+    - quiero entender el turismo
+    - estoy perdido
+    - una ayuda para iniciarme por favor
+    - orientame un poco por favor
+    - por dónde empiezo?
+    - necesito que me orientes
+    - estoy un poco perdido con esto del turismo
+    - no sé por dónde tirar
+    - puedes explicarme lo básico?
+    - necesito una guía para empezar
+    - qué puedo encontrar aquí?
+    - ¿Me puedes dar una visión general?
+    - cómo funciona esto?
+    - ayudame a entender por favor
+    - quiero empezar pero no sé cómo
+    - qué tipo de información tenéis??
+    - De qué temas hay información?
+
+- intent: gva_invattur
+  examples: |  
+    - qué es [invattur](invattur)
+    - quien forma parte de [invattur](invattur)?
+    - [invattur](invattur)??
+    - qué es [invattur](invattur) y quién está detrás?
+    - [invatur](invattur) que hace?
+    - el [invattur](invattur) ha hehco esto?
+    - ¿[Invattur](invattur) es un proyecto de la Comunidad Valenciana o una empresa privada?
+    - qué significa [invatur](invattur)?
+    - de qué se encarga exactamente [invatru](invattur)?
+    - quién gestiona [invattur](invattur)?
+    - qué actividades realiza [invattur](invattur)?
+    - [invattur](invattur) es parte del gobierno?
+    - cuál es el objetivo de [invattur](invattur)?
+    - [invantur](invattur) pertenece a turismo de la comunidad?
+    - el [invantur](invattur) es parte de turisme?
+    - me puedes explicar qué hace [invattur](invattur)?
+    - cómo funciona [invat-tur](invattur)?
+
+- intent: gva_municipios
+  examples: |  
+    - hay [datos](datos) por [municipios](municipio)?
+    - quiero [datos](datos) de mi [municipio](municipio)
+    - cifras para mi [municipio](municipio)
+    - Existe algo para [Denia](municipios_cov)?
+    - información para [benidorm](municipios_cov)
+    - [gráficos](VG) sobre [gandía](municipios_cov)
+    - donde estan los [datos](datos) de [calpe](municipios_cov)
+    - y las cosas para [torrevieja](municipios_cov)?
+    - cómo veo solo lo de [Torrent](municipios_cov)?
+    - no veo datos de [Orihuela](municipios_cov) dónde los tengo?
+    - ¿Dónde puedo encontrar información sobre [Sagunto](municipios_cov)?
+    - [Paterna](municipios_cov) tiene [datos](datos)?
+    - de [alcoy](municipios_cov) hay [visualizaciones](VG)?
+    - qué hay sobre [san vicente](municipios_cov)?
+    - y de [Elda](municipios_cov)?
+    - busco información sobre el [municipio](municipio) de [Villarreal](municipios_cov)
+    - [movilidad](movilidad) en [novelda](municipios_cov)
+    - cuántos turistas van a [oliva](municipios_cov)?
+    - llega el [turismo internacional](turismo_internacional) a [villena](municipios_cov)?
+    - algo para [alzira](municipios_cov)?
+    - sobre [xatiba](municipios_cov) hay algo en este [portal](SIT)?
+    - Quiero los análisis de [Burriana](municipios_cov)
+    - estoy intentando obtener datos de  mi destino [Alcalà de Xivert/Alcossebre](municipios_cov) y no soy capaz de llegar a ellos
+    - [datos](datos) de [requena](municipios_cov)?
+    - en la [plataforma](SIT) ¿Hay información de [Torremolinos](municipios_cov)?
+    - Quisiera sacar la [población flotante](poblacion_flotante) de [Ontinyent](municipios_cov)
+    - Hola. ¿puedo obtener [datos](datos) [municipales](municipio)? Por ejemplo de [Càlig](municipios_cov)
+    - puedo obtener [datos](datos) [municipales](municipio)?
+    - Si claro. necesito datos de viajeros pero desde el ámbito [municipal](municipio)
+    - [Datos](datos) [municipales](municipio)
+    - Y de estos cual tienen desglose a nivel [municipal](municipio) para,el [municipio](municipio) de [El Campello](municipios_cov)
+    - Hay datos de ocupación de [alojamiento](alojamientos) a nivel [municipio](municipio)
+    - Podemos saber datos de [llíria](municipios_cov)?
+    - Qué datos puedes decirme sobre [Bocairent](municipios_cov)?
+    - Necesito saber si en la [plataforma](SIT) [Smart Tourism](ST) hay datos relevantes sobre [Puzol](municipios_cov)
+    - hay datos de [Morella](municipios_cov)?
+    - En la [plataforma](SIT) hay datos de pernoctaciones en [Chiva](municipios_cov)
+    - Información sobre el mes de abril de 2025 en. [Buñol](municipios_cov)
+    - dime los datos a nivel [supramunicipal](municipio) en [interior](turismo_interno)
+    - Podrías proporcionarme [datos](datos) de [Algimia de Almonacid](municipios_cov)
+    - Me pregunto si tienes [gráficos](VG) disponibles de [Catral](municipios_cov)
+    - Podrías mostrarme [gráficos](VG) de [Benimantell](municipios_cov)
+    - Quiero ver [datos](datos) sobre el área de [Bolulla](municipios_cov)
+    - Puedes darme [gráficos](VG) de información sobre la [localidad](municipio) de [Famorca](municipios_cov)
+    - Estoy interesada en [datos](datos) de [Gata de Gorgos](municipios_cov)
+    - ¿Tienes [gráficos](VG) que muestren estadísticas de la zona de [Higueruelas](municipios_cov)
+    - Quisiera [gráficos](VG) que incluyan información de la población de [Llocnou de Sant Jeroni](municipios_cov)
+    - Estoy interesada en [datos](datos) históricos de la villa de [Sot de Chera](municipios_cov)
+    - Podrías darme [datos](datos) actualizados de la aldea de [Tollos](municipios_cov)
+    - Estoy buscando [gráficos](VG) con información detallada de la comunidad de [Vall d'Alcalà](municipios_cov)
+    - Podrías proporcionarme [datos](datos) de [Vilafamés](municipios_cov)
+    - Necesito ver algunos [gráficos](VG) de [Forcall](municipios_cov)
+    - Puedes darme [datos](datos) de [Agost](municipios_cov)
+    - existen [gráficos](VG) de [Benissa](municipios_cov)
+    - hay [datos](datos) de [Sella](municipios_cov)
+    - Tienes [datos](datos) de [Benlloch](municipios_cov)
+    - Podrías mostrarme [datos](datos) de [Polop](municipios_cov)
+    - Quiero ver [graficas](VG) de [Vall para Gallinera](municipios_cov)
+    - Me gustaría obtener [datos](datos) de [Castalla](municipios_cov)
+    - Podrías facilitarme [datos](datos) sobre [Cocentaina](municipios_cov)
+    - Busco [gráficas](VG) de [Callosa d'En Sarrià](municipios_cov)
+    - Me interesarían [datos](datos) para [Benferri](municipios_cov)
+    - Quisiera [graficos](VG) de [Relleu](municipios_cov)
+    - Por favor, muéstrame [gráficos](VG) de [Benimantell](municipios_cov)
+    - no hay [gráficos](VG) a nivel [municipal](municipio)?
+    - qUE [DATOS](datos) ME PUEDES DAR SOBRE [bOCAIRENT](municipios_cov)?
+    - Qué [datos](datos) me puedes dar sobre [Alcoy](municipios_cov)?
+
+- intent: gva_smart_tourism
+  examples: | 
+    - qué es [smart tourism](ST)
+    - quiero saber en que consiste [smart tourism](ST)
+    - ¿[Smart-tourism](ST)?
+    - ¿Qué es el [smart tourism](ST)?
+    - dime lo que es [smarty tourism](ST)
+    - no entiendo [Smart Tourism](ST)
+    - que es eso de [Smart Tourism](ST)?
+    - [smarttourism](ST)??
+    - ¿Me puedes explicar mejor en qué consiste el proyecto de [Smart Tourism](ST)?
+    - definición de [Smart Tourism](ST)
+    - quiero saber más de [amart tourism](ST)
+    - proyecto [smart turism](ST)
+    - me interesa conocer más sobre [smart tourism](ST)
+    - más información sobre [smart tourism](ST)
+    - información de [smrat tourism](ST)
+    - el caso es que yo quiero saber de [este proyecto](ST) al cual la comunidad valenciana ha destinado tanta pasta
+    - que me des info de [este proyecto](ST)
+    - querría información adicional sobre la [IA turística](ST)
+    - qué es la [inteligencia turística](ST)?
+    - No entiendo bien que es el [turismo inteligente](ST)
+    - Me gustaría saber qué significa eso de [smart tourism](ST), parece algo complicado
+    - Qué es eso de [smart tourism](ST), es algo que tiene que ver con los teléfonos esos modernos
+    - Me podrías contar qué es eso de [smart tourism](ST), suena a algo que no existía en mis tiempos
+    - He oído hablar de [smart tourism] pero no sé qué es, alguien me cuenta
+    - Hola me podrias explicar que es eso de [smart tourism](ST) por favor
+    - He oido hablar de [turismo inteligente](ST) pero no entiendo bien que significa me lo puedes aclarar
+    - Que beneficios ofrece el [smart tourism](ST) para los viajeros y las ciudades
+    - Podrias darme ejemplos de como se implementa el [smart tourism](ST) en diferentes lugares
+    - Alguien me puede decir ke es [smart turism](ST)
+    - No entiendo ke es [smart turism](ST) me lo puedes aclarar
+    - Hola, podrías explicarme qué es eso del [smart tourism](ST) en el [portal del sistema de inteligencia turística](SIT) de la comunidad valenciana
+    - Me gustaría entender mejor el concepto de [turismo inteligente](ST) en el [sitio web](SIT) de la comunitat valenciana
+    - Podrías darme una idea sobre qué trata el [smart tourism](ST) en el [sistema de inteligencia turística](SIT)
+    - Cuáles son los objetivos del [turismo smart](ST)
+    - Qué innovaciones trae el [turismo smart](ST)
+    - ¿Qué es [SIT](SIT)?
+    - no, que por donde empiezo a explorar la [plataforma](SIT), no se entiende nada
+    - quien ha creado esta [plataforma](SIT)?
+    - quiero explorar la [plataforma](SIT)
+    - qué información puedo encontrar en el portal de [SIT](SIT)?
+    - dime los [datos](datos) que tenéis en el [portal](SIT)
+    - [Sistema de inteligencia turística](SIT)
+    - ¿Sobre qué cosas tienes información?
+    - ¿Qué puedo encontrar en el [SIT](SIT)?
+    - no tengo muy claro qué es el [sistema de inteligencia turística](SIT)
+    - qué tipo de conocimientos puedo encontrar en [web](SIT)
+    - [datos](datos) concretos recogidos en la [web de Smart Tourism](SIT)
+    - en qué consiste esta [página web](SIT)?
+    - para qué sirve esta [portal](SIT)??
+    - para que puedo utilizar este [portal](SIT)?
+    - cómo encontrar información específica en [esta página](SIT)
+    - que hay en la [pagina del sit](SIT)?
+    - que es el [sit](SIT)
+    - Hola, ¿me puedes explicar qué es el portal [Sit](SIT) y qué tipo de información ofrece?
+    - ¿Dónde puedo encontrar información sobre las tendencias en turismo en el [SIT](SIT)?
+    - ¿Qué recursos ofrece el [portal](SIT) para los turistas y profesionales del sector?
+    - Ke kosas se pueden ver en el [portal](SIT) ese
+    - Me puedes decir k info hay en el [protal](SIT)
+    - que tipo de [datoss](datos) se pueden ver en el [portall](SIT)
+    - qué informsción me ds esta [plataforma](SIT)?
+    - ¿Dónde puedo encontrar la información detallada sobre turismo
+    - Puedo confiar en las recomendaciones de un [sistema de IA turística](SIT)
+    - Quisiera entender cómo funciona un [sistema de IA turística](SIT)
+    - hay alguna plataforma que ofrezca [datos](datos) detallados sobre flujos turísticos?
+    - qué tipo de información hay aquí?
+    - quñe información hay en esta [plataforma](SIT)?
+
+
+- intent: gva_informes
+  examples: | 
+    - ¿Dónde puedo encontrar los [informes](informes) mensuales?
+    - [informes](informes) turísticos
+    - dónde puedo consultar los [informes](informes) de turismo
+    - quiero ver los [informes](informes) que hacéis por meses
+    - llévame a la página de los [informes](informes) 
+    - no encuentro los [hinformes](informes)
+    - dime por favor dónde está el [informe](informes) de este mes
+    - no soy capaz de ver dónde está el [informe](informes) de abril de [2024
+    - no ubico el apartado de [informes](informes)
+    - me interesan los [informes](informes) en pdf para descargarlos 
+    - descargar los [infomres](informes)
+    - puedo ver [informes](informes) de los últimos meses?
+    - necesito acceder a los [informes](informes) más recientes
+    - cómo accedo a los [informes](informes) 
+    - ¿Cómo puedo llegar a la página de los [informes](informes)?
+    - consultar los [informex](informes) mensuales de turismo
+    - Hola, acabo de entrar a este [portal](SIT) y no entiendo qué son los [informes](informes), alguien me puede explicar
+    - Por qué son importantes los [informes](informes) en este [portal](SIT)
+    - Alguien me puede decir cómo se usan los [informes](informes) aquí
+    - No tengo idea de qué son los [informes](informes), me pueden dar un ejemplo
+    - ¿Hay algún [informe](informes) disponible sobre las tendencias actuales de turismo en la Comunidad Valenciana?
+    - como accedo a [reportes](informes) de turismo
+    - como me descargo los [informes](informes) del [sistema de inteligencia turistica](SIT)
+    - Me gustaría saber cómo funciona la sección de [reportes](informes)
+    - Estoy buscando la parte de [reportes](informes) del sitio
+    - Monográfico del Mercado Aleman
+    - los [informes](informes) están disponibles para descarga?
+    - estaba interesado en los [informes](informes) disponibles en pdf
+    - Cómo se estructura un [informe](informes) en el portal SIT
+
+- intent: gva_smart_academy
+  examples: | 
+    - ¿Qué es [Smart Academy](SA)?
+    - qué información puedo encontrar en la [Smart Academy](SA)?
+    - dime los [datoos](datos) que tenéis en la [academia](SA)
+    - [academia inteligente](SA)
+    - que es [smart academy](SA)?
+    - dónde están los [podcasts](SA)
+    - ofrecen [pildoras de conocimiento](SA)?
+    - me gustaría encontrar [artículos científicos](SA) sobre esto
+    - quiero más información sobre [smart academy](SA)
+    - me gustaría saber mas sobre [smart academy](SA)
+    - no entiendo qué es [samrt academy](SA)
+    - dame [videotutoriales](SA) o algo parecido por favor 
+    - k tenéis en la [smrat academy](SA)?
+    - Qué puedo encontrar en la [Smart Academy](SA)?
+    - entrar en la [academia Smart](SA)
+    - qué puedo aprender en la [Smart Academy](SA)?
+    - apartado de [Smart Acadmey](SA)
+    - qué tipo de conocimientos se adquieren en la [smart academy](SA)
+    - la [smart academy](SA) para qué sirve?
+    - cómo usar la [academia](SA)
+    - qué son los vídeos de la [smart academy](SA)?
+    - ¿Hay algún [tutorial](SA) o guía para entender mejor el uso del [portal SIT](SIT)?
+    - cómo puedo aprender a usar la [plataforma](SIT)?
+    - no teneís algún [tutorial](SA)?
+    - esta página es un lío, no tenéis un [manual](SA)?
+    - No entiendo bien qué es lo que hace [Smart Academy](SA), ¿me puedes dar un ejemplo?
+    - Hola, acabo de entrar a este sitio y no tengo idea de qué trata la [academia inteligente](SA), ¿me puedes explicar?
+    - ¿Cómo puedo ver un [videotutorial](SA)?
+    - hay alguna [guia](SA) para usar el [portal](SIT)
+    - Hola, necesito saber si hay [guías](SA) para entender la [plataforma](SIT)
+    - Por favor, podrías indicarme si existe algún [tutorial](SA) sobre la [plataforma de ia](SIT)
+    - Estoy buscando información para aprender a manejar esta [plataforma](SIT), me puedes ayudar
+    - Saben si hay [cursos](SA) disponibles para utilizar la [plataforma de inteligencia turistica](SIT)
+    - Donde puedo encontrar [recursos](SA) para familiarizarme con esta web?
+    - Alguien sabe si hay [manuales](SA) para este [portal](SIT)
+ 
+- intent: gva_notas_metodologicas
+  examples: |
+    - Puff dime que es una [nota metodologica](NM) porque yo no me entero de nada
+    - qué son las [notas metodológicas](NM)?
+    - ¿En qué consisten las [ntas metodologicas](NM)?
+    - qué información puedo encontrar en las [notas metodlógics](NM)?
+    - [data](datos) que hay recogidos en las [nts metodológicas](NM)
+    - [directrices](NM) de análisis de los [datos](datos) 
+    - que hay en la seccion de [notas metodolgicas](NM)
+    - me interesan los [metodos](NM) de procesamiento de los [datos](datos) que ofreceis
+    - qué info tenéis puesta en las [notas metodológicas](NM)?
+    - que es [notas metodologicas](NM)?
+    - ¿Qué son las [Notas Metodológicas](NM)?
+    - quiero saber más sobre las [notas metodológicas](NM)
+    - dónde está el apartado de [notas metodológicas](NM)
+    - cómo accedo a las [notas metodológicas](NM)
+    - ¿Qué [metodologías](NM) se siguen?
+    - quiero saber con qué [métodos](NM) trabajáis
+    - qué [metodología](NM) se sigue para calcular los [datos](datos) de las [visualizaciones](VD)
+    - cómo se procesan los [datos](datos) que obtenéis
+    - qué [métodos](NM) se siguen para recopilar la información
+    - apartado de [notas metodológicas](NM)
+    - me gustaría saber más sobre la [metodología](NM) utilizada
+    - que prácticas habéis seguido para procesar los [dátos](datos)?
+    - Holaa este mmm no entiendo bien qué son las [notas metodológicas](NM) de [sit](SIT) ni nada de eso alguien puede explicármelo como si tuviera cinco años jajaja
+    - por qué la página tiene algo llamado [metodología notas](NM) eso es importante o puedo ignorarlo ayuda
+    - me siento perdidisimo con eso de las [notas de métodos](NM) o como se llame sirve pa' algo o es solo letra
+    - alguien sabe qué pasa con las [notas](NM) esas que aparecen
+    - Cómo se [recopilan los datos](NM) turísticos
+    - Qué herramientas se usan para el análisis de [datos](datos) turísticos
+    - Cómo se protege la [privacidad](NM) de los [datos](datos) turísticos
+    - [tratamiento de los datos](NM) en este [portal](SIT) 
+    - como se hacen los calculos
+    - [notas metofologias](NM)
+
+- intent: gva_visualizaciones_dinamicas
+  examples: |
+    - ¿Qué son las [visualizaciones dinámicas](VD)?
+    - ¿En qué consisten las [visualizaciones](VD)?
+    - qué información puedo encontrar en las [visualizaciones dinámicas](VD)?
+    - que es el apartado de [visalizaciones](VD)
+    - [visualizaciones dinámicas](VD)??
+    - quiero saber más sobre las [visualizaciones dinámicas](VD)
+    - no entiendo qué es [visualizaciones dinamicas](VD)
+    - apartado de [bisualizaciones](VD)
+    - cómo veo las [visualizaciones dinamicas](VD)
+    - no encuentro las [visualizaciones](VD)
+    - cómo accedo a las [visualizaciones dinámicas](VD)
+    - como entro en los [gráficos](VD)
+    - quiero ver los [gráficos](VD)
+    - lo que me interesa son las [gráficas](VD)
+    - cómo se accede a las [visualizaciones](VD)
+    - ir a las [visualizaciones](VD)
+    - dónde se ven las [visualizacions](VD)
+    - qué [estadísticas](datos) puedo encontrar en las [visualizaciones](VD)?
+    - no consigo entrar en las [visualziaciones](VD)
+    - dónde puedo ver los [gráficos](VD) de los datos
+    - quiero ver los [datos](datos)
+    - dónde están los [dtos](datos)
+    - pero a mí lo que me interesa es ver los datos
+    - Hola qué tal, soy nuevo en esto y me topo con eso de las [visualizaciones dinmaicas](VD), ¿alguien me puede decir de qué va eso? No entiendo qué información me pueden mostrar o cómo funciona, ¿alguien tiene una idea?
+    - Uf, entré en este [portal](SIT) y veo algo de [gráficas interactivas](VD), ni idea de para qué sirven o cómo me ayudan, alguien que me pueda ilustrar un poco?
+    - que es eso de las [vistas dinámicas](VD) o herramientas visuales o algo así? no sé si es importante o cómo debería usarlo
+    - Hola, me podrías decir qué son las [visualizaciones dinamicas](VD) porque no tengo ni idea
+    - Hola, soy nuevo aquí y no entiendo qué es eso de [visualizaciones dinámicas](VD), podrías explicármelo
+    - Cuáles son las tendencias actuales en turismo
+    - ¿Qué tipo de [visualizaciones dinámicas](VD) están disponibles?
+    - Cómo puedo ver los [gráficos](VD) y [datos](datos) del [portal](SIT)
+    - donde puedo ver estadisticas de turismo
+    - Hola, cómo puedo explorar las [visualizaciones dinámicas](VD)
+    - Necesito una explicacion sobre los [gráficos interactivos](VD)
+    - Estoy buscando info sobre los indicadores y [gráficos dinámicos](VD)
+    - Cómo puedo encontrar [datos](datos) específicos sobre el crecimiento del turismo en la región
+    - Me podrías indicar cómo comparar [estadísticas](datos) de diferentes años
+    - dónde puedo encontrar [estadísticas](datos) de turismo más recientes?
+    - qué tipo de [visualizaciones](VD) hay disponibles en el [portal](SIT)
+    - qué beneficios ofrece el uso de [visualizaciones](VD)
+    - en que se diferencian las [visualizaciones dinámicas](VD) de las [genéricas](VG)
+    - como funcionan las [visualizaciones dinámicas](VD) en [Smarttourism](ST)
+    - cuál es la diferencia entre [visualizaciones genéricas](VG) y [dinámicas](VD)
+    - que diferencias hay entre [visualizaciones genéricas](VG) y [dinámicas](VD)
+    - las [visualizaciones dinamicas](VD) y las [generales](VG) son lo mismo?
+ 
+# . . . . . . . . VISUALIZACIONES GENÉRICAS . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+- intent: gva_visualizaciones_genericas
+  examples: |
+    - qué son las [visualizaciones genéricas](VG?
+    - qué información dan las [visualizaciones genericas](VG)?
+    - que es el apartado de [visualizaciones generales](VG)
+    - [visualizaciones genéricas](VG)??
+    - las [visualizaciones genéricas](VG) son?
+    - quiero saber más sobre las [visualizacioes genéricas](VG)
+    - no entiendo qué es [visualizaciones genericas](VG)
+    - apartado de [visualizaciones generales](VG)
+    - Dame las [gráficas generales](VG)
+    - llevame a la parte de [graficos generales](VG)
+    - querria ver [representaciones genericas](VG) de los [datos](datos)
+    - ver las [visualicaciones genericas](VG)
+    - puedo ir desde aqui a las [visualizaciones genericas](VG)?
+    - me interesa la parte de [visualizaciones genericas](VG)
+    - si me puedes llevar a la parte de [visualizaciones genericas](VG) por favor
+    - a ver me das acceso a las [visualizaciones generales](VG)?
+    - estoy buscando las [graficas genericas](VG)
+    - ir a la sección de [gráficas genéricas](VG)
+    - dónde están las [visualizaciones genéricas](VG)?
+    - tengo curiosidad por las [visaulizaciones genericas](VG) me puedes desarrollar un poco mas?
+    - yo no entiendo qué son las [visualizaciones genéricas](VG) de [sit](SIT) ni nada de eso alguien puede explicármelo como si tuviera cinco años jajaja
+    - por qué la página tiene algo llamado [visualizaciones generales](VG) eso es importante o puedo ignorarlo ayuda
+    - oye estoy perdido con las [graficas genericas](VG) ayuda plis
+    - guía para entender las [visualizaciones genéticas](VG)
+    - no tengo idea de qué son las [visualizaciones genéricas](VG), me pueden dar un ejemplo?¿ gracias
+    - Por favor, ¿podría acceder a la sección de [visualizaciones genéricas](VG) para ver los [datos](datos) turísticos?
+    - una explicación sobre los [graficos genéricas](VG) y su utilidad
+    - como uso las [representaciones genréicas](VG)?
+    - ¿Qué tipo de [visualizaciones genéricas](VG) están disponibles?
+
+# ....... VISUALIZACIONES GENÉRICAS: COMPORTAMIENTO DEL TURISMO ................................................................................
+
+- intent: gva_comportamiento_turismo
+  examples: |
+    - cuáles son los beneficios de estudiar el [comportamientp](comportamiento) de turistas
+    - me puedes explicar sobre patrones de [comportamiento](comportamiento)
+    - qué tipo de datos se usan para analizar el [comporamiento](comportamiento)
+    - qiero saber sobre el [comportamiento del turismo](comportamiento) en [soluciones IA](modelos_IA)
+    - sección de [visualuizaciones genérticos](VG) del [comportamiento de los turistas](comportamiento)
+    - qué es el [comportamiento del turismo](comportamiento)
+    - [visualizaciones](VD) del [comportamiento del turista](comportamiento)
+    - solución con inteligencia artificial para el [comportamiento del turismo](comportamiento)
+    - [predictivos](modelos_IA) sobre el [comportamiento del turismo](comportamiento)
+    - [representaciones](VD) de [turismo nacional](turismo_nacional) frente al [internacional](turismo_internacional)
+    - para ver las diferencias entre el [comportamiento de los tirstas](comportamiento) [internacional](turismo_nacional) y [nacional](turismo_internacional) existen [gráficas](VD)?
+    - quiero saber más sobre el [comprotamiento del turismo](comportamiento)
+    - información sobre el [comportamento del turismo](comportamiento)
+    - me gustaría ver los [data](datos) del [comportamiento del turismo](comportamiento)
+    - me explicas en qué consiste el [comportamiento de turismo](comportamiento)?
+    - Los [gráficos](VD) que quiero ver son los del [comportamiento del turismo](comportamiento)
+    - [Comportamiento del turismo](comportamiento) en la comunidad valenciana
+    - cuál es el [comportamiento turístico](comportamiento) para la Comunitat Valenciana
+    - ver los [graficos](VD) del [comportamiento del turismo](comportamiento)
+    - hay más turismo [nacional](turismo_nacional) o [internacional](turismo_internacional)?
+    - qué [comportamiento](comportamiento) tienen los turistas que vienen a la Comunidad Valenciana, da igual el origen
+    - podrías darme información sobre el [comportamiento del turismo](comportamiento) en la comunidad?
+    - resumen del [copmortamiento del turismo](comportamiento) en los últimos años
+    - diferencias entre el [comportamiento del turismo](comportamiento) [nacional](turismo_nacional) e [internacional](turismo_internacional)
+    - tendencias en el [comportamiento del turismo](comportamiento) en la comunidad
+    - cuál es el [comportamiento del turismo](comportamiento) en la Comunitat Valenciana
+    - dónde puedo ver el [comportamiento del truismo](comportamiento) de este mes?
+    - ¿Cómo accedo a los [datos](datos) sobre el [comportamiento del turismo](comportamiento)?
+    - busco las [gráficas](VD) del [comportamiento del turismo](comportamiento)
+    - quería ver los [gráficos](VD) tanto de [turismo nacional](turismo_nacional) como de [internacional](turismo_internacional), por favor
+    - Me gustaría saber cómo se comporta el [turismo nacional](turismo_nacional) en comparación con el [internacional](turismo_internacional)
+    - tratamiento de los [datos](datos) sobre el [comportamiento del turismo](comportamiento)
+    - Dame información sobre el [comportamiento del turiso](comportamiento) en la comunidad
+    - dime por favor cómo es el [comportamiento turistico](comportamiento) en la comunidad
+    - hay influencia del origen en la [comportamientp del turismo](comportamiento)?
+    - explicame la relacion entre las preferencias del turista y el [comportamiento del turismp](comportamiento)
+    - sabemos algo del [comportamiento](comportamiento) del turista que se pierde en la comunidad?
+    - las regiones más visitadas siguen siendo las de siempre o hay alguna sorpresa por una vez?
+    - cuánta gente ha viajado por el país este año sin tener que empeñar el coche?
+    - Dónde se están yendo todos o es que yo soy el único atrapado en casa?
+    - quiero conocer los turistas que vienen en verano a alicante
+    - quiero saber los turistas que visitan la comunidad en un mes concreto
+    - dame el dato del numero d turistas que vienen a la comunidad valenciana
+    - que provincia de la comunidad recibe mas turistas?
+    - tengo mi [hotel](hoteles) en benidorm, quiero saber mas acerca de los turistas que visitan la zona
+
+- intent: gva_VG_CT_turismo_internacional
+  examples: |
+    - [comportamiento](comportamiento) del [turismo internacional](turismo_internacional)
+    - cómo se comporta el [turismo internacional](turismo_internacional) en la comunidad
+    - en el contexto [internacional](turismo_internacional) qué [comportamiento](comportamiento) turístico hay¿
+    - ¿Qué información puedo encontrar sobre [turismo internacional](turismo_internacional)?
+    - quiero ver los [datos](datos) de [turismo internacional](turismo_internacional)
+    - qué [datos](datos) tenéis sobre [turismo internacional](turismo_internacional)?
+    - cuántos [turistas internacionales](turismo_internacional) han visitado la Comunitat Valenciana este año?
+    - quiero saber cuántos [turistas extranjeros](turismo_internacional) han visitado la Comunidad Valenciana
+    - dime cuántos [turistas de otros países](turismo_internacional) han venido a Castellón este verano
+    - número de [viajeros internacionales](turismo_internacional) que recibimos cada mes
+    - me interesa acceder a los [ddatos](datos) de [turismo internacional](turismo_internacional)
+    - quiero ver los [datos](datos) de [turismo internacional](turismo_internacional) de este mes
+    - dónde está la información de los [turistas internacionales](turismo_internacional)
+    - [tursmo internacional](turismo_internacional) en la Comunidad Valenciana
+    - cómo ver la [estadística](datos) de [tursimo internacional](turismo_internacional)
+    - ¿Puedes darme información de [turistas que vienen de otros países](turismo_internacional)?
+    - [Turistas internacionales](turismo_internacional) que vienen a la comunidad
+    - lo que quiero es ver el apartado de [turismo interacional](turismo_internacional)
+    - información sobre [turismo interancional](turismo_internacional) 
+    - querría ver los gráficos de [turismo innternacional](turismo_internacional)
+    - ¿Me puedes llevar a las [visualizaciones](VD) sobre [turistas internacionales](turismo_internacional)?
+    - dame los [datos](datos) del [mercado internacional](turismo_internacional)
+    - Hola estoy viendo esta sección de [turismo internacional](turismo_internacional) pero no entiendo qué es
+    - Me podrías explicar un poco sobre que trata la parte de [turismo internacionall](turismo_internacional)
+    - [Turismo internacional](turismo_internacional) es algo que nunca escuché antes podrías darme más detalles
+    - cuál es el impacto del [turismo internacional](turismo_internacional) en la Comunitat Valenciana en comparación con Cataluña
+    - cómo ha evolucionado el número de [truistas internacionales](turismo_internacional) en la Comunidad Valenciana en los últimos cinco años
+    - Qué países son los principales emisores de turistas hacia la Comunidad Valenciana
+    - qué nacionalidades predominan entre los turistas que visitan la Comunidad Valenciana
+    - cuántos [visitantes internacionales](turismo_internacional) se reciben al mes
+    - me interesan los principales [visitantes intrenacionales](turismo_internacional)
+    - cuál es la afluencia de turistas internacionales?
+    - afluencia de [turistas de otros paises](turismo_internacional)
+    - dame el ranking d paises d [visitantes nternacionales](turismo_internacional)
+    - que cantridad de [turistas extranjeros](turismo_internacional) hay cada mes?
+    - flujo de [turistas intenrnacionales](turismo_internacional)
+    - cuánto [gasto](gasto_turistico) hacen los [turistas internacionales](turismo_internacional) en la comunidad de media?
+    - [gastan](gasto_turistico) mucho los [extranjeros](turismo_internacional) que van a la comunidad valenciana?
+    - qué [mercados](turismo_internacional) dejan mayor [gasto](gasto_turistico) en la Comunitat Valenciana
+    - me gustaría saber cuánto [gastan](gasto_turistico) los [turistas finlandeses](turismo_internacional) por día
+    - qué medios de transporte utilizan más los [turistas internacionales](turismo_internacional)
+    - los [extranjeros](turismo_internacional) que vienen aquí qué [perfil](perfil_turista) tienen?
+    - para qué vienen fundamentalmente los [turistas internacionales](turismo_internacional) a la comunidad valenciana?
+    - qué vía de accesoes la más utilizada por los [turistas internacionales](turismo_internacional)
+    - cuál es la razón principal por la que viene la gente de vacaciones aquí?
+    - me gustaría saber más sobre el motivo del viaje y su impacto en la [movilidad](movilidad) [inmternacional](turismo_internacional)
+    - dime cuál es la vía de acceso más popular entre los [turistas internacionales](turismo_internacional)
+    - qué [tipo de viaje](caracteristicas) prefieren los [turistas alemanes](turismo_internacional)
+    - los franceses dónde se suelen quedar a dormir?     
+    - Qué diferencias hay en el [perfil del turista](perfil_turista) [internacional](turismo_internacional) que visita la Comunidad Valenciana frente al que visita el País Vasco
+    - como se mide el [gasto](gasto_turistico) internacional en turismo?
+    - me interesa saber cómo ha cambiado el [comportamiento](comportamiento) del [turismo internacional](turismo_internacional) en los últimos años
+    - Cuáles son las tendencias actuales en el [comportamiento](turismo_internacional) del [turismo internacional](turismo_internacional)
+    - De qué paises vienen a invadir las terrazas ahora
+    - que paises están mandando más turistas a ver si sobrevivimos como destino
+    - algún país nuevo que se haya unido a la moda de venir aqui a quemarse
+    - de qué mercados vienen a buscarnos en Google Maps y perderse igual
+    - los [visitantes extranjeros](turismo_internacional) repiten o fue suficiente con una vez
+    - información sobre los turistas britanicos
+
+- intent: gva_VG_CT_turismo_nacional
+  examples: |
+    - ¿Qué información puedo encontrar sobre [turismo nacional](turismo_nacional)?
+    - quiero ver los [datos](datos) de [turismo nacional](turismo_nacional)
+    - qué [datos](datos) tenéis sobre [turismo nacional](turismo_nacional)?
+    - cuántos [turistas nacionales](turismo_nacional) han visitado la Comunitat Valenciana este año?
+    - ¿Dónde puedo consultar información sobre [turismo de resudentes](turismo_nacional)?
+    - quiero acceder a los [datos](datos) relacionados con el [turismo nacional](turismo_nacional)
+    - qué [estadísticas](datos) tienen disponibles sobre [turismo nacional](turismo_nacional)?
+    - cuántos [viajeros nacionales](turismo_nacional) visitaron la Comunitat Valenciana este año?
+    - me gustaría saber la cantidad de [turistas residentes](turismo_nacional) que llegan a la Comunidad Valenciana
+    - puedes decirme cuántos [visitantes de otras comunidades](turismo_nacional) recibió Castellón este verano
+    - cifras mensuales de [viajeros nacionales](turismo_nacional) que llegan a la región
+    - quiero revisar los [datos](datos) actuales de [turismo de residentes](turismo_nacional)
+    - necesito ver las [visualizaciones](VD) de [turismo nacional](turismo_nacional) de este mes
+    - dónde encuentro los [graficos](VD) sobre [visitantes nacionales](turismo_nacional)
+    - estadísticas de [turismo nacional](turismo_nacional) en la Comunidad Valenciana
+    - me gustaría acceder a los [gráficos](datos) sobre [turismo nacional](turismo_nacional)
+    - ¿Qué datos hay de [turistas que viajan dentro de España](turismo_nacional)?
+    - Información sobre los [turistas nacionales](turismo_nacional) que llegan a la comunidad
+    - quiero abrir la sección dedicada a [turismo nacional](turismo_nacional)
+    - ¿Podrías proporcionarme detalles acerca del [turismo nacional](turismo_nacional)?
+    - estoy interesado en ver gráficos de [turismo nacional](turismo_nacional)
+    - ¿Dónde puedo ver las [visualizaciones](VD) de [viajeros nacionales](turismo_nacional)?
+    - dame acceso a los [datos](datos) de [turismo de residencia](turismo_nacional)
+    - estoy revisando la parte de [turismo nacional](turismo_nacional) pero tengo dudas
+    - necesito entender mejor qué incluye el área de [turismo nacional](turismo_nacional)
+    - nunca había oído tanto sobre [turismo nacional](turismo_nacional), puedes explicarlo?
+    - qué impacto tiene el [turismo nacional](turismo_nacional) en la economía valenciana
+    - evolución del [turismo nacional](turismo_nacional) en la comunidad calenciana en los últimos cinco años
+    - de qué comunidades autónomas vienen más turistas a la comunitat valenciana
+    - qué regiones son las principales emisoras de [turismo nacional](turismo_nacional)
+    - cuántos [turistas nacionales](turismo_nacional) se contabilizan cada mes
+    - me interesan los principales [destinos nacionales](turismo_nacional) que visitan Valencia
+    - cuánta afluencia de [turistas nacionales](turismo_nacional) hay últimamente
+    - tráfico de [viajeros nacionales](turismo_nacional) en la comunitat
+    - podrías darme el ranking de comunidades según número de [turistas nacionales](turismo_nacional)?
+    - qué volumen de [turistas españoles](turismo_nacional) recibimos cada mes
+    - evolución del flujo de [visitantes nacionales](turismo_nacional)
+    - qué diferencias hay entre [turismo nacional](turismo_nacional) y [turismo interno](turismo_interno)?
+    - ¿Cómo puedo comparar los datos de [turismo interno](turismo_interno) con los de [turismo nacional](turismo_nacional)?
+    - que tiene que ver el [perfil del turista](perfil_turista) con el [turismo nacional](turismo_nacional)?
+    - en el marco del [turismo de residentes](turismo_nacional) hay mas [jóvenes](perfil_turista) o [mayores](perfil_turista)?
+    - los [gráficos](VD) que quiero son los de las [características del viaje](caracteristicas) para [turistas nacionales](turismo_nacional) 
+    - qué relación hay entre las [características del viaje](caracteristicas) y el [turismo nacional](turismo_nacional)?
+    - el [gasto](gasto_turistico) que dejan los [residentes](turismo_nacional) a cuánto asciende?
+    - me gustaría conocer las características principales del [gasto](gasto_turistico) turístico [nacional](turismo_nacional)
+    - En qué se basa el análisis del [comportamiento](comportamiento) del [turismo nacional](turismo_nacional)
+    - qué cambios se han observado en el [turismo nacional](turismo_nacional) en los últimos años?
+    - ¿Existen estadísticas sobre el [gasto](gasto_turistico) de los [excursionistas nacionales](turismo_nacional)?
+    - qué motivos de viaje son más comunes entre los [turistas nacionales](turismo_nacional)
+    - cuales son las caracteristicas del [gasto](gasto_turistico) de los [turistas nacionales](turismo_nacional)
+    - el [turismo de residentes](turismo_nacional) que [comportamiento](comportamiento) tiene?
+    - como se determina el [perfil del turista](perfil_turista) [nacional](turismo_nacional)?
+    - quiero información sobre el [comportamiento del turismo](comportamiento) [de residentes](turismo_nacional)
+    - en cuanto a [comportamiento](comportamiento) del [turismo nacional](turismo_nacional) qué datos tenéis?
+    - que [destinos nacionales](turismo_nacional) están petándolo??
+    - sigue habiendo [turismo nacional](turismo_nacional) o ya nadie se mueve si no es por un puente largo
+
+- intent: gva_VG_CT_perfil_turista
+  examples: |
+    - ¿Qué es el [perfil del turista](perfil_turista)?
+    - quiero saber más sobre el [perfil del turista](perfil_turista)
+    - información sobre el [perfil del turista](perfil_turista)
+    - me gustaría ver los [data](datos) del [perfil del turista](perfil_turista)
+    - me explicas en qué consiste el [perfil del turista](perfil_turista)?
+    - Los [gráficos](VD) que quiero ver son los del [perfil del turista](perfil_turista)
+    - [perfiles de turista](perfil_turista) en la comunidad valenciana
+    - cuál es el [perfil del turista](perfil_turista) para la Comunitat Valenciana
+    - qué [perfil](perfil_turista) tienen los turistas que vienen a la Comunidad Valenciana
+    - ver los [graficos](VD) del [perfil del turista](perfil_turista)
+    - cómo veo las [visualizaciones](VD) del [perfil del turista](perfil_turista)
+    - cuál es la mayor motivación de la gente que viene aquí de vacaciones?
+    - [perfil de turista](perfil_turista) 
+    - los [turistas internacionales](turismo_internacional) tienen un [perfil](perfil_turista) diferente al de los [nacionales](turismo_nacional)?
+    - ¿Son los [turistas internacionales](turismo_internacional) más [ancianos](perfil_turista) que los [nacionales](turismo_nacional)?
+    - qué [perfil del turista](perfil_turista) es más común en castellón?
+    - cuál es el [perfil demográfico](perfil_turista) típico de los turistas que visitan la Comunitat Valenciana
+    - como inflye el [sexo](perfil_turista) del viajero en su [comportamiento](comportamiento) turistico
+    - qué [edad](perfil_turista) tienen los turistas que vienen a la comunidad de media
+    - los turistas que vienen a alicante son más [jóvenes](perfil_turista) o [mayores](perfil_turista)?
+    - hay diferencias entre [hombres](perfil_turista) y [mujeres](perfil_turista) a la hora de moverse por la comunidad?
+    - el [nivel de formaicacion](perfil_turista) repercute en el [comportamiento](comportamiento) del turista?
+    - a alicante vienen mas [mujeres](perfil_turista) o [hombres](perfil_turista)?
+    - necesito saber más sobre las características del turista](perfil_turista)
+    - cuáles son las características más comunes del turista¿
+    - qué datos tienen sobre las características del turista en el [portal](SIT)
+    - las particularidades de cada viajero cómo se relacionan con su [comportamiento](comportamiento) turístico?
+    - cual es el [perfil del turista](perfil_turista) promedio? quemado con gorra y sin bateria?
+    - que [edades](perfil_turista) tienen los turistas aparte de la crisis de los treinta y la jubilación
+    - cuál es la [media de edad](perfil_turista) del turista que se pierde en el casco antiguo?
+    - qué [nivel socioeconomico](perfil_turista) se necesita para viajar hoy sin llorar?
+    - se sabe algo del [nivel educativo](perfil_turista) del turista medio o eso es pedir demasiado
+    - qué caracteristicas tiene el turista medio aparte de estar quemado literal y figuradamente jaja
+
+
+- intent: gva_VG_CT_caracteristicas
+  examples: |
+    - quiero saber si son más comunes los viajes [por trabajo](perfil_turista) o [por placer](perfil_turista)
+    - ver la distribución por [características del viaje](caracteristicas)?
+    - quiero ver información sobre las [características del viaje](caracteristicas)
+    - muéstrame datos de la repercusión del tipo de [alojamiento](alojamientos) en el [comportamiento](comportamiento) del turista
+    - [caracteristicas del viaje](caracteristicas) en la comunidad valenciana
+    - cuál es el [tipo de viaje](caracteristicas) más frecuente en la comunitat valenciana?
+    - qué características presentan los viajes que se hacen a la comunidad valenciana
+    - cómo veo las [visualizaciones](VD) de las [características del viaje](caracteristicas)
+    - [particularidades de los viajes](caracteristicas) a la comunidad
+    - son diferentes las [características del viaje](caracteristicas) entre los [turistas internacionales](turismo_internacional) y los [nacionales](turismo_nacional)?
+    - ¿Las vías de acceso preferidas son distintas para [internacionales](turismo_internacional) y [nacionales](turismo_nacional)?
+    - Hay diferencias en el motivo del viaje entre quienes visitan la Comunidad Valenciana y quienes van al País Vasco?
+    - cuál es el [tipo de viaje](caracteristicas) típico de quienes vienen a la Comunitat Valenciana
+    - influye el motivo del viaje en el [comportamiento](comportamiento) turístico?
+    - los turistas que llegan a Alicante lo hacen principalmente en qué forma de acceso?
+    - hay diferencias entre quienes vienen en coche y quienes usan avión como metodo de acceso?
+    - el [tipo de viaje](caracteristicas) afecta al [comportamiento](comportamiento)?
+    - cambnia el [tipo de viaje](caracteristicas) según la nacionalidad del turista?
+    - los turistas que viajan [por trabajo](caracteristicas) qué destino escogen? 
+    - cómo se relaciona el medio de transporte escogido con el [comportamiento](comportamiento) del viajero?
+    - a castellón llega más gente en [avión](vuelos) o por carretera?
+    - es más frecuente el viaje [por placer](caracteristicas) o [por negocio](caracteristicas)?
+    - según el [tipo de viaje](caracteristicas) qué medio de transporte se usa más?
+    - varía el [alojamiento](alojamientos) en función del [tipo de viaje](caracteristicas) que se hace?
+    - la gente que viaja [por trabajo](caracteristicas) se aloja en [hoteles](hoteles) o en [apartamentos](apartamentos)?
+    - [Características del viaje](caracteristicas) en la Comunitat Valenciana
+    - ¿Qué medios de transporte priman entre los turistas que vienen a la Comunitat Valenciana?
+    - Podrían darme detalles sobre las [características de los viajes](caracteristicas)?
+    - quisiera saber más sobre el [tipo de viaje](caracteristicas)
+    - la gente viaja [por placer](caracteristicas) o solo para subir fotos 
+    - Sigue ganando el [turismo de ocio](caracteristicas) o la gente ahora finge trabajar viajando?
+    - qué porcentage viaja [por trabajo](caracteristicas) y qué porcentaje viaja para huir de sí mismos
+    - hay datos sobre motivos de viaje que no incluyan me lo merecía
+    - cuál es el motivo estrella para viajar? desconectar o aparentar?
+    - ¿Qué porcentaje viaja solo para hacer check en Instagram?
+    - cuántos viajes se hacen por necesidad y cuántos por necesidad de likes?¿
+    - la gente aún viaja [por cultura](caracteristicas) o ya todo es relax y spa con brunch
+    - que [tipo de viaje](caracteristicas) es tendencia entre quienes odian planear?
+    - cual es el motivo oficial y cual el real para tantos viajes de fin de semana?
+
+
+- intent: gva_VG_CT_gasto
+  examples: |
+    - ¿Qué es el [gasto turístico](gasto_turistico)?
+    - quiero saber más sobre el [gasto turístico](gasto_turistico)
+    - información sobre el [gasto turistico](gasto_turistico)
+    - enséñame los [gráficos](VD) del [gasto turístico](gasto_turistico)
+    - no entiendo en qué consiste el [gasto turístico](gasto_turistico)
+    - ¿Cuánto dinero [gastan](gasto_turistico) los turistas en la Comunidad Valenciana?
+    - [visualizaciones](VD) del [gasto tursítico](gasto_turistico)
+    - [gasto turístico](gasto_turistico) en la comunitat valenciana
+    - cuánto dinero se dejan los turistas más o menos
+    - quiénes [gastan](gasto_turistico) más, los [turistas nacionales](turismo_nacional) o los [internacionales](turismo_internacional)?
+    - de qué país son los turistas que más [gastan](gasto_turistico)?
+    - del dinero que se [gastan](gasto_turistico) los turistas cuánto se queda aquí en valencia
+    - ¿Me sabrías decir [cuánta plata](gasto_turistico) invierten los turistas cuando vienen?
+    - aproximadamente cuánto [gasto](gasto_turistico) medio hacen los turistas 
+    - los turistas [gastan](gasto_turistico) mucho en la comunidad?
+    - la gente [gasta](gasto_turistico) más ahora que antes?
+    - en qué se [gastan el dinero](gasto_turistico) los británicos 
+    - Qué nacionalidad [gasta](gasto_turistico) más en la comunidad?
+    - quiénes hacen un mayor [desembolso económico](gasto_turistico)?
+    - Cómo se distribuye el [gasto turístico](gasto_turistico) entre diferentes sectores en la Comunidad Valenciana
+    - puedo ver lo que se [gastan](gasto_turistico) los turistas de un mercado de origen determinado
+    - [inversión económica](gasto_turistico) media de los turistas en sus desplazamientos a alicante
+    - cuánto es el [gasto turístico](gasto_turistico) promedio por visitante en la comunidad
+    - quiero ver los [datos](VD) del [gasto turístico](gasto_turistico)
+    - cuáles son los sectores donde más se [gasta](gasto_turistico) el turista
+    - hay diferencias en el [gasto turístico](gasto_turistico) entre [turismo nacional](turismo_nacional) y [turismo internacional](turismo_internacional)?
+    - cómo ha evolucionado el [gasto](gasto_turistico) de los turistas en los últimos años?
+    - qué porcentaje del [gasto turístico](gasto_turistico) se destina a alojamiento?
+    - los turistas que vienen por ocio [gastan](gasto_turistico) más que los de negocios?
+    - ver [visualizaciones](VD) sobre el [gasto turístico](gasto_turistico) en castellón
+    - que [tipo de turismo](caracteristicas) deja más [pasta](gasto_turistico) sin arruinarme emocionalmente
+    - cuanto se estan dejando los turistas en helados sombrillas y crisis existenciales?
+    - qué parte del [presupuesto](gasto_turistico) se va en souvenirs inutiles?
+    - quien esta dejando mas [dinero](gasto_turistico) los que viajan mucho o los que viajan mal
+    - ¿Los turistas estan dejando [dinero](gasto_turistico) o solo huellas de chanclas en la arena?
+    - quisiera saber el consumo medio de los turistas
+
+- intent: gva_VG_CT_turismo_interno
+  examples: |
+    - ¿Qué es el [turismo interno](turismo_interno)?
+    - quiero saber más sobre el [turismo interno](turismo_interno)
+    - información sobre el [turismo interno](turismo_interno)
+    - ¿Dónde puedo ver datos sobre [turismo interno](turismo_interno)?
+    - me interesa saber cómo se mueve el [turismo internp](turismo_interno) en España
+    - ¿Qué información hay disponible sobre [viajes internos](turismo_interno)?
+    - cuántos [turistas que se desplazan dentro del país](turismo_interno) han pasado por la Comunitat Valenciana este año?
+    - me gustaría consultar cifras de [movilidad turística interna](turismo_interno)
+    - ¿Tienen registros de [turismp interno](turismo_interno) en la región valenciana?
+    - quiero saber cómo ha variado el [turismo interno](turismo_interno) este verano
+    - muéstrame los [datos](datos) de [turismo interno](turismo_interno) por provincias
+    - cómo consulto las [estadísticas](datos) del [tursmo interno](turismo_interno)?
+    - necesito ver los flujos mensuales de [turistas internos](turismo_interno)
+    - quiero explorar las [visualizaciones](VD) de [turismo de interior](turismo_interno)
+    - ¿Puedo acceder a los [estadisticos](datos) sobre [turismo interno](turismo_interno)?
+    - quiénes viajan dentro del país por motivos turísticos ([turismo interno](turismo_interno))?
+    - ¿cuántos [residentes españoles](turismo_interno) viajan por otras zonas del país cada mes?
+    - qué regiones destacan en el [turismo interno](turismo_interno)
+    - cómo ha evolucionado el número de [turistas internos](turismo_interno) en los últimos cinco años
+    - proporción de [viajes domésticos](turismo_interno) dentro de España
+    - me gustaría ver el ranking de destinos con más [turismo interno](turismo_interno)
+    - ¿qué lugares dentro de España atraen más [turismo interno](turismo_interno)?
+    - muéstrame cómo se comporta el [turismo interno](turismo_interno) en Valencia
+    - el [turismo interno](turismo_interno) ha crecido este año?
+    - cifras del [turismo interior](turismo_interno) comparadas con años anteriores
+    - me gustaría ver los [datos](datos) desglosados por comunidad sobre [turismo interno](turismo_interno)
+    - flujo de [turismo de interior](turismo_interno) en la comunitat valenciana
+    - cuál es el impacto del [truismo interno](turismo_interno) en la economía local
+    - quiero entender mejor la sección de [turismo interno](turismo_interno)
+    - qué significa exactamente [turismo interno](turismo_interno)? puedes explicarlo
+    - existe algún gráfico de [viajes internos](turismo_interno) este trimestre?
+    - estoy analizando el impacto del [turismo interno](turismo_interno), ¿pueden ayudarme?
+    - número de [turistas internos](turismo_interno) que se desplazan mensualmente dentro del país
+    - cuáles son los principales destinos para el [turismo interno](turismo_interno)?
+    - k zonas estan en auge este año para el [turismo local](turismo_interno)?
+    - Los [destinos de interior](turismo_interno) están de moda?
+    - qué datos hay sobre gente que prefiere viajar dentro del país=
+
+# ....... VISUALIZACIONES GENÉRICAS: ALOJAMIENTOS ................................................................................
+# Demanda = nº de viajeros, pernoctaciones y estancia media
+# Oferta = nº de plazas, personal empleado, establecimientos y grado de ocupación
+# Alojamientos específicos = hoteles, apartamentos y campings
+
+- intent: gva_VG_alojamientos
+  examples: |
+    - ¿Qué información puedo encontrar sobre [alojamientos](alojamientos)?
+    - quiero ver los [datos](datos) de [alojamients](alojamientos)
+    - ir a las [visualizaciones](VD) de [lojamientos](alojamientos)
+    - qué [datos](datos) tenéis sobre [alojamientos](alojamientos)?
+    - de qué tipos de [alojamiento](alojamientos) puedo consultar información?
+    - cómo puedo ver los [gráficos](VD) de [alojamientos](alojamientos)
+    - [alojamientos](alojamientos) en la comunidad valenciana
+    - tipos de [alojamiento](alojamientos) en la comunidad
+    - me gustaría conocer la popularidad de los diferentes tipos de [alojamiento](alojamientos)
+    - dónde se queda la gente cuando viene a la comunidad?
+    - dónde se [hospedan](alojamientos) los turistas en general? 
+    - [alojamientos](alojamientos) con mayor [tasa de ocupación](demanda) en verano
+    - ¿Dónde consulto la evolución anual de los tipos de [alojamientos](alojamientos) según el destino?
+    - dependiendo del destino, cambia el tipo de [alojamiento](alojamientos) mayoritario?
+    - cómo está la [oferta](oferta) y [demanda](demanda) de [alojamientos](alojamientos) en Castellón
+    - Necesito saber más sobre las fluctuaciones en el mercado de [hospedaje](alojamientos)
+    - quiero ver la evolución en la [búsqueda](busquedas) de [alojamientos](alojamientos)
+    - ¿Cómo ha evolucionado la [demnada](demanda) de [alojmientos](alojamientos)?
+    - quiero ver los [gráficos](VD) de la [solicutud](demanda) de [alojamientos](alojamientos)
+    - [demanda](demanda) de [alojamients](alojamientos) en la comunidad valenciana
+    - [Demanda](demanda) de [alojamientos](alojamientos)
+    - cuánta gente se [aloja](alojamientos) cada año en la comunidad valenciana?
+    - número de turistas que se [hospedan](alojamientos) en [hostales](alojamientos)
+    - como accedo a las [visualizaciones](VD) de las pernoctaciones
+    - dónde puedo consultar la cantidad de turistas que se [alojan](alojamientos) cada año en la comunidad
+    - ¿Qué puedo ver en el apartado de [demnda](demanda) de [alojamientos](alojamientos)?
+    - cuáles son los [datos](datos) que se recogen en la sección de [demanda](demanda)
+    - tipos de [alojamiento](alojamientos) más [demandados](demanda)
+    - [alojamientos](alojamientos) que se [demandan](demanda) con mayor frecuencia
+    - qué [alojamiento](alojamientos) son los más solicitados
+    - [grado de ocupación](demanda) de los [alojamientos](alojamientos)
+    - en qué tipo de [alojamiento](alojamientos) hay más [plazas](oferta) disponibles?
+    - quiero ver la [oferta](oferta) de [alojamientos](alojamientos)
+    - [hospedajes](alojamientos) que se [ofertan](oferta) en la comunidad valenciana
+    - me interesaría explorar la [oferta](oferta) de [alojamientos](alojamientos)
+    - [gráficos](VD) para la [oferta](oferta) de [alojamientos](alojamientos)
+    - llévame a las [visualizaciones](VD) de la [oferta](oferta) de [alojamientos](alojamientos)
+    - [nº de plazas](oferta) que se [ofertan](oferta) en los [hoteles](hoteles)
+    - personal empleado en los [alojamientos](alojamientos)
+    - cómo accedo a las [visualizaciones](VD) de la [oferta](oferta) de [alojamientos](alojamientos)
+    - información sobre la cantidad de [plazas](oferta) que se [ofertan](oferta) en los distintos tipos de [alojamientos](alojamientos)
+    - ¿Cuánto empleo se genera en los [alojamientos](alojamientos) de la Comunidad Valenciana?
+    - relación entre el sector turístico y la creación de empleo
+    - cuántas [plazas](oferta) se [ofertan](oferta) en establecimientos de la comunidad valenciana
+    - cuál es el [grado de ocupación](demanda) de los [alojamientos](alojamientos) en verano
+    - Cómo ha evolucionado el empleo en el sector?
+    - [datos](datos) sobre la [oferta](oferta) de [alojamientos](alojamientos) en la comunidad valenciana
+    - los extranjeros se quedan mcuho a dormir en [albergues](alojamientos)?
+    - me gustaría saber de la [demanda] de [albergues](alojamientos)
+    - que cantidad de [albergues](alojamientos) hay disponibles normalmente en abril? 
+    - me aclararias cuantos viajeros eligen [albergues](alojamientos) y cual es su tiempo medio de estancia?
+    - ¿Podrías proporcionarme estadísticas sobre el grado de [ocupación](demanda) en [hostales](alojamientos) y su influencia en la [oferta](oferta?
+    - busvco informacion sobre el total de turistas y la duracion promedio de su estadía en los [moteles](alojamientos)
+    - quisiera que me dijeras la cantidad de [plazas](oferta) hay en los [albergues](alojamientos) y cuantas se [ocupan](demanda) en verano
+    - tengo especial interés en conocer el número de personas que [se alojan](alojamientos) en los [hostels](alojamientos) y su estancia promedio
+    - que tipo de [alojamiento](alojamientos) genera mas empleo para la comudad valenciana
+    - cuánta gente se queda a dormir en [resorts](alojamientos) en agosto?
+    - Ocupación media de todos los [alojamientos](alojamientos) en buñol durante el mes de abril
+
+- intent: gva_VG_ALOJ_especificos
+  examples: |
+    - los turistas prefieren quedarse en [hoteles](hoteles) o en [apartamentos](apartamentos)?
+    - cuántos turistas se [alojan](alojamientos) en [oteles](hoteles) y cuántos en [apartamentos](apartamentos)?
+    - de los turistas que vienen a la comunidad valenciana, cuántos se [alojan](alojamientos) en [campings](campings)?
+    - de la gente que viene a Alicante, cuántos se quedan a dormir en [apartamentos](apartamentos) de alquiler?
+    - cuántos turistas se [alojan](alojamientos) en [apartamentos](apartamentos) cada año?
+    - cuánto tiempo se queda de media un turista en un [camping](campings)
+    - nº de viajeros que [se alojan](alojamientos) en [hoteles](hoteles)
+    - cuando vienen a la comunidad valenciana, cuánta gente se queda en [apartamentos](apartamentos)?
+    - cuántos turistas se [alojan](alojamientos) en [hoteles](hoteles) de la comunidad valenciana?
+    - quiero ver la [necesidad](demanda) de [alojamientos](alojamientos) en la comunidad valenciana
+    - Cuál es la capacidad total de los [campings](campings) en Castellón?
+    - puedo ver información acerca de [campings](campings)?
+    - y acerca de [hoteles](hoteles)?
+    - cuánta gente [se hospeda](alojamientos) en [apartamentos](apartamentos)
+    - cuántas personas se [alojaron](alojamientos) en [campings](campings) de valencia el año pasado
+    - cuál es la estancia media en los [apartamentos](apartamentos) turísticos de Castellón
+    - me puedes decir cuántas personas se [hospedaron](alojamientos) en [hoteles](hoteles) de la Comunidad Valenciana el mes pasado
+    - Cuántas noches se quedan en promedio los turistas en los [apartamentos](apartamentos) de alicante?
+    - cuanto tiempo se quedan los pasajeros en destino en promedio si van a un [camping](campings)
+    - me gustaría ver las métricas de los [campings](campings)
+    - establecimientos [hoteleros](hoteles) en la comunidad valenciana
+    - se [ofertan](oferta) más [apartamentos](apartamentos) u [hoteles](hoteles) en alicante?
+    - los [campings](campings) se ocupan más en verano o en invierno?
+    - qué diferencias en la [ocupación](demanda) hay entre [apartamentos](apartamentos) y [hoteles](hoteles)
+    - de media, hay más personal empleado en los [hoteles](hoteles) o en los [campings](campings)?
+    - ¿Dónde podría ver el [grado de ocupación](demanda) medio de los [cámpings](campings)?
+    - cuántos [hoteles](hoteles) están operando actualmente en la Comunidad Valenciana
+    - cuántos [apartamentos](apartamentos) turísticos están disponibles en Alicante
+    - podría ver el [porcentaje de ocupación](demanda) de los [apasrtamentos](apartamentos) en invierno?
+    - cuántos empleados tiene más o memos cada [camping](campings)?
+    - donde veo las [visualizaciones](VD) de la [oferta](oferta) de [hoteles](hoteles)
+    - los suecos se suelen quedar en un [hotel](hoteles)?
+    - quiero el volumen de pernoctaciones en [canpins](campings)
+    - cómo es la [demanda](demanda) de [hoteles](hoteles) en temporada alta?
+    - cuantos viajeros [se alojan](alojamientos) en los establecimientos tipo [campamento](campings)? cuanto tiempo de estadia aproximadamente?
+    - Me gustaría obtener detalles sobre el número de pernoctaciones en [apartamentos](apartamentos) turísticos y cuál es la [demanda](demanda) actual para este tipo de hospedaje
+    - solicitar [datos](datos) sobre el grado de [ocupacion](demanda) de los [campings](campings) y que factores influyen en su [oferta](oferta) y [demanda](demanda)
+    - necesito saber como se distribuyen las [plazas](oferta) en los [hoteles](hoteles) y el impacto que esto tiene en el empleo generado
+    - que hago para entender mejor la relacion entre el volumen de viajeros que se quedan en [apartamentos](apartamentos) y en otros tipos de [alojamiento](alojamientos)
+    - busco información sobre la duración media de la estancia en [hoteles](hoteles) y cómo se compara con otros tipos de [hospedaje](alojamientos)
+    - me interesa mas el empleo que generan los [campamentos](campings) en alicante
+    - cuantas mas [plazas](oferta) tiene un [hotel](hoteles) mas personas emplea?
+    - Estoy intrigado por conocer los [datos](datos) de pernoctaciones en [hoteles](hoteles). ¿Hay estabilidad de la [demanda](demanda) el sector?
+    - puedes ayudarme a entender la [oferta](oferta) y [demanda](demanda) de [apartamentos](apartamentos) tursiticos según [ocupcaion](demanda) y pernoctadas?
+    - estoy buscando estadísticas sobre la cantidad de viajeros que van a los [hoteles](hoteles) de castellon en primavera o en temporada baja en general
+    - ¿Me podrías informar acerca de la [demanda](demanda) de [apartamentos](apartamentos)?
+    - tienes [graficos](VD) de la [oferta](oferta) de [campings](campings) isponibles en la comunidad valenciana?
+
+- intent: gva_VG_ALOJ_rurales
+  examples: |
+    - cuántas personas se [hospedan](alojamientos) en [alojamientos rurales](alojamientos_rurales)?
+    - quiero información sobre [turismo rural](alojamientos_rurales)
+    - cuántas [plazas](oferta) hay en [alojamientos rurales](alojamientos_rurales) en Alicante?
+    - dónde encuentro las [visualizaciones](VD) de [establecimientos rurales](alojamientos_rurales)?
+    - me gustaría ver la información de [turismo rrural](alojamientos_rurales)
+    - [datos](datos) de [tursimo rural](alojamientos_rurales)
+    - número de pernoctaciones en [hoteles](hoteles) [rurales](alojamientos_rurales)
+    - ¿Cuál es la estancia media en [establecimientos rurales](alojamientos_rurales)?
+    - dime cuántos [apartamentos rurales](alojamientos_rurales) tiene la Comunidad
+    - Quiero saber el grado de [ocupación](demanda) que hay en Castellón para [hospedaje rural](alojamientos_rurales)
+    - cuánto empleo genera el [turismo ruarl](alojamientos_rurales) en Valencia?
+    - cómo puedo ver los [gráficos](VD) de [alojamientos en el medio rural](alojamientos_rurales)?
+    - ¿Tienes información acerca de [ocupación](demanda) [rural](alojamientos_rurales)?
+    - son populares los establecimientos [hoteleros](hoteles) de los [pueblos](alojamientos_rurales) en la comunidad valenciana?
+    - podrías decirme si es más elevada la estancia media en [hoteles](hoteles) [rurales](alojamientos_rurales) o en [hoteles](hoteles) urbanos?
+    - llévame al apartado de [turismo rual](alojamientos_rurales), por favor
+    - están en este [portal](SIT) los [gráficos](VD) de [alojamientos rurales](alojamientos_rurales)?
+    - información de [turismo en el medio rural](alojamientos_rurales)
+    - muéstrame los (datos)[datos] de [apartamentos rurales](alojamientos_rurales)
+    - cómo voy a la parte de [turismo rural](alojamientos_rurales)
+    - Ir a la sección de [turismp rural](alojamientos_rurales)
+    - [tuirsmo rural](alojamientos_rurales)
+    - popularidad de los [alojamientos rurales](alojamientos_rurales)
+    - número de personas que se [alojan](alojamientos) en [casas rurales](alojamientos_rurales)
+    - cuántos turistas pernoctan en una [casa rural](alojamientos_rurales)
+    - porcentaje de variación de pernoctaciones en destinos [rurales](alojamientos_rurales)
+    - no encuentro [datos](datos) sobre la cantidad de pernoctaciones en otros [alojamientos rurales](alojamientos_rurales) que no sean [casas rurales](alojamientos_rurales) y la capacidad de respuesta a la [demanda](demanda) que tienen frente a estas
+    - cuál es la [oferta](oferta) actual de [casas rurales](alojamientos_rurales) en términos de plazas? cómo afecta esto a la [demanda](demanda) del mercado?
+    - Solicito detalles en torno al volumen de [plazas](oferta) [ofertadas](oferta) en [alojamientos rurales](alojamientos_rurales) 
+    - en los sitios [rurales](alojamientos_rurales) se queda mas la gente a dormir que en los urbanos cuando van de visita solo un dia?
+
+# ....... VISUALIZACIONES GENÉRICAS: VUELOS ................................................................................
+
+- intent: gva_vuelos
+  examples: |
+    - qué información hay disponible sobre el [tráfico aéreo](vuelos)?
+    - cuantas aerolineas vuelan desde valencia
+    - Qué aerolíneas operan en la Comunitat Valenciana
+    - cuantos aviones despegan del territorio valenciano
+    - quiero un [analisis avanzado](modelos_IA) de los [vuelos](vuelos) que me haga predicciones
+    - dónde está la información de [vuelos](vuelos)?
+    - ¿Cómo veo los (datos)[datos] de [vuelos](vuelos)?
+    - quiero saber más sobre [vuelos](vuelos)
+    - como ver los [gráficos](VD) de [vuelos](vuelos)
+    - Me interesaría obtener información sobre [buelos](vuelos)
+    - ¿Dónde puedo ver los esquemas de [vuelos](vuelos)?   
+    - los [vuelos](vuelos) donde estan?
+    - sección de [vuleos](vuelos)
+    - que hay en [vuelos](vuelos) en forma de [visualizacion](VD)
+    - tenéis alguna [solucion ia] relacionada con [vuelos](vuelos)?
+    - [vuelos](vuelos)
+    - no encuentro los [vueeos](vuelos) en el [portal](SIT)
+    - me gustaría acceder a los (datos)[datos] de [vuelos](vuelos), por favor
+    - [visualizaciones dinámicas](VD) en materia de [vuelos](vuelos)
+    - en relación con los [vuelos](vuelos) qué info tenéis 
+    - cuál es la parte del [portal](SIT) que trata sobre [vuelos](vuelos)?
+    - qué información tenéis sobre [vuelos](vuelos)?¿
+    - cuál es la información concreta que hay en lo referente a [vuelps](vuelos)?
+    - [visualizaciones](VD) de [vuelos](vuelos)
+    - no consigo ver lo de los [vuulos](vuelos) 
+    - información para [vuelos](vuelos)
+    - me interesan los (datos)[datos] sobre [vuelos](vuelos)
+    - quiero ver los [vuekos](vuelos)
+    - [vuelos](vuelos) en la comunidad valenciana frente a otros destinos
+    - hola buenas me puedes decir donde estan las cosas de los [vuelos](vuelos) no me entero
+    - k sabes de los [vuelos](vuelos) a la comunidad valenciana
+    - me puedes decir algo sobre los [vuelos](vuelos) a la comunidad valenciana??
+    - que me expliques lo que tienes de los [graficos](VD) esos de los [vuelos](vuelos)
+    - y los [vuelos](vuelos)?
+    - Es mi primera vez en el [portal del sistema de inteligencia turística](SIT) y no sé cómo ver los (datos)[datos] de [vuelos](vuelos). ¿Me puedes ayudar?
+    - No me apaño con esta [plataforma](SIT) pero quiero ir al apartado donde están los [vuelos](vuelos)
+    - estoy buscando [vuelos](vuelos) para los próximos seis meses
+    - estoy interesado en las ciudades de origen de los [vuelos](vuelos) 
+    - necesito detalles sobre los [vuelos](vuelos) internacionales
+    - Información sobre [vuelos](vuelos) en Alicante
+    - [vuelos](vuelos) disponibles
+    - dime cuantos [vuelos](vuelos) llegan a la comunidad vlaneciana 
+    - [vuelos](vuelos) con destinos turísticos
+    - que es un [vuelo](vuelos)
+    - disponibilidad de [vuelos](vuelos) a cararias
+    - [vuelos](vuelos) a polonia
+    - cuántas salidas hubo en el aeropuerto el fin de semana pasado?
+
+- intent: gva_VG_VUEL_demanda_conectividad
+  examples: |
+    - ir a la sección de [demand](demanda) y [conectividad](conectividad)
+    - quiero ver los [datos](datos) de [demnaada](demanda) y [conectividad](conectividad) para viajes en avión
+    - acceso a las [visualizaciones](VD) de [demanda](demanda) y [conectibidad](conectividad)
+    - no veo el apartado de [demanda](demanda) y [conexiones](conectividad) entre [vuelos](vuelos)
+    - [demanda](demanda) y [comectividad](conectividad)
+    - sección de [demanda](demanda) y [conectividas](conectividad)
+    - ¿Me llevas a la parte de [demnada](demanda) y conectividad](conectividad)?
+    - dónde encuentro los [datos](datos) de [demanda](demanda) y [conectviidad](conectividad) en el [portal](SIT)?
+    - información de [demnda](demanda) y [conectivdad aérea](conectividad)
+    - me sacas los [datos](datos) de [demanda](demanda) y [conectibidad](conectividad) de [vuelos](vuelos)?
+    - quiero los números de [vuelos](vuelos) en [demanda](demanda) y [conectividad](conectividad)
+    - hay información sobre [demanda](demanda) y [conectividad](conectividad) en la sección de [vuelos](vuelos)?
+    - tenéis en el [portal](SIT) algo sobre [demanda](demanda) y [conecividad](conectividad)?
+    - me gustaría ver los [gráficos](VD) de [demanda](demanda) y [conectividad](conectividad) aéreas 
+    - [Demanda](demanda) y [conectividdaa](conectividad) de [vuelos](vuelos) en la comunidad valenciana
+    - las cifras de [demadna](demanda) y [conectividaa](conectividad) de la comunidad valenciana son mejores que las de otros competidores?
+    - me gustaría tener [datos](datos) comparativos de [demanda](demanda) y [conectividad](conectividad) de [vuelos](vuelos)
+    - información dinámica de [demanda](demanda) o [conectividad](conectividad) 
+    - qué es la [demansa](demanda) y [conectivdad](conectividad) de [vuelos](vuelos)?
+    - qué quiere decir [demanda](demanda) y [conectividad aerea](conectividad)
+    - y sobre la [denanda](demanda) y [conectividad](conectividad) de [vuelos](vuelos) qué me puedes decir?
+    - ¿Y de [demanda](demanda) y [conectividad](conectividad)?
+    - k hay de [demanaa] y [conecitivad](conectividad) aquí?
+    - ¿Serías capaz de explicarme qué es eso de [demanda](demanda) y [conexiones](conectividad) de los [vuelos](vuelos)?
+    - [conectividad aérea](conectividad) en la comunidad valenciana
+    - cuáles son las [conexiones](conectividad) aéreas de la comunidad 
+    - ver el numero de mercados [conectados](conectividad)
+    - Dime cuántos mercados están [conectados](conectividad) con la Comunidat Valenciana
+    - me interesaria saber cuantas ciudades estan [conectadas](conectividad) con valencia
+    - qué [conexiones](conectividad) hay entre las capitales de la comunitat y ottas ciudades europeas?
+    - como ha cambiado la [demanda](demanda) de [vuelos](vuelos) a la comunidad valenciana este año?
+    - se han establecido [conrxiones](conectividad) nuevas recientemente?
+    - fluctuaciones para la [demanda](demanda) de [vuelos](vuelos) hacia la comunidad valenciana
+    - me dirías cual es la tendencia de la [demanda](demanda) aerea a alicante?
+    - se da un aumento en la [demanda](demanda) de [vuelos](vuelos) a la comunitat valenciana ultimamente??
+    - ¿Cómo ha variado la [demanda](demanda) de [vuelos](vuelos) a la Comunitad Valenciana en los últimos años?
+    - donde puedo visualizar las aerolineas que operan en la comunidad valenciana
+
+- intent: gva_VG_VUEL_capacidad
+  examples: |
+    - Llévame a la sección de [capacidad](capacidad) aerea.  
+    - dónde está la info sobre [capcidad](capacidad) aerea en el [portal](SIT)?  
+    - información detallada en torno a la [capacidad](capacidad) aérea
+    - cómo sé cuál es la [capacidad](capacidad) de los aviones para los [vuelos](vuelos) a la comunidad valenciana?
+    - Quiero conocer las cifras de [capacidad](capacidad) aerea 
+    - ¿Hay algún apartado en el [portal](SIT) sobre [capacidada](capacidad) aérea?  
+    - me gustaría consultar las [visualizaciones](VD) de [capacidad](capacidad) aerae
+    - no tengo claro dónde se ven los [gráficos](VD) de [capacidad](capacidad) aerea epara la sección de [vuelos](vuelos)
+    - cómo están los [datos](datos) de [capacidad](capacidad) aerea en comparación con otras regiones?  
+    - quiero un análisis comparativo de [capacidad](capacidad) aérea para diferentes destinos
+    - me interesa acceder a información actualizada sobre [capacidad](capacidad) aérea disponible
+    - k significa [capacidad](capacidad) aerea??  
+    - Explícame, por favor, qué incluye el concepto de [capacidad](capacidad) aérea
+    - k sabes de la [capcidad](capacidad) aerea para los [vuelos](vuelos) a aliante?¿
+    - hay algo relacionado con la [capacidad](capacidad) de los aviones en el [portal](SIT) que pueda consultar?  
+    - que sabes de [capacidad](capacidad) aérea?  
+    - Saber más sobre la [capacidad](capacidad) del avión en vuelos internacionales
+    - ¿Cuántos asientos se [ofertan](oferta) en los [vuelos](vuelos) a la comunitat valenciana?
+    - media de asientos disponibles para reservar al volar a castellón
+    - dime cuál es la [oferta](oferta) de [vuelos](vuelos) 
+    - me interesa conocer la [capacidsd](capacidad) aerea de los [vuelos](vuelos) en lo que respecta a los asientos que están disponibles
+    - quiero saber cuántos asientos se pueden reservar en los [vuelos](vuelos) a valencia
+    - asientos para cada [vuelo](vuelos) 
+    - cuántos [vuelos](vuelos) se [ofrecen](oferta) a la comunitat valenciana?
+    - número de [vuelos](vuelos) que se [ofertan](oferta) a alicante
+    - cuantos [vuelos](vuelos) adicionales se han programado para el periodo navideño
+    - cuantos [vuelos](vuelos) totales se [ofrecem](oferta) 
+    - cual es la disponibilidad de asientos en [vuelos](vuelos) nocturnos
+    - m gustaría saber cuantos asientos totales hay disponibles
+    - quisiera saber la distribución de asientos según el mercado y aeropuerto de origen
+    - información sobre los asinetos por ciudad de origen
+    - dime donde estan los [datos](datos) de los asientos [ofrecidos](oferta) en diferentes aeropuertos de destino
+    - Querría conocer la variación interanual en los asiwntos [ofertados](oferta) 
+    - como vbusco la variacion por años de los asientos en relacion al mercado y aeropuerto
+    - encontrar los [gráficos](VD) de la variación anual para los asientps por ciudad de origen
+    - qué fluctuaciones hay en el número de asientos disponiles hacia diferentes aeropuertos de destino?
+    - como comparo los asientos disponibles en los [vuaalos](vuelos) nuestros frente a un destino competidor
+    - ¿Existen más [vuelos](vuelos) programados hacia Castellón para la próxima temporada que los que hubo en esta?
+    - ofreces [datos](datos) sobre el numero de [vuelos](vuelos) hacia la comunidad valenciana?¿
+    - cuántos [vuelos](vuelos) hay programados hacia la Comunidad Valenciana este mes?
+    - hay más [vuelos](vuelos) programados ahora que en el año pasado hacia Alicante?
+    - cantidad de [viajes en avión](vuelos) que se han [ofrecido](oferta) para la próxima temporada
+
+- intent: gva_VG_VUEL_busquedas
+  examples: |
+    - dónde puedo consultar información sobre [busquedas](busquedas) aereas?  
+    - enséñame [datos](datos) de las [busquedas](busquedas) para [vuelos](vuelos) a castellón desde mercados internacionales
+    - dime qué información hay disponible sobre [búsquedas](busquedas) aereas
+    - existen estadísticas a disposición del usuario sobre [búsquedas](busquedas) aéreas en el [portal](SIT)?  
+    - Me interesan los indicadores de [búsquedas](busquedas) aereas en los [vuelos](vuelos).  
+    - ¿Dónde están las [gráficas](VD) relacionadas con [búsquedas](busquedas) aéreas?  
+    - se pueden consultar tendencias de [bsquedas](busquedas) aéreas para la comunidad valenciana?¿
+    - hay algún análisis sobre [busquedas](busquedas) aereas?  
+    - ¿Cómo puedo acceder a los [datos](datos) históricos de [busquedas](busquedas) aéreas?  
+    - k regiones lideran en [buskedas](busquedas) para [vuelos](vuelos?  
+    - dame información reciente sobre [busqedas](busquedas) en mercados europeos
+    - q indican las métricas de [busquedas](busquedas) aéreas?? 
+    - Ayúdame a encontrar el apartado de las [búsquedas](busquedas) aereas en el [portal](SIT) 
+    - tenéis una sección de tendencias de [busquedas](busquedas) aereas en el sitio?  
+    - cuáles son los [datos](datos) más destacados sobre [busquedas](busquedas) aéreas este mes?  
+    - me interesaría conocer si influyen las [búsquedas](busquedas) areeas en la planificación de vuelos 
+    - evolución de las [bsuquedas](busquedas) de [vuelos](vuelos) en comparación con el año pasado  
+    - que puedo aprender sobre las preferencias de destinos según las [búsquedas](busquedas) aéreas?  
+    - ¿Hay herramientas en el [portal](SIT) para analizar [búsquedas](busquedas) aéreas?  
+    - cuando son los picos en [busquedas](busquedas) de [vuelos](vuelos) para temporadas altas?  
+    - [busquedas](busquedas) aereas
+    - cómo veo los [datos](datos) de [búsquedas](busquedas) para [vuelos](vuelos) en el [portal](SIT)?
+    - ver el desglose de las [bssquedas](busquedas) aéreas por regiones
+    - dónde encuentro las [visualizaciones dinámicas](VD) de [busqeudas](busquedas) aereas?
+    - quiero saber cuantas [busquedas](busquedas) se han hecho en los ultimos 12 meses
+    - cómo ha cambiado la cantidad de [búsquedas](busquedas) en el último año?¿
+    - me gustaría ver las [búsquedws](busquedas) por fecha de [vuelo](vuelos) 
+    - Necesito información sobre el mercado de origen de las [búsquedas](busquedas)
+    - queiro [datos](datos) sobre las ciudades de destino más [buscadas](busquedas)
+    - intento encontrar información sobre destinos por fecha de [busqueda](busquedas)
+    - podrías darme el porcentaje de [búsquedas](busquedas) por destino?
+    - preciso de [datos](datos) sobre la variación interanual de [búsquedas](busquedas)
+    - ¿Cómo se distribuyen las [búsqurdas](busquedas) entre mercado de origen y destino?
+    - me interesan los [graficos](VD) la fecha de [busqueda](busquedas) de los [vuelos](vuelos)
+    - cómo influye la ciudad de destino en la distribución de las [búsquedas](busquedas)
+    - cuantas [busquedas](busquedas) de [vuelos](vuelos) hay desde reino unido hasta comunidad vlecniana
+
+
+- intent: gva_VG_VUEL_reservas
+  examples: |
+    - ¿Dónde puedo encontrar [datos](datos) de [redervas](reservas) históricas?  
+    - muéstrame las cifras de [reservas](reservas) previstas para los próximos meses 
+    - qué información hay sobre las [reservas](reservas) a futuro en el [portal](SIT)?  
+    - me interesan las tendencias de [reservas](reservas) de [vuelos](vuelos) 
+    - ¿Puedo ver un desglose de las [reservas](reservas) realizadas para este año?  
+    - informe de [reservas](reservas) pasadas
+    - histórico de [resrevas](reservas) de [vuelos](vuelos)
+    - historial para las [resevas](reservas) de [vuelos](vuelos)
+    - Dime qué proyección hay para las [reservas](reservas) en los próximos meses
+    - existen gráficos comparativos de [reservds](reservas) históricas y futuras?  
+    - donde puedo acceder al análisis de las [reservas](reservas) por temporada??  
+    - según los [datos](datos) históricos pueden predecirse las [reservas](reservas) futuras en [vuelos](vuelos) a la comunidad valenciana?
+    - dame información sobre el comportamiento de las [reservas](reservas) en destinos turísticos valencianos
+    - cuáles son los cambios que se observan en las [reservas](reservas) hacia el próximo trimestre?  
+    - me gustaría ver la evolución de las [rreservas](reservas) de los últimos cinco años 
+    - cómo acceder a algún panel interactivo para explorar las [reservas](reservas) en detalle
+    - ¿Cuáles son los destinos con mayor volumen de [reservas](reservas) previstas en 2025?  
+    - dame acceso a las previsiones de [reservaa](reservas) en vacaciones de verano a la costa valenciana
+    - quiero ber [datos](datos) que comparen [reservas](reservas) históricas con la [demanda](demanda) actual
+    - evolución de las [reserbas](reservas) de [vuelos](vuelos) en comparación con el año pasado
+    - análisis comparacional sobre los [vuelos](vuelos) que se [reservan](reservas) 
+    - [reservas](reservas) de [vuelos](vuelos) en la comunitat valenciana qué información aportan?
+    - en qué parte de la [platforma](SIT) puedo ver las [reservaciones](reservas) de [vuelos](vuelos) y sus evoluciones?
+    - k son las [reservas](reservas) de [vuekos](vuelos) a futuro?
+    - teneis algún historico de [reservas](reservas) de [vuelos](vuelos) a valencia?¿
+    - [visualizaciones](VD) que predicen las [reservas](reservas) de [vuelos](vuelos) en el futuro dónde están
+    - sección de [gráficos](VD) para visualizar las previsiones de [reservación](reservas) de [aviones](vuelos) en los meses de verano
+    - quiero saber el numero de pasajeros que volaron el mes pasado
+    - ¿Cómo variará la cantidad de pasajeros en los próximos seis meses?
+    - cmo ha evolucionado el numero de pasajerps según la fecha de viaje
+    - Ranking de mercados de origen por ventana media diarias por nº de pasageros
+    - dime las top 15 ciudades de origen según el volumen de pasajeros
+    - quisiera ver el ranking de aerolineas por número de pasajeros
+    - cuáles son los top aeropuertos de origen por número de paajeros
+    - Cómo puedo comparar la variación de pasajeros por fecha de viaje
+    - cual es la variacion interanual de pasajeros en funcion del mercado de origen
+    - ¿Podrías decirme la variación interanual de pasajeros según la ciudad de origen?
+    - cual es la distribucion de pasajeros considerando el tamaño del grupo
+    - qiero saber la [anticipación](reservas) media en días según el motivo de viaje
+    - cuál es la [anticipacion](reservas) media en días para [reservar](reservas) cuando los grupos son grandes?
+    - cuántos pasajeros han viajado este año??
+    - cómo se espera que varíe el número de pasajeros en los próximos seis meses?
+    - Cuál es la [anticipación](reservas) media de las [reservas](reservas)?
+    - qué influencia tiene el motivo de viaje en la [anticipacion](reservas) media en días?
+    - pasajeros promedio que se esperan en los aeropuertos de destino
+    - ¿Cuál es la tasa media de [reservas](reservas) por país de origen?
+    - dame la tasa de [reservas](reservas) por país
+    - info sobre tasa media [reservas](reservas) x país
+    - Tasas de reserva por país, datos?
+    - tasa media por país, la tienes?
+    - busco la tasa media de [reservas](reservas) de cada país
+    - país de origen y su tasa de [reservas](reservas) promedio
+    - cómo es la tasa media de [reservas](reservas) según el país?
+    - dame estadística de [reservas](reservas) por país
+    - necesito la media de [reservas](reservas) por países
+    - dame la tasa media de [reservas](reservas) por ciudad
+    - cuál es la tasa de [reservas](reservas) promedio en ciudades?
+    - ciudades con más tasa media de [reservas](reservas)
+    - tasa [reservas](reservas) x ciudad, info
+    - Cuáles son las ciudades con mejor tasa de [reservas](reservas)?
+    - necesito [datos](datos) sobre la media de [reservas](reservas) por ciudad
+    - info tasa media de [reservas](reservas) por origen urbano
+    - Tasa media de [reservas](reservas), detallada por ciudad
+    - q ciudades tienen más [reservas](reservas)?
+    - [reservas](reservas) por ciudad de origen, tasa promedio
+
+- intent: gva_VG_VUEL_tarifas
+  examples: |
+    - dónde consulto los [datos](datos) sobre [tarifas](tarifas) aéreas?¿
+    - análisis comparativo de las [tarifas](tarifas) para [vuelos](vuelos) internacionales
+    - cómo han evolucionado las [trifas](tarifas) aereas en los últimos años?  
+    - dame información sobre las [tarifsa](tarifas) actuales en el sector aéreo y su tendencia 
+    - ¿Hay [datos](datos) que comparen las [tarfias](tarifas) entre aerolíneas?  
+    - mostrame las estadísticas de [tarifas](tarifas) aereas para la Comunidad Valenciana, por favor
+    - qué herramientas ofrece el [portal](SIT) para analizar [precios](tarifas) de [vuelos](vuelos)?  
+    - Puedo ver [gráficos](VD) sobre la evolución de las [tsrifas](tarifas) aereas?  
+    - k destinos tienen las [tariffas](tarifas) más económicas?  
+    - Me interesa conocer las [tarifas](tarifas) medias para [vuelos](vuelos) domésticos
+    - dnde está la informacion sobre variaciones en las [tarifas](tarifas) aéreas?  
+    - deseo ver las previsiones sobre [tarifas](tarifas) para el próximo año
+    - hacéis análisis sobre la competitividad en las [tarifas](tarifas) areeas?  
+    - cuáles variaciones de [tarifas](tarifas) se observan en temporada alta?  
+    - tendencias de [tarufas](tarifas) aéreas 
+    - ¿Puedo acceder a un histórico de las [tarifas](tarifas) aéreas de [vuelos](vuelos) transatlánticos?  
+    - dame las rutas más caras según las [tarifas](tarifas) actuales 
+    - encontrar información sobre las [tarifas](tarifas) areeas a día de hoy para los [vuelos](vuelos) a la costa valenciana
+    - analizas las [tarifas](tarifas) aereas para [vuelos](vuelos) internacionales?¿ 
+    - sabes como han cambiado las [tarifss](tarifas) aéreas en estos meses?  
+    - me proporcionas [datos](datos) comparativos de [tarifas](tarifas) aéreas entre aerolineas
+    - Dame acceso a [gráficos](VD) evolutivos de tendencias en [tarifas de vuelo](tarifas)
+    - cuales son los [precios](tarifas) de los [vuelos](vuelos) promedio a alicante?
+    - ¿Dónde puedo encontrar proyecciones de [tarifas](tarifas) aéreas futuras?  
+    - puedes decirme el impacto de las temporadas a las [tarifas](tarifas) aereas?  
+    - Me gustaría ver un desglose de [tarifas](tarifas) aéreas por destino  
+    - fluctuaciones históricas de las [tarifas](tarifas) aereas
+    - compárame la [tarifa](tarifas) media actual con el periodo anterior desde un destino a varios orígenes
+
+# ....... VISUALIZACIONES GENÉRICAS: PRESENCIA Y MOVILIDAD ................................................................................
+
+- intent: gva_presencia_movilidad
+  examples: |
+    - qué es [presencia](presencia) y [movilidad](movilidad)?
+    - no tengo claro qué es eso de [presencia](presencia) y [movilidad](movilidad) en [turismo internacional](turismo_internacional)
+    - ¿Qué tipo de [datos](datos) hay en la seción de [presencia](presencia) y [movilidad](movilidad)?
+    - quiero saber más sobre [presencia](presencia) y [movilidad](movilidad)
+    - información sobre [presencia](presencia) y [movilidad](movilidad)
+    - me gustaría ver los [datos](datos) de [presencia](presencia) y [movilidad](movilidad)
+    - me explicas en qué consiste lo de [presencia](presencia) y [movilidad](movilidad)?
+    - [presencia](presencia) y [movilidad](movilidad) en la comunidad valenciana
+    - ver los [datos](datos) de [presencia](presencia) y [movilidad](movilidad)
+    - Muéstrame por favor los [gráficos](VD) de [presencia](presencia) y [movilidad](movilidad)
+    - cómo veo las [visualizaciones](VD) de [presencia](presencia) y [movilidad](movilidad) para el [mercado internacional](turismo_internacional)
+    - qué implica el concepto de [presencia](presencia) o [movilidad](movilidad)
+    - por favor, explícame qué es [persencia](presencia) y [movilidad](movilidad) en los [viajes internacionales](turismo_internacional)
+    - k hay en la seccion d [presencia](presencia) y [mobilidad](movilidad)?
+    - [analsis avanzado](modelos_IA) de [presencia](presencia) y [movilidad](movilidad) con IA
+    - me interesan las [gráficas](VD) de [presencia](presencia) en [movilidad](movilidad)
+    - ¿Me llevarías a las [visualizaciones](VD) de [presencai](presencia) y [movilidad](movilidad)?
+    - [presencua](presencia) y [movilidad](movilidad) analizada con el [mdelo](modelos_IA) de [smart tourism](ST)
+    - soluciones de inteligencia artifical en torno a los [datos](datos) de [presencia](presencia) y [movilidad](movilidad)
+    - Cómo ha cambiado la [movilidad](movilidad) de los turistas en la Comunitat Valenciana en los últimos años
+    - ¿Hay [datos](datos) del [SIT](SIT) para [movilidad](movilidad) y [presencia](presencia) de turistas en la Comunidad?
+    - dime si [smart tourism](ST) recoje información sobre [movilidad](movilidad) de turistas
+    - quiero saber cuál es el origen de los viajeros que más visitan la comunitat valenciana
+    - Podrías indicarme cuál es el origen de los viajeros que más visitan la comunidad valenciana?
+    - quiero saber cuantas personas se concentran en una semana típica o en diferentes periodos
+    - Me puedes decir cómo es la distribución de visitantes según duración de su estancia, origen o franja horaria
+    - cuál es el ranking de países por tipo de visitante o los destinos con mayor concentración de turistas
+    - concentracion de personas por mes, semanas o días
+    - ¿Hay [datos](datos) sobre la frecuencia de visitas o el porcentaje de visitantes según su origen?
+    - Me gustaría ver la evolución semanal de visitantes y cómo se distribuyen entre provincias
+    - puedes proporcionarme información sobre turismo interprovincial?
+    - [datos](datos) intraprovinciales de visitantes al día según [municipio](municipio) de origen
+    - quisiera saber cuántos visitantes hay por franja horaria o cuáles son las horas de mayor afluencia en días laborables
+    - como se distribuyen los visitantes x origen + duracion de visita
+    - dame un resumen de los visitantes acumulados y su análisis comparativo entre destinos distintos
+    - hay estadísticas sobre turismo receptor por edad y sexo??
+    - dame detalles sobre la concentración de turistas por destino
+    - cuál es el tipo de visitante más común?
+    - cuáles son los días más populares para visitas y cómo se comparan las estancias entre destinos  
+    - puedes decirme cuantos visitantes hay por dias?
+    - dime cuantos visitantes hay por días
+    - Busco info sobre turismo interprovincial
+    - Cuántos turistas de Madrid
+    - dame informacion sobre turismo intreprovincial
+    - que destinos tienen mayor concentracion de visitantes?
+    - explora la concentracion por tipo de visitante
+    - qué días de la semana son mas populares para visitas?
+    - hay algun patrón en el turismo receptor?
+    - ¿Cómo afecta el origen del visitante al peso en destino?
+    - me gustaria ver la evolucion semanal de visitantes
+    - hay un ranking de visitantes mensuales?
+    - que dias tienen mas concentracion de personas?
+    - Distribución de visitantes por duración de visita.
+    - me gustaria conocer la evolucion semanal de los visitantes
+    - cual es el ranking de paises de los visitantes internacionales
+    - se da variacion en la cantidad de visitantes entre semanas
+    - como se distribuyen los visitantes por franja horaria
+    - cual es la hora de mayor afluencia de visitantes en dias laborables
+    - por favor muestra como se comparan los destinos por dias en cantidad de visitas
+    - me dirias cual es la franja horaria con menos visitantes
+    - cual es la proporcion d visitantes por origen??
+    - existe diferencia en la duracion de visitas segun el origen
+    - cuantos visitantes vienen por turismo intraprovincial
+    - ¿Cuál es la concentración de visitantes según su destino?
+    - cómo varia la frecuencia de visitas por diferentes dias
+    - puedes mostrarme la evolución de turistas semanales y mensuales?
+    - donde miro la info que neecesito es informacion sobre los visitantes por franja horaria 
+    - ¿Podrías proporcionarme un ranking de países según tipo de visitante?
+    - comparar destinos turisticos por numero de visitantes en marzo
+    - Me puedes dar la evolución temporal de turistas por mes?
+    - cual fue la evolución de turistas por día en destinos de playa el año pasado
+    - sabes decirme cuales son las zonas mas populares de turismo receptor
+    - Quiero información cronológica de turismo receptor, por favor
+    - hay variación porcentual de turistas por día entre los principales destinos de la comundad? 
+    - ¿Cuál es la variación interanual de turistas por destino?
+    - dame total de visitantes acumulados hasta ahora
+    - hay mas visitantes diurnos o nocturnos??
+    - cuales son los destinos mas populares por dia?
+    - Cómo se mide la [demanda](demanda) turística en términos de número de viajeros
+
+- intent: gva_VG_PM_estancia_diurna
+  examples: |
+    - como llego a las [visualizaciones](VD) de [estancia diurna](estancia_diurna)
+    - qué es la [estancia diurna](estancia_diurna)?
+    - no entiendo la [estancia diurna](estancia_diurna)
+    - quiero saber el tipo de [datos](datos) que dais en la sección de [estancia diurna](estancia_diurna)
+    - ¿Qué tipo de turista es más proclive a hacer [visitas diurnas](estancia_diurna)?
+    - me interesa que me digas si el origen puede tener algo que ver con el momento del día en que se visita un destino
+    - la gente que hace visitas de día de qué tipo es? 
+    - Cuál es el día de la semana en el que tienen más éxito las visitas por el día 
+    - cómo se comportan los turistas que hacen visitas de día?
+    - de [estancia diurna](estancia_diurna) hay [datos](datos) acummulados??
+    - en qué mes se hacen más visitas de día en total?
+    - comportamiento del turismo por el dñia 
+    - a que hora por el dia se hacen mas visitas a la comunidad
+    - dima la franja horaria que tenga mas visitas pero que sea de dia
+    - como afecta la hora a las [estancias diurnas](estancia_diurna)
+    - q tipo de turista es el q mas visita la comunidad de dia
+    - horas en las que se concentran los visitantes por las mañanas
+    - ¿Interviene de algún modo la duración de la estancia cuando se trata de [visitas diurnas](estancia_diurna)?
+    - los excursionistas viajan más en las horas de luz que los residentes?
+    - Quiero ver las estadísticas de turismo diurno dentro de la provincia de Alicante
+    - evolucion del numero de [visitantes diurnos](estancia_diurna) en funcion del mercado de origen
+    - ¿Hay alguna comparativa de [movilidad diurna](estancia_diurna)?
+    - nº de personas x semana q hacen visitas de dia
+    - cuántos turistas llegan entre las 6am y 12 pm
+    - cuantos llegan entre las 6 de la mañana y las doce para hacer visitas por la mañana?
+    - dime como se distribuyen los visitantes por origen durante el dia
+    - como es la distribucion de visitantes por origen a lo largo de la tarde?? 
+    - puedes decirme cuantos turistas llegan antes de medianoche?
+    - que volumen d visitantes llegan entre las 10 y las 12 del mediodia?
+    - Me gustaría saber la cantidad de personas que visitan por la mañana
+    - ¿Cuál es la frecuencia de visitas por el día para diferentes visitantes?
+    - cómo se comparan las concentraciones de personas por destino durante el día?
+    - desearía saber la distribución porcentual de visitantes según la duración de su visita diurna
+    - un análisis diario comparativo de destinos por la tarde
+    - Cuál es la distribución de visitantes según duración de la visita
+
+- intent: gva_VG_PM_estancia_nocturna
+  examples: |
+    - qierolas [visualizaciones](VD) de [estancia nocturna](estancia_nocturna)
+    - ¿Qué se entiende exactamente por [estancia nocturna](estancia_nocturna)?
+    - [datos](datos) de [visitas nocturnas](estancia_nocturna)
+    - que tipo de turista prefiere hacer [visitas nocturnas](estancia_nocturna)?
+    - los excursionistas tambien eligen horarios nocturnos??
+    - me interesa saber la popularidad de cada dia de la semana para la gente que viene solo de noche
+    - A qué hora de la noche suelen llegar más turistas?
+    - detalla para mi el comportamiento del turismo nocturno en la zona de castellon
+    - existen comparatvas de [movilidad nocturna](estancia_nocturna)?
+    - Indícame la franja horaria con más [visitantes nocturnos](estancia_nocturna)
+    - consulto la disponibildiad de [datos](datos) acumulados y unicos de [estancia nocturna](estancia_nocturna)
+    - tendencias mensuales en las [visitas de noche](estancia_nocturna)
+    - me podrías por favor decia la influencia que tiene el origen del turista en el hecho de moverse preferiblemente de noche?
+    - hay algun tipo de turista que tenga predileccion por los horarios nocturnos?
+    - Estadísticas de [turismo nocturno](estancia_nocturna) en la Comunitat Valenciana
+    - donde veo los [gráficos](VD) de [estancia nocturna](estancia_nocturna)? no consigo llegar
+    - cual es la evolucion del numero de [visitantes nocturnos](estancia_nocturna) segun el pais del que provengan
+    - cuantas personas hacen [visitas nocturnas](estancia_nocturna) cada semana?
+    - ¿Qué destinos tienen más éxito en cuanto a las [estancias nocturnas](estancia_nocturna)?
+    - varía el [turismo nocturno](estancia_nocturna) dependiendo de la estación del año? 
+    - k sabes de los viajes de noche en la comunidad
+    - de noche se va mas a alguna provincia o [municipio](municipio) concreto? 
+    - me dices las horas de la noche que llega mas gente
+    - sería útil saber el numero de noches que los visitantes permanecen en un destino
+    - me puedes decir el num de noches que se quedan en un destino?
+    - puedes comparar las noches de estancia entre destinos turisticos
+    - podrias compararme las noches de estancia entre diferentes lugares turisticos?
+    - quiero saber como se distribuyen los visitantes unicos entre medianoche y las 6 am
+    - dame info sobre el numero de noches que se quedan los turistas
+    - dime el promedio de noches de estancia de los visitantes
+    - cuantas noches en promedio se quedan los turistas?
+    - dónde encuentro información sobre la [estancia nocturna](estancia_nocturna) en turismo receptor?
+
+- intent: gva_VG_PM_llegadas_salidas
+  examples: |
+    - Eso no me interesa, lo que quiero pedirte son [datos](datos) sobre las [llegadas](llegadas) a aeropuertos de la comunitat
+    - Al fin, gracias, y sobre [datos](datos) de [llegas](llegadas) a aeropuertos me puedes dar algún detalle?
+    - quiero ir a los [datos](datos) de [salidas](salidas)
+    - información sobre [saliads](salidas) y [llegadas](llegadas)
+    - ¿Me explicas la parte de [llegadas](llegadas) y [salidas](salidas)?
+    - me gustaria encontrar [datos](datos) numericos sobre la [presencia](presencia) turistica en terminos de [llegadas](llegadas) y [salidas](salidas)
+    - los turitas que salen y llegan a la comunidad los medis de alguna manera?
+    - como me descargo los [datos](datos) de las [llegadas](llegadas) en interprovincial
+    - influencia del origen del visitante para su [llegada](llegadas) 
+    - en las [salidas](salidas) influye el mes?
+    - qué relación hay entre la fecha de la [llegada](llegadas) y la duración de la estancia
+    - cuántos turistas llegan a la comunidad valenciana cada semana
+    - explícame en qué consiste la [llegada](llegadas) de turistas
+    - que fluectuaciones en porcentajes hay para las [salidas](salidas) entre enero y febrero
+    - como se comparan las [llegadas](llegadas) de turistas en verano con el invierno
+    - ¿Me darías una panorámica contrastiva entre destinos en relación con la [llegada](llegadas) de turistas en septiembre?
+    - compara los destinos de alicante y castellon por [llegada](llegadas) de turistas
+    - dime la cantidad de turistas que [llegaron](llegadas) ayer a valencia capital comparado con el mismo día del año pasado
+    - se sabe el numero de viajeros que [salen](salidas) y [llegan](llegadas) al dia? 
+
+- intent: gva_VG_PM_movilidad
+  examples: |
+    - me interesan los [datos](datos) de [movilidade](movilidad) diurna y nocturna
+    - de que manera se mueven los visitantes de noche
+    - cómo puedo ver las [visualizaciones](VD) de [movilidad](movilidad) 
+    - puedes darme información sobre [movilidad](movilidad) de turistas?
+    - cual es la relacion entre [movilidad](movilidad) y estancia promedio
+    - ¿Cómo afecta la [movilidad](movilidad) según las pernoctaciones a la actividad diaria de los turistas?
+    - dame una comparativa de destinos según la actividad diurna y las pernoctaciones
+    - me gustarñia especialmente ver la relación entre las pernoctaciones el día de la visita y las actividades que se realizar el día de antes
+    - información sobre [movilidad](movilidad) interprovincial basada en actividades diarias
+    - como distribuyen los alemanes las actividades diurnas en funcion de cuanto tiempo se queden
+    - qué zonas tienen mayor [movilidad](movilidad) turística basada en las pernoctaciones??
+    - quiero verlo si tenéis un análisis comparativo de turismo receptor de la actividad diaria por origen 
+    - teniendo en cuenta la actividad que se haga la víspera podemos saber la que harán el día de la visita?
+    - cómo se relacionan las pernoctaciones con la [movilidad](movilidad) intraprovincial
+    - si se hace una determinada actividad el día anterior hay más posibilidades de quedarse a pasar la noche? 
+    - [datos](datos) de [movilidad](movilidad)
+    - llévame ahora las representaciones de [movilidad](movilidad) 
+    - y sobre la [movilidad](movilidad) intraprovincial?
+    - ¿Cómo varía la actividad diaria de los turistas en diferentes zonas y épocas del año?
+    - analiza la relación de turismo receptor con la actividad diaria por origen en la comunidad valenciana
+    - ranking de las provincias con mayor [movilidad](movilidad) basada en actividades de dia
+    - pernoctaciones y [movilidad](movilidad) según el tipo de visitante
+    - q turistas hacen mas actividades diurnas? los receptores o los interprovinciales?
+    - quero saber cuales son las actividades que los turistas hacen en los dias de mayor afluencia
+    - influyen las pernoctaciones en la actividad diaria durante las visitas turísticas?
+    - sabes quñe relación hay entre lo que hagan los turistas en el viaje y cómo se muevan entre provincias?
+    - que zonas se visian mas dependiendo de la actividad que se vaya a hacer
+    - qué tipo de turista es el que más se mueve entre provincias
+    - de donde son los viajeros que tienen mas tendencia a pasar la noche la vispera de la visita en el sitio al que vana ir luego
+    - comparativa de provincias por [datos](datos) de [movilidad](movilidad) 
+    - qué actividad hacen mas los turistas en la comunitat
+    - que sabes de la [movilidad](movilidad) de los turistas en la comunidad
+    - diferencias en [movilidad](movilidad) por tipo de visitante
+    - ¿Qué destino tiene más actividad diurna?
+    - cambia la [movlidad](movilidad) por origen y destino? como?
+    - quisiera saber cuales son las princiaples diferencias en la [movilidad](movilidad) diurna entre destinos
+    - Explícame cómo se mide el turismo receptor en términos de [movilidad](movilidad), por favor
+    - afecta el tipo de visitante a la [movilidad](movilidad)?
+    - dime la comparativa de [movilidad](movilidad) diurna en destinos turísticos
+    - interesado en turismo interprovincial y sus patrones de [movilidad](movilidad)
+    - q diferencias hay en [moviliaad](movilidad) por origen y destino
+    - Dame una visión general de la [movilidad](movilidad) turística
+    - [grafcos interactivos](VD) de comparación de [movilidad](movilidad) diurna entre dos destinos
+    - se suele dormir el día de antes ya en la ciudad de destino?
+    - querria conocer la comparativa de [movilidad](movilidad) por semana en distintas zonas
+    - de que forma cambia la actividad diaria el día de la visita frente al previo?
+    - Analiza la [movilidad](movilidad) por el día comparada entre destinos teniendo en cuenta las capitales de provincia
+    - tiene algo que ver el día de selamana en términos de [movilidad](movilidad) diurna
+    - qué información hay sobre pernoctaciones el misma día que se hace la visita
+    - ¿Hay información sobre la [movilidad](movilidad) nocturna y diurna?
+
+- intent: gva_VG_PM_presencia
+  examples: |
+    - quiero ver los [gráficos](VD) de [presencia](presencia) de turistas
+    - qué [datos](datos) hay sobre [presencia](presencia), estancia... 
+    - [datos](datos) de pernoctaciones y [presencia](presencia) de turistas
+    - En el apartado de turismo intraprovincial, ¿dónde se encuentran las pernoctaciones?
+    - estancia media en la comunidad valenciana
+    - cuáles son las épocas del año con mayor afluencia de turistas en la Comunidad Valenciana
+    - cuál es la duración promedio de la estancia de los turistas en la comunidad calenciana
+    - número de pernoctaciones por destino
+    - pernoctaciones en la comunidad valenciana
+    - Cuáles son los destinos más populares este año
+    - qué porcentaje de los turistas pernocta en castellon
+    - cuántos días se suelen quedar los turistas en la comunitat valenciana?
+    - ifnormación sobre la estancia media de los turistas
+    - numero de perenctaciones en la comunidad valenciana mensuales
+    - ¿Influye el origen del viajero en su posibilidad de pernoctación?
+    - dime la variación interanual de la estancia media por destino
+    - cambios con el paso del tiempo en la estancia media de los turistas segun la provincia 
+    - ¿Existen [datos](datos) en el portal sobre la conexión entre la duración de la estancia y el origen del turista?
+    - qué sabes de la [presencia](presencia) de turistas en la comunidad
+    - cuántas pernoctaciones hubo en junio en comparación con mayo?
+    - estancia media de turistas entre destinos por mes??
+    - ¿Qué información puedo consultar sobre [presencia](presencia)?
+    - [presencia](presencia) en destino
+    - Qué tipo de [datos](datos) sobre pernoctaciones ofrece Invattur
+    - me gistaria saber mas de cuanta de la gente que viene se queda a dormir aquí 
+    
+
+
+# . . . . . . .  S E C C I Ó N - C A S O S - U S O  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+- intent: gva_casos_uso
+  examples: |
+    - qué hay en la sección de [asos de uso](casos_uso)
+    - qué es un [caso de uso](casos_uso)?
+    - dónde encuentro los [casos de uso](casos_uso) del [SIT](SIT)?
+    - por favor los [casos deuso](casos_uso) 
+    - [use case](casos_uso) analizados
+    - podrías explicarme qué es un [caso de uso](casos_uso)?
+    - qué es un [caso de uso](casos_uso) y para qué sirve?
+    - que información hay en los [casos de uso](casos_uso) del [portal](SIT)?
+    - quw tipo de [casos de uso](casos_uso) ofrecen?
+    - ¿Cuáles son los [casos de uso](casos_uso) más relevantes?
+    - me interesaría acceder a los [casos de uso](casos_uso) gracias
+    - estoy buscando los [user cases](casos_uso) de la comunidad valenciana
+    - no entiendo los [usos de caso](casos_uso)
+    - define un [caso de uso](casos_uso)
+    - cómo uso los [casos de uso](casos_uso) aquí?
+    - para qué sirven los [casos de uso](casos_uso) de turismo?
+    - es un tema interesante pero quiero aplicarlo en un [caso de uso](casos_uso) práctico
+    - Lista de [casos de uso](casos_uso) disponibles
+    - Ubicación de los [casos de uso](casos_uso) en la [plataforma](SIT)
+    - ayuda con los [casos de usp](casos_uso) de la comunidad valenciana
+    - puedes echarme una mano? no encuentro los [casos de uso](casos_uso)
+    - pero un [caso de uso](casos_uso) que es?
+    - ahora lo que necesito saber es como aplicar esto de manera práctica en mi [caso de uso](casos_uso)
+    - ejemplos de [casos de usos](casos_uso) 
+    - hola me llevas a los [casos de uso](casos_uso) de la comunitat valenciana?gracias
+    - es que no entiendo lo de [caso de usos](casos_uso) en que consisten
+    - me podrían explicar qué son los [casos de uso](casos_uso) en el [portal SIT](SIT)
+    - Quiero saber más sobre los [casos de uso](casos_uso) disponibles en [smarttourism](ST)
+    - detallar en qué consisten los [casos de uso](casos_uso) de [amart tourism](ST)
+    - Pueden darme ejemplos de [casos de uso](casos_uso) en [Smart Tourism](ST)
+    - donde encuentro la sección de [casos de uso](casos_uso) en el [portal SIT](SIT)
+    - cómo se relacionan los [casos de uso](casos_uso) con el turismo inteligente
+    - me describes las funcionalidades de los [casos de uso](casos_uso)?
+    - cual es la finalidad de la seccion de [casos de uso](casos_uso) en [smarttourims](ST)
+    - ¿Cuáles son los beneficios de usar [casos prácticos](casos_uso)?
+
+- intent: gva_CUS_poblacion_flotante
+  examples: |
+    - qué es la [población flotante](poblacion_flotante)?
+    - quiero el [caso deuso](casos_uso) de [población flotante](poblacion_flotante)
+    - dame información sobre la [población flotante](poblacion_flotante)
+    - qué [datos](datos) hay sobre [poblacion flotante](poblacion_flotante) en el [SIT](SIT)?
+    - me gustaria ver el [caso de uso](casos_uso) de [población flotante](poblacion_flotante)
+    - dónde veo [datos](datos) analíticos de [población flotante](poblacion_flotante) y [densidad](densidad) turística
+    - dame los graficos practicos de la [densidad](densidad) de turismo como un [caso de uso](casos_uso)
+    - analisis de [poblacion flotante](poblacion_flotante) y [denidad](densidad) de turismo
+    - de la parte d los [casos de uso](casos_uso) me interesa el que habla del [turismo flotante](poblacion_flotante)
+    - resumen de la [poblacín flotante](poblacion_flotante) y su [densiaad](densidad) en la comunidad
+    - ¿Qué es la [poblacón florante](poblacion_flotante) y cómo se mide?
+    - los [casos de uso](casos_uso) de [población flotante](poblacion_flotante) y [densidad](densidad) turística analizados
+    - me llebvas al [use case](casos_uso) de [denaidad](densidad)?
+    - hay un [caso de uso](casos_uso) de [población flotante](poblacion_flotante) supuestamente pero no lo veo
+    - por favor, muéstrame la info de [población flotante](poblacion_flotante)
+    - ¿Qué información hay sobre la [población flotante](poblacion_flotante) en el [SIT](SIT)?
+    - sección de [densidad](densidad) turística [casos de uso](casos_uso)
+    - necesito acceder a los [casos de uso](casos_uso) de [densidad](densidad) del turismo
+    - y de [densidad](densidad) no había un [caso de uso](casos_uso)?
+    - vale gracias pero lo que me interesa ver es el [caso deuso](casos_uso) de [densidad](densidad) 
+    - [densidad](densidad) de turismo y [povlacion flotante](poblacion_flotante) en la comunidad valenciana
+    - quiero saber si este [portal](SIT) tiene información sobre [densidad](densidad) y [turismo flotante](poblacion_flotante)
+    - Me interesa particularmente el [caso de uso](casos_uso) de [densidad](densidad) del [turismo flotante](poblacion_flotante)
+    - hola como puedo ir a la parte de los [casos de uso](casos_uso) donde esta analizada la [población flotante](poblacion_flotante) en castellon?
+    - una pregunta qué tiene el análisis de [poblacion flotantr](poblacion_flotante) y [densidad](densidad) turística?
+    - [caso de uso](casos_uso) de [densidad](densidad)
+    - [Caso de uso](casos_uso) de [población flotante](poblacion_flotante)
+    - ver el [caso de uso](casos_uso) de [dnsidad](densidad) y [población](poblacion_flotante)
+    - [poblacion](poblacion_flotante) y [densidad](densidad) en formato [caso de uso](casos_uso)
+
+- intent: gva_CUS_programacion_aerolineas
+  examples: |
+    - eso de negociación con aierolinesas que es
+    - qué es la programación u negociación de aerolíneas?
+    - dame información sobre la rogramación y negociación de aerolíneas?
+    - como llego al [caso de uso](casos_uso) de programación y negociación 
+    - quiero el [caso de uso](casos_uso) aerolíneas
+    - negoaciación con aerolíneas y [casos prácticos](casos_uso)
+    - [caso de uso](casos_uso) de aerolineas
+    - al [caso de uso](casos_uso) de negociación
+    - ir al [caso de uso](casos_uso) de programación 
+    - ver el [caso de uso](casos_uso) de programacion y negociacion con aerolineas
+    - me puedes enseñar el [caso de uso](casos_uso) sobre aerolíneas?
+    - cómo se usa el [caso de uso](casos_uso) para negociar con aerolíneas?
+    - muéstrame el [caso de uso](casos_uso) de la programación de vuelos
+    - info sobre el [caso de uso](casos_uso) de negociación con aerolíneas
+    - qué hay del [caso de uso](casos_uso) de programación de rutas aéreas y aerolíneas?
+    - estoy buscando el [caso de uso](casos_uso) de gestión de aerolíneas
+    - cuál es el [caso de uso](casos_uso) de aerolíneas que tienen?
+    - dame acceso al [caso de uso](casos_uso) de vuelos y aerolíneas
+    - quiero analizar el [caso de uso](casos_uso) de líneas aéreas
+    - en el [portal](SIT) hay [caso de uso](casos_uso) de lineas aereas?
+    - por dónde entro al [caso de uso](casos_uso) de programación y negociación aérea?
+    - necesito el [caso de uso](casos_uso) de como se negocia con aerolíneas
+    - qué incluye el [caso de uso](casos_uso) de planificación de vuelos y negociación?
+    - el [caso de uso](casos_uso) de aerolíneas está disponible?
+    - quiero consultar el [caso aplicado](casos_uso) de acuerdos con lineas de vuelo
+    - necesito revisar el [caso de uso](casos_uso) de gestión de rutas de vuelo
+    - dónde está el [caso de uso](casos_uso) de relaciones con aerolíneas?
+    - qué contiene el [caso de uso](casos_uso) de vuelos y aerolíneas?
+    - Quiero ver el análisis del [caso de uso](casos_uso) de aerolíneas
+    - tengo interés en el [caso de uso](casos_uso) de negociación aérea
+    - de los [casos de uso](casos_uso) cual es el de arolineas?
+    - ¿Puedes mostrarme el [caso de uso](casos_uso) de gestión con líneas aéreas?
+    - cuál es el [caso de uso](casos_uso) relacionado con las aerolíneas comerciales?
+    - existe algún [caso de uso](casos_uso) sobre vuelos y aerolíneas?
+    - estaba buscando el [caso de uso](casos_uso) de gestión aérea, me ayudas?
+
+
+- intent: gva_CUS_marketing_aereo
+  examples: |
+    - qué es el [marketing](marketing) aéreo?
+    - dame información sobre el [marketing](marketing) aéreo
+    - quiero ver el [caso de uso](casos_uso) de [marketing](marketing) aéreo por favor
+    - dónde está el [caso de uso](casos_uso) de publicidad y [marketing](marketing) en vuelos?
+    - me interesaría ver el [caso de uso](casos_uso) de promoción turística y [marketing](marketing)
+    - hay algún [caso de uso](casos_uso) que trate de [marquetin](marketing) aéreo?
+    - dame info del [caso de uso](casos_uso) sobre campañas de [marketing](marketing) aéreo
+    - cómo puedo acceder al [caso de uso](casos_uso) de promoción aérea y [marketing](marketing)?
+    - qué estrategias aparecen en el [caso de uso](casos_uso) de [marketing](marketing) de [vuelos](vuelos)?
+    - necesito el [caso de uso](casos_uso) de [marketin](marketing) con lead times
+    - está disponible el [caso de uso](casos_uso) de lead times y [marketing](marketing)
+    - me puedes mostrar el [caso de uso](casos_uso) de tiempo de antelación para uso publicitario?
+    - quiero analizar el [caso de uso](casos_uso) de campañas de [marketing](marketing) 
+    - muéstrame el [caso de uso practico](casos_uso) de acciones de [marqeueting](marketing) en desplazamientos por aire
+    - qué hay de un [caso pragmático](casos_uso) de estrategias de [marketing](marketing) con [vuelos](vuelos)?
+    - existe un [caso de uso](casos_uso) de publicidad o campañas para atraer turistas?
+    - me darías el [caso de uso](casos_uso) de campañas [marketinianas](marketing)?
+    - estaba viendo si tienen un [use case](casos_uso) orientado al [marketing](marketing) de destinos 
+    - ¿Hay algún [caso de uso](casos_uso) en torno a acciones de visibilidad aérea y [marcketing](marketing)?
+    - qué [datos](datos) incluye el [caso de usos](casos_uso) de [marketing](marketing) para [vuelos](vuelos)?
+    - enséñame el [caso de uso](casos_uso) de [marketing](marketing) enfocado en [vuelos](vuelos)
+    - quiero ver el análisis del [caso de uso](casos_uso) para [publicidad](marketing) de rutas aéreas
+    - puedes llevarme al [caso de uso](casos_uso) de [campañas publicitaroias](marketing) con líneas aéreas?
+    - cuál es el [caso de uso](casos_uso) que habla del [márketin](marketing) aéreo?
+    - para acciones [publicitarias](marketing) en [vuelos](vuelos) que [caso de uso](casos_uso) me recomiendas?
+    - lo que quiero es ayuda para gestionar mi [campaña](marketing) de [marketing](marketing) 
+    - cómo saber si una [campaña](marketing) que he lanzado ha sido efectiva
+    - necesito acceder al [caso de uso](casos_uso) con campañas de [marketing](marketing) aéreo
+    - había un [caso de uso](casos_uso) de [marketing](marketing) verdad? no lo veo por ningun lado
+    - puedes mostrarme el [caso en práctica](casos_uso) de lead times
+    - no hay un sitio donde se pueda evaluar el impacto de una [campaña](marketing) de fidelización?
+    - el [caso de práctico](casos_uso) de [marketing](marketing) como es?
+
+# . . . . . . .  M O D E L O S - I A  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+- intent: gva_modelos_IA
+  examples: |
+    - [soluciones ia](modelos_IA) 
+    - [solucionws IA](modelos_IA)
+    - [Soluciones de IA](modelos_IA)
+    - qué herramientas se utilizan en la [analítica avanzada](modelos_IA)?
+    - que hay en la sección de [modelos IA](modelos_IA)
+    - quiero el enlace a las [soluciones IA](modelos_IA) 
+    - como llegar a la [analitica avanzada](modelos_IA)¿
+    - no entiendo que es un [modelo IA](modelos_IA)
+    - saber más de las [soluciones IA](modelos_IA)
+    - que son las [solcuiones de IA](modelos_IA)?
+    - ir al apartado de [soluciones IA](modelos_IA)
+    - me interesa el apartado de [solucciones IA](modelos_IA)
+    - que es eso de los [modelos de inteligencia artificial](modelos_IA)?
+    - en que consisten las [soluciones de ia](modelos_IA)?
+    - [soluciones de IA](modelos_IA)?
+    - cuáles son los [modelos ia](modelos_IA) que se usan en la [plataforma](SIT)?
+    - dónde encuentro las [soluciones AI](modelos_IA) del [portal](SIT)?
+    - Existe algún [modelo ia](modelos_IA)??
+    - se usa inteligencia artificial en las [visualizaciones](VD)?
+    - Los análisis predictivos se hacen con herramientas de inteligencia articial?
+    - quiero una lista de las inteligencias artificiales que se han usado con estos [datos](datos)
+    - ¿El apartado de [Soluciones IA](modelos_IA) tiene información sobre inteligencia artificial?
+    - en la sección de IA que información hay?
+    - donde puedo ver las [soluciones de IA](modelos_IA) y [analítica avanzada](modelos_IA)
+    - [soluciones IA](modelos_IA) y [analítica avanzada](modelos_IA)
+    - cómo se han hecho los [modelos predictivos](modelos_IA)?
+    - ¿Hay [datos](datos) analizados con [IA predictiva](modelos_IA) en el [portal](SIT)?
+    - no entiendo que es un [modelo ia](modelos_IA) y qué tiene que ver con l turismo la verdad
+    - hola llévame a la parte de [inteligencia artificial predictiva](modelos_IA) 
+    - ¿Algún cuadro de mandos lleva [AI predictiva](modelos_IA)?
+    - busco la zona del [portal](SIT) que aplica [soluciones de ia](modelos_IA) a los [datos](datos)
+    - turismo y [soluciones con IA](modelos_IA) en la comunidad valenciana
+    - mándame a la sección de [soluciones IA](modelos_IA) por favor
+    - un enlace para ver los [gráficos](VD) que usan inteligencia artificial
+    - puedes decirme como funcionan las [analíticas avanzadas](modelos_IA) del [SIT](SIT)??
+    - cómo van los [modelos predictuvos](modelos_IA) en el [portal](SIT) [sit](SIT)
+    - Cuáles son los beneficios de usar [soluciones deia](modelos_IA) en [Smarttourism](ST)
+    - puedo descargar los análisis predictivos para estudiarlos
+    - me puedes explicar el funcionamiento de una [solución de IA](modelos_IA) en el [portal](SIT)
+    - que beneficios ofrecen los [modelos IA](modelos_IA) del [portal](SIT) y su [analitica avanzada](modelos_IA)?
+    - me gustaría saber más sobre las [soluciones ia](modelos_IA) disponibles
+    - [smart tourism](ST) tiene [modelos avanzados](modelos_IA) para analizar los [datos](datos) de turismo con inteligencia artifical?
+
+# - intent: gva_MIA_factores_clave
+#   examples: |
+#     - cómo se relacionan entre sí los [factores clave](factores_clave)?
+#     - quiero analizar la relación de los [factores clave](factores_clave): [busquedas](busquedas), [capacidad](capacidad) y [reservas](reservas)
+#     - llegar a la parte de relación en [factores clave](factores_clave)
+#     - ¿Qué impacto tienen las [busquedas](busquedas) en las [reservas](reservas)?
+#     - como afectan las [busquedas](busquedas) a las [reservas](reservas) de [vuelos](vuelos) en el contexto de la comunidad valenciana?
+#     - el numero de [buqsuedas](busquedas) influye en las [reservas](reservas)?
+#     - como estan relacionadas las [busquedas](busquedas) con las [reservas](reservas)
+#     - [busquedas](busquedas) y [resrevas](reservas) q relacion hay entre los dos [factores](factores_clave)?
+#     - ¿Cómo están correlacionadas las [búsquedas](busquedas) con las [reservas](reservas)?
+#     - hay interrelación directa entre las [buswuedas](busquedas) y las [reservas](reservas)?
+#     - las [busquedas](busquedas) predicen las [reservas](reservas)?  
+#     - la relación [busquedas](busquedas) [reservas](reservas) varía si se va a un destino específico?
+#     - q vinculacion hay entre [reserva](reservas) y [busquedas](busquedas)
+#     - Quiero ver el evolutivo de [ocnsultas](busquedas) y [reservas](reservas)
+#     - dónde puedo ver algunos [gráficos](VD) de [búsquedas](busquedas) y [reservas](reservas)
+#     - tasa media de [búsquedas](busquedas) y [reserbas](reservas) por trimestre
+#     - cuánto es la tasa de [bsquedas](busquedas) y [resevras](reservas) en promedio
+#     - es posible que la temporada del año afecte la correlacion entre [consultas](busquedas) y [reservas](reservas)
+#     - quiero saber si las promociones o descuentos tienen un impacto en la proporcionalidad entre [busquedas](busquedas) y [reservas](reservas)
+#     - hola quisiera saber cómo afecta el origen de los usuarios en el vinculo que hay entre la cantidad de [búsquedas](busquedas) y de [reservas](reservas)
+#     - como se relacionan las [consultas](busquedas) de [vuelos](vuelos) con las [reservas](reservas) efectivas hacia valencia
+#     - ¿Cómo impacta la [capacidad](capacidad) en las [reservas](reservas)?
+#     - dame el impacto del numero de [vuelos](vuelos) que se [ofertan](oferta) en las [reservas](reservas)
+#     - [capacidad](capacidad) y [reservas](reservas) se relaconan?
+#     - info sobre cómo afecta la [capacidad](capacidad) a las [reservas](reservas)
+#     - dame análisis de [reservas](reservas) según [capacidad](capacidad)
+#     - [capacidad](capacidad) de los [vuelos](vuelos), repercute en las [reservas](reservas)?
+#     - Qué pasa con la [capacidad](capacidad) y las [reservas](reservas)?
+#     - necsito [datos](datos) sobre el impacto de la cantidad de asientos disponibles en la [antelación](reservas) de [reservas](reservas)
+#     - ¿Es importante la [capacidad](capacidad) en las [reservas](reservas)?
+#     - dame un analisis de [reservas](reservas) según [capacidad](capacidad) y mercado
+#     - cuáles son los destinos con más [reservas](reservas) por [capacidad](capacidad)?
+#     - dame [datos](datos) del vínculo entre el volumen de sitios vacantes en el avión y las [reservas](reservas) que se hacen para ese mismo [vuelo](vuelos)
+#     - cuáles son los destinos con alta [capacidad](capacidad) que se vea reflejada en la cantidad de [reservas](reservas)?
+#     - acceso a los [datos](datos) de [capaicdad](capacidad) en relacion a las [reservas](reservas)
+#     - cómo están correlacionadas la [capacidad](capacidad) y las [reservas](reservas)?
+#     - aumentan proporcionalmente las [reservas](reservas) cuantos más asientos disponibles haya?
+#     - vinculación entre [capacidad](capacidad) y [reservas](reservas)
+#     - cómo se relaciona [cpaacidad](capacidad) con el volumen de [reservas](reservas)?
+#     - están asociados los asientos de un [vuelo](vuelos) con sus [reservas](reservas)?
+#     - qué efecto tiene la [oferta](oferta) de [vuelos](vuelos) en las [reservas](reservas)?
+#     - el numero de [vuelos](vuelos) disponibles como afecta a la tasa de [reservacion](reservas)?
+#     - las [reservas] dependen de los asientos que estén disponibles?
+#     - querria ir a las [visualizaciones](VD) de la [capacidad](capacidad) y las [reservas](reservas)
+#     - quiero analizar las tasas de [busquedas](busquedas) y [oferta](oferta) de asientos con respecto a las [reservas](reservas) por mes
+#     - análisis comparativo de tasas relacionando las [reservas](reservas) con el numero de [vuelos](vuelos) y las [busquedas](busquedas), por trimestre
+#     - me dices la tasa media de [busqueda](busquedas) y [capacidad](capacidad) por país y año?
+#     - ¿Cómo evoluciona la infulencia de las [busquedas](busquedas) y la [capacidad](capacidad) aérea en la [antelación](reservas) de compra de los [vuelos](vuelos)?
+#     - estadísticas de [reservas](reservas) en relación a la tasa de [búsquedas](busquedas) y la [capacidad](capacidad) de cada [vuelo](vuelos)
+#     - me gustaría saber cuál es la relación existente entre las [búsquedas](busquedas), la [capacidad](capacidad) de los [vuelos](vuelos) y las [reservas](reservas), si es proporcional
+#     - dame la tasa media [búsquedas](busquedas) [capacidad](capacidad) y [reservas](reservas) por ciudad
+#     - ¿Cuál es la proporción entre las [búsquedas](busquedas) y la [capacidad](capacidad) en comparación con las [reservas](reservas) a nivel mensual?
+#     - tasa media [busquedas](busquedas) y [cpacidad](capacidad) respecto a [reservas](reservas), ¿cómo es por año?
+#     - dame un analisis de lao relacion entre las [busquedas](busquedas), [reservas](reservas) y la [capacidad](capacidad) por zona y trimestre
+#     - quiero analizar las medias de los volúmenes de [búsquedas](busquedas) y [oferta](oferta) de asientos con respecto a las [reservas](reservas) mensuales
+#     - genera un reporte que compare las [resrvas](reservas) con las [búsquedas](busquedas) y la [capacidad](capacidad) durante el último año
+#     - quiero saber cómo afectan las [busquedas](busquedas) y la [capacidad](capacidad) en la evolución de las [reservas](reservas) cada tres meses
+#     - me interesa la evolcuoon en la influencia de las [búsquedas](busquedas) y la [capacidad](capacidad) aérea en la [antelación](reservas) de compra de los [vuelos](vuelos)
+#     - dame estadisticas sobre la interacción entre [búsquedas](busquedas), [capacidad](capacidad) y [reservas](reservas) clasificadas por ciudad
+#     - cómo varía la tasa de [busquedas](busquedas) en relación con la [capacidad](capacidad) y las [reservas](reservas) por semana?
+#     - me gustaría saber cuál es la relación existente entre las [busquedas](busquedas), la [capacidad](capacidad) de los [vuelos](vuelos) y las [reservas](reservas), si es proporcional
+#     - podrías mostrar la influencia de las [búsquedas](busquedas) sobre la ocupación de la [capacidad](capacidad) y las [reservas](reservas) en desplazamientos internacionales?
+#     - quiero un desglose de las [búsquedas](busquedas) y [reservas](reservas) en [vuelos](vuelos) con mayor [capacidad](capacidad) por destino
+#     - hazme un resumen sobre los promedios de [busquedas](busquedas) en [vuelos](vuelos) con alta [capacidad](capacidad) y su relación con las [reservas](reservas) por mes
+#     - hay algun tipo de relacion entre las [búsquedas](busquedas) y la [capacidad](capacidad) de los [vuelos](vuelos) con las [reservas](reservas) que luego se llevan a cabo?
+#     - dime como llegar a los [gráficos](VD) interactivos que vinculan las [búsquedas](busquedas) y la [capacidad](capacidad) con la cifra posteior de [reservas](reservas)
+#     - anualmente cuánto varían los números de [reservas] en relación con las [búsquedas](busquedas) y la [capacidad](capacidad) de los [vuelos](vuelos)?
+#     - por favor me proporcionas los [datos](datos) del impacto de los destinos en las [búsquedas](busquedas) de [vuelos](vuelos) y su [capacidad](capacidad) que repercuten en las [reservas](reservas) con destino a la comunidad valenciana
+#     - cómo se relacionan las [búsquedas](busquedas) de [vuelos](vuelos) con la [demanda](demanda) de asientos hacia la Comunidad Valenciana?
+#     - qué relación existe entre los [factores claves](factores_clave) según el [modelo](modelos_IA) de ia que se ha usado?
+#     - me gustaría saber como se interrelacionan los [factores clave](factores_clave) 
+    
+- intent: gva_MIA_factor_climatico
+  examples: |
+    - Y tu crees que hay mas [reservas](reservas) si hace [frio](clima) en el mercado de origen?
+    - quiero decir que si tu crees que influyen las condiciones [meteorologicas](clima) en el número de reservas
+    - Gracias, pero quiero info sobre las condiciones meteorlogicas y el turismo que llega a la comunidad valenciana
+    - claro, yo te lo digo de otro modo, influyen las condiones [meteorologicas](clima) sobre el número de turistas que viaja a la coumunidad valenciana ¿?
+    - ¿Qué [climas](clima) atraen más [búsquedas](busquedas)?
+    - saliendo de cuidades con [clima](clima) [frío](clima) cómo son las [búsquedas](busquedas)? se quiere más [calor](clima)?
+    - quiero saber evolución del interés que se tiene en los destinos [cálidos](clima)
+    - tenéis [datos](datos) de [búsquedas](busquedas) en destinos con [clima](clima) [frío](clima)?
+    - qué pasa con las [búsquedas](busquedas) que se hacen en origenes que tienen un [clima](clima) medio?
+    - ¿Cómo impacta el factor [climático](clima) en la elección de destinos?
+    - influencia del [clima](clima) en las [búsquedas](busquedas) de [vuelos](vuelos)
+    - influencia [climática](clima) 
+    - como encuentro la información de la influencia [metorológica](clima)
+    - la [metrolologia](clima) como influye en los [vuelos](vuelos)
+    - factor [climatico](clima) como infliye
+    - cómo se comportan las [búsquedas](busquedas) en mercados con [clima](clima) [cálido](clima)?
+    - información sobre la repercusión de un [clima](clima) [frío](clima) en los destinos escogidos
+    - dame [datos](datos) de destinos [cálidos](clima) y [búsquedas](busquedas)
+    - vamos a analizar el impacto del [clima](clima) en las [bssquedas](busquedas) de [vuelos](vuelos)
+    - tiene algo que ver el tiempo atmosferico con los destinos que se eligen para viajar?
+    - afecta el [clima](clima) a los [vuelos](vuelos) que se [reservan](reservas)?
+    - los turistas que vienen de zonas [frías](clima) prefieren destinos [cálidos](clima)? hay estadísiticas sobre esto?
+    - del [clima](clima) de origen depende el destino que se elige?
+    - y el [clima](clima)?
+    - el [clima](clima) [frío](clima) y las [reservas](reservas) se relacionan de alguna manera?
+    - quiero las [gráficas interactivas](VD) que tienen los [datos](datos) del [clima](clima)
+    - destinos [cálidos](clima) tienen más [búsquedas](busquedas)? dame info
+    - necesito estadísticas según [clima](clima) 
+    - cuál es la tendencia en [búsquedas](busquedas) con [clima](clima) [cálido](clima)?
+    - dame [datos](datos) del interés en mercados con [clima](clima) [cálido](clima)
+    - es más popular la comunidad valenciana entre turistas que vienen de países [fríos](clima)?
+    - es condicionante a la hora de escoger un destino cuales sean sus condiciones [climaticas](clima)?
+    - tienes [datos](datos) de busquedas desde paises con [temperaturas](clima) medias=
+    - se identifica algún patrón de [búsquedas](busquedas) en función del [clima](clima) que tenga el país de desrtino?
+    - analisis comparativoc con otros destinos competidores de [climas](clima) similares al de la comunitat valenciana
+    - qe destinos prefieren los turistas que viene de regiones con [temperaturas](clima) moderadas?
+    - ¿Sabes cuáles son los destinos más populares entre los [viajeros internacionales](turismo_internacional) provinientes de mercados con [climas](clima) [fríos](clima)?
+    - [búsquedas](busquedas) con [clima](clima) [frío](clima), [cálido](clima) y medio: dame la tendencia
+    - repercusión del [clima](clima) en las [búsquedas](busquedas) y las [reservas](reservas)
+    - hay picos de [busquedas](busquedas) desde las zonas de [frio](clima) en alguna epoca del año en concreto?
+    - [reservan](reservas) más [vuelos](vuelos) los turistas que viajan desde zonas [templadas](clima), [frías](clima) o [cálidas](clima?
+    - variacoon de las [busquedas](busquedas) en realacion al [clima](clima) de un destino?
+    - dime cómo afecta el [clima](clima) al interés en [búsquedas](busquedas)
+    - desde qué zona [fría](clima) se hacen más [búsquedas](busquedas) para valencia?
+    - fluctuaciones en las [reservas](reservas) relacionadas con el [clima](clima) de origen
+    - no veo los interactivos del [clima](clima) 
+    - las [visualizaciones](VD) de [clima](clima)?
+    - no logro acceder a los [graficos](VD) de factor [climatico](clima)
+    - qué papel juegan las condiciones [climáticas](clima) en las decisiones de [reserva](reservas) de [vuelo](vuelos)
+    - en q medida influyen las circunstancias [climaticas](clima) en las [reservas](reservas) de [vuelos](vuelos) a la comunidad valenciana?
+    - qué impacto tiene la variabilidad [climatológica](clima) en las [reservas](reservas) para [vuelos](vuelos) hacia castellón?
+    - vuestras [soluciones de ia](modelos_IA) pueden predecir eventos [climáticos](clima) que afecten a las [búsquedas](busquedas)?
+
+
+- intent: gva_MIA_ventana_oportunidad
+  examples: |
+    - hay una lista de mercados ordenados según su [ventana de oportunidad](ventana_op)?
+    - cómo se comportan las [reservas](reservas) en función de la [ventana de oportunidad](ventana_op)?
+    - la [oportunidad](ventana_op) en [marketing](marketing) influye en las [búsquedas](busquedas)?
+    - dónde están los [datos](datos) de la [ventana deoportunidad](ventana_op) de los destinos?
+    - llévame a los [gráficos](VD) de la [bentana de oportunidad](ventana_op)
+    - me interesa la información cuantitativa de la [ventana de oportunidad](ventana_op) por mercado de origen
+    - Ofrecéis cifras comparativas de la comunidad valenciana frente a otros destinos competidores en materia de [ventana de oportunidad](ventana_op)?
+    - me gustaría interactuar con las [visualizaciones](VD) de [ventana de oportunidad](ventana_op)
+    - fluctuaciones en las [reservas](reservas) en función de la [ventana de oprrtunidad](ventana_op)
+    - quiero conocer la variación que se observa en las [búsquedas](busquedas) en función de la [ventana de oportunidad](ventana_op)
+    - ¿Qué hay en la sección de [oportunidad](ventana_op)?
+    - existe en el [portal](SIT) un apartado dedicado a la [oprotunidad](ventana_op) en maekrting](marketing)?
+    - donde puedo comprobar las cifras de la [ventana de oportunidad](ventana_op) 
+    - esquemas interactivos que me muestren la [anticipación](ventana_op) a alicante 
+    - necesito acceder a los [graficos](VD) para la [oportunidad en anticipación](ventana_op)
+    - de [oportunidas](ventana_op) en [marketing](marketing) hay [datos](datos) en alguna parte?
+    - desearía visualizar los [datos](datos) de la [ventana de oportunidad](ventana_op) por destino
+    - cómo llego a los [gráficos](VD) de la [ventana de oportunidad](ventana_op)?? me he perdido
+    - y la evolución de la [oportunodad](ventana_op) de [marketing](marketing) en los últimos años?
+    - quisiera ver las variaciones cronologicas de la [ventana de oportunidad](ventana_op) mas recientes
+    - ¿De qué manera varía la [anticipación de oportunidad](ventana_op) en función del destino?
+    - comportamiento comparativo de los diferentes mercados en relación a su [ventana de oportunidad](ventana_op)
+    - puedo por favor ver una representación de la [ventana de oportunidad](ventana_op) a castellón en los últimos años?
+    - ¿Se observan fluctuaciones significativas en la [oportunidad](ventana_op) para [márketing](marketing) según el mes?
+    - qué relación tiene la [ventana de oportunidad](ventana_op) con la época del año para comunidad valenciana?
+    - afecta el país de origen a la [oportunidad](ventana_op) [marketiniana](marketing)?
+    - q [graficos](VD) se pueden ver d ela [oportunidad](ventana_op) para [markeyting](marketing)?¿
+    - [ventana de oportunidad](ventana_op) de los [vuelos](vuelos) 
+    - ¿Qué información hay sobre la [ventana de oportunidad](ventana_op) en Castellón?
+    - qué [datos](datos) puedo encontrar sobre la [ventaba de oportunidad](ventana_op)
+    - k tipo de [datos visuales](VD) ofrece el [portal](SIT) sobre la [ventana de oportunidad](ventana_op)
+    - dónde encuentro información sobre los cambios en la [ventana de oportunidad](ventana_op)?
+    - en la [ventana de oportunidad](ventana_op) me puedes explicar como funcionan las comparativas 
+    - qué información está disponible sobre la [ventana de oportunidad](ventana_op) en el [sit](SIT)?
+    - puedes mostrarme cómo han cambiado las [oportunidades](ventana_op) en la provincia de alicante para [marketing](marketing)?
+    - dónde encuentro comparativas de [ventanas de oportunidad](ventana_op) entre diferentes meses?
+    - ¿Dónde puedo encontrar estadísticas específicas sobre la [oportunidad](ventana_op) de [marketign](marketing) para Valencia?
+    - cómo accedo a datos visuales sobre la [ventana de oportunidad](ventana_op)
+    - puedes mostrarme una comparativa de [tiempo de anticipación](ventana_op) entre meses
+    - dónde tenéis las [visualizaciones](VD) de [ventana de portunidad](ventana_op)?
+    - ¿Qué es la [oportunidad](ventana_op) de [marketing](marketing) en la [búsqueda](busquedas) y [reserva](reservas) de [vuelos](vuelos)?
+    
+- intent: gva_ventana_oportunidad
+  examples: |
+    - ¿Qué es la [ventana de oportundad](ventana_op) en lead time?
+    - Quiero entender como se defina la [vntana de portunidad](ventana_op)
+    - ¿Cómo se define la [ventna de oportunidad](ventana_op) en líneas generales?
+    - ¿Qué significa la [ventana de oportunidad](ventana_op)?
+    - ¿Cómo se podría definir el concepto [ventana de oportunidad](ventana_op)?
+    - aqui te dejo mi consulta, a ver si me la pudieras resolver: he oido en varias charlas un termino que es la [ventana e oportunidad](ventana_op) pero no tengo muy claro a qué se refiere exactamente, me lo puedes aclarar?
+    - Estoy interesado en conocer cómo pueden las empresas y destinos turísticos prepararse para aprovechar una [ventana de oportunidad](ventana_op) en el mercado.
+    - hola, quiero que me cuentes por favor como se definiría el concepto de [ventna de oportnidad](ventana_op), enfocado un poco a la creacion de anunciones o cuestiones similares
+    - ¿Qué es la [ventana de oportunidad](ventana_op) en lead time.
+    - Dime lo que es la [ventana de oportunidad](ventana_op)
+    - decime que es una [ventana de oportunidd](ventana_op)
+    - defineme [ventana de oprtnidad](ventana_op)
+    - /.*[ventana de oportunidad](ventana_op).*/
+    - sabes lo que es la [vetana de oportunidad](ventana_op)?
+    - no entiendo lo que implica una [ventana de oportunidad](ventana_op) de \d{2}\.\d{2}
+    - Me gustaría comprender mejor qué es exactamente una [ventana de oportunidad](ventana_op) en el contexto del lead time y el turismo.
+    - Explícame mejor los elementos esenciales que caracterizan una [ventana de oportunidad](ventana_op)
+    - qué quiere decir una [bentana de oportunidad](ventana_op) de \d{2}?
+    - ¿Qué significa una [ventana de oportnidad](ventana_op) de \d{2}\.\d{2}?
+    - cómo se llama el periodo entre que se empieza a buscar el viaje y se hace la reserva?
+    - me gustaría saber más sobre cómo define la ventana de oportunidd.
+    - Me interesa mucho el tema de la [ventana de oportunidad](ventana_op) y su explotación.
+    - explicame qué es la [ventana de oportunidad](ventana_op)
+    - no podrías decirme lo que es la [vntan de oportunidad](ventana_op)?
+    - Estupendo! ¿Y qué es la [ventan de oportnidad](ventana_op)?
+    - qué más puedes decirme sobre la [ventana de oportunidad](ventana_op)
+    - no entiendo lo que es la [ventana d oportunidad](ventana_op)
+    - no sé si me estás entendiendo quiero saber qué es la [ventana deoportunidad](ventana_op)
+    - quiero qué significa la [venta de oportunidad](ventana_op) en el campo del lead time
+    - ¿Eres tonto? Te he dicho que expliques qué es la [ventana de oportunidad](ventana_op)
+    - necesito saber lo que significa la [ventana de oportunidad](ventana_op)
+    - Mira verás quiero hacerte una consulta, concretamente, me gustaría aprender un poco más sobre la [ventana de oportunidad](ventana_op), de cara a poder extraer [datos](datos) para un estudio de publicidad en una empresa
+    - me gustaría entender más sobre el concepto de [ventana de oportunidad](ventana_op)
+    - cómo se puede interpretar la [ventana de oportunidad](ventana_op) en términos generales??
+    - aclárame por favor el término "[ventana de oportunidad](ventana_op)"
+    - me puedes explicar qué es la [ventana de oportunidad](ventana_op)
+    - no entiendo el concepto [ventana de oportunidad](ventana_op)
+    - definicion de [ventana de oportunidad](ventana_op)
+
+- intent: gva_cluster
+  examples: |
+    - el [mapa](mapa) de [marketing](marketing) que quiere decir?
+    - no entiendo nada del [mapa](mapa) ese de los círculos
+    - como se interpreta el [mapa](mapa) de [oportunidedes](ventana_op)?
+    - qué es el [mapa](mapa) de [oportunidades](ventana_op)?
+    - que muestra el [mapa](mapa) de identificación de [oportunidades](ventana_op)?
+    - explicame el [mapa](mapa) de [oportunidades](ventana_op) de [marketing](marketing) por favor
+    - el [mapa](mapa) de [campañas](marketing) compartidas que refleja exactamente?
+    - identificación de [oportunidades](ventana_op) para [campañas](marketing) compartidas?
+    - que significa identificacion de [oportunidades](ventana_op) para [campañas](marketing) compartidas?
+    - y cómo identifico [ooprtunidades](ventana_op) en el [mapa](mapa) de [campañas](marketing)?
+    - ¿Me puedes explicar el [mapa](mapa) de [oportunidades](ventana_op)?
+    - como se lee el [mapa](mapa) de [marketing](marketing)?
+    - que hago para identificar [oportunidades](ventana_op) en el [mapa](mapa)?
+    - qué información da el [mapa](mapa) de [campañas](marketing) compartidas?
+    - necesito entender el [mapa](mapa) de [oportunidades](ventana_op)
+    - no sé interpretar el [mapa](mapa) de [marketing](marketing)
+    - ¿que representa el [mapa](mapa) con los círculos de [oportunidades](ventana_op)?
+    - cuál es el objetivo del [mapa](mapa) de [campañas](marketing)?
+    - en qué consiste el [mapa](mapa) de [identificación](ventana_op) de [oportunidades](ventana_op)?
+    - podrías explicarme cómo funciona el [mapa](mapa) de [marketing](marketing)?
+    - no entiendo el [mapa](mapa) de [campañas](marketing) de [oportinidad](ventana_op)
+    - cómo puedo usar el [mapa](mapa) de [oportunidades](ventana_op)?
+    - ¿Qué debo mirar en el [mapa](mapa) de [campañas](marketing) para identificar [oportunidades](ventana_op)?
+    - cuál es la utilidad del [mapa](mapa) de [marketing](marketing)?
+    - para qué sirve el [mapa](mapa) de [oportunidades](ventana_op)?
+    - qué significa el [mapa](mapa) de [campañas](marketing) compartidas
+    - de que manera analizo el [mapa](mapa) de [oportunidades](ventana_op)?
+    - busco entender las [oportunidades](ventana_op) según el [mapa](mapa)
+    - no me queda claro el [mapa](mapa) de [marketing](marketing)
+    - puedes ayudarme a entender las [campañas](marketing) compartidas con el [mapa](mapa)?
+    - dime en qué se basa el [mapa](mapa) para mostrar las [oportunidades](ventana_op) gracias
+    - hay alguna guía para leer el [mapa](mapa) de [oportunidades](ventana_op)?
+    - el [mapa](mapa) de [marketing](marketing) muestra algo sobre [oportunidades](ventana_op)?
+
+- intent: gva_MIA_predict_estancia_diurna
+  examples: |
+    - podrias hablar sobre [prevision de visitantes](prevision_visitantes)
+    - que hace la [solucion de IA](modelos_IA) de la [previsión de visitantes](prevision_visitantes) 
+    - [predicción de visitantes](prevision_visitantes) por mes
+    - [visitantes previstos](prevision_visitantes) este año
+    - [previsión de visitantes](prevision_visitantes) por mes
+    - queiro los [predictivos](modelos_IA) de [predicción de visitas](prevision_visitantes) pero por mes
+    - predecir los [datos](datos) de [previsión de visitantes](prevision_visitantes) cada año
+    - me gustaría ver los [datos](datos) [predictivos](modelos_IA) de [previsión de visitantes](prevision_visitantes) del año que viene
+    - qué es el modelo [predictivo](modelos_IA) de [epredicion de visitnates](prevision_visitantes)?
+    - dime más alrededor de la [predicción de visistantes](prevision_visitantes) diarios
+    - dame información para el [predictivo](modelos_IA) de [previsiones de visitas](prevision_visitantes)
+    - qué [datos](datos) hay de visitantes diarios en plan [predictivo]](modelos_IA)?
+    - me gustaría ver el [predictivo](modelos_IA) de [previsión de visitantes](prevision_visitantes) y previsión de visitantes diarios
+    - dónde veo los resultados analíticos del [modelo predictivo](modelos_IA) de [prevision de visitantes](prevision_visitantes)?
+    - [Predicción](modelos_IA) de [prevision de visitantes](prevision_visitantes)
+    - análisis del [modelo de predicción](modelos_IA) de [prevision de visitantes](prevision_visitantes) en base al turismo
+    - del análisis del [modelo de prediccion](modelos_IA) de [prevision de visitantes](prevision_visitantes) qué variables se consideran?
+    - busco los [predicticos](modelos_IA) de [previsión de visitantes](prevision_visitantes) en la comunidad valenciana
+    - lo que me gustaría es predecir las visitas diarias a alicante
+    - querria los [modelos de predicion](modelos_IA) de [previsiones de visitantes](prevision_visitantes) analizados
+    - ¿Qué información existe sobre el [modelo](modelos_IA) que analiza la [previsión de visitantes](prevision_visitantes) en el [SIT](SIT)?
+    - sección del [análisis predictivo](modelos_IA) que contiene [datos](datos) para [visitantes previstos](prevision_visitantes)
+    - necesito acceder al [solución predictiva](modelos_IA) de [previsión de visitantes](prevision_visitantes)
+    - hay un [análsis avanzado de predicción](modelos_IA) de [previsión de visitantes](prevision_visitantes) disponible?
+    - vale gracias, pero lo que me interesa ver es el [modelo de predicción](modelos_IA) de [previsiones de visitantes](prevision_visitantes)
+    - pero donde veo las [predicciones](modelos_IA) de [visitas previstas](prevision_visitantes)?
+    - hay [visualizaciones](VD) [predictivas](modelos_IA) de [previsiones de visitantes](prevision_visitantes)?
+    - [previsión de visitantes] de por mes
+    - [prever las visitas](prevision_visitantes) por día con inteligencia artificial
+    - quiero usar la inteligencia artificial para anticiparme al volumen de visitas diarias
+    - cuantos visitantes se prevén para el próximo año?
+    - se usa inteligencia artificial para predecir el número de visitantes?
+
+- intent: gva_MIA_predict_viajes_nacionales
+  examples: |
+    - qué tendencias en [movimientos](movilidad) [nacionales](turismo_nacional) se pueden predecir?
+    - no veo lo de la [predicción](modelos_IA) de [viajes nacionales](turismo_nacional)
+    - [previsión](modelos_IA) de patrones para los [desplazamientos nacionales](turismo_nacional)
+    - [solución de inteligencia artificial](modelos_IA) para tendencias de [viajes nacionales](turismo_nacional)
+    - dame los [predictivos](modelos_IA) de tendencias en [viajes nacionales](turismo_nacional)
+    - predecir los [datos](datos) de viajes nacionales cada año
+    - dame la [solucion ia](modelos_IA) para tendencias de [viajes de residentes](turismo_nacional)
+    - y la [analitica avanzada](modelos_IA) de [viajes nacionales](turismo_nacional) segun tendencias?
+    - [visualizaciones](VD) [predictivas](modelos_IA) de tendencias en los viajes [nacionales](turismo_nacional) en 2026
+    - queiro las tendencias previstas de [viajes nacionales](turismo_nacional) pero por mes
+    - no hya [datos](datos) [predictivos](modelos_IA) de [turismo nacional](turismo_nacional) del año que viene?
+    - es posible predecir los viajes que se van a hacer desde dentro de españa a alicante?
+    - estoy buscando información [predictiva](modelos_IA) de tendencias [viajes dentro de españa](turismo_nacional)
+    - [gráficos](VD) de [viajes nacionales](turismo_nacional) que se pueden predecir para el 2026
+    - no encuentro la aplicación de la ia a los [desplazamientos de interior](turismo_nacional) para previsión de viajeros nacionales
+    - dónde veo los resultados analíticos del [modelo predictivo](modelos_IA) de [movimientos nacionales](turismo_nacional)?
+    - [Predicción](modelos_IA) de [viajes nacionales](turismo_nacional)
+    - tendencias [nacionales](turismo_nacional) previstas
+    - que tendencias predice el [analisis avanzado](modelos_IA) en movilidad [nacional](turismo_nacional)?
+    - necesito acceder a las [visuales](VD) de [desplazamientos nacionales](turismo_nacional) previstos para el próximo verano
+    - hay disponible algún [modelo](modelos_IA) que prediga [viajes nacionales](turismo_nacional)?
+    - hay [visualizaciones](VD) [predictivas](modelos_IA) de [viajes nacionales](turismo_nacional)?
+    - previsión de [viajes nacionales](turismo_nacional) por mes
+    - prever tendencias en [viajeros en interior](turismo_nacional) por día con inteligencia artificial
+    - quiero usar la inteligencia artificial para anticiparme al volumen de [viajes nacionales](turismo_nacional)
+    - qué [datos](datos) están disponibles en el [modelo predictivo](modelos_IA) de [viajes nacionales](turismo_nacional)?
+    - me gustaría ver las [predicciones](modelos_IA) de tendencias de [viajeros nacionales](turismo_nacional) para el próximo trimestre
+    - me interesa mucho conocer las [predicciones](modelos_IA) de [viajes nacionales](turismo_nacional) para el año siguiente
+    - qué predicciones ha hecho vuestro [modelo](modelos_IA) para los [viajes nacionales](turismo_nacional) a castellón?
+    - qué se puede prever sobre los [turistas residentes](turismo_nacional) este año
+    - dame el [pronóstico](modelos_IA) de [viajes nacionales](turismo_nacional) comparando 2024 con 2023
+    - cuál es la evolución prevista de la [movilidad nacional](turismo_nacional) entre 2024 y 2025 según el [modelo predictivo](modelos_IA)?
+    - me gustaría ver una comparativa entre los [viajes nacionales](turismo_nacional) de 2024 y los de 2023
+    - ¿Cómo se distribuyen los [viajes nacionales](turismo_nacional) por destino en 2024?
+    - necesito ver el análisis de los [viajes nacionales](turismo_nacional) en 2025 comparado con 2024
+    - q informacion da el [modelo](modelos_IA) de la distribucion por zonas de los [turistas españoles](turismo_nacional)?
+    - cómo se ha comportado el número de [viajes nacionales](turismo_nacional) en 2024 comparado con 2023?
+    - qué tendencias de movilidad turística están prediciendo los [modelos de predicción](modelos_IA) para los [viajes nacionales](turismo_nacional)?
+    - qué destinos han visto un aumento en los [viajes nacionales](turismo_nacional) según las predicciones de 2024?
+    - ¿qué [datos](datos) históricos se utilizan en el [modelo predictivo](modelos_IA) para estimar los [viajes nacionales](turismo_nacional)?
+    - puedo ver el rendimiento de cada destino en términos de atracción prevista de [viajeros nacionales](turismo_nacional)?
+    - qué flujos de [viajes nacionales](turismo_nacional) se prevén para 2025 en comparación con 2024?
+    - quiero saber más sobre las tendencias de los [viajes nacionales](turismo_nacional) en base a los [datos](datos) históricos
+    - cómo afectan las variaciones entre 2024 y 2025 a los [viajes nacionales](turismo_nacional) y sus destinos?
+    - análisis detallado de los [viajantes nacionales](turismo_nacional) por origen y destino?
+    - cuáles son los principales destinos en aumento según la [predicción](modelos_IA) de [turismo nacional](turismo_nacional)?
+    - ¿Cómo se distribuyen geográficamente los [viajes nacionales](turismo_nacional) en los próximos años según el [modelo de predicción](modelos_IA)?
+
+- intent: gva_MIA_patrones_comportamiento
+  examples: |
+    - ¿Me darías un enlace a las [vistas](VD) de patrones de [comportamiento](comportamiento) con IA?
+    - ¿Qué [predictivos](modelos_IA) sobre tendencias de [comportamiento](comportamiento) están disponibles?
+    - sección de patrones de [comportamiento](comportamiento) con inteligencia artificial
+    - detectar con IA tendencias en los [comportamientos](comportamiento) de los turistas
+    - busco predecir los [comcortamiento](comportamiento) de los turistas con [análisis avanzados de ia](modelos_IA)
+    - quiero ver las [soluciones IA](modelos_IA) aplicadas a patrones de [comportamiento](comportamiento) en tursmo
+    - dame los [datos](datos) que muestran las [predicciones](modelos_IA) patrones de [comportamiento](comportamiento) este año
+    - [visualizaciones](VD) que expliquen las tendencias en [comportamiento](comportamiento) del turismo usando inteligencia artificial
+    - qué [herramientas de IA](modelos_IA) analizan el [comportamiento](comportamiento) de los visitantes según sus patrones?
+    - ccual es el patron mas frecuente de [comportamient](comportamiento) a través de la [analítica avanzada](modelos_IA)?
+    - hay alguna [solución inteligente](modelos_IA) que analice patrones de [comportamiento del visitante](comportamiento)?
+    - qué patrones revela la [analítica avanzada](modelos_IA) sobre el [comportamiento turístico](comportamiento) y sus tendencias?
+    - hay alguna [herramienta IA](modelos_IA) que anticipe el [comportamiento](comportamiento)?  del turista
+    - dame las [gráficas](VD) generadas por la [solución de IA](modelos_IA) sobre tendencias e [comportamiento](comportamiento)
+    - qué [solución basada en IA](modelos_IA) identifica patrones de [comportamiento](comportamiento)  del turista?
+    - me interesan las herramientas de [analiticas avanzadas](modelos_IA) que monitorizan el [comportamiento](comportamiento) turístico
+    - qué patrones de [conportamientos](comportamiento) detectan los [mdelos prediuctivos](modelos_IA)?
+    - existen [herramientas predictivas](modelos_IA) que aprendan del [comportamiento turístico](comportamiento)?
+    - qué representa la [solución IA](modelos_IA) de patrones de [comportamiento](comportamiento)?
+    - se pueden visualizar los patrones de [comportamiento](comportamiento) con inteligencia artificial?
+    - qué [predictivo](modelos_IA) detecta cambios en los patrones de [comportamiento](comportamiento)?
+    - cómo la inteligencia artificial puede anticipar el [comportamiento](comportamiento) del turista?
+    - muéstrame ejemplos de [modelos predictivos](modelos_IA) aplicados al [comportamiento](comportamiento) de los turistas
+    - quiero conocer cómo la [inteligencia artificial](modelos_IA) analiza el [comportamiento](comportamiento) del visitante
+    - dame ejemplos de [visualizaciones](VD) que representen patrones de [comportamiento](comportamiento) usando IA
+    - qué tipo de [herramientas inteligentes](modelos_IA) se usan para analizar el [comportamiento del turista](comportamiento)?
+    - hay [analíticas avanzadas](modelos_IA) que expliquen el [comportamiento](comportamiento) de los visitantes?
+    - quiero ver cómo los [predictivos](modelos_IA) identifican patrones ocultos en el [comportamiento](comportamiento) del turista
+    - qué [soluciones de IA](modelos_IA) estudian la evolución del [comportamiento](comportamiento) en [turistas internacionales](turismo_internacional)?
