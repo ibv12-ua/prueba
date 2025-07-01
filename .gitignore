@@ -211,5 +211,4 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 postgreTracker.py
-actions/action_chit_chat.py
 .DS_Store

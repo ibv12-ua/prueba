@@ -24,6 +24,11 @@ rules:
     steps:
     - intent: gva_chitchat_general_nombre_usuario
     - action: action_set_user_name
+  - rule: chitchat
+    steps:
+    - intent: gva_chitchat
+    - action: action_chit_chat
+
   
   - rule: talk2numbers
     steps:
